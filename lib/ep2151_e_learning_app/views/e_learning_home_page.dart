@@ -27,7 +27,19 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                   right: 16,
                   bottom: 16,
                   child: Column(
-                    children: [],
+                    spacing: 12,
+                    children: [
+                      Text(
+                        "Explore",
+                      ),
+                      Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                        ),
+                      )
+                    ],
                   ),
                 ),
               ],
