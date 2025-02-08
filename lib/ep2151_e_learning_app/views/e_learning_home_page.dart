@@ -32,6 +32,11 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                     children: [
                       Text(
                         "Explore",
+                        style: TextStyle(
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                          
+                        ),
                       ),
                       Expanded(
                         child: Container(
