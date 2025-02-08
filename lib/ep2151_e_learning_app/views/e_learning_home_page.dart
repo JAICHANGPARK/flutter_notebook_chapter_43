@@ -22,27 +22,31 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home_filled,
+      bottomNavigationBar: SizedBox(
+        height: 80
+        ,
+        child: BottomNavigationBar(
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.home_filled,
+              ),
+              label: "Home",
             ),
-            label: "Home",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.menu_book,
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.menu_book,
+              ),
+              label: "Learn",
             ),
-            label: "Learn",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.person_2_outlined,
-            ),
-            label: "Profile",
-          )
-        ],
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.person_2_outlined,
+              ),
+              label: "Profile",
+            )
+          ],
+        ),
       ),
     );
   }
