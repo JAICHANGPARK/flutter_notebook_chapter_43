@@ -15,7 +15,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            height: 180,
+            height: 200,
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
@@ -35,13 +35,18 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         style: TextStyle(
                           fontSize: 32,
                           fontWeight: FontWeight.bold,
-                          
+                          color: Colors.white,
                         ),
                       ),
                       Expanded(
                         child: Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
+                          ),
+                          child: TextField(
+                            decoration: InputDecoration(
+                              icon: Icon(Icons.search)
+                            ),
                           ),
                         ),
                       )
