@@ -35,6 +35,12 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
               Icons.menu_book,
             ),
             label: "Learn",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.menu_book,
+            ),
+            label: "Learn",
           )
         ],
       ),
