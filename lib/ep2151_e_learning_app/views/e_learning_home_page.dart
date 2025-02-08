@@ -42,6 +42,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         decoration: BoxDecoration(
                           color: Colors.white,
                         ),
+                        padding: EdgeInsets.symmetric(horizontal: 12,vertical: 12),
                         child: TextField(
                           decoration: InputDecoration(
                             prefix: Icon(Icons.search)
