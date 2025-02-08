@@ -27,6 +27,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                   right: 16,
                   bottom: 16,
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 12,
                     children: [
                       Text(
