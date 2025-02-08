@@ -12,7 +12,9 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          
 
         ],
       ),
