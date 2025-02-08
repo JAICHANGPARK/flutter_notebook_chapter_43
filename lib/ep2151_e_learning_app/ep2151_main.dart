@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/e_learning_home_page.dart';
+
 void main() {
   runApp(ELearningApp());
 }
