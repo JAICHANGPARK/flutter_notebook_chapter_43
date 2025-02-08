@@ -10,7 +10,7 @@ class ELearningApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ELearningApp(),
+      home: ELearningHomePage(),
     );
   }
 }
