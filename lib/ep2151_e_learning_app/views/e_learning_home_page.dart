@@ -19,6 +19,15 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
+          ),
+        ],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home_filled,
+            ),
           )
         ],
       ),
