@@ -44,7 +44,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         ),
                         child: TextField(
                           decoration: InputDecoration(
-                            suffix: Icon(Icons.search)
+                            prefix: Icon(Icons.search)
                             // icon: Icon(Icons.search)
                           ),
                         ),
