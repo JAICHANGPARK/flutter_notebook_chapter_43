@@ -38,15 +38,14 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                           color: Colors.white,
                         ),
                       ),
-                      Expanded(
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                          ),
-                          child: TextField(
-                            decoration: InputDecoration(
-                              icon: Icon(Icons.search)
-                            ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                        ),
+                        child: TextField(
+                          decoration: InputDecoration(
+                            suffix: Icon(Icons.search)
+                            // icon: Icon(Icons.search)
                           ),
                         ),
                       )
