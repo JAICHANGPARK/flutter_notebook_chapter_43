@@ -38,9 +38,9 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.menu_book,
+              Icons.person_2_outlined,
             ),
-            label: "Learn",
+            label: "Profile",
           )
         ],
       ),
