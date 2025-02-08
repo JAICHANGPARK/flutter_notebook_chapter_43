@@ -26,6 +26,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
         height: 80,
         child: BottomNavigationBar(
           selectedItemColor: Colors.blue,
+          unselectedItemColor: Colors.grey,
           items: [
             BottomNavigationBarItem(
               icon: Icon(
