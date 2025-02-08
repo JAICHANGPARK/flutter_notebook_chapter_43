@@ -14,8 +14,12 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          
-
+          Container(
+            height: 180,
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
+          )
         ],
       ),
     );
