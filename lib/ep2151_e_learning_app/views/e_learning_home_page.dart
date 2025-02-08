@@ -28,6 +28,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
             icon: Icon(
               Icons.home_filled,
             ),
+            label: "Home",
           )
         ],
       ),
