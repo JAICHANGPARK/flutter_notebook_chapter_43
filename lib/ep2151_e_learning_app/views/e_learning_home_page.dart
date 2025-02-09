@@ -103,34 +103,39 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 12,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.only(
-                      left: 16,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Topics",
-                          style: TextStyle(
-                            fontSize: 18,
-                          ),
+                  Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          left: 16,
                         ),
-                        TextButton(
-                          onPressed: () {},
-                          child: Text(
-                            "See all",
-                          ),
-                        )
-                      ],
-                    ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Topics",
+                              style: TextStyle(
+                                fontSize: 18,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text(
+                                "See all",
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      Container(
+                        height: 72,
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ],
                   ),
-                  Container(
-                    height: 72,
-                    decoration: BoxDecoration(
-                      color: Colors.grey,
-                    ),
-                  ),
+
                   Padding(
                     padding: const EdgeInsets.only(
                       left: 16,
