@@ -45,14 +45,17 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                         child: TextField(
                           decoration: InputDecoration(
-                              // prefix: Icon(Icons.search),
-                              hintText: "What do you want to learn?",
-                              hintStyle: TextStyle(
-                                fontSize: 16,
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                              ),
-                              icon: Icon(Icons.search)),
+                            // prefix: Icon(Icons.search),
+                            hintText: "What do you want to learn?",
+                            hintStyle: TextStyle(
+                              fontSize: 16,
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            icon: Icon(
+                              Icons.search,
+                            ),
+                          ),
                         ),
                       )
                     ],
