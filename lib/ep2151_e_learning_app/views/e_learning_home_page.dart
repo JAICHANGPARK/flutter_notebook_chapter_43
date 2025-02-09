@@ -17,7 +17,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
           Container(
             height: 200,
             decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Color.fromRGBO(19, 101, 255, 1),
             ),
             child: Stack(
               children: [
