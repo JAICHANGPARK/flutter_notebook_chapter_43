@@ -13,7 +13,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        spacing: 12,
+        
         children: [
           Container(
             height: 200,
@@ -100,6 +100,8 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
           Expanded(
             child: SingleChildScrollView(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 12,
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(
