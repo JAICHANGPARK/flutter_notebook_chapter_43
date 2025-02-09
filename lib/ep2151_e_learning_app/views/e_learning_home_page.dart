@@ -52,6 +52,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
                             ),
+                            border: InputBorder.none,
                             icon: Icon(
                               Icons.search,
                             ),
