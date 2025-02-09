@@ -97,6 +97,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
             ),
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text("Topics"),
               TextButton(
@@ -106,7 +107,25 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                 ),
               )
             ],
-          )
+          ),
+          Container(
+            height: 72,
+            decoration: BoxDecoration(
+              color: Colors.grey,
+            ),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text("Most Popular Certificates"),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  "See all",
+                ),
+              )
+            ],
+          ),
         ],
       ),
       bottomNavigationBar: SizedBox(
