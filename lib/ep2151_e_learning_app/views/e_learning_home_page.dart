@@ -13,7 +13,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        
+
         children: [
           Container(
             height: 200,
@@ -113,7 +113,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         Text(
                           "Topics",
                           style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 18,
                           ),
                         ),
                         TextButton(
@@ -141,7 +141,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         Text(
                           "Most Popular Certificates",
                           style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 18,
                           ),
                         ),
                         TextButton(
@@ -167,7 +167,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         Text(
                           "Earn your Degree",
                           style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 18,
                           ),
                         ),
                         TextButton(
