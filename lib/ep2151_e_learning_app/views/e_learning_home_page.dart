@@ -96,17 +96,22 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
               ],
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text("Topics"),
-              TextButton(
-                onPressed: () {},
-                child: Text(
-                  "See all",
-                ),
-              )
-            ],
+          Padding(
+            padding: const EdgeInsets.only(
+              left: 16,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text("Topics"),
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "See all",
+                  ),
+                )
+              ],
+            ),
           ),
           Container(
             height: 72,
@@ -126,6 +131,10 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
               )
             ],
           ),
+          Container(
+            height: 320,
+            child: Placeholder(),
+          )
         ],
       ),
       bottomNavigationBar: SizedBox(
