@@ -135,33 +135,39 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                       ),
                     ],
                   ),
-
-                  Padding(
-                    padding: const EdgeInsets.only(
-                      left: 16,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Most Popular Certificates",
-                          style: TextStyle(
-                            fontSize: 18,
-                          ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          left: 16,
                         ),
-                        TextButton(
-                          onPressed: () {},
-                          child: Text(
-                            "See all",
-                          ),
-                        )
-                      ],
-                    ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Most Popular Certificates",
+                              style: TextStyle(
+                                fontSize: 18,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text(
+                                "See all",
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      Container(
+                        height: 320,
+                        child: Placeholder(),
+                      ),
+                    ],
                   ),
-                  Container(
-                    height: 320,
-                    child: Placeholder(),
-                  ),
+
+
                   Padding(
                     padding: const EdgeInsets.only(
                       left: 16,
