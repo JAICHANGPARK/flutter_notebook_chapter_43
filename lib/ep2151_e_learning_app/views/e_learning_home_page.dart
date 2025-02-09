@@ -166,34 +166,40 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                       ),
                     ],
                   ),
-
-
-                  Padding(
-                    padding: const EdgeInsets.only(
-                      left: 16,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Earn your Degree",
-                          style: TextStyle(
-                            fontSize: 18,
-                          ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          left: 16,
                         ),
-                        TextButton(
-                          onPressed: () {},
-                          child: Text(
-                            "See all",
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                  Container(
-                    height: 320,
-                    child: Placeholder(),
-                  ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Earn your Degree",
+                              style: TextStyle(
+                                fontSize: 18,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text(
+                                "See all",
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      Container(
+                        height: 320,
+                        child: Placeholder(),
+                      ),
+                    ],
+                  )
+
+
+
                 ],
               ),
             ),
