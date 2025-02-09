@@ -13,6 +13,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        spacing: 12,
         children: [
           Container(
             height: 200,
@@ -96,6 +97,13 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
               ],
             ),
           ),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                children: [],
+              ),
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.only(
               left: 16,
@@ -125,7 +133,9 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.only(
+              left: 16,
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -147,7 +157,33 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
           Container(
             height: 320,
             child: Placeholder(),
-          )
+          ),
+          Padding(
+            padding: const EdgeInsets.only(
+              left: 16,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Earn your Degree",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "See all",
+                  ),
+                )
+              ],
+            ),
+          ),
+          Container(
+            height: 320,
+            child: Placeholder(),
+          ),
         ],
       ),
       bottomNavigationBar: SizedBox(
