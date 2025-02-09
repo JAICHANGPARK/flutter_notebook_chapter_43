@@ -100,90 +100,92 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
           Expanded(
             child: SingleChildScrollView(
               child: Column(
-                children: [],
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 16,
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Topics",
+                          style: TextStyle(
+                            fontSize: 20,
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "See all",
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 72,
+                    decoration: BoxDecoration(
+                      color: Colors.grey,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 16,
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Most Popular Certificates",
+                          style: TextStyle(
+                            fontSize: 20,
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "See all",
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 320,
+                    child: Placeholder(),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 16,
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Earn your Degree",
+                          style: TextStyle(
+                            fontSize: 20,
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "See all",
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 320,
+                    child: Placeholder(),
+                  ),
+                ],
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(
-              left: 16,
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  "Topics",
-                  style: TextStyle(
-                    fontSize: 20,
-                  ),
-                ),
-                TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "See all",
-                  ),
-                )
-              ],
-            ),
-          ),
-          Container(
-            height: 72,
-            decoration: BoxDecoration(
-              color: Colors.grey,
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(
-              left: 16,
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  "Most Popular Certificates",
-                  style: TextStyle(
-                    fontSize: 20,
-                  ),
-                ),
-                TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "See all",
-                  ),
-                )
-              ],
-            ),
-          ),
-          Container(
-            height: 320,
-            child: Placeholder(),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(
-              left: 16,
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  "Earn your Degree",
-                  style: TextStyle(
-                    fontSize: 20,
-                  ),
-                ),
-                TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "See all",
-                  ),
-                )
-              ],
-            ),
-          ),
-          Container(
-            height: 320,
-            child: Placeholder(),
-          ),
+
         ],
       ),
       bottomNavigationBar: SizedBox(
