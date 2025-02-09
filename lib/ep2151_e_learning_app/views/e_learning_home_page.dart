@@ -38,13 +38,13 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                 ),
                 Positioned(
                   right: -10,
-                  top: 64,
-                  bottom: 24,
+                  top: 48,
+                  bottom: 48,
                   child: Transform.rotate(
                     angle: -.3,
                     child: Container(
                       height: 72,
-                      width: 100,
+                      width: 120,
                       decoration: BoxDecoration(
                         color: Colors.white.withValues(alpha: .4),
                       ),
