@@ -22,6 +22,18 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
             child: Stack(
               children: [
                 Positioned(
+                  right: -10,
+                  top: 72,
+                  bottom: 24,
+                  child: Container(
+                    height: 72,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: .4),
+                    ),
+                  ),
+                ),
+                Positioned(
                   top: 62,
                   left: 16,
                   right: 16,
