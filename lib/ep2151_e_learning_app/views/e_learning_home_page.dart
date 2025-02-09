@@ -103,7 +103,12 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("Topics"),
+                Text(
+                  "Topics",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
                 TextButton(
                   onPressed: () {},
                   child: Text(
