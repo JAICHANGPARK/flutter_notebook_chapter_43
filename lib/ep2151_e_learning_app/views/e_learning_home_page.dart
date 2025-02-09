@@ -96,6 +96,17 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
               ],
             ),
           ),
+          Row(
+            children: [
+              Text("Topics"),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  "See all",
+                ),
+              )
+            ],
+          )
         ],
       ),
       bottomNavigationBar: SizedBox(
