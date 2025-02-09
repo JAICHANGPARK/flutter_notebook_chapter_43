@@ -124,17 +124,25 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
               color: Colors.grey,
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text("Most Popular Certificates"),
-              TextButton(
-                onPressed: () {},
-                child: Text(
-                  "See all",
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Most Popular Certificates",
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
                 ),
-              )
-            ],
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "See all",
+                  ),
+                )
+              ],
+            ),
           ),
           Container(
             height: 320,
