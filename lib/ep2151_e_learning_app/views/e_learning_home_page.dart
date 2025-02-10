@@ -130,7 +130,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         ),
                       ),
                       Container(
-                        height: 62,
+                        height: 58,
                         decoration: BoxDecoration(
                           color: Colors.grey,
                         ),
