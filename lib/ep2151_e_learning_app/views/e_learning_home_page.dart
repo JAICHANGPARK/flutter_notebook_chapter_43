@@ -131,9 +131,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                       ),
                       Container(
                         height: 58,
-                        decoration: BoxDecoration(
-                          color: Colors.grey,
-                        ),
+                        decoration: BoxDecoration(),
                         margin: EdgeInsets.only(left: 16),
                         child: ValueListenableBuilder(
                             valueListenable: currentTopics,
@@ -192,9 +190,10 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         ),
                       ),
                       Container(
-                        height: 320,
-                        child: Placeholder(),
-                      ),
+                          height: 320,
+                          child: ListView.builder(
+                            itemBuilder: (context, index) {},
+                          )),
                     ],
                   ),
                   Column(
