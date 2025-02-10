@@ -140,20 +140,25 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                 scrollDirection: Axis.horizontal,
                                 itemCount: topics.length,
                                 itemBuilder: (context, index) {
-                                  return Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 12),
-                                    margin: EdgeInsets.only(
-                                      right: 16,
-                                    ),
-                                    decoration: BoxDecoration(
-                                      color: value == index ? Color.fromRGBO(19, 101, 255, 1) : Colors.white,
-                                      borderRadius: BorderRadius.circular(4),
-                                    ),
-                                    child: Center(
-                                      child: Text(
-                                        "${topics[index]}",
-                                        style: TextStyle(
-                                          color: value == index ? Colors.white : Colors.black,
+                                  return GestureDetector(
+                                    onTap: (){
+                                      currentTopics.value = index;
+                                    },
+                                    child: Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 12),
+                                      margin: EdgeInsets.only(
+                                        right: 16,
+                                      ),
+                                      decoration: BoxDecoration(
+                                        color: value == index ? Color.fromRGBO(19, 101, 255, 1) : Colors.white,
+                                        borderRadius: BorderRadius.circular(4),
+                                      ),
+                                      child: Center(
+                                        child: Text(
+                                          "${topics[index]}",
+                                          style: TextStyle(
+                                            color: value == index ? Colors.white : Colors.black,
+                                          ),
                                         ),
                                       ),
                                     ),
