@@ -206,12 +206,20 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                               child: Column(
                                 children: [
                                   Expanded(
-                                      child: Container(
-                                    decoration: BoxDecoration(
-                                      color: Colors.grey,
-                                      borderRadius: BorderRadius.circular(16),
+                                    child: Container(
+                                      margin: EdgeInsets.all(4),
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey,
+                                        borderRadius: BorderRadius.circular(16),
+                                      ),
                                     ),
-                                  ))
+                                  ),
+                                  Text(
+                                    "Data Analytics",
+                                  ),
+                                  Text(
+                                    "Professional Centification",
+                                  ),
                                 ],
                               ),
                             );
