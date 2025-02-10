@@ -130,7 +130,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         ),
                       ),
                       Container(
-                        height: 72,
+                        height: 62,
                         decoration: BoxDecoration(
                           color: Colors.grey,
                         ),
@@ -143,6 +143,10 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                 itemCount: topics.length,
                                 itemBuilder: (context, index) {
                                   return Container(
+                                    padding: EdgeInsets.symmetric(horizontal: 12),
+                                    margin: EdgeInsets.only(
+                                      right: 16,
+                                    ),
                                     decoration: BoxDecoration(
                                       color: value == index ? Color.fromRGBO(19, 101, 255, 1) : Colors.white,
                                     ),
