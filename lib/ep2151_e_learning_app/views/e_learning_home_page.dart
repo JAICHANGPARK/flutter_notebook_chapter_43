@@ -195,7 +195,13 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                           scrollDirection: Axis.horizontal,
                           itemCount: 10,
                           itemBuilder: (context, index) {
-                            return Container();
+                            return Container(
+                              width: 260,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+
+                              ),
+                            );
                           },
                         ),
                       ),
