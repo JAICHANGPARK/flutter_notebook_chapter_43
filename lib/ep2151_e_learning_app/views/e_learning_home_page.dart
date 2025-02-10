@@ -204,6 +204,8 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                 borderRadius: BorderRadius.circular(16),
                               ),
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                spacing: 12,
                                 children: [
                                   Expanded(
                                     child: Container(
@@ -214,6 +216,12 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                       ),
                                     ),
                                   ),
+                                  Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+
+                                    ],
+                                  )
                                   Text(
                                     "Data Analytics",
                                   ),
