@@ -205,7 +205,6 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                               ),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                spacing: 12,
                                 children: [
                                   Expanded(
                                     child: Container(
@@ -216,16 +215,23 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                       ),
                                     ),
                                   ),
-                                  Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        "Data Analytics",
-                                      ),
-                                      Text(
-                                        "Professional Centification",
-                                      ),
-                                    ],
+                                  Padding(
+                                    padding: const EdgeInsets.all(12.0),
+                                    child: Column(
+                                      spacing: 16,
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "Data Analytics",
+                                          style: TextStyle(
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                        Text(
+                                          "Professional Centification",
+                                        ),
+                                      ],
+                                    ),
                                   )
 
                                 ],
