@@ -149,6 +149,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                     ),
                                     decoration: BoxDecoration(
                                       color: value == index ? Color.fromRGBO(19, 101, 255, 1) : Colors.white,
+                                      borderRadius: BorderRadius.circular(4),
                                     ),
                                     child: Center(
                                       child: Text(
