@@ -219,15 +219,15 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                   Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
-
+                                      Text(
+                                        "Data Analytics",
+                                      ),
+                                      Text(
+                                        "Professional Centification",
+                                      ),
                                     ],
                                   )
-                                  Text(
-                                    "Data Analytics",
-                                  ),
-                                  Text(
-                                    "Professional Centification",
-                                  ),
+
                                 ],
                               ),
                             );
