@@ -134,6 +134,7 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                           color: Colors.grey,
                         ),
                         child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
                           itemCount: topics.length,
                           itemBuilder: (context, index) {
                             return Container(
