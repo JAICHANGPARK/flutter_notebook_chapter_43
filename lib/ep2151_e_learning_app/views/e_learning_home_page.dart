@@ -191,12 +191,14 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                       ),
                       Container(
                         height: 320,
+                        padding: EdgeInsets.only(left: 16),
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemCount: 10,
                           itemBuilder: (context, index) {
                             return Container(
                               width: 260,
+                              margin: EdgeInsets.only(right: 18),
                               decoration: BoxDecoration(
                                 color: Colors.white,
 
