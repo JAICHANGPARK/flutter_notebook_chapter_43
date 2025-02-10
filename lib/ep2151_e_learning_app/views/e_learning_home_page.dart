@@ -9,7 +9,7 @@ class ELearningHomePage extends StatefulWidget {
 
 class _ELearningHomePageState extends State<ELearningHomePage> {
   ValueNotifier<int> currentTopics = ValueNotifier(0);
-  List<String> topics = [];
+  List<String> topics = ["Arts and Humanities", "Business", "Computer Science"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
