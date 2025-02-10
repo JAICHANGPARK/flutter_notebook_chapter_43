@@ -190,10 +190,15 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         ),
                       ),
                       Container(
-                          height: 320,
-                          child: ListView.builder(
-                            itemBuilder: (context, index) {},
-                          )),
+                        height: 320,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemCount: 10,
+                          itemBuilder: (context, index) {
+                            return Container();
+                          },
+                        ),
+                      ),
                     ],
                   ),
                   Column(
