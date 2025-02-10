@@ -151,7 +151,10 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                       color: value == index ? Color.fromRGBO(19, 101, 255, 1) : Colors.white,
                                     ),
                                     child: Center(
-                                      child: Text("${topics[index]}"),
+                                      child: Text("${topics[index]}",
+                                      style: TextStyle(
+                                        color: value == index ? Colors.white  : Colors.black,
+                                      ),),
                                     ),
                                   );
                                 },
