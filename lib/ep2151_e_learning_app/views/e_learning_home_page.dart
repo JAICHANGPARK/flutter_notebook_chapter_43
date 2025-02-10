@@ -225,15 +225,32 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                                           "Data Analytics",
                                           style: TextStyle(
                                             fontSize: 20,
+                                            fontWeight: FontWeight.bold,
                                           ),
                                         ),
                                         Text(
                                           "Professional Centification",
+                                          style: TextStyle(
+                                            color: Colors.grey,
+                                          ),
                                         ),
+                                        Row(
+                                          spacing: 12,
+                                          children: [
+                                            Icon(
+                                              Icons.star,
+                                              size: 18,
+                                              color: Colors.orange,
+                                            ),
+                                            Text("4.8k"),
+                                            Text(
+                                              "(79k)",
+                                            )
+                                          ],
+                                        )
                                       ],
                                     ),
                                   )
-
                                 ],
                               ),
                             );
