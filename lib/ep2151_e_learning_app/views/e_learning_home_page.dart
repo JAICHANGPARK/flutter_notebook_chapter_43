@@ -134,16 +134,20 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         decoration: BoxDecoration(
                           color: Colors.grey,
                         ),
+                        margin: EdgeInsets.only(left: 16),
                         child: ValueListenableBuilder(
                             valueListenable: currentTopics,
-                            builder: (context) {
+                            builder: (context, value, _) {
                               return ListView.builder(
                                 scrollDirection: Axis.horizontal,
                                 itemCount: topics.length,
                                 itemBuilder: (context, index) {
                                   return Container(
                                     decoration: BoxDecoration(
-                                      color: Color.fromRGBO(19, 101, 255, 1),
+                                      color: value == index ? Color.fromRGBO(19, 101, 255, 1) : Colors.white,
+                                    ),
+                                    child: Center(
+                                      child: Text("${topics[index]}"),
                                     ),
                                   );
                                 },
