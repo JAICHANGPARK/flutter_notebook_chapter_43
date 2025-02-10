@@ -8,12 +8,13 @@ class ELearningHomePage extends StatefulWidget {
 }
 
 class _ELearningHomePageState extends State<ELearningHomePage> {
+  ValueNotifier<int> currentTopics = ValueNotifier(0);
+  List<String> 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-
         children: [
           Container(
             height: 200,
@@ -132,6 +133,9 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         decoration: BoxDecoration(
                           color: Colors.grey,
                         ),
+                        child: ListView.builder(
+                          itemBuilder: (context, index) {},
+                        ),
                       ),
                     ],
                   ),
@@ -197,14 +201,10 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                       ),
                     ],
                   )
-
-
-
                 ],
               ),
             ),
           ),
-
         ],
       ),
       bottomNavigationBar: SizedBox(
