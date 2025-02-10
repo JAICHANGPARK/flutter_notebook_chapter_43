@@ -10,6 +10,7 @@ class ELearningHomePage extends StatefulWidget {
 class _ELearningHomePageState extends State<ELearningHomePage> {
   ValueNotifier<int> currentTopics = ValueNotifier(0);
   List<String> topics = ["Arts and Humanities", "Business", "Computer Science"];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -133,15 +134,21 @@ class _ELearningHomePageState extends State<ELearningHomePage> {
                         decoration: BoxDecoration(
                           color: Colors.grey,
                         ),
-                        child: ListView.builder(
-                          scrollDirection: Axis.horizontal,
-                          itemCount: topics.length,
-                          itemBuilder: (context, index) {
-                            return Container(
-
-                            );
-                          },
-                        ),
+                        child: ValueListenableBuilder(
+                            valueListenable: currentTopics,
+                            builder: (context) {
+                              return ListView.builder(
+                                scrollDirection: Axis.horizontal,
+                                itemCount: topics.length,
+                                itemBuilder: (context, index) {
+                                  return Container(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromRGBO(19, 101, 255, 1),
+                                    ),
+                                  );
+                                },
+                              );
+                            }),
                       ),
                     ],
                   ),
