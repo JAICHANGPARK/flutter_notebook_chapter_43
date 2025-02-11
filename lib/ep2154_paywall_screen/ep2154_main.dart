@@ -11,6 +11,8 @@ class PaywallScreenApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: PaywallScreen(),
+    );
   }
 }
