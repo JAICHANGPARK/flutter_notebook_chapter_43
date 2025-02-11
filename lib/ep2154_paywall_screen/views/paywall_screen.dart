@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class PaywallScreen extends StatefulWidget {
   const PaywallScreen({super.key});
 
@@ -11,6 +10,16 @@ class PaywallScreen extends StatefulWidget {
 class _PaywallScreenState extends State<PaywallScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Stack(
+        children: [
+          Positioned(
+            child: Container(
+              decoration: BoxDecoration(),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
