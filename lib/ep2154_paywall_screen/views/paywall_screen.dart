@@ -61,7 +61,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         children: [
                           CircleAvatar(
                             child: Icon(Icons.check),
-                          )
+                          ),
+                          Gap(16),
+                          Text("Unlock everything in the app"),
                         ],
                       )
                     ],
