@@ -108,6 +108,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
+                      color: Color.fromRGBO(101, 62, 244, 1),
                     ),
                     margin: EdgeInsets.symmetric(vertical: 32),
                     child: Center(
