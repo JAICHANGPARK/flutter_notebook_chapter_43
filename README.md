@@ -6,7 +6,7 @@ A new Flutter project.
 
 - Paywall screens
 - Immler Ricardo-Noel
-- https://dribbble.com/shots/25592791-E-learning-App
+- https://dribbble.com/shots/25609179-Paywall-screens
 
 <img src="https://cdn.dribbble.com/userupload/21858416/file/original-af0054f85d6b3a83fd1b348b82b23a03.jpg?resize=1905x1429&vertical=center"/>
 
