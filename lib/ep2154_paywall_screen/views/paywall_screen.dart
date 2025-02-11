@@ -28,6 +28,11 @@ class _PaywallScreenState extends State<PaywallScreen> {
               ),
             ),
           ),
+          Positioned(
+            child: Column(
+              children: [],
+            ),
+          ),
         ],
       ),
     );
