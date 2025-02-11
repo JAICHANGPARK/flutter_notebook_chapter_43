@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 void main() {
 
-  
+
 }
 
 class PaywallScreen extends StatelessWidget {
@@ -11,6 +11,6 @@ class PaywallScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp();
   }
 }
