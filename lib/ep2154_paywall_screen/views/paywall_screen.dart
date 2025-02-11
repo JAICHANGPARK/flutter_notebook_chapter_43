@@ -60,6 +60,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       Row(
                         children: [
                           CircleAvatar(
+                            radius: 16,
                             child: Icon(Icons.check),
                           ),
                           Gap(16),
