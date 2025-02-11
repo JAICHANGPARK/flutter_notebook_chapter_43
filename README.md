@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2154
 
-- E-learning App
+- Paywall screens
 - Mohammad Fahad
 - https://dribbble.com/shots/25592791-E-learning-App
 
