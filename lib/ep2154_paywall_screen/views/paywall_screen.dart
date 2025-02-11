@@ -67,18 +67,8 @@ class _PaywallScreenState extends State<PaywallScreen> {
                           children: [
                             CircleAvatar(
                               radius: 16,
-                              child: Icon(Icons.check),
                               backgroundColor: Color.fromRGBO(58, 36, 146, 1),
                               foregroundColor: Colors.white,
-                            ),
-                            Gap(16),
-                            Text("Unlock everything in the app"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            CircleAvatar(
-                              radius: 16,
                               child: Icon(Icons.check),
                             ),
                             Gap(16),
@@ -89,13 +79,38 @@ class _PaywallScreenState extends State<PaywallScreen> {
                           children: [
                             CircleAvatar(
                               radius: 16,
+                              backgroundColor: Color.fromRGBO(58, 36, 146, 1),
+                              foregroundColor: Colors.white,
                               child: Icon(Icons.check),
                             ),
                             Gap(16),
                             Text("Unlock everything in the app"),
                           ],
-                        )
+                        ),
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 16,
+                              backgroundColor: Color.fromRGBO(58, 36, 146, 1),
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.check),
+                            ),
+                            Gap(16),
+                            Text("Unlock everything in the app"),
+                          ],
+                        ),
                       ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                    ),
+                    child: Center(
+                      child: Te,
                     ),
                   )
                 ],
