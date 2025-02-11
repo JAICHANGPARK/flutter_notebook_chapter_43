@@ -69,6 +69,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               radius: 16,
                               child: Icon(Icons.check),
                               backgroundColor: Color.fromRGBO(58, 36, 146, 1),
+                              foregroundColor: Colors.white,
                             ),
                             Gap(16),
                             Text("Unlock everything in the app"),
