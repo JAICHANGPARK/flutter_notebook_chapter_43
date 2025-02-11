@@ -32,9 +32,8 @@ class _PaywallScreenState extends State<PaywallScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-
                 Align(
-                  
+                  alignment: Alignment.centerRight,
                   child: IconButton(
                     onPressed: () {},
                     icon: Icon(
