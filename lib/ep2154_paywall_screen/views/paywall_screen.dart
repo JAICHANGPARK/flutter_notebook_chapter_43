@@ -45,7 +45,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   Text(
                     "Subscribe to reach\nyour financial goals",
                     style: TextStyle(
-                      color: Colors.indigo
+                      color: Color.fromRGBO(101, 62, 244, 1),
                     ),
                   )
                 ],
