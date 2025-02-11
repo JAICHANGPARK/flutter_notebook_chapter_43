@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-runApp(PaywallScreen());
+runApp(PaywallScreenApp());
 
 }
 
-class PaywallScreen extends StatelessWidget {
-  const PaywallScreen({super.key});
+class PaywallScreenApp extends StatelessWidget {
+  const PaywallScreenApp({super.key});
 
   @override
   Widget build(BuildContext context) {
