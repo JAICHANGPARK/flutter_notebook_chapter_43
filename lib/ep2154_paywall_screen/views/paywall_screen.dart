@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class PaywallScreen extends StatefulWidget {
   const PaywallScreen({super.key});
@@ -42,10 +43,17 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       ),
                     ),
                   ),
-                  Text(
-                    "Subscribe to reach\nyour financial goals",
-                    style: TextStyle(
-                      color: Color.fromRGBO(101, 62, 244, 1),
+
+                  Padding(
+                    padding: const EdgeInsets.symmetric(8.0),
+                    child: Center(
+                      child: Text(
+                        "Subscribe to reach\nyour financial goals",
+                        style: TextStyle(
+                          color: Color.fromRGBO(101, 62, 244, 1),
+                          fontSize: 32,
+                        ),
+                      ),
                     ),
                   )
                 ],
