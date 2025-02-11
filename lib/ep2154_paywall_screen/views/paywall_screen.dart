@@ -16,11 +16,13 @@ class _PaywallScreenState extends State<PaywallScreen> {
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                colors: [
-                  Color.fromRGBO(204, 196, 242, 1),
-                ],
-              )),
+                color: Colors.white,
+                gradient: LinearGradient(
+                  colors: [
+                    Color.fromRGBO(204, 196, 242, 1),
+                  ],
+                ),
+              ),
             ),
           ),
         ],
