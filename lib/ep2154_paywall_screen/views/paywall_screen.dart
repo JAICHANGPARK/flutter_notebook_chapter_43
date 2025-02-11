@@ -109,8 +109,14 @@ class _PaywallScreenState extends State<PaywallScreen> {
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                     ),
+                    margin: EdgeInsets.symmetric(vertical: 32),
                     child: Center(
-                      child: Text("Start your 7-day free trial"),
+                      child: Text(
+                        "Start your 7-day free trial",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
                   )
                 ],
