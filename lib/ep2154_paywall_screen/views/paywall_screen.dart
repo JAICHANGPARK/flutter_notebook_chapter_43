@@ -110,14 +110,16 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(101, 62, 244, 1),
                     ),
-                    margin: EdgeInsets.symmetric(vertical: 32,horizontal: 24),
-                    padding: EdgeInsets.symmetric(vertical: 16,),
+                    margin: EdgeInsets.symmetric(vertical: 32, horizontal: 24),
+                    padding: EdgeInsets.symmetric(
+                      vertical: 16,
+                    ),
                     child: Center(
                       child: Text(
                         "Start your 7-day free trial",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.white
+                          color: Colors.white,
                         ),
                       ),
                     ),
