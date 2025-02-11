@@ -29,19 +29,27 @@ class _PaywallScreenState extends State<PaywallScreen> {
             ),
           ),
           Positioned.fill(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: IconButton(
-                    onPressed: () {},
-                    icon: Icon(
-                      Icons.clear,
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.clear,
+                      ),
                     ),
                   ),
-                ),
-              ],
+                  Text(
+                    "Subscribe to reach\nyour financial goals",
+                    style: TextStyle(
+                      color: Colors.indigo
+                    ),
+                  )
+                ],
+              ),
             ),
           ),
         ],
