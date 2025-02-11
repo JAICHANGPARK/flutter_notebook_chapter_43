@@ -28,9 +28,21 @@ class _PaywallScreenState extends State<PaywallScreen> {
               ),
             ),
           ),
-          Positioned(
+          Positioned.fill(
             child: Column(
-              children: [],
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+
+                Align(
+                  
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.clear,
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
         ],
