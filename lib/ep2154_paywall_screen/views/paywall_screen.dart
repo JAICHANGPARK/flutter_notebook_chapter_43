@@ -13,9 +13,14 @@ class _PaywallScreenState extends State<PaywallScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
+          Positioned.fill(
             child: Container(
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                colors: [
+                  Color.fromRGBO(204, 196, 242, 1),
+                ],
+              )),
             ),
           ),
         ],
