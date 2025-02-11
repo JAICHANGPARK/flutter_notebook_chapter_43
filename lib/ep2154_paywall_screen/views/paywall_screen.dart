@@ -55,19 +55,46 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       ),
                     ),
                   ),
-                  Column(
-                    children: [
-                      Row(
-                        children: [
-                          CircleAvatar(
-                            radius: 16,
-                            child: Icon(Icons.check),
-                          ),
-                          Gap(16),
-                          Text("Unlock everything in the app"),
-                        ],
-                      )
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 24,
+                    ),
+                    child: Column(
+                      spacing: 16,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 16,
+                              child: Icon(Icons.check),
+                            ),
+                            Gap(16),
+                            Text("Unlock everything in the app"),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 16,
+                              child: Icon(Icons.check),
+                            ),
+                            Gap(16),
+                            Text("Unlock everything in the app"),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 16,
+                              child: Icon(Icons.check),
+                            ),
+                            Gap(16),
+                            Text("Unlock everything in the app"),
+                          ],
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
