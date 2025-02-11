@@ -18,8 +18,11 @@ class _PaywallScreenState extends State<PaywallScreen> {
               decoration: BoxDecoration(
                 color: Colors.white,
                 gradient: LinearGradient(
+                  begin: Alignment.bottomRight,
+                  end: Alignment.topLeft,
                   colors: [
                     Color.fromRGBO(204, 196, 242, 1),
+                    Colors.white,
                   ],
                 ),
               ),
