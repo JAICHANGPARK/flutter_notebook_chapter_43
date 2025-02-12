@@ -4,7 +4,7 @@ import 'views/paywall_screen.dart';
 
 
 void main() {
-runApp(PaywallScreenApp());
+	runApp(PaywallScreenApp());
 
 }
 
