@@ -10,7 +10,6 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/24534908/file/original-3735c81c1b16fdc4127385a9d237ddb8.png?resize=1905x1429&vertical=center"/>
 
-
 ## EP2151-2153
 
 - E-learning App
