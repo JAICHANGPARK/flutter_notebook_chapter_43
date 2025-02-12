@@ -5,7 +5,6 @@ import 'views/paywall_screen.dart';
 
 void main() {
 	runApp(PaywallScreenApp());
-
 }
 
 class PaywallScreenApp extends StatelessWidget {
