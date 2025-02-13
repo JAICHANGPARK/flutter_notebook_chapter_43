@@ -210,9 +210,46 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               border: Border.all(
                                 color: Colors.grey,
                                 width: 3,
-
                               ),
                               color: Colors.white
+                            ),
+                            child: Stack(
+                              children: [
+                                Positioned.fill(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    spacing: 12,
+                                    children: [
+                                      Text(
+                                        "Yearly subscription",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 20,
+                                        ),
+                                      ),
+                                      Text(
+                                        "0.83\$/mounth",
+                                      ),
+                                      Text(
+                                        "24.99\$",
+                                        style: TextStyle(
+                                          color: Colors.grey,
+                                          decoration: TextDecoration.lineThrough,
+                                        ),
+                                      ),
+                                      Text(
+                                        "11.99\$",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Color.fromRGBO(103, 73, 221, 1),
+                                          fontSize: 24,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         )
