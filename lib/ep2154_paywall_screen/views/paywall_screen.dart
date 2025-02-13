@@ -44,7 +44,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 48),
+                    padding: const EdgeInsets.symmetric(vertical: 32),
                     child: Center(
                       child: Text(
                         "Subscribe to reach\nyour financial goals",
