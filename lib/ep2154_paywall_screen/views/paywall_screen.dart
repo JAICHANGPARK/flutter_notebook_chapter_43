@@ -164,7 +164,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                     ),
                                     padding: EdgeInsets.symmetric(
                                       horizontal: 12,
-                                      vertical: 8,
+                                      vertical: 4,
                                     ),
                                     child: Text(
                                       "50% OFF",
