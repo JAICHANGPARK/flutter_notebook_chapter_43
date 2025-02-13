@@ -128,6 +128,19 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                     children: [
                                       Text(
                                         "Yearly subscription",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                      Text(
+                                        "0.83\$/mounth",
+                                      ),
+                                      Text(
+                                        "24.99\$",
+                                        style: TextStyle(
+                                          color: Colors.grey,
+                                        ),
                                       ),
                                       Text(
                                         "0.83\$/mounth",
