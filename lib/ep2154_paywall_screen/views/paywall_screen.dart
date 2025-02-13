@@ -116,16 +116,22 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                 color: Colors.purple,
                                 width: 2,
                               ),
-
                             ),
                             child: Stack(
                               children: [
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  spacing: 12,
-                                  children: [
-
-                                  ],
+                                Positioned.fill(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    spacing: 12,
+                                    children: [
+                                      Text(
+                                        "Yearly subscription",
+                                      ),
+                                      Text(
+                                        "0.83\$/mounth",
+                                      )
+                                    ],
+                                  ),
                                 )
                               ],
                             ),
