@@ -22,8 +22,10 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   begin: Alignment.bottomRight,
                   end: Alignment.topLeft,
                   colors: [
-                    Color.fromRGBO(204, 196, 242, 1),
+                    
+                    Color.fromRGBO(187, 252, 231, 1),
                     Colors.white,
+                    Color.fromRGBO(204, 196, 242, 1),
                   ],
                 ),
               ),
@@ -206,13 +208,12 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(16),
-                              border: Border.all(
-                                color: Colors.grey,
-                                width: 3,
-                              ),
-                              color: Colors.white
-                            ),
+                                borderRadius: BorderRadius.circular(16),
+                                border: Border.all(
+                                  color: Colors.grey,
+                                  width: 3,
+                                ),
+                                color: Colors.white),
                             padding: EdgeInsets.all(20),
                             child: Stack(
                               children: [
