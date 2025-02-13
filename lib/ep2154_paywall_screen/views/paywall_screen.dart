@@ -213,6 +213,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               ),
                               color: Colors.white
                             ),
+                            padding: EdgeInsets.all(20),
                             child: Stack(
                               children: [
                                 Positioned.fill(
