@@ -140,6 +140,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                         "24.99\$",
                                         style: TextStyle(
                                           color: Colors.grey,
+                                          decoration: TextDecoration.lineThrough,
                                         ),
                                       ),
                                       Text(
