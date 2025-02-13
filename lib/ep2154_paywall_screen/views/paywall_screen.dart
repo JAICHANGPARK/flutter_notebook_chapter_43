@@ -104,7 +104,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   ),
                   Expanded(
                       child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 32),
+                    padding: const EdgeInsets.symmetric(vertical: 32, horizontal: 16),
                     child: Column(
                       children: [
                         Expanded(
