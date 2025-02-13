@@ -22,7 +22,6 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   begin: Alignment.bottomRight,
                   end: Alignment.topLeft,
                   colors: [
-                    
                     Color.fromRGBO(187, 252, 231, 1),
                     Colors.white,
                     Color.fromRGBO(204, 196, 242, 1),
