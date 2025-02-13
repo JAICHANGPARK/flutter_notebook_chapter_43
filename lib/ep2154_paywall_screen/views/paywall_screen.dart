@@ -144,7 +144,10 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                         ),
                                       ),
                                       Text(
-                                        "0.83\$/mounth",
+                                        "11.99\$",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       )
                                     ],
                                   ),
