@@ -240,7 +240,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                         ),
                                       ),
                                       Text(
-                                        "11.99\$",
+                                        "4.99\$",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                           color: Color.fromRGBO(103, 73, 221, 1),
