@@ -223,17 +223,17 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                     spacing: 12,
                                     children: [
                                       Text(
-                                        "Yearly subscription",
+                                        "Monthly subscription",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                           fontSize: 20,
                                         ),
                                       ),
                                       Text(
-                                        "0.83\$/mounth",
+                                        "With 7-days free trial",
                                       ),
                                       Text(
-                                        "24.99\$",
+                                        "14.99\$",
                                         style: TextStyle(
                                           color: Colors.grey,
                                           decoration: TextDecoration.lineThrough,
