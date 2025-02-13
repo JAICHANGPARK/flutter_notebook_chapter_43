@@ -114,8 +114,8 @@ class _PaywallScreenState extends State<PaywallScreen> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
                               border: Border.all(
-                                color: Colors.purple,
-                                width: 2,
+                                color: Color.fromRGBO(103, 73, 221, 1),
+                                width: 3,
                               ),
                               color: Colors.white,
                             ),
@@ -148,7 +148,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                         "11.99\$",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          color: Colors.purple,
+                                          color: Color.fromRGBO(103, 73, 221, 1),
                                           fontSize: 24,
                                         ),
                                       )
