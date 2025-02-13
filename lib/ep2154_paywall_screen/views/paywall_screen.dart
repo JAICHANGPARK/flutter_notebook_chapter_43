@@ -124,13 +124,14 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                 Positioned.fill(
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     spacing: 12,
                                     children: [
                                       Text(
                                         "Yearly subscription",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          fontSize: 16,
+                                          fontSize: 20,
                                         ),
                                       ),
                                       Text(
@@ -147,6 +148,8 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                         "11.99\$",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
+                                          color: Colors.purple,
+                                          fontSize: 24,
                                         ),
                                       )
                                     ],
