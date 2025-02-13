@@ -116,7 +116,6 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                 color: Colors.purple,
                                 width: 2,
                               ),
-
                             ),
                           ),
                         ),
