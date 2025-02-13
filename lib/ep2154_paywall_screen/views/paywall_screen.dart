@@ -104,9 +104,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   ),
                   Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Column(
-                                            children: [
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      children: [
                         Container(
                           decoration: BoxDecoration(
                             border: Border.all(
@@ -114,9 +114,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                             ),
                           ),
                         )
-                                            ],
-                                          ),
-                      )),
+                      ],
+                    ),
+                  )),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
