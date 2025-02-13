@@ -69,7 +69,30 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               radius: 16,
                               backgroundColor: Color.fromRGBO(58, 36, 146, 1),
                               foregroundColor: Colors.white,
-                              child: Icon(Icons.check,size: 20,),
+                              child: Icon(
+                                Icons.check,
+                                size: 20,
+                              ),
+                            ),
+                            Gap(16),
+                            Text(
+                              "Unlock everything in the app",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 16,
+                              backgroundColor: Color.fromRGBO(58, 36, 146, 1),
+                              foregroundColor: Colors.white,
+                              child: Icon(
+                                Icons.check,
+                                size: 20,
+                              ),
                             ),
                             Gap(16),
                             Text("Unlock everything in the app"),
@@ -81,19 +104,10 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               radius: 16,
                               backgroundColor: Color.fromRGBO(58, 36, 146, 1),
                               foregroundColor: Colors.white,
-                              child: Icon(Icons.check,size: 20,),
-                            ),
-                            Gap(16),
-                            Text("Unlock everything in the app"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            CircleAvatar(
-                              radius: 16,
-                              backgroundColor: Color.fromRGBO(58, 36, 146, 1),
-                              foregroundColor: Colors.white,
-                              child: Icon(Icons.check,size: 20,),
+                              child: Icon(
+                                Icons.check,
+                                size: 20,
+                              ),
                             ),
                             Gap(16),
                             Text("Unlock everything in the app"),
