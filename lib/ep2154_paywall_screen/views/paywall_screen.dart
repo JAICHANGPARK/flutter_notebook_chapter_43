@@ -266,6 +266,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                       left: 24,
                       right: 24,
                       bottom: 24,
+                      top: 16
                     ),
                     padding: EdgeInsets.symmetric(
                       vertical: 16,
