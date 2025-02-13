@@ -116,6 +116,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                 color: Colors.purple,
                                 width: 2,
                               ),
+                              color: Colors.white,
                             ),
                             child: Stack(
                               children: [
