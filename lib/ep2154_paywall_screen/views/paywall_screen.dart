@@ -154,7 +154,22 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                       )
                                     ],
                                   ),
-                                )
+                                ),
+                                Positioned(
+                                  right: 16,
+                                  top: 16,
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromRGBO(194, 252, 34, 1),
+                                    ),
+                                    child: Text(
+                                      "50% OFF",
+                                      style: TextStyle(
+                                        color: Colors.purple,
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ],
                             ),
                           ),
