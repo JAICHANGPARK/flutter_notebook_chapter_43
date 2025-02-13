@@ -78,7 +78,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                             Text(
                               "Unlock everything in the app",
                               style: TextStyle(
-                                fontWeight: FontWeight.bold,
+                                fontWeight: FontWeight.w400,
                               ),
                             ),
                           ],
@@ -95,7 +95,12 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               ),
                             ),
                             Gap(16),
-                            Text("Unlock everything in the app"),
+                            Text(
+                              "Unlock everything in the app",
+                              style: TextStyle(
+                                fontWeight: FontWeight.w400,
+                              ),
+                            ),
                           ],
                         ),
                         Row(
@@ -110,7 +115,12 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               ),
                             ),
                             Gap(16),
-                            Text("Unlock everything in the app"),
+                            Text(
+                              "Unlock everything in the app",
+                              style: TextStyle(
+                                fontWeight: FontWeight.w400,
+                              ),
+                            ),
                           ],
                         ),
                       ],
