@@ -156,8 +156,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                   ),
                                 ),
                                 Positioned(
-                                  right: 16,
-                                  top: 16,
+                                  right: 0,
+                                  top: 0,
+
                                   child: Container(
                                     decoration: BoxDecoration(
                                       color: Color.fromRGBO(194, 252, 34, 1),
