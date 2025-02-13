@@ -111,17 +111,19 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(16),
                               border: Border.all(
                                 color: Colors.purple,
                                 width: 2,
                               ),
-                              borderRadius: BorderRadius.circular(16),
+
                             ),
                           ),
                         ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(16),
                               border: Border.all(
                                 color: Colors.grey,
                                 width: 2,
