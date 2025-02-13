@@ -209,8 +209,10 @@ class _PaywallScreenState extends State<PaywallScreen> {
                               borderRadius: BorderRadius.circular(16),
                               border: Border.all(
                                 color: Colors.grey,
-                                width: 2,
+                                width: 3,
+
                               ),
+                              color: Colors.white
                             ),
                           ),
                         )
