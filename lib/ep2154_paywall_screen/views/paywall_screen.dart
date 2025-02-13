@@ -116,6 +116,18 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                 color: Colors.purple,
                                 width: 2,
                               ),
+
+                            ),
+                            child: Stack(
+                              children: [
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  spacing: 12,
+                                  children: [
+
+                                  ],
+                                )
+                              ],
                             ),
                           ),
                         ),
