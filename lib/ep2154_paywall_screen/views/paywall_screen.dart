@@ -158,10 +158,13 @@ class _PaywallScreenState extends State<PaywallScreen> {
                                 Positioned(
                                   right: 0,
                                   top: 0,
-
                                   child: Container(
                                     decoration: BoxDecoration(
                                       color: Color.fromRGBO(194, 252, 34, 1),
+                                    ),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 8,
                                     ),
                                     child: Text(
                                       "50% OFF",
