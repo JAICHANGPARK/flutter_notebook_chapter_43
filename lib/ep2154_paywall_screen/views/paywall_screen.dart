@@ -113,8 +113,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                             decoration: BoxDecoration(
                               border: Border.all(
                                 color: Colors.purple,
-                                width: 1.5,
+                                width: 2,
                               ),
+                              borderRadius: BorderRadius.circular(16),
                             ),
                           ),
                         ),
@@ -123,7 +124,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                             decoration: BoxDecoration(
                               border: Border.all(
                                 color: Colors.grey,
-                                width: 1.5,
+                                width: 2,
                               ),
                             ),
                           ),
