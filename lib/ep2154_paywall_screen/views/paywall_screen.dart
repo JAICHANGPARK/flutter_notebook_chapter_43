@@ -103,17 +103,20 @@ class _PaywallScreenState extends State<PaywallScreen> {
                     ),
                   ),
                   Expanded(
-                      child: Column(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.purple,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                                            children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Colors.purple,
+                            ),
                           ),
-                        ),
-                      )
-                    ],
-                  )),
+                        )
+                                            ],
+                                          ),
+                      )),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
