@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2157
 
-- Paywall screens
+- Music Player App
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/25605732-Music-Player-App
 
