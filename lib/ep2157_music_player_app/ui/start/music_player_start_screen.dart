@@ -19,7 +19,13 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
               children: [
                 Container(
                   height: 320,
-                  child: Placeholder(),
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: 10,
+                    itemBuilder: (context, index) {
+                      
+                    },
+                  ),
                 ),
                 Container(
                   height: 320,
