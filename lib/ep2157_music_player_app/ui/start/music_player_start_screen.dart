@@ -61,6 +61,13 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(8),
                           ),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: Image.network(
+                              "https://cdn.pixabay.com/photo/2025/01/31/09/52/dj-9372007_1280.jpg",
+                              fit: BoxFit.cover,
+                            ),
+                          ),
                         );
                       },
                     ),
