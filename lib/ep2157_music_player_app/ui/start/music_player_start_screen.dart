@@ -15,30 +15,36 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Column(
-              children: [
-                Container(
-                  height: 320,
-                  child: ListView.builder(
-                    scrollDirection: Axis.horizontal,
-                    itemCount: 10,
-                    itemBuilder: (context, index) {
-                      return Container(
-                        width: 240,
-                        margin: EdgeInsets.symmetric(horizontal: 5),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          
-                        ),
-                      );
-                    },
+            left: -200,
+            right: -200,
+            top: -32,
+            child: Transform.rotate(
+              angle: -.2,
+              child: Column(
+                children: [
+                  Container(
+                    height: 320,
+                    child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: 10,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          width: 240,
+                          margin: EdgeInsets.symmetric(horizontal: 5),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+
+                          ),
+                        );
+                      },
+                    ),
                   ),
-                ),
-                Container(
-                  height: 320,
-                  child: Placeholder(),
-                ),
-              ],
+                  Container(
+                    height: 320,
+                    child: Placeholder(),
+                  ),
+                ],
+              ),
             ),
           )
         ],
