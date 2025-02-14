@@ -8,7 +8,7 @@ A new Flutter project.
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/25605732-Music-Player-App
 
-<img src="https://cdn.dribbble.com/userupload/24534908/file/original-3735c81c1b16fdc4127385a9d237ddb8.png?resize=1905x1429&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/24330976/file/original-5f8ff68a99005f4d997b080c033959b5.png?resize=2400x1800&vertical=center"/>
 
 
 ## EP2154-2156
