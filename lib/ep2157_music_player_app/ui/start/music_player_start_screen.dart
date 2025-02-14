@@ -51,6 +51,9 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                   Container(
                     height: 320,
                     child: ListView.builder(
+                      controller: ScrollController(
+                        initialScrollOffset: 320
+                      ),
                       scrollDirection: Axis.horizontal,
                       itemCount: 10,
                       itemBuilder: (context, index) {
