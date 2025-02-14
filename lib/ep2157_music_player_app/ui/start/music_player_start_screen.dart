@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MusicPlayerStartScreen extends StatefulWidget {
   const MusicPlayerStartScreen({super.key});
 
@@ -11,6 +10,26 @@ class MusicPlayerStartScreen extends StatefulWidget {
 class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.black,
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Column(
+              children: [
+                Container(
+                  height: 320,
+                  child: Placeholder(),
+                ),
+                Container(
+                  height: 320,
+                  child: Placeholder(),
+                ),
+              ],
+            ),
+          )
+        ],
+      ),
+    );
   }
 }
