@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void  main() {
-
+  runApp(MusicPlayerApp());
 }
 
 class MusicPlayerApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class MusicPlayerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+
     );
   }
 }
