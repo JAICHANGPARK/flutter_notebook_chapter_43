@@ -23,7 +23,12 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     scrollDirection: Axis.horizontal,
                     itemCount: 10,
                     itemBuilder: (context, index) {
-                      
+                      return Container(
+                        width: 240,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                        ),
+                      );
                     },
                   ),
                 ),
