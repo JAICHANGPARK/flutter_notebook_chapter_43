@@ -37,10 +37,9 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(8),
                           ),
-
                           child: Image.network(
-                            "https://cdn.pixabay.com/poto/2020/10/22/16/14/building-5676506_1280.jpg",
-
+                            "https://cdn.pixabay.com/photo/2020/10/22/16/14/building-5676506_1280.jpg",
+                            fit: BoxFit.cover,
                           ),
                         );
                       },
