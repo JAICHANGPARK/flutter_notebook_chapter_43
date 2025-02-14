@@ -5,7 +5,7 @@ A new Flutter project.
 ## EP2157
 
 - Paywall screens
-- Immler Ricardo-Noel
+- Ronas IT | UI/UX Team
 - https://dribbble.com/shots/25605732-Music-Player-App
 
 <img src="https://cdn.dribbble.com/userupload/24534908/file/original-3735c81c1b16fdc4127385a9d237ddb8.png?resize=1905x1429&vertical=center"/>
