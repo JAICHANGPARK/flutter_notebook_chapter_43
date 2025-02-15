@@ -93,6 +93,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                       color: Colors.black,
                     ),
                     child: Row(
+                      spacing: 6,
                       children: [
                         CircleAvatar(
                           radius: 6,
@@ -108,9 +109,9 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     ),
                   ),
                   Text(
-                    "Music without borders",
+                    "Music without\nborders",
                     style: TextStyle(
-                      fontSize: 18,
+                      fontSize: 32,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
