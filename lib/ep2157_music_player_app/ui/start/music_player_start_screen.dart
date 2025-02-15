@@ -93,13 +93,20 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     child: Row(
                       children: [
                         CircleAvatar(
-                          radius: 12,
+                          radius: 6,
                           backgroundColor: Colors.deepOrange,
                         ),
                         Text("LIVE"),
                       ],
                     ),
-                  )
+                  ),
+                  Text(
+                    "Music without borders",
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.white,
+                    ),
+                  ),
                 ],
               ),
             ),
