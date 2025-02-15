@@ -122,7 +122,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     style: TextStyle(
                       color: Colors.grey,
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
