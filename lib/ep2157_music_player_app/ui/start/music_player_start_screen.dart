@@ -116,6 +116,9 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  Text(
+                    "Create playlists, find new tracks and listen to your favorite music anytime!",
+                  )
                 ],
               ),
             ),
