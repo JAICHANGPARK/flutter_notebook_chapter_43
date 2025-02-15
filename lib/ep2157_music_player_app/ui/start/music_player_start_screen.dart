@@ -127,7 +127,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     ),
                   ),
                   Container(
-                    padding: EdgeInsets.symmetric(vertical: 20),
+                    padding: EdgeInsets.symmetric(vertical: 18),
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(10, 138, 90, 1),
                       borderRadius: BorderRadius.circular(8),
