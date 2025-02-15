@@ -86,6 +86,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
               padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 16,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
@@ -118,6 +119,9 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                   ),
                   Text(
                     "Create playlists, find new tracks and listen to your favorite music anytime!",
+                    style: TextStyle(
+                      color: Colors.grey,
+                    ),
                   )
                 ],
               ),
