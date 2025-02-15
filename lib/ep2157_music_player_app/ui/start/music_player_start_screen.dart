@@ -81,19 +81,19 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
           Positioned(
             left: 0,
             right: 0,
-            bottom: 0,
+            bottom: 16,
             child: Container(
               padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                spacing: 16,
+                spacing: 20,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 6),
+                    padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       spacing: 6,
