@@ -118,12 +118,14 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     ),
                   ),
                   Text(
-                    "Create playlists, find new tracks and listen to your favorite music anytime!",
+                    "Create playlists, find new tracks and\nlisten to your favorite music anytime!",
                     style: TextStyle(
                       color: Colors.grey,
+                      fontSize: 15,
                     ),
                   ),
                   Container(
+                    padding: EdgeInsets.symmetric(vertical: 16),
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(10, 138, 90, 1),
                     ),
