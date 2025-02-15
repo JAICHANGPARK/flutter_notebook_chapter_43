@@ -13,9 +13,9 @@ class MusicPlayerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: MusicPlayerStartScreen(),
-      theme: ThemeData(
-        fontFamily: GoogleFonts.jetBrainsMono().fontFamily,
-      ),
+      // theme: ThemeData(
+      //   fontFamily: GoogleFonts.jetBrainsMono().fontFamily,
+      // ),
     );
   }
 }
