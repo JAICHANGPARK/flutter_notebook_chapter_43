@@ -79,7 +79,8 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                 ],
               ),
             ),
-          )
+          ),
+
         ],
       ),
     );
