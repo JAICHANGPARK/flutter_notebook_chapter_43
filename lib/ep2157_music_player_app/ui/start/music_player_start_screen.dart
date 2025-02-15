@@ -93,6 +93,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 6),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       spacing: 6,
