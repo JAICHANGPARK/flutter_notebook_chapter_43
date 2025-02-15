@@ -123,6 +123,14 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                       color: Colors.grey,
                     ),
                   ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.green,
+                    ),
+                    child: Center(
+                      child: Text("Get started",style: TextStyle(),),
+                    ),
+                  )
                 ],
               ),
             ),
