@@ -98,7 +98,12 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                           radius: 6,
                           backgroundColor: Colors.deepOrange,
                         ),
-                        Text("LIVE"),
+                        Text(
+                          "LIVE",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                       ],
                     ),
                   ),
