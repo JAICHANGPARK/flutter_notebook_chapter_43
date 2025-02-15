@@ -51,9 +51,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                   Container(
                     height: 320,
                     child: ListView.builder(
-                      controller: ScrollController(
-                        initialScrollOffset: 320
-                      ),
+                      controller: ScrollController(initialScrollOffset: 320),
                       scrollDirection: Axis.horizontal,
                       itemCount: 10,
                       itemBuilder: (context, index) {
@@ -80,7 +78,32 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
               ),
             ),
           ),
-
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              child: Column(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.black,
+                    ),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 12,
+                          backgroundColor: Colors.deepOrange,
+                        ),
+                        Text("LIVE"),
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            ),
+          )
         ],
       ),
     );
