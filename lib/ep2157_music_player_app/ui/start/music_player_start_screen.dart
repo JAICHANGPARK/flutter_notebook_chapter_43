@@ -128,7 +128,12 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                       color: Colors.green,
                     ),
                     child: Center(
-                      child: Text("Get started",style: TextStyle(),),
+                      child: Text(
+                        "Get started",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
                     ),
                   )
                 ],
