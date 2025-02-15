@@ -83,6 +83,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
             right: 0,
             bottom: 0,
             child: Container(
+              padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
