@@ -84,6 +84,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
             bottom: 0,
             child: Container(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
@@ -105,6 +106,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     style: TextStyle(
                       fontSize: 18,
                       color: Colors.white,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],
