@@ -125,7 +125,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.green,
+                      color: Color.fromRGBO(10, 138, 90, 1),
                     ),
                     child: Center(
                       child: Text(
