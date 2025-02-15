@@ -94,6 +94,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                       color: Colors.black,
                     ),
                     child: Row(
+                      mainAxisSize: MainAxisSize.min,
                       spacing: 6,
                       children: [
                         CircleAvatar(
