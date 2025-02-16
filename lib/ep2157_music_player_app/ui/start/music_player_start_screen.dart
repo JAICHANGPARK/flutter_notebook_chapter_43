@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/home/music_player_home_screen.dart';
 
 class MusicPlayerStartScreen extends StatefulWidget {
   const MusicPlayerStartScreen({super.key});
@@ -146,19 +147,25 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                       fontSize: 15,
                     ),
                   ),
-                  Container(
-                    padding: EdgeInsets.symmetric(vertical: 18),
-                    decoration: BoxDecoration(
-                      color: Color.fromRGBO(10, 138, 90, 1),
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Center(
-                      child: Text(
-                        "Get started",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context)
+                      => MusicPlayerHomeScreen()));
+                    },
+                    child: Container(
+                      padding: EdgeInsets.symmetric(vertical: 18),
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(10, 138, 90, 1),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Center(
+                        child: Text(
+                          "Get started",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
                         ),
                       ),
                     ),
