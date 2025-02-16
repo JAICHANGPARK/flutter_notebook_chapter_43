@@ -23,7 +23,9 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                   Container(
                     height: 42,
                     width: 42,
-                    decoration: BoxDecoration(),
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                    ),
                   ),
                   Spacer(),
                   Container(
