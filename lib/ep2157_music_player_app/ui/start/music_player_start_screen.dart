@@ -82,7 +82,9 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
             left: 0,
             right: 0,
             bottom: 0,
-            child: Container(),
+            child: Container(
+              height: MediaQuery.sizeOf(context).height,
+            ),
           ),
           Positioned(
             left: 0,
