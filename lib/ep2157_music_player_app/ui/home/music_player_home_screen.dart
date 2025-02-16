@@ -27,7 +27,6 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                       color: Colors.blue,
                       borderRadius: BorderRadius.circular(4),
                     ),
-
                   ),
                   Spacer(),
                   Container(
@@ -60,7 +59,13 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                   ),
                 ],
               ),
-            )
+            ),
+            Expanded(
+              child: DefaultTabController(
+                length: 5,
+                child: Column(),
+              ),
+            ),
           ],
         ),
       ),
