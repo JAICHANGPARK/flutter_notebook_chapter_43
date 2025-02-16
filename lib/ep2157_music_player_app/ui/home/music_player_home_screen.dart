@@ -15,6 +15,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
         child: Column(
           children: [
             Row(
+              spacing: 12,
               children: [
                 Container(
                   height: 42,
@@ -30,11 +31,12 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                 Container(
                   height: 42,
                   width: 42,
-                  decoration: BoxDecoration(),
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Colors.black,
+                    ),
+                  ),
                 ),
-
-
-
               ],
             )
           ],
