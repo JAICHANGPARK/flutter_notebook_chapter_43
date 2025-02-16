@@ -117,6 +117,8 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                 children: [
                   Column(
                     spacing: 6,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Icon(
                         HugeIcons.strokeRoundedHome02,
@@ -126,13 +128,15 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                   ),
                   Column(
                     spacing: 6,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Icon(
                         HugeIcons.strokeRoundedHome02,
                       ),
                       Text("Home")
                     ],
-                  )
+                  ),
                 ],
               ),
             )
