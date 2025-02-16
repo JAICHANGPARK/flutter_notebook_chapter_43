@@ -68,10 +68,10 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                     TabBar(
                       tabs: [
                         Tab(text: "All",),
-                        Tab(text: "All",),
-                        Tab(text: "All",),
-                        Tab(text: "All",),
-                        Tab(text: "All",),
+                        Tab(text: "IDM",),
+                        Tab(text: "Rock",),
+                        Tab(text: "Pop",),
+                        Tab(text: "Alternative",),
                       ],
 
                     ),
