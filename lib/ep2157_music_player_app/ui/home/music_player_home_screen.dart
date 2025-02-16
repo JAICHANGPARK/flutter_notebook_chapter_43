@@ -70,6 +70,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                     TabBar(
                       tabAlignment: TabAlignment.start,
                       isScrollable: true,
+                      
                       tabs: [
                         Tab(text: "All",),
                         Tab(text: "IDM",),
