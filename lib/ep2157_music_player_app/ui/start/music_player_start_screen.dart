@@ -148,9 +148,12 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
-                      Navigator.of(context).push(MaterialPageRoute(builder: (context)
-                      => MusicPlayerHomeScreen()));
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => MusicPlayerHomeScreen(),
+                        ),
+                      );
                     },
                     child: Container(
                       padding: EdgeInsets.symmetric(vertical: 18),
