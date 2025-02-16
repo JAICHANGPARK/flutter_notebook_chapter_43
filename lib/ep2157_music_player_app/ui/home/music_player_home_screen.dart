@@ -115,7 +115,24 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
               color: Colors.grey[100],
               child: Row(
                 children: [
-
+                  Column(
+                    spacing: 6,
+                    children: [
+                      Icon(
+                        HugeIcons.strokeRoundedHome02,
+                      ),
+                      Text("Home")
+                    ],
+                  ),
+                  Column(
+                    spacing: 6,
+                    children: [
+                      Icon(
+                        HugeIcons.strokeRoundedHome02,
+                      ),
+                      Text("Home")
+                    ],
+                  )
                 ],
               ),
             )
