@@ -83,13 +83,14 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
             right: 0,
             bottom: 0,
             child: Container(
-              height: MediaQuery.sizeOf(context).height,
+              height: MediaQuery.sizeOf(context).height / 1.8,
               decoration: BoxDecoration(
                 // color: Colors.black,
                 gradient: LinearGradient(
                   colors: [
                     Colors.black,
-                    Colors.black.withValues(alpha: .2),
+                    Colors.black.withValues(alpha: .4),
+                    Colors.black.withValues(alpha: .0),
                   ],
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
