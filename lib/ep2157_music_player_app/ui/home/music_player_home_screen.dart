@@ -36,7 +36,9 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                       ),
                       borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Icon(HugeIcons.strokeRoundedSearch01),
+                    child: Icon(
+                      HugeIcons.strokeRoundedSearch01,
+                    ),
                   ),
                   Container(
                     height: 42,
