@@ -81,6 +81,12 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
           Positioned(
             left: 0,
             right: 0,
+            bottom: 0,
+            child: Container(),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
             bottom: 16,
             child: Container(
               padding: EdgeInsets.all(16),
@@ -146,7 +152,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                 ],
               ),
             ),
-          )
+          ),
         ],
       ),
     );
