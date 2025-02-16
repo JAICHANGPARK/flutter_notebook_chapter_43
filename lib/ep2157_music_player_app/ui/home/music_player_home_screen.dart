@@ -63,7 +63,31 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
             Expanded(
               child: DefaultTabController(
                 length: 5,
-                child: Column(),
+                child: Column(
+                  children: [
+                    TabBar(
+                      tabs: [
+                        Tab(text: "All",),
+                        Tab(text: "All",),
+                        Tab(text: "All",),
+                        Tab(text: "All",),
+                        Tab(text: "All",),
+                      ],
+
+                    ),
+                    Expanded(
+                      child: TabBarView(
+                        children: [
+                          Container(),
+                          Container(),
+                          Container(),
+                          Container(),
+                          Container(),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ],
