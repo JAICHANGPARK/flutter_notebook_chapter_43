@@ -66,6 +66,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                 child: Column(
                   children: [
                     TabBar(
+                      isScrollable: true,
                       tabs: [
                         Tab(text: "All",),
                         Tab(text: "IDM",),
