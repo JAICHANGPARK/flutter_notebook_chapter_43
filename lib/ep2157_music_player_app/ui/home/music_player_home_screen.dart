@@ -70,15 +70,25 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                     TabBar(
                       tabAlignment: TabAlignment.start,
                       isScrollable: true,
-                      
+                      unselectedLabelColor: Colors.grey,
+                      labelColor: Colors.black,
                       tabs: [
-                        Tab(text: "All",),
-                        Tab(text: "IDM",),
-                        Tab(text: "Rock",),
-                        Tab(text: "Pop",),
-                        Tab(text: "Alternative",),
+                        Tab(
+                          text: "All",
+                        ),
+                        Tab(
+                          text: "IDM",
+                        ),
+                        Tab(
+                          text: "Rock",
+                        ),
+                        Tab(
+                          text: "Pop",
+                        ),
+                        Tab(
+                          text: "Alternative",
+                        ),
                       ],
-
                     ),
                     Expanded(
                       child: TabBarView(
