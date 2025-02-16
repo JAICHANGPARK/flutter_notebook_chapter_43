@@ -87,8 +87,12 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
               decoration: BoxDecoration(
                 // color: Colors.black,
                 gradient: LinearGradient(
-                  colors: [Colors.black, Colors.black.withValues(alpha: .2)],
+                  colors: [
+                    Colors.black,
+                    Colors.black.withValues(alpha: .2),
+                  ],
                   begin: Alignment.bottomCenter,
+                  end: Alignment.topCenter,
                 ),
               ),
             ),
