@@ -33,9 +33,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                         color: Colors.black,
                         width: 0.5,
                       ),
-                      borderRadius: BorderRadius.circular(
-                        4,
-                      ),
+                      borderRadius: BorderRadius.circular(4),
                     ),
                   ),
                   Container(
