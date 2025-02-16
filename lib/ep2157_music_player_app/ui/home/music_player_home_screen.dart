@@ -114,6 +114,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
               height: 72,
               color: Colors.grey[100],
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Column(
                     spacing: 6,
