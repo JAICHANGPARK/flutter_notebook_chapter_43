@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class MusicPlayerHomeScreen extends StatefulWidget {
@@ -60,12 +61,14 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                 ],
               ),
             ),
+            Gap(16),
             Expanded(
               child: DefaultTabController(
                 length: 5,
                 child: Column(
                   children: [
                     TabBar(
+                      tabAlignment: TabAlignment.start,
                       isScrollable: true,
                       tabs: [
                         Tab(text: "All",),
