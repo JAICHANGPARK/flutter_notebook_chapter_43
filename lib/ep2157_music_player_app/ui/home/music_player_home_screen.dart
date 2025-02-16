@@ -134,7 +134,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                       Icon(
                         HugeIcons.strokeRoundedFavourite,
                       ),
-                      Text("Home")
+                      Text("Favorite")
                     ],
                   ),
                   Column(
@@ -145,7 +145,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                       Icon(
                         HugeIcons.strokeRoundedUser,
                       ),
-                      Text("Home")
+                      Text("Profile")
                     ],
                   ),
                 ],
