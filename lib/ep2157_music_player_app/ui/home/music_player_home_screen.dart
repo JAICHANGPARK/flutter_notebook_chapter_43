@@ -13,6 +13,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           children: [
@@ -72,6 +73,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                       isScrollable: true,
                       unselectedLabelColor: Colors.grey,
                       labelColor: Colors.black,
+                      indicatorColor: Colors.black,
                       tabs: [
                         Tab(
                           text: "All",
@@ -105,6 +107,18 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                 ),
               ),
             ),
+            Divider(
+              height: 0,
+            ),
+            Container(
+              height: 72,
+              color: Colors.grey[100],
+              child: Row(
+                children: [
+
+                ],
+              ),
+            )
           ],
         ),
       ),
