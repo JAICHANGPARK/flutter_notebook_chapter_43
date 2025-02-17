@@ -50,7 +50,11 @@ class MusicPlayerIdmPage extends StatelessWidget {
                 left: 16,
                 top: 16,
               ),
-              child: Placeholder(),
+              child: ListView.builder(
+                itemBuilder: (context, index) {
+                  return Container();
+                },
+              ),
             )
           ],
         ),
