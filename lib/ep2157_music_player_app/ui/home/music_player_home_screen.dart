@@ -96,6 +96,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                     ),
                     Expanded(
                       child: TabBarView(
+                        physics: NeverScrollableScrollPhysics(),
                         children: [
                           Container(),
                           MusicPlayerIdmPage(),
