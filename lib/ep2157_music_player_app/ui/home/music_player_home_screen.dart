@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'widgets/music_player_idm_page.dart';
+
 class MusicPlayerHomeScreen extends StatefulWidget {
   const MusicPlayerHomeScreen({super.key});
 
@@ -96,7 +98,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                       child: TabBarView(
                         children: [
                           Container(),
-                          Container(),
+                          MusicPlayerIdmPage(),
                           Container(),
                           Container(),
                           Container(),
