@@ -111,7 +111,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
                                 ),
                               ),
                               Transform.rotate(
-                                angle: 0.6,
+                                angle: 0.7,
                                 child: IconButton(
                                   onPressed: () {},
                                   color: Colors.white,
