@@ -134,7 +134,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
               child: Text(
                 "Recently listended",
                 style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 24,
                 ),
               ),
             )
