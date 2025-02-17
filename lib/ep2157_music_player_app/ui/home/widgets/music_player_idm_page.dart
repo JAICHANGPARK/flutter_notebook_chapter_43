@@ -74,6 +74,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
                             color: Colors.black,
                             borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(16),
+                              bottomRight: Radius.circular(16),
                             )
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
