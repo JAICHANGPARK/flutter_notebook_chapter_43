@@ -27,7 +27,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                     width: 42,
                     decoration: BoxDecoration(
                       color: Colors.blue,
-                      borderRadius: BorderRadius.circular(4),
+                      borderRadius: BorderRadius.circular(8),
                     ),
                   ),
                   Spacer(),
@@ -53,7 +53,7 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                         color: Colors.black,
                         width: 0.5,
                       ),
-                      borderRadius: BorderRadius.circular(4),
+                      borderRadius: BorderRadius.circular(8),
                     ),
                     child: Icon(
                       HugeIcons.strokeRoundedNotification01,
