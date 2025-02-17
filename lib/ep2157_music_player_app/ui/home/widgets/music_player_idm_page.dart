@@ -55,7 +55,8 @@ class MusicPlayerIdmPage extends StatelessWidget {
                 itemCount: 10,
                 itemBuilder: (context, index) {
                   return Container(
-                    width: 240,
+                    width: 200,
+                    margin: EdgeInsets.only(right: 12),
                     decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border.all(
