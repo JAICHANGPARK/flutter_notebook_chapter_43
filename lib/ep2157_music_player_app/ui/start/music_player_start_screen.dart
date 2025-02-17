@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/music_player_theme.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/home/music_player_home_screen.dart';
+import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/live_tag_widget.dart';
 
 class MusicPlayerStartScreen extends StatefulWidget {
   const MusicPlayerStartScreen({super.key});
@@ -110,29 +111,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 20,
                 children: [
-                  Container(
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.black,
-                    ),
-                    padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      spacing: 6,
-                      children: [
-                        CircleAvatar(
-                          radius: 6,
-                          backgroundColor: Colors.deepOrange,
-                        ),
-                        Text(
-                          "LIVE",
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+                  LiveTagWidget(),
                   Text(
                     "Music without\nborders",
                     style: TextStyle(
