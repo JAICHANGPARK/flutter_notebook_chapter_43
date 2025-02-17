@@ -53,6 +53,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
+                    width: 240,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border.all(
