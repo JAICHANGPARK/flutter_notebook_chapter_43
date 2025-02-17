@@ -71,12 +71,11 @@ class MusicPlayerIdmPage extends StatelessWidget {
                         ),
                         Container(
                           decoration: BoxDecoration(
-                            color: Colors.black,
-                            borderRadius: BorderRadius.only(
-                              bottomLeft: Radius.circular(16),
-                              bottomRight: Radius.circular(16),
-                            )
-                          ),
+                              color: Colors.black,
+                              borderRadius: BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16),
+                              )),
                           padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                           child: Row(
                             children: [
@@ -87,10 +86,15 @@ class MusicPlayerIdmPage extends StatelessWidget {
                                   children: [
                                     Text(
                                       "Dream Walker",
-                                      s
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                      ),
                                     ),
                                     Text(
                                       "Live performance",
+                                        style: TextStyle(
+                                        color: Colors.white,
+                                    ),
                                     )
                                   ],
                                 ),
