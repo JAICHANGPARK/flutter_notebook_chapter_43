@@ -137,7 +137,10 @@ class MusicPlayerIdmPage extends StatelessWidget {
                   fontSize: 24,
                 ),
               ),
-            )
+            ),
+
+
+            Placeholder(),
           ],
         ),
       ),
