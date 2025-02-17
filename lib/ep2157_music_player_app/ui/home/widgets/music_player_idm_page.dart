@@ -51,6 +51,8 @@ class MusicPlayerIdmPage extends StatelessWidget {
                 top: 16,
               ),
               child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: 10,
                 itemBuilder: (context, index) {
                   return Container(
                     width: 240,
