@@ -76,6 +76,10 @@ class _MusicPlayerHomeScreenState extends State<MusicPlayerHomeScreen> {
                       unselectedLabelColor: Colors.grey,
                       labelColor: Colors.black,
                       indicatorColor: Colors.black,
+                      labelStyle: TextStyle(
+                        fontSize: 19,
+                        fontWeight: FontWeight.bold,
+                      ),
                       tabs: [
                         Tab(
                           text: "All",
