@@ -20,6 +20,13 @@ class MusicPlayerIdmPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: MusicPlayerTheme.primaryGreen,
                 ),
+                child: IconButton(
+                  color: Colors.white,
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.refresh,
+                  ),
+                ),
               )
             ],
           )
