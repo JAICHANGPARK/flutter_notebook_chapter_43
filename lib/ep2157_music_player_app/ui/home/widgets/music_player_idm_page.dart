@@ -75,17 +75,20 @@ class MusicPlayerIdmPage extends StatelessWidget {
                           ),
                           child: Row(
                             children: [
-                              Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    "Dream Walker",
-                                  ),
-                                  Text(
-                                    "Live performance",
-                                  )
-                                ],
-                              )
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Dream Walker",
+                                    ),
+                                    Text(
+                                      "Live performance",
+                                    )
+                                  ],
+                                ),
+                              ),
+                              
                             ],
                           ),
                         )
