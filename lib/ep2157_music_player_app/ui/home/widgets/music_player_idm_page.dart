@@ -14,6 +14,11 @@ class MusicPlayerIdmPage extends StatelessWidget {
               Text(
                 "IDM Essentials",
               ),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.teal,
+                ),
+              )
             ],
           )
         ],
