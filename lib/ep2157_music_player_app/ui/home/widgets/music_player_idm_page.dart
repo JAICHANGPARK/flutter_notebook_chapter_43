@@ -64,6 +64,28 @@ class MusicPlayerIdmPage extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(16),
                     ),
+                    child: Column(
+                      children: [
+                        Expanded(
+                          child: Stack(),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.black,
+                          ),
+                          child: Row(
+                            children: [
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                ],
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
                   );
                 },
               ),
