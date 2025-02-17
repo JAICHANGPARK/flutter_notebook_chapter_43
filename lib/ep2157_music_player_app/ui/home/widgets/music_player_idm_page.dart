@@ -88,7 +88,11 @@ class MusicPlayerIdmPage extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              
+                              IconButton(
+                                onPressed: () {},
+                                color: Colors.white,
+                                icon: Icon(Icons.arrow_forward),
+                              )
                             ],
                           ),
                         )
