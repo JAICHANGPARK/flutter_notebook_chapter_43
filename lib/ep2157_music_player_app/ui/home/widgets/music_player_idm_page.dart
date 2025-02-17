@@ -45,7 +45,11 @@ class MusicPlayerIdmPage extends StatelessWidget {
               ),
             ),
             Container(
-              height: 280,
+              height: 240,
+              padding: EdgeInsets.only(
+                left: 16,
+                top: 16,
+              ),
               child: Placeholder(),
             )
           ],
