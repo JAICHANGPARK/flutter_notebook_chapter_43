@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/music_player_theme.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/live_tag_widget.dart';
+import 'package:gap/gap.dart';
 
 class MusicPlayerIdmPage extends StatelessWidget {
   const MusicPlayerIdmPage({super.key});
@@ -127,10 +128,14 @@ class MusicPlayerIdmPage extends StatelessWidget {
                 },
               ),
             ),
-            Text(
-              "Recently listended",
-              style: TextStyle(
-                fontSize: 18,
+            Gap(12),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Text(
+                "Recently listended",
+                style: TextStyle(
+                  fontSize: 22,
+                ),
               ),
             )
           ],
