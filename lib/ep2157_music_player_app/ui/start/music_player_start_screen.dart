@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/music_player_theme.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/home/music_player_home_screen.dart';
 
 class MusicPlayerStartScreen extends StatefulWidget {
@@ -158,7 +159,7 @@ class _MusicPlayerStartScreenState extends State<MusicPlayerStartScreen> {
                     child: Container(
                       padding: EdgeInsets.symmetric(vertical: 18),
                       decoration: BoxDecoration(
-                        color: Color.fromRGBO(10, 138, 90, 1),
+                        color: MusicPlayerTheme.primaryGreen,
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: Center(
