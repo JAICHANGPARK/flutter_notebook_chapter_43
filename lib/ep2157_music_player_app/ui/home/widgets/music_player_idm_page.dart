@@ -71,6 +71,8 @@ class MusicPlayerIdmPage extends StatelessWidget {
                           child: Stack(
                             children: [
                               Positioned(
+                                left: 8,
+                                top: 8,
                                 child: LiveTagWidget(),
                               )
                             ],
