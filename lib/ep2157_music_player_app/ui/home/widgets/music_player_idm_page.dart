@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/music_player_theme.dart';
+import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/live_tag_widget.dart';
 
 class MusicPlayerIdmPage extends StatelessWidget {
   const MusicPlayerIdmPage({super.key});
@@ -69,7 +70,9 @@ class MusicPlayerIdmPage extends StatelessWidget {
                         Expanded(
                           child: Stack(
                             children: [
-                              Positioned(child: Container(child: Row(),))
+                              Positioned(
+                                child: LiveTagWidget(),
+                              )
                             ],
                           ),
                         ),
