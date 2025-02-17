@@ -73,10 +73,12 @@ class MusicPlayerIdmPage extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.black,
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                           child: Row(
                             children: [
                               Expanded(
                                 child: Column(
+                                  spacing: 4,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
