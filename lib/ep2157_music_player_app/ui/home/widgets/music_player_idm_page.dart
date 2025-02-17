@@ -126,6 +126,12 @@ class MusicPlayerIdmPage extends StatelessWidget {
                   );
                 },
               ),
+            ),
+            Text(
+              "Recently listended",
+              style: TextStyle(
+                fontSize: 18,
+              ),
             )
           ],
         ),
