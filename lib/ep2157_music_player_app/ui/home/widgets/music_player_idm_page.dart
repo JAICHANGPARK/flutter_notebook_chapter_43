@@ -6,31 +6,42 @@ class MusicPlayerIdmPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                "IDM Essentials",
+    return Padding(
+      padding: const EdgeInsets.only(
+        top: 32,
+        bottom: 0,
+      ),
+      child: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16,
               ),
-              Container(
-                decoration: BoxDecoration(
-                  color: MusicPlayerTheme.primaryGreen,
-                ),
-                child: IconButton(
-                  color: Colors.white,
-                  onPressed: () {},
-                  icon: Icon(
-                    Icons.refresh,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "IDM Essentials",
                   ),
-                ),
-              )
-            ],
-          )
-        ],
+                  Container(
+                    decoration: BoxDecoration(
+                      color: MusicPlayerTheme.primaryGreen,
+                    ),
+                    child: IconButton(
+                      color: Colors.white,
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.refresh,
+                      ),
+                    ),
+                  )
+                ],
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
