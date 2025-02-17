@@ -7,11 +7,17 @@ class MusicPlayerIdmPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          
+          Row(
+            children: [
+              Text(
+                "IDM Essentials",
+              ),
+            ],
+          )
         ],
       ),
     );
   }
 }
-
