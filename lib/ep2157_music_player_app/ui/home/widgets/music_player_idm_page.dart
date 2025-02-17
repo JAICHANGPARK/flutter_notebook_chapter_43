@@ -16,7 +16,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
               ),
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.teal,
+                  color: MusicPlayerTheme.primaryGreen,
                 ),
               )
             ],
