@@ -87,6 +87,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
                                   children: [
                                     Text(
                                       "Dream Walker",
+                                      s
                                     ),
                                     Text(
                                       "Live performance",
@@ -94,10 +95,13 @@ class MusicPlayerIdmPage extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              IconButton(
-                                onPressed: () {},
-                                color: Colors.white,
-                                icon: Icon(Icons.arrow_forward),
+                              Transform.rotate(
+                                angle: 0.6,
+                                child: IconButton(
+                                  onPressed: () {},
+                                  color: Colors.white,
+                                  icon: Icon(Icons.arrow_forward),
+                                ),
                               )
                             ],
                           ),
