@@ -24,10 +24,14 @@ class MusicPlayerIdmPage extends StatelessWidget {
                 children: [
                   Text(
                     "IDM Essentials",
+                    style: TextStyle(
+                      fontSize: 24,
+                    ),
                   ),
                   Container(
                     decoration: BoxDecoration(
                       color: MusicPlayerTheme.primaryGreen,
+                      borderRadius: BorderRadius.circular(12),
                     ),
                     child: IconButton(
                       color: Colors.white,
@@ -39,6 +43,10 @@ class MusicPlayerIdmPage extends StatelessWidget {
                   )
                 ],
               ),
+            ),
+            Container(
+              height: 280,
+              child: Placeholder(),
             )
           ],
         ),
