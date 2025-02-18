@@ -149,7 +149,10 @@ class MusicPlayerIdmPage extends StatelessWidget {
                         Container(
                           height: 72,
                           width: 72,
-                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), border: Border.all()),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            border: Border.all(),
+                          ),
                         ),
                         Expanded(
                           child: Column(
