@@ -142,7 +142,11 @@ class MusicPlayerIdmPage extends StatelessWidget {
 
             Column(
               children: List.generate(6,(index){
-                return Container();
+                return Row(
+                  children: [
+                    
+                  ],
+                );
               }).toList()
             )
           ],
