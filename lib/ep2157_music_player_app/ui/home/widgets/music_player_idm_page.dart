@@ -158,7 +158,8 @@ class MusicPlayerIdmPage extends StatelessWidget {
                       Row(
                         children: [
                           CircleAvatar(
-                            radius: 8,
+                            radius: 12,
+                            backgroundColor: MusicPlayerTheme.primaryGreen,
                             child: Icon(
                               Icons.check,
                             ),
