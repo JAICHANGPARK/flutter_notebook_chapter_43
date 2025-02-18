@@ -30,6 +30,10 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                           child: Text("Lyrics"),
                         ),
                       ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.open_in_new),
+                      ),
                     ],
                   )
                 ],
