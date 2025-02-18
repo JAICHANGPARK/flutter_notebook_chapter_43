@@ -139,6 +139,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
               ),
             ),
             Column(
+              spacing: 12,
                 children: List.generate(6, (index) {
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16),
