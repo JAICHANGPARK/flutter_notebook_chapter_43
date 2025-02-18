@@ -164,6 +164,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
                                 ),
                               ),
                               Row(
+                                spacing: 8,
                                 children: [
                                   CircleAvatar(
                                     radius: 12,
