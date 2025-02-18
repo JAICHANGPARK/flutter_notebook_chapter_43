@@ -152,33 +152,35 @@ class MusicPlayerIdmPage extends StatelessWidget {
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), border: Border.all()),
                         ),
                         Expanded(
-                            child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          spacing: 6,
-                          children: [
-                            Text(
-                              "Bone",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 20,
-                              ),
-                            ),
-                            Row(
-                              children: [
-                                CircleAvatar(
-                                  radius: 12,
-                                  backgroundColor: MusicPlayerTheme.primaryGreen,
-                                  foregroundColor: Colors.white,
-                                  child: Icon(
-                                    Icons.check,
-                                    size: 12,
-                                  ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 6,
+                            children: [
+                              Text(
+                                "Bone",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 20,
                                 ),
-                                Text("Dream Walker"),
-                              ],
-                            )
-                          ],
-                        ))
+                              ),
+                              Row(
+                                children: [
+                                  CircleAvatar(
+                                    radius: 12,
+                                    backgroundColor: MusicPlayerTheme.primaryGreen,
+                                    foregroundColor: Colors.white,
+                                    child: Icon(
+                                      Icons.check,
+                                      size: 12,
+                                    ),
+                                  ),
+                                  Text("Dream Walker"),
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                        IconButton(onPressed: (){}, icon: Icon(Icons.more_vert),)
                       ],
                     ),
                   );
