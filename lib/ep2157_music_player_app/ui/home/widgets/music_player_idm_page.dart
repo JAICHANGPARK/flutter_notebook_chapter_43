@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/music_player_theme.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/live_tag_widget.dart';
+import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/ui/player/music_player_screen.dart';
 import 'package:gap/gap.dart';
 
 class MusicPlayerIdmPage extends StatelessWidget {
@@ -56,73 +57,82 @@ class MusicPlayerIdmPage extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 itemCount: 10,
                 itemBuilder: (context, index) {
-                  return Container(
-                    width: 200,
-                    margin: EdgeInsets.only(right: 12),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      border: Border.all(
-                        color: Colors.black,
-                      ),
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Stack(
-                            children: [
-                              Positioned(
-                                left: 8,
-                                top: 8,
-                                child: LiveTagWidget(),
-                              )
-                            ],
-                          ),
+                  return GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => MusicPlayerScreen(),
                         ),
-                        Container(
-                          decoration: BoxDecoration(
-                            color: Colors.black,
-                            borderRadius: BorderRadius.only(
-                              bottomLeft: Radius.circular(16),
-                              bottomRight: Radius.circular(16),
+                      );
+                    },
+                    child: Container(
+                      width: 200,
+                      margin: EdgeInsets.only(right: 12),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        border: Border.all(
+                          color: Colors.black,
+                        ),
+                        borderRadius: BorderRadius.circular(16),
+                      ),
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  left: 8,
+                                  top: 8,
+                                  child: LiveTagWidget(),
+                                )
+                              ],
                             ),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                          child: Row(
-                            children: [
-                              Expanded(
-                                child: Column(
-                                  spacing: 4,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      "Dream Walker",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    Text(
-                                      "Live performance",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                      ),
-                                    )
-                                  ],
-                                ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.black,
+                              borderRadius: BorderRadius.only(
+                                bottomLeft: Radius.circular(16),
+                                bottomRight: Radius.circular(16),
                               ),
-                              Transform.rotate(
-                                angle: 0.7,
-                                child: IconButton(
-                                  onPressed: () {},
-                                  color: Colors.white,
-                                  icon: Icon(Icons.arrow_forward),
+                            ),
+                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Column(
+                                    spacing: 4,
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        "Dream Walker",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      Text(
+                                        "Live performance",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                        ),
+                                      )
+                                    ],
+                                  ),
                                 ),
-                              )
-                            ],
-                          ),
-                        )
-                      ],
+                                Transform.rotate(
+                                  angle: 0.7,
+                                  child: IconButton(
+                                    onPressed: () {},
+                                    color: Colors.white,
+                                    icon: Icon(Icons.arrow_forward),
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   );
                 },
