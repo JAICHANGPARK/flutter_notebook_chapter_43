@@ -16,26 +16,35 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
       body: SafeArea(
         child: Stack(
           children: [
-            Positioned(
+            Positioned.fill(
               child: Column(
                 children: [
-                  Row(
-                    children: [
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.keyboard_arrow_left),
-                      ),
-                      Expanded(
-                        child: Center(
-                          child: Text("Lyrics"),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.keyboard_arrow_left),
                         ),
-                      ),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.open_in_new),
-                      ),
-                    ],
-                  )
+                        Expanded(
+                          child: Center(
+                            child: Text("Lyrics"),
+                          ),
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.open_in_new),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             )
