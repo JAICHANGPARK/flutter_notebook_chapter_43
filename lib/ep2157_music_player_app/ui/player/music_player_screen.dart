@@ -13,6 +13,31 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: MusicPlayerTheme.backgroundColor,
+      body: SafeArea(
+        child: Stack(
+          children: [
+            Positioned(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.keyboard_arrow_left),
+                      ),
+                      Expanded(
+                        child: Center(
+                          child: Text("Lyrics"),
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
