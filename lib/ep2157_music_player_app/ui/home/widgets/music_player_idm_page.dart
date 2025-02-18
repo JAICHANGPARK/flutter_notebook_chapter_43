@@ -140,37 +140,41 @@ class MusicPlayerIdmPage extends StatelessWidget {
             ),
             Column(
                 children: List.generate(6, (index) {
-              return Row(
-                children: [
-                  Container(
-                    height: 52,
-                    width: 52,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12),
+              return Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 52,
+                      width: 52,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        border: Border.all()
+                      ),
                     ),
-                  ),
-                  Expanded(
-                      child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    spacing: 6,
-                    children: [
-                      Text("Bone"),
-                      Row(
-                        children: [
-                          CircleAvatar(
-                            radius: 12,
-                            backgroundColor: MusicPlayerTheme.primaryGreen,
-                            foregroundColor: Colors.white,
-                            child: Icon(
-                              Icons.check,
-                              size: 12,
-                            ),
-                          )
-                        ],
-                      )
-                    ],
-                  ))
-                ],
+                    Expanded(
+                        child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 6,
+                      children: [
+                        Text("Bone"),
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 12,
+                              backgroundColor: MusicPlayerTheme.primaryGreen,
+                              foregroundColor: Colors.white,
+                              child: Icon(
+                                Icons.check,
+                                size: 12,
+                              ),
+                            )
+                          ],
+                        )
+                      ],
+                    ))
+                  ],
+                ),
               );
             }).toList())
           ],
