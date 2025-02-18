@@ -151,6 +151,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
                   ),
                   Expanded(
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                     children: [],
                   ))
                 ],
