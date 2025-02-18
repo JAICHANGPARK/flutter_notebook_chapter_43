@@ -49,7 +49,11 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
               ),
             ),
             Positioned(
+              bottom: 24,
+              left: 16,
+              right: 16,
               child: Container(
+                height: 80,
                 decoration: BoxDecoration(
                   color: Colors.black,
                 ),
