@@ -149,9 +149,10 @@ class MusicPlayerIdmPage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
-                  Expanded(child: Column(children: [
-                    
-                  ],))
+                  Expanded(
+                      child: Column(
+                    children: [],
+                  ))
                 ],
               );
             }).toList())
