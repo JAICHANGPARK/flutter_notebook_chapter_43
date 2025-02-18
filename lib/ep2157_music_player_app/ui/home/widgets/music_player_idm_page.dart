@@ -144,7 +144,13 @@ class MusicPlayerIdmPage extends StatelessWidget {
               children: List.generate(6,(index){
                 return Row(
                   children: [
-                    
+                    Container(
+                      height: 52,
+                      width: 52,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    )
                   ],
                 );
               }).toList()
