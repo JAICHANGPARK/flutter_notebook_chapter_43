@@ -139,46 +139,48 @@ class MusicPlayerIdmPage extends StatelessWidget {
               ),
             ),
             Column(
-              spacing: 12,
+                spacing: 12,
                 children: List.generate(6, (index) {
-              return Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Row(
-                  spacing: 12,
-                  children: [
-                    Container(
-                      height: 52,
-                      width: 52,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(12),
-                        border: Border.all()
-                      ),
-                    ),
-                    Expanded(
-                        child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      spacing: 6,
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      spacing: 12,
                       children: [
-                        Text("Bone"),
-                        Row(
+                        Container(
+                          height: 82,
+                          width: 82,
+                          decoration: BoxDecoration(borderRadius: BorderRadius.circular(12), border: Border.all()),
+                        ),
+                        Expanded(
+                            child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 6,
                           children: [
-                            CircleAvatar(
-                              radius: 12,
-                              backgroundColor: MusicPlayerTheme.primaryGreen,
-                              foregroundColor: Colors.white,
-                              child: Icon(
-                                Icons.check,
-                                size: 12,
+                            Text(
+                              "Bone",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
                               ),
+                            ),
+                            Row(
+                              children: [
+                                CircleAvatar(
+                                  radius: 12,
+                                  backgroundColor: MusicPlayerTheme.primaryGreen,
+                                  foregroundColor: Colors.white,
+                                  child: Icon(
+                                    Icons.check,
+                                    size: 12,
+                                  ),
+                                )
+                              ],
                             )
                           ],
-                        )
+                        ))
                       ],
-                    ))
-                  ],
-                ),
-              );
-            }).toList())
+                    ),
+                  );
+                }).toList())
           ],
         ),
       ),
