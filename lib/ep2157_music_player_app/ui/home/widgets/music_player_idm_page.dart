@@ -160,6 +160,7 @@ class MusicPlayerIdmPage extends StatelessWidget {
                               "Bone",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
+                                fontSize: 20,
                               ),
                             ),
                             Row(
@@ -172,7 +173,8 @@ class MusicPlayerIdmPage extends StatelessWidget {
                                     Icons.check,
                                     size: 12,
                                   ),
-                                )
+                                ),
+                                Text("Dream Walker"),
                               ],
                             )
                           ],
