@@ -91,9 +91,14 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                   Gap(12),
                   Expanded(
                     child: Column(
-                      spacing: 16,
+                      spacing: 12,
                       children: [
-                        Text("Dream Youth"),
+                        Text(
+                          "Dream Youth",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                         Container(
                           decoration: BoxDecoration(
                             color: Colors.black,
