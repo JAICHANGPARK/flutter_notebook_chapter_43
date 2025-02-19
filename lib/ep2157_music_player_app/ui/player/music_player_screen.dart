@@ -56,23 +56,33 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                     ),
                   ),
                   Expanded(
-                    child: CarouselView.weighted(
-                      controller: carouselController,
-                      flexWeights: [1, 4, 1],
-                      // itemExtent: 280,
-                      itemSnapping: true,
-                      consumeMaxWeight: false,
-                      shrinkExtent: 0.8,
-                      children: List.generate(10, (index) {
-                        return Container(
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(32),
-                            border: Border.all(
-                              color: Colors.black,
-                            ),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: -32,
+                          top: 0,
+                          bottom: 0,
+                          right: -32,
+                          child: CarouselView.weighted(
+                            controller: carouselController,
+                            flexWeights: [1, 4, 1],
+                            // itemExtent: 280,
+                            itemSnapping: true,
+                            consumeMaxWeight: false,
+                            shrinkExtent: 0.8,
+                            children: List.generate(10, (index) {
+                              return Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(32),
+                                  border: Border.all(
+                                    color: Colors.black,
+                                  ),
+                                ),
+                              );
+                            }),
                           ),
-                        );
-                      }),
+                        ),
+                      ],
                     ),
                   ),
                   Expanded(
