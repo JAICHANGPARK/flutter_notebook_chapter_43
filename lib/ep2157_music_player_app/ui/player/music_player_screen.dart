@@ -19,6 +19,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
     carouselController.dispose();
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,14 +58,17 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                   Expanded(
                     child: CarouselView.weighted(
                       controller: carouselController,
-                      flexWeights: [1,4,1],
+                      flexWeights: [1, 4, 1],
                       // itemExtent: 280,
                       itemSnapping: true,
                       consumeMaxWeight: false,
                       children: List.generate(10, (index) {
                         return Container(
                           decoration: BoxDecoration(
-                            
+                            borderRadius: BorderRadius.circular(32),
+                            border: Border.all(
+                              color: Colors.black,
+                            ),
                           ),
                         );
                       }),
