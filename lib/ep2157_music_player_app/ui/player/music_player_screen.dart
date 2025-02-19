@@ -14,6 +14,12 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
   );
 
   @override
+  void dispose() {
+    // TODO: implement dispose
+    carouselController.dispose();
+    super.dispose();
+  }
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: MusicPlayerTheme.backgroundColor,
@@ -50,6 +56,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                   ),
                   Expanded(
                     child: CarouselView(
+                      controller: carouselController,
                       itemExtent: 280,
                       itemSnapping: true,
                       children: List.generate(10, (index) {
