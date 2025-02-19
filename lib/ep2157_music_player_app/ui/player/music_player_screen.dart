@@ -9,6 +9,10 @@ class MusicPlayerScreen extends StatefulWidget {
 }
 
 class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
+  CarouselController carouselController = CarouselController(
+    initialItem: 1,
+  );
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +52,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                     child: CarouselView(
                       itemExtent: 280,
                       itemSnapping: true,
-                      children: List.generate(10, (index){
+                      children: List.generate(10, (index) {
                         return Placeholder();
                       }),
                     ),
