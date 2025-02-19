@@ -57,12 +57,16 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                   Expanded(
                     child: CarouselView.weighted(
                       controller: carouselController,
-                      flexWeights: [1,3,1],
+                      flexWeights: [1,4,1],
                       // itemExtent: 280,
                       itemSnapping: true,
                       consumeMaxWeight: false,
                       children: List.generate(10, (index) {
-                        return Placeholder();
+                        return Container(
+                          decoration: BoxDecoration(
+                            
+                          ),
+                        );
                       }),
                     ),
                   ),
