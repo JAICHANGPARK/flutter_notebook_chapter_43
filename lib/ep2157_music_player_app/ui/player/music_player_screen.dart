@@ -29,7 +29,12 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                         ),
                         Expanded(
                           child: Center(
-                            child: Text("Lyrics"),
+                            child: Text(
+                              "Lyrics",
+                              style: TextStyle(
+                                fontSize: 16,
+                              ),
+                            ),
                           ),
                         ),
                         IconButton(
@@ -40,7 +45,10 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                     ),
                   ),
                   Expanded(
-                    child: Placeholder(),
+                    child: CarouselView(
+                      itemExtent: 280,
+                      children: [],
+                    ),
                   ),
                   Expanded(
                     child: Placeholder(),
