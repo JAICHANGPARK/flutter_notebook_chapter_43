@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2157_music_player_app/music_player_theme.dart';
+import 'package:gap/gap.dart';
 
 class MusicPlayerScreen extends StatefulWidget {
   const MusicPlayerScreen({super.key});
@@ -87,8 +88,10 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                       ],
                     ),
                   ),
+                  Gap(12),
                   Expanded(
                     child: Column(
+                      spacing: 16,
                       children: [
                         Text("Dream Youth"),
                         Container(
@@ -96,10 +99,15 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                             color: Colors.black,
                             borderRadius: BorderRadius.circular(24),
                           ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 2,
+                          ),
                           child: Text(
                             "BONE",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
+                              color: Colors.white,
                             ),
                           ),
                         )
