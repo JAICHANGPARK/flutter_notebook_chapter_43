@@ -62,6 +62,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                       // itemExtent: 280,
                       itemSnapping: true,
                       consumeMaxWeight: false,
+                      shrinkExtent: 0.8,
                       children: List.generate(10, (index) {
                         return Container(
                           decoration: BoxDecoration(
