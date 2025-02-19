@@ -96,6 +96,12 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                             color: Colors.black,
                             borderRadius: BorderRadius.circular(24),
                           ),
+                          child: Text(
+                            "BONE",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                         )
                       ],
                     ),
