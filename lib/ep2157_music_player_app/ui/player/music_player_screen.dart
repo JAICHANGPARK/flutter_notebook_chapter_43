@@ -78,6 +78,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                                   border: Border.all(
                                     color: Colors.black,
                                   ),
+                                  color: Colors.white,
                                 ),
                               );
                             }),
@@ -87,7 +88,17 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                     ),
                   ),
                   Expanded(
-                    child: Placeholder(),
+                    child: Column(
+                      children: [
+                        Text("Dream Youth"),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.black,
+                            borderRadius: BorderRadius.circular(24),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                 ],
               ),
