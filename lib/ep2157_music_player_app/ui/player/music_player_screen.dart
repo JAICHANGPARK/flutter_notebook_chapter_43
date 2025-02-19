@@ -56,7 +56,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
                     ),
                   ),
                   Container(
-                    height: 320,
+                    height: 380,
                     child: Stack(
                       children: [
                         Positioned(
