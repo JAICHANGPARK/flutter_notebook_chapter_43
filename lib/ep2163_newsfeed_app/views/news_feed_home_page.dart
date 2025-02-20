@@ -23,33 +23,40 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                     height: 100,
                     color: Colors.indigo,
                   ),
-                  Container(
-                    height: 300,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 300,
-                    child: Placeholder(),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  Expanded(child: SingleChildScrollView(
+                    child: Column(
                       children: [
-                        Text(
-                          "Suggested Friends",
-                          style: TextStyle(),
+                        Container(
+                          height: 300,
+                          child: Placeholder(),
                         ),
-                        Icon(
-                          Icons.tune,
+                        Container(
+                          height: 300,
+                          child: Placeholder(),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                "Suggested Friends",
+                                style: TextStyle(),
+                              ),
+                              Icon(
+                                Icons.tune,
+                              )
+                            ],
+                          ),
+                        ),
+                        Container(
+                          height: 200,
+                          child: Placeholder(),
                         )
                       ],
                     ),
-                  ),
-                  Container(
-                    height: 200,
-                    child: Placeholder(),
-                  )
+                  ))
+
                 ],
               ),
             ),
