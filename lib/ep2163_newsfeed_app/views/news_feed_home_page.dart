@@ -16,15 +16,18 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
         child: Stack(
           children: [
             Positioned.fill(
-              child: Column(
-                children: [
-                  Container(
-                    height: 100,
-                    color: Colors.indigo,
-                  ),
-
-
-                ],
+              child: SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      height: 100,
+                      color: Colors.indigo,
+                    ),
+                
+                
+                  ],
+                ),
               ),
             ),
           ],
