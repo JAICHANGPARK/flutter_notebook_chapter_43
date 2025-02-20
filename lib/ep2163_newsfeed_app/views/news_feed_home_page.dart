@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class NewsFeedHomePage extends StatefulWidget {
   const NewsFeedHomePage({super.key});
 
@@ -28,9 +27,22 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                     Container(
                       height: 320,
                       child: Placeholder(),
+                    ),
+                    Container(
+                      height: 320,
+                      child: Placeholder(),
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "Suggested Friends",
+                          style: TextStyle(),
+                        ),
+                        Icon(
+                          Icons.tune,
+                        )
+                      ],
                     )
-                
-                
                   ],
                 ),
               ),
