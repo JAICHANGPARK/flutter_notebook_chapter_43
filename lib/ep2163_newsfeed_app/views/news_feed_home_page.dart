@@ -18,12 +18,17 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
             Positioned.fill(
               child: SingleChildScrollView(
                 child: Column(
+                  spacing: 16,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
                       height: 100,
                       color: Colors.indigo,
                     ),
+                    Container(
+                      height: 320,
+                      child: Placeholder(),
+                    )
                 
                 
                   ],
