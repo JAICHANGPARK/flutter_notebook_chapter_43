@@ -5,7 +5,7 @@ A new Flutter project.
 
 ## EP2163
 
-- Music Player App
+- Goodreads Newsfeed
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/25605732-Music-Player-App
 
