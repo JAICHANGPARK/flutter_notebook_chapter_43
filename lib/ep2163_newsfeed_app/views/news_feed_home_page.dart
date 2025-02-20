@@ -11,6 +11,12 @@ class NewsFeedHomePage extends StatefulWidget {
 class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
