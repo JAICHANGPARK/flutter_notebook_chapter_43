@@ -15,40 +15,42 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
         child: Stack(
           children: [
             Positioned.fill(
-              child: SingleChildScrollView(
-                child: Column(
-                  spacing: 16,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Container(
-                      height: 100,
-                      color: Colors.indigo,
+              child: Column(
+                spacing: 16,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Container(
+                    height: 100,
+                    color: Colors.indigo,
+                  ),
+                  Container(
+                    height: 300,
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    height: 300,
+                    child: Placeholder(),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Suggested Friends",
+                          style: TextStyle(),
+                        ),
+                        Icon(
+                          Icons.tune,
+                        )
+                      ],
                     ),
-                    Container(
-                      height: 300,
-                      child: Placeholder(),
-                    ),
-                    Container(
-                      height: 300,
-                      child: Placeholder(),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            "Suggested Friends",
-                            style: TextStyle(),
-                          ),
-                          Icon(
-                            Icons.tune,
-                          )
-                        ],
-                      ),
-                    )
-                  ],
-                ),
+                  ),
+                  Container(
+                    height: 200,
+                    child: Placeholder(),
+                  )
+                ],
               ),
             ),
           ],
