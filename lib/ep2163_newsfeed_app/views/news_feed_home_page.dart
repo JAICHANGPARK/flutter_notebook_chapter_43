@@ -33,6 +33,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       child: Placeholder(),
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
                           "Suggested Friends",
