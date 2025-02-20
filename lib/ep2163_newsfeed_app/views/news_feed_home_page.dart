@@ -32,17 +32,20 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       height: 320,
                       child: Placeholder(),
                     ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Suggested Friends",
-                          style: TextStyle(),
-                        ),
-                        Icon(
-                          Icons.tune,
-                        )
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            "Suggested Friends",
+                            style: TextStyle(),
+                          ),
+                          Icon(
+                            Icons.tune,
+                          )
+                        ],
+                      ),
                     )
                   ],
                 ),
