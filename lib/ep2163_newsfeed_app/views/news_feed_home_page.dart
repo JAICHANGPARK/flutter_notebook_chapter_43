@@ -12,10 +12,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+        
+          ],
+        ),
       ),
     );
   }
