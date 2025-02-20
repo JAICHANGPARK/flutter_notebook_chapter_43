@@ -9,7 +9,7 @@ A new Flutter project.
 - Tony Romain for Heyo
 - https://dribbble.com/shots/25654902-Goodreads-Newsfeed
 
-<img src="https://cdn.dribbble.com/userupload/24330976/file/original-5f8ff68a99005f4d997b080c033959b5.png?resize=2400x1800&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/32146190/file/original-03d7a33fe637b096cd8c226b068ecac2.png?resize=1600x1200&vertical=center"/>
 
 
 
