@@ -13,9 +13,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
+        child: Stack(
           children: [
-        
+            Column(
+              children: [
+
+              ],
+            ),
           ],
         ),
       ),
