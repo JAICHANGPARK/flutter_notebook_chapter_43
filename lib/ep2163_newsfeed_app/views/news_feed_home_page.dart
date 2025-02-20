@@ -21,7 +21,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                   Container(
                     height: 100,
                     color: Colors.indigo,
-                  )
+                  ),
+
 
                 ],
               ),
