@@ -15,10 +15,16 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
       body: SafeArea(
         child: Stack(
           children: [
-            Column(
-              children: [
+            Positioned.fill(
+              child: Column(
+                children: [
+                  Container(
+                    height: 100,
+                    color: Colors.indigo,
+                  )
 
-              ],
+                ],
+              ),
             ),
           ],
         ),
