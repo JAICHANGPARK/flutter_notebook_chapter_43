@@ -25,11 +25,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       color: Colors.indigo,
                     ),
                     Container(
-                      height: 320,
+                      height: 300,
                       child: Placeholder(),
                     ),
                     Container(
-                      height: 320,
+                      height: 300,
                       child: Placeholder(),
                     ),
                     Padding(
