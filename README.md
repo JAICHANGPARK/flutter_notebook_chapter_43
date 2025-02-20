@@ -6,7 +6,7 @@ A new Flutter project.
 ## EP2163
 
 - Goodreads Newsfeed
-- Ronas IT | UI/UX Team
+- Tony Romain for Heyo
 - https://dribbble.com/shots/25605732-Music-Player-App
 
 <img src="https://cdn.dribbble.com/userupload/24330976/file/original-5f8ff68a99005f4d997b080c033959b5.png?resize=2400x1800&vertical=center"/>
