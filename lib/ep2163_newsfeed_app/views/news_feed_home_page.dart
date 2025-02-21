@@ -130,7 +130,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                               children: [
                                                 Icon(
                                                   Icons.thumb_up_alt_outlined,
+                                                  size: 16,
                                                 ),
+
                                                 Text(
                                                   "24 Likes",
                                                 )
