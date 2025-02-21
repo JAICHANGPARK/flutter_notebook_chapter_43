@@ -142,12 +142,14 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.home_filled),
                                 Text("HOME"),
                               ],
                             ),
                             Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.home_filled),
                                 Text("HOME"),
@@ -157,12 +159,14 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               width: 100,
                             ),
                             Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.home_filled),
                                 Text("HOME"),
                               ],
                             ),
                             Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.home_filled),
                                 Text("HOME"),
