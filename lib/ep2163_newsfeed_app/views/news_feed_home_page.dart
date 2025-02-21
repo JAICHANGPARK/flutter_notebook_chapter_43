@@ -88,12 +88,18 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       children: [
                         Container(
                           height: 300,
+                          margin: EdgeInsets.symmetric(horizontal: 16),
                           child: Stack(
                             children: [
                               Positioned.fill(
                                 left: 16,
                                 child: Container(
                                   color: Colors.orange,
+                                  child: Column(
+                                    children: [
+                                      
+                                    ],
+                                  ),
                                 ),
                               ),
                               Positioned(
@@ -102,7 +108,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 child: Container(
                                   height: 42,
                                   width: 42,
-                                  child: ,
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromRGBO(238, 226, 201, 1),
+                                    ),
+                                  ),
                                 ),
                               )
                             ],
