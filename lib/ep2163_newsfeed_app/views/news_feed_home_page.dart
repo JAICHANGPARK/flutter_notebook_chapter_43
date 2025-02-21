@@ -163,7 +163,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.search),
-                                Text("SEARCH"),
+                                Text("SEARCH",
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                  ),
+                                ),
                               ],
                             ),
                             Column(
