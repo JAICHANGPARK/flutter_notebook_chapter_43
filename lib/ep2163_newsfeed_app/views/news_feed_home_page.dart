@@ -31,6 +31,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           decoration: BoxDecoration(
                             border: Border.all(
                               color: Colors.white,
+                              width: .8
                             ),
                           ),
                           child: Icon(
