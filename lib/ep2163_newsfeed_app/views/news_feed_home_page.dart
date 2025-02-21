@@ -128,37 +128,40 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                 color: Colors.blue,
                 child: Stack(
                   children: [
-                    Row(
-                      children: [
-                        Column(
-                          children: [
-                            Icon(Icons.home_filled),
-                            Text("HOME"),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            Icon(Icons.home_filled),
-                            Text("HOME"),
-                          ],
-                        ),
-                        SizedBox(
-                          width: 120,
-                        ),
-                        Column(
-                          children: [
-                            Icon(Icons.home_filled),
-                            Text("HOME"),
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            Icon(Icons.home_filled),
-                            Text("HOME"),
-                          ],
-                        ),
-
-                      ],
+                    Positioned(
+                      child: Row(
+                        spacing: 16,
+                        children: [
+                          Column(
+                            children: [
+                              Icon(Icons.home_filled),
+                              Text("HOME"),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              Icon(Icons.home_filled),
+                              Text("HOME"),
+                            ],
+                          ),
+                          SizedBox(
+                            width: 120,
+                          ),
+                          Column(
+                            children: [
+                              Icon(Icons.home_filled),
+                              Text("HOME"),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              Icon(Icons.home_filled),
+                              Text("HOME"),
+                            ],
+                          ),
+                      
+                        ],
+                      ),
                     ),
                   ],
                 ),
