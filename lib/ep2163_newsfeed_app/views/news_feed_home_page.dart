@@ -34,6 +34,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                             children: [
                               Expanded(
                                 child: Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 12),
                                   decoration: BoxDecoration(
                                     color: Color.fromRGBO(247, 242, 232, 1),
                                   ),
@@ -45,6 +46,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       Expanded(
                                         child: TextField(),
                                       ),
+                                      Icon(
+                                        Icons.camera_alt_outlined,
+                                      )
                                     ],
                                   ),
                                 ),
