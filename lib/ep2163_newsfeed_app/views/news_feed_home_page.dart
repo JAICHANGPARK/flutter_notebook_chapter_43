@@ -97,10 +97,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 ),
                               ),
                               Positioned(
-                                height: 16,
+                                top: 16,
                                 left: 0,
-                                
-                                child: Container(),
+                                child: Container(
+                                  height: 42,
+                                  width: 42,
+                                  child: ,
+                                ),
                               )
                             ],
                           ),
