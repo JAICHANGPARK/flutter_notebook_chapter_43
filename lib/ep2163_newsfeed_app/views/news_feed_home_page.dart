@@ -185,11 +185,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                         child: Container(
                           height: 64,
                           width: 64,
+                          decoration: BoxDecoration(
+                            color: Colors.blue,
+                          ),
                           child: Column(
-
-                            children: [
-
-                            ],
+                            children: [],
                           ),
                         ),
                       ),
