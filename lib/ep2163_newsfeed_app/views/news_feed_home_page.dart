@@ -190,7 +190,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               shape: BoxShape.circle,
                               border: Border.all(
                                 color: Colors.white,
-                                width: 1.5,
+                                width: 2,
                               )),
                           child: Column(
                             children: [],
