@@ -12,7 +12,6 @@ A new Flutter project.
 <img src="https://cdn.dribbble.com/userupload/32146190/file/original-03d7a33fe637b096cd8c226b068ecac2.png?resize=1600x1200&vertical=center"/>
 
 
-
 ## EP2157-2162
 
 - Music Player App
