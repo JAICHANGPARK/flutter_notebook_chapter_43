@@ -201,6 +201,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               ),
                               Text(
                                 "YOUR STORY",
+                                style: TextStyle(
+                                  fontSize: 10,
+                                ),
                               )
                             ],
                           ),
