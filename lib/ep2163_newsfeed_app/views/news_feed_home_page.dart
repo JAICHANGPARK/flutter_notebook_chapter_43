@@ -22,7 +22,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                   Container(
                     height: 100,
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                    color: Colors.indigo,
+                    color: Color
                     child: Column(
                       children: [
                         Container(
@@ -35,7 +35,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               Expanded(
                                 child: Container(
                                   decoration: BoxDecoration(
-                                    color: Colors.white,
+                                    color: Color.fromRGBO(247, 242, 232, 1),
                                   ),
                                 ),
                               ),
