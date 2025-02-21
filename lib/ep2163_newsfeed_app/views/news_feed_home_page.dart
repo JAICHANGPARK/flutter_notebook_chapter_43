@@ -25,7 +25,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                     child: Row(
                       children: [
                         Expanded(
-                          child: Container(),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         Container(
                           padding: EdgeInsets.all(6),
@@ -36,7 +40,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                             Icons.notifications_active_outlined,
                             color: Colors.white,
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
