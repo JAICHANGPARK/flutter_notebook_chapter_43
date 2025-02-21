@@ -97,7 +97,15 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   color: Colors.orange,
                                   child: Column(
                                     children: [
-                                      
+                                      Expanded(
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.green,
+                                          ),
+                                        ),
+                                      ),
+                                      Text("NEW'S UPDATES"),
+                                      Text("data")
                                     ],
                                   ),
                                 ),
