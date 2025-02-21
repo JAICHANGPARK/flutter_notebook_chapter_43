@@ -186,9 +186,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           height: 100,
                           width: 100,
                           decoration: BoxDecoration(
-                            color: Color.fromRGBO(247, 242, 232, 1),
-                            shape: BoxShape.circle,
-                          ),
+                              color: Color.fromRGBO(247, 242, 232, 1),
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: Colors.white,
+                                width: 1.5,
+                              )),
                           child: Column(
                             children: [],
                           ),
