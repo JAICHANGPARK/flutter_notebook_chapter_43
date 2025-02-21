@@ -183,8 +183,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       top: 0,
                       child: Center(
                         child: Container(
-                          height: 64,
-                          width: 64,
+                          height: 100,
+                          width: 100,
                           decoration: BoxDecoration(
                             color: Colors.blue,
                           ),
