@@ -30,13 +30,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                         Container(
                           padding: EdgeInsets.all(6),
                           decoration: BoxDecoration(
-                            border: Border.all(
-                              color: Colors.white,
-                              width: .8
-                            ),
+                            border: Border.all(color: Colors.white, width: .8),
                           ),
                           child: Icon(
                             Icons.notifications_active_outlined,
+                            color: Colors.white,
                           ),
                         )
                       ],
