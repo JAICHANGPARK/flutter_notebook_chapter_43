@@ -105,7 +105,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                         ),
                                       ),
                                       Text("NEW'S UPDATES"),
-                                      Text("data")
+                                      Text(
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
+                                        maxLines: 2,
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      )
                                     ],
                                   ),
                                 ),
