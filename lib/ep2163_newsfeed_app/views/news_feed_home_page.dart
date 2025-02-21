@@ -125,6 +125,43 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
               right: 0,
               child: Container(
                 height: 92,
+                color: Colors.blue,
+                child: Stack(
+                  children: [
+                    Row(
+                      children: [
+                        Column(
+                          children: [
+                            Icon(Icons.home_filled),
+                            Text("HOME"),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            Icon(Icons.home_filled),
+                            Text("HOME"),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 120,
+                        ),
+                        Column(
+                          children: [
+                            Icon(Icons.home_filled),
+                            Text("HOME"),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            Icon(Icons.home_filled),
+                            Text("HOME"),
+                          ],
+                        ),
+
+                      ],
+                    ),
+                  ],
+                ),
               ),
             )
           ],
