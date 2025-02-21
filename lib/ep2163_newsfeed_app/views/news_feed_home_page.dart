@@ -126,17 +126,22 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       Row(
                                         children: [
                                           Expanded(
-                                            child: Row(
-                                              children: [
-                                                Icon(
-                                                  Icons.thumb_up_alt_outlined,
-                                                  size: 16,
-                                                ),
+                                            child: Padding(
+                                              padding: const EdgeInsets.all(8.0),
+                                              child: Row(
+                                                mainAxisAlignment: MainAxisAlignment.center,
+                                                spacing: 6,
+                                                children: [
+                                                  Icon(
+                                                    Icons.thumb_up_alt_outlined,
+                                                    size: 16,
+                                                  ),
 
-                                                Text(
-                                                  "24 Likes",
-                                                )
-                                              ],
+                                                  Text(
+                                                    "24 Likes",
+                                                  )
+                                                ],
+                                              ),
                                             ),
                                           ),
                                           VerticalDivider(),
