@@ -152,7 +152,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   ),),
                               ],
                             ),
-                            Column(
+                            Column( spacing: 6,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.menu_book_outlined),
