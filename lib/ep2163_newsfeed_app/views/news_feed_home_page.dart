@@ -39,6 +39,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                     color: Color.fromRGBO(247, 242, 232, 1),
                                   ),
                                   child: Row(
+                                    spacing: 12,
                                     children: [
                                       Icon(
                                         Icons.manage_search,
