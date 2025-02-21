@@ -88,7 +88,22 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       children: [
                         Container(
                           height: 300,
-                          child: Placeholder(),
+                          child: Stack(
+                            children: [
+                              Positioned.fill(
+                                left: 16,
+                                child: Container(
+                                  color: Colors.orange,
+                                ),
+                              ),
+                              Positioned(
+                                height: 16,
+                                left: 0,
+                                
+                                child: Container(),
+                              )
+                            ],
+                          ),
                         ),
                         Container(
                           height: 300,
@@ -146,20 +161,25 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.home_filled),
-                                Text("HOME",
+                                Text(
+                                  "HOME",
                                   style: TextStyle(
                                     fontSize: 10,
-                                  ),),
+                                  ),
+                                ),
                               ],
                             ),
-                            Column( spacing: 6,
+                            Column(
+                              spacing: 6,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.menu_book_outlined),
-                                Text("MY BOOKS",
+                                Text(
+                                  "MY BOOKS",
                                   style: TextStyle(
                                     fontSize: 10,
-                                  ),),
+                                  ),
+                                ),
                               ],
                             ),
                             SizedBox(
@@ -170,7 +190,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.search),
-                                Text("SEARCH",
+                                Text(
+                                  "SEARCH",
                                   style: TextStyle(
                                     fontSize: 10,
                                   ),
