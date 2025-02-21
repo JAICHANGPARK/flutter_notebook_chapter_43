@@ -193,7 +193,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 width: 2,
                               )),
                           child: Column(
-                            children: [],
+                            children: [
+                              Icon(
+                                Icons.perm_contact_calendar_outlined,
+                              )
+                            ],
                           ),
                         ),
                       ),
