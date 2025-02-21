@@ -45,7 +45,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                         Icons.manage_search,
                                       ),
                                       Expanded(
-                                        child: TextField(),
+                                        child: TextField(
+                                          decoration: InputDecoration(
+                                            hintText: "Search title, author or ISBN",
+                                          ),
+                                        ),
                                       ),
                                       Icon(
                                         Icons.camera_alt_outlined,
