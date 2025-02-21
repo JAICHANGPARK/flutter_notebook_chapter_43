@@ -42,10 +42,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               Container(
                                 padding: EdgeInsets.all(8),
                                 decoration: BoxDecoration(
-                                    border: Border.all(color: Colors.white, width: .8),
-                                    borderRadius: BorderRadius.circular(
-                                      4,
-                                    )),
+                                  border: Border.all(color: Colors.white, width: .8),
+                                  borderRadius: BorderRadius.circular(
+                                    4,
+                                  ),
+                                ),
                                 child: Icon(
                                   Icons.notifications_active_outlined,
                                   color: Colors.white,
