@@ -128,6 +128,10 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           Expanded(
                                             child: Row(),
                                           ),
+                                          VerticalDivider(),
+                                          Expanded(
+                                            child: Row(),
+                                          ),
                                         ],
                                       )
                                     ],
