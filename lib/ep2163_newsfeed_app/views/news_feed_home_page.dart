@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class NewsFeedHomePage extends StatefulWidget {
   const NewsFeedHomePage({super.key});
@@ -96,7 +97,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 child: Container(
                                   color: Colors.orange,
                                   child: Column(
-                                    
+
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Expanded(
@@ -123,6 +124,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ],
                                         ),
                                       ),
+                                      Gap(8),
                                       Divider(
                                         height: 0,
                                       ),
