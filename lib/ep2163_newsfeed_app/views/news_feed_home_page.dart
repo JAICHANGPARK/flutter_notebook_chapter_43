@@ -135,7 +135,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       bottom: 0,
                       child: Container(
                         padding: EdgeInsets.symmetric(horizontal: 24),
+                        color: Color.fromRGBO(247, 242, 232, 1),
                         child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           spacing: 24,
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
