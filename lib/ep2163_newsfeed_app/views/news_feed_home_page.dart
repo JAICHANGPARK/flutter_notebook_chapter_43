@@ -177,6 +177,10 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       ),
                     ),
                     Positioned(
+                      left: 0,
+                      right: 0,
+                      bottom: 12,
+                      top: 0,
                       child: Center(
                         child: Container(
                           height: 64,
@@ -184,7 +188,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           child: Column(
 
                             children: [
-                              
+
                             ],
                           ),
                         ),
