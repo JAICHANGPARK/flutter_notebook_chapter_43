@@ -106,18 +106,20 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                         ),
                                       ),
                                       Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        spacing: 8,
                                         children: [
-
+                                          Text("NEW'S UPDATES"),
+                                          Text(
+                                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
+                                            maxLines: 2,
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          )
                                         ],
                                       ),
-                                      Text("NEW'S UPDATES"),
-                                      Text(
-                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
-                                        maxLines: 2,
-                                        style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      )
+
                                     ],
                                   ),
                                 ),
