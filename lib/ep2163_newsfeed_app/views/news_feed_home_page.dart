@@ -187,6 +187,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           width: 100,
                           decoration: BoxDecoration(
                             color: Colors.blue,
+                            shape: BoxShape.circle,
                           ),
                           child: Column(
                             children: [],
