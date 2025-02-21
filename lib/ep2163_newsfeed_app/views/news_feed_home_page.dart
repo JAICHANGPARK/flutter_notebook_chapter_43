@@ -136,7 +136,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       child: Container(
                         padding: EdgeInsets.symmetric(horizontal: 24),
                         child: Row(
-                          spacing: 16,
+                          spacing: 24,
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Column(
@@ -152,7 +152,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               ],
                             ),
                             SizedBox(
-                              width: 120,
+                              width: 100,
                             ),
                             Column(
                               children: [
