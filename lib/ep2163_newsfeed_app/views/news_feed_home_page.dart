@@ -22,6 +22,20 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                   Container(
                     height: 100,
                     color: Colors.indigo,
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Colors.white,
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                   Expanded(
                       child: SingleChildScrollView(
