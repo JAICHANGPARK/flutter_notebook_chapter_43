@@ -151,8 +151,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.home_filled),
-                                Text("HOME"),
+                                Icon(Icons.menu_book_outlined),
+                                Text("MY BOOKS"),
                               ],
                             ),
                             SizedBox(
