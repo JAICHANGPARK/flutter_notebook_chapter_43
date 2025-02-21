@@ -129,38 +129,45 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Row(
-                        spacing: 16,
-                        children: [
-                          Column(
-                            children: [
-                              Icon(Icons.home_filled),
-                              Text("HOME"),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Icon(Icons.home_filled),
-                              Text("HOME"),
-                            ],
-                          ),
-                          SizedBox(
-                            width: 120,
-                          ),
-                          Column(
-                            children: [
-                              Icon(Icons.home_filled),
-                              Text("HOME"),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Icon(Icons.home_filled),
-                              Text("HOME"),
-                            ],
-                          ),
-                      
-                        ],
+                      left: 0,
+                      top: 24,
+                      right: 0,
+                      bottom: 0,
+                      child: Container(
+                        padding: EdgeInsets.symmetric(horizontal: 24),
+                        child: Row(
+                          spacing: 16,
+                          children: [
+                            Column(
+                              children: [
+                                Icon(Icons.home_filled),
+                                Text("HOME"),
+                              ],
+                            ),
+                            Column(
+                              children: [
+                                Icon(Icons.home_filled),
+                                Text("HOME"),
+                              ],
+                            ),
+                            SizedBox(
+                              width: 120,
+                            ),
+                            Column(
+                              children: [
+                                Icon(Icons.home_filled),
+                                Text("HOME"),
+                              ],
+                            ),
+                            Column(
+                              children: [
+                                Icon(Icons.home_filled),
+                                Text("HOME"),
+                              ],
+                            ),
+
+                          ],
+                        ),
                       ),
                     ),
                   ],
