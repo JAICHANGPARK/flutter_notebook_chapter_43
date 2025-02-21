@@ -23,8 +23,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                     height: 100,
                     color: Colors.indigo,
                   ),
-                  Expanded(child: SingleChildScrollView(
-
+                  Expanded(
+                      child: SingleChildScrollView(
                     child: Column(
                       spacing: 16,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -59,7 +59,6 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       ],
                     ),
                   ))
-
                 ],
               ),
             ),
