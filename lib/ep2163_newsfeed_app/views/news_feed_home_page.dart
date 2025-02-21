@@ -11,7 +11,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: C,
+      backgroundColor: Color.fromRGBO(247, 242, 232, 1),
       body: SafeArea(
         child: Stack(
           children: [
