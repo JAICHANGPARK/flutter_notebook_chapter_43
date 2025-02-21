@@ -28,6 +28,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           child: Container(),
                         ),
                         Container(
+                          padding: EdgeInsets.all(6),
                           decoration: BoxDecoration(
                             border: Border.all(
                               color: Colors.white,
