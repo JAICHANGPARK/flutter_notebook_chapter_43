@@ -96,6 +96,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 child: Container(
                                   color: Colors.orange,
                                   child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Expanded(
                                         child: Container(
@@ -103,6 +104,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                             color: Colors.green,
                                           ),
                                         ),
+                                      ),
+                                      Column(
+                                        children: [
+
+                                        ],
                                       ),
                                       Text("NEW'S UPDATES"),
                                       Text(
