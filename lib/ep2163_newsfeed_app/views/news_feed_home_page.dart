@@ -152,7 +152,10 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.menu_book_outlined),
-                                Text("MY BOOKS"),
+                                Text("MY BOOKS",
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                  ),),
                               ],
                             ),
                             SizedBox(
