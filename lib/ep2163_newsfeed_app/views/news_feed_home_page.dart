@@ -137,6 +137,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                         padding: EdgeInsets.symmetric(horizontal: 24),
                         child: Row(
                           spacing: 16,
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Column(
                               children: [
