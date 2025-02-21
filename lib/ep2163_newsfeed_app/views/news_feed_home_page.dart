@@ -168,8 +168,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.home_filled),
-                                Text("HOME"),
+                                Icon(Icons.explore_outlined),
+                                Text(
+                                  "DISCOVER",
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                  ),
+                                ),
                               ],
                             ),
                           ],
