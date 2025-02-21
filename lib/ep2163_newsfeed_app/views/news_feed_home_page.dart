@@ -97,7 +97,6 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 child: Container(
                                   color: Colors.orange,
                                   child: Column(
-
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Expanded(
@@ -113,7 +112,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           spacing: 8,
                                           children: [
-                                            Text("NEW'S UPDATES"),
+                                            Text(
+                                              "NEW'S UPDATES",
+                                              style: TextStyle(
+                                                fontSize: 12,
+                                              ),
+                                            ),
                                             Text(
                                               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
                                               maxLines: 2,
@@ -142,7 +146,6 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                       Icons.thumb_up_alt_outlined,
                                                       size: 16,
                                                     ),
-                                        
                                                     Text(
                                                       "24 Likes",
                                                     )
@@ -162,7 +165,6 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                       Icons.chat_bubble_outline,
                                                       size: 16,
                                                     ),
-                                        
                                                     Text(
                                                       "5 Comments",
                                                     )
@@ -228,7 +230,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
               right: 0,
               child: Container(
                 height: 100,
-                color: Colors.blue,
+                // color: Colors.blue,
                 child: Stack(
                   children: [
                     Positioned(
