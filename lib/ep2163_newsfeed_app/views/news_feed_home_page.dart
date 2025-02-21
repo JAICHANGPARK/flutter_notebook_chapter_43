@@ -33,6 +33,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               color: Colors.white,
                             ),
                           ),
+                          child: Icon(
+                            Icons.notifications_active_outlined,
+                          ),
                         )
                       ],
                     ),
