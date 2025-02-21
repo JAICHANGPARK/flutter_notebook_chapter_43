@@ -142,6 +142,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Column(
+                              spacing: 6,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Icon(Icons.home_filled),
