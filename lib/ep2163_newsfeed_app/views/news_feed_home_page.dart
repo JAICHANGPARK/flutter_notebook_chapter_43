@@ -37,6 +37,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   padding: EdgeInsets.symmetric(horizontal: 12),
                                   decoration: BoxDecoration(
                                     color: Color.fromRGBO(247, 242, 232, 1),
+                                    borderRadius: BorderRadius.circular(4),
                                   ),
                                   child: Row(
                                     spacing: 12,
@@ -48,6 +49,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                         child: TextField(
                                           decoration: InputDecoration(
                                             hintText: "Search title, author or ISBN",
+                                            border: InputBorder.none,
                                           ),
                                         ),
                                       ),
