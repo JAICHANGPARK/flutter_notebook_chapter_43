@@ -37,6 +37,16 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   decoration: BoxDecoration(
                                     color: Color.fromRGBO(247, 242, 232, 1),
                                   ),
+                                  child: Row(
+                                    children: [
+                                      Icon(
+                                        Icons.manage_search,
+                                      ),
+                                      Expanded(
+                                        child: TextField(),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                               Container(
