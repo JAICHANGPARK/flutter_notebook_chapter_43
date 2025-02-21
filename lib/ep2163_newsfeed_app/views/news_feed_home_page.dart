@@ -146,7 +146,23 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ),
                                           VerticalDivider(),
                                           Expanded(
-                                            child: Row(),
+                                            child: Padding(
+                                              padding: const EdgeInsets.all(8.0),
+                                              child: Row(
+                                                mainAxisAlignment: MainAxisAlignment.center,
+                                                spacing: 6,
+                                                children: [
+                                                  Icon(
+                                                    Icons.chat_bubble_outline,
+                                                    size: 16,
+                                                  ),
+
+                                                  Text(
+                                                    "5 Comments",
+                                                  )
+                                                ],
+                                              ),
+                                            ),
                                           ),
                                         ],
                                       )
