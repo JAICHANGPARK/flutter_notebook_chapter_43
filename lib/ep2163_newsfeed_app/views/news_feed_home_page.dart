@@ -21,24 +21,34 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                 children: [
                   Container(
                     height: 100,
+                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                     color: Colors.indigo,
-                    child: Row(
+                    child: Column(
                       children: [
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
                         Container(
-                          padding: EdgeInsets.all(6),
-                          decoration: BoxDecoration(
-                            border: Border.all(color: Colors.white, width: .8),
-                          ),
-                          child: Icon(
-                            Icons.notifications_active_outlined,
-                            color: Colors.white,
+                          height: 32,
+                        ),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.all(6),
+                                decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white, width: .8),
+                                ),
+                                child: Icon(
+                                  Icons.notifications_active_outlined,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
