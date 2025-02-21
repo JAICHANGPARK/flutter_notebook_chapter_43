@@ -30,6 +30,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                         ),
                         Expanded(
                           child: Row(
+                            spacing: 12,
                             children: [
                               Expanded(
                                 child: Container(
