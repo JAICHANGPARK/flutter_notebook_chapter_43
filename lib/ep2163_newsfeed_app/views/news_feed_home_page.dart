@@ -122,7 +122,14 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ],
                                         ),
                                       ),
-
+                                      Divider(),
+                                      Row(
+                                        children: [
+                                          Expanded(
+                                            child: Row(),
+                                          ),
+                                        ],
+                                      )
                                     ],
                                   ),
                                 ),
