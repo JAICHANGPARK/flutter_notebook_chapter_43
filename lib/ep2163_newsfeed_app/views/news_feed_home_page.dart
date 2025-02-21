@@ -134,7 +134,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                       right: 0,
                       bottom: 0,
                       child: Container(
-                        padding: EdgeInsets.symmetric(horizontal: 24),
+                        padding: EdgeInsets.symmetric(horizontal: 16),
                         color: Colors.white,
                         child: Row(
                           crossAxisAlignment: CrossAxisAlignment.center,
@@ -167,6 +167,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                             ),
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
+                              spacing: 6,
                               children: [
                                 Icon(Icons.explore_outlined),
                                 Text(
