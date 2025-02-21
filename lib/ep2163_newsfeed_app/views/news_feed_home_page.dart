@@ -126,7 +126,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       Row(
                                         children: [
                                           Expanded(
-                                            child: Row(),
+                                            child: Row(
+                                              children: [
+                                                Icon(Icons.thumb_up_alt_outlined),
+                                              ],
+                                            ),
                                           ),
                                           VerticalDivider(),
                                           Expanded(
