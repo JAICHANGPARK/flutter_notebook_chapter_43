@@ -198,6 +198,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   width: 42,
                                   child: Container(
                                     decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
                                       color: Color.fromRGBO(238, 226, 201, 1),
                                     ),
                                   ),
