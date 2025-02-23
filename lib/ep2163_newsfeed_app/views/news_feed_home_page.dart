@@ -258,6 +258,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ),
                                           Expanded(
                                             child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
                                                 Row(
                                                   spacing: 4,
@@ -293,55 +294,67 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       ),
                                       Expanded(
                                         child: Column(
-                                          children: [],
-                                        ),
-                                      ),
-                                      Divider(
-                                        height: 0,
-                                      ),
-                                      IntrinsicHeight(
-                                        child: Row(
                                           children: [
                                             Expanded(
                                               child: Padding(
-                                                padding: const EdgeInsets.all(8.0),
-                                                child: Row(
-                                                  mainAxisAlignment: MainAxisAlignment.center,
-                                                  spacing: 6,
+                                                padding: const EdgeInsets.only(left: 24),
+                                                child: Column(
                                                   children: [
-                                                    Icon(
-                                                      Icons.thumb_up_alt_outlined,
-                                                      size: 16,
-                                                    ),
-                                                    Text(
-                                                      "24 Likes",
-                                                    )
+                                                    Container()
                                                   ],
                                                 ),
                                               ),
                                             ),
-                                            VerticalDivider(),
-                                            Expanded(
-                                              child: Padding(
-                                                padding: const EdgeInsets.all(8.0),
-                                                child: Row(
-                                                  mainAxisAlignment: MainAxisAlignment.center,
-                                                  spacing: 6,
-                                                  children: [
-                                                    Icon(
-                                                      Icons.chat_bubble_outline,
-                                                      size: 16,
-                                                    ),
-                                                    Text(
-                                                      "5 Comments",
-                                                    )
-                                                  ],
-                                                ),
-                                              ),
+                                            Divider(
+                                              height: 0,
                                             ),
+                                            IntrinsicHeight(
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Padding(
+                                                      padding: const EdgeInsets.all(8.0),
+                                                      child: Row(
+                                                        mainAxisAlignment: MainAxisAlignment.center,
+                                                        spacing: 6,
+                                                        children: [
+                                                          Icon(
+                                                            Icons.thumb_up_alt_outlined,
+                                                            size: 16,
+                                                          ),
+                                                          Text(
+                                                            "24 Likes",
+                                                          )
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  VerticalDivider(),
+                                                  Expanded(
+                                                    child: Padding(
+                                                      padding: const EdgeInsets.all(8.0),
+                                                      child: Row(
+                                                        mainAxisAlignment: MainAxisAlignment.center,
+                                                        spacing: 6,
+                                                        children: [
+                                                          Icon(
+                                                            Icons.chat_bubble_outline,
+                                                            size: 16,
+                                                          ),
+                                                          Text(
+                                                            "5 Comments",
+                                                          )
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            )
                                           ],
                                         ),
                                       )
+
                                     ],
                                   ),
                                 ),
