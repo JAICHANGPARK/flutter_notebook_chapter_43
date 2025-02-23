@@ -97,6 +97,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 child: Container(
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(6),
+                                    color: Color.fromRGBO(255, 251, 245, 1),
                                   ),
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
