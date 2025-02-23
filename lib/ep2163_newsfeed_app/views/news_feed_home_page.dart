@@ -95,7 +95,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                               Positioned.fill(
                                 left: 16,
                                 child: Container(
-                                  color: Colors.orange,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(6),
+                                  ),
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
@@ -107,6 +109,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                               image: NetworkImage(
                                                 "https://cdn.pixabay.com/photo/2022/08/30/15/08/palace-7421313_1280.jpg",
                                               ),
+                                              fit: BoxFit.cover,
                                             ),
                                           ),
                                         ),
