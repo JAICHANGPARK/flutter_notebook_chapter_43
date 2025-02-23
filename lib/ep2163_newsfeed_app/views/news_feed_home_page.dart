@@ -308,6 +308,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                               ),
                                             ),
                                             Divider(
+                                              indent: 16,
                                               height: 0,
                                             ),
                                             IntrinsicHeight(
