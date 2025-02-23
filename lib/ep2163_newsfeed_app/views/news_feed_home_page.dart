@@ -201,7 +201,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       borderRadius: BorderRadius.circular(4),
                                       color: Color.fromRGBO(238, 226, 201, 1),
                                     ),
-                                    child: Center(child: Text("g")),
+                                    child: Center(
+                                        child: Text(
+                                      "g",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    )),
                                   ),
                                 ),
                               )
