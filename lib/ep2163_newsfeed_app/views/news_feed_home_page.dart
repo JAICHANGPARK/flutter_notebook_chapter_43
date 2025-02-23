@@ -230,9 +230,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 ),
                               ),
                               Positioned.fill(
-                              top: 8,
+                                top: 8,
                                 child: Container(
-
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
@@ -254,6 +253,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                   ),
                                                 ),
                                               ),
+                                            ),
+                                          ),
+                                          Expanded(
+                                            child: Column(
+                                              children: [],
                                             ),
                                           ),
                                         ],
@@ -313,7 +317,6 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   ),
                                 ),
                               ),
-
                             ],
                           ),
                         ),
