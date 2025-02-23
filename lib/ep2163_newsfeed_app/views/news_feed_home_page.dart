@@ -102,9 +102,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       Expanded(
                                         child: Container(
                                           decoration: BoxDecoration(
-                                            color: Colors.green,
-                                            image: DecorationImage(image: NetworkImage(url))
-                                          ),
+                                              color: Colors.green,
+                                              image: DecorationImage(
+                                                image: NetworkImage(
+                                                  "https://cdn.pixabay.com/photo/2022/08/30/15/08/palace-7421313_1280.jpg",
+                                                ),
+                                              )),
                                         ),
                                       ),
                                       Padding(
