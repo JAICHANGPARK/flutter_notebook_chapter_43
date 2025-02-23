@@ -276,7 +276,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                 ),
                                                 Text.rich(
                                                   TextSpan(
-                                                    children: [],
+                                                    children: [
+                                                      TextSpan(text: "Dream Walker "),
+                                                      TextSpan(text: "made progress on "),
+                                                      TextSpan(text: "made progress on "),
+                                                    ],
                                                   ),
                                                 ),
                                               ],
