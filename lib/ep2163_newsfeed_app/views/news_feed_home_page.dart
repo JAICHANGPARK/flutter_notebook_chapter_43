@@ -103,6 +103,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                         child: Container(
                                           decoration: BoxDecoration(
                                             color: Colors.green,
+                                            image: DecorationImage(image: NetworkImage(url))
                                           ),
                                         ),
                                       ),
