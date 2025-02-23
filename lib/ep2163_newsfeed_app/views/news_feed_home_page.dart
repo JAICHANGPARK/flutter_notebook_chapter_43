@@ -259,8 +259,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                             child: Column(
                                               children: [
                                                 Row(
+                                                  spacing: 4,
                                                   children: [
-                                                    Icon(Icons.access_time),
+                                                    Icon(
+                                                      Icons.access_time,
+                                                      size: 12,
+                                                    ),
                                                     Text(
                                                       "5 hr ago",
                                                       style: TextStyle(
