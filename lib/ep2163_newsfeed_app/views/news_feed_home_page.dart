@@ -279,8 +279,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                     children: [
                                                       TextSpan(text: "Dream Walker "),
                                                       TextSpan(text: "made progress on "),
-                                                      TextSpan(text: "made progress on "),
+                                                      TextSpan(text: "Flutter Live Coding "),
                                                     ],
+                                                  ),
+                                                  style: TextStyle(
+                                                    fontSize: 12,
                                                   ),
                                                 ),
                                               ],
