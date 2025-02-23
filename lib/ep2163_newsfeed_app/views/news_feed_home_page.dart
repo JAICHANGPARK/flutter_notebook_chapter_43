@@ -205,7 +205,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       child: Text(
                                         "g",
                                         style: TextStyle(
-                                          fontSize: 16,
+                                          fontSize: 25,
                                         ),
                                       ),
                                     ),
@@ -217,7 +217,95 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                         ),
                         Container(
                           height: 300,
-                          child: Placeholder(),
+                          margin: EdgeInsets.symmetric(horizontal: 16),
+                          child: Stack(
+                            children: [
+                              Positioned.fill(
+                                left: 16,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(6),
+                                    color: Color.fromRGBO(255, 251, 245, 1),
+                                  ),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Expanded(child: Column(children: [],),),
+
+                                      Divider(
+                                        height: 0,
+                                      ),
+                                      IntrinsicHeight(
+                                        child: Row(
+                                          children: [
+                                            Expanded(
+                                              child: Padding(
+                                                padding: const EdgeInsets.all(8.0),
+                                                child: Row(
+                                                  mainAxisAlignment: MainAxisAlignment.center,
+                                                  spacing: 6,
+                                                  children: [
+                                                    Icon(
+                                                      Icons.thumb_up_alt_outlined,
+                                                      size: 16,
+                                                    ),
+                                                    Text(
+                                                      "24 Likes",
+                                                    )
+                                                  ],
+                                                ),
+                                              ),
+                                            ),
+                                            VerticalDivider(),
+                                            Expanded(
+                                              child: Padding(
+                                                padding: const EdgeInsets.all(8.0),
+                                                child: Row(
+                                                  mainAxisAlignment: MainAxisAlignment.center,
+                                                  spacing: 6,
+                                                  children: [
+                                                    Icon(
+                                                      Icons.chat_bubble_outline,
+                                                      size: 16,
+                                                    ),
+                                                    Text(
+                                                      "5 Comments",
+                                                    )
+                                                  ],
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                top: 16,
+                                left: 0,
+                                child: Container(
+                                  height: 42,
+                                  width: 42,
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      color: Color.fromRGBO(238, 226, 201, 1),
+                                    ),
+                                    child: Center(
+                                      child: Text(
+                                        "g",
+                                        style: TextStyle(
+                                          fontSize: 25,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 16),
