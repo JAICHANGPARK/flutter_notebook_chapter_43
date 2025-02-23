@@ -257,7 +257,19 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ),
                                           Expanded(
                                             child: Column(
-                                              children: [],
+                                              children: [
+                                                Row(
+                                                  children: [
+                                                    Icon(Icons.access_time),
+                                                    Text(
+                                                      "5 hr ago",
+                                                      style: TextStyle(
+                                                        fontSize: 10,
+                                                      ),
+                                                    )
+                                                  ],
+                                                )
+                                              ],
                                             ),
                                           ),
                                         ],
