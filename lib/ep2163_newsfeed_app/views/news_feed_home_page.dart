@@ -230,8 +230,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
-                                      Expanded(child: Column(children: [],),),
-
+                                      Expanded(
+                                        child: Column(
+                                          children: [],
+                                        ),
+                                      ),
                                       Divider(
                                         height: 0,
                                       ),
