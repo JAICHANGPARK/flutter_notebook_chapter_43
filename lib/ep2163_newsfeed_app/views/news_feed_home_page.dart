@@ -221,6 +221,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           child: Stack(
                             children: [
                               Positioned.fill(
+
+                                child: Container(
+                                  color: Colors.orange,
+                                ),
+                              ),
+                              Positioned.fill(
                                 left: 16,
                                 child: Container(
                                   decoration: BoxDecoration(
