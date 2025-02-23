@@ -202,12 +202,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       color: Color.fromRGBO(238, 226, 201, 1),
                                     ),
                                     child: Center(
-                                        child: Text(
-                                      "g",
-                                      style: TextStyle(
-                                        fontSize: 16,
+                                      child: Text(
+                                        "g",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                        ),
                                       ),
-                                    )),
+                                    ),
                                   ),
                                 ),
                               )
