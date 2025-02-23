@@ -230,7 +230,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                 ),
                               ),
                               Positioned.fill(
-
+                              top: 8,
                                 child: Container(
 
                                   child: Column(
