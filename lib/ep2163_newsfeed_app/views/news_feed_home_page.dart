@@ -291,28 +291,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                   ),
                                 ),
                               ),
-                              Positioned(
-                                top: 16,
-                                left: 0,
-                                child: Container(
-                                  height: 42,
-                                  width: 42,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(4),
-                                      color: Color.fromRGBO(238, 226, 201, 1),
-                                    ),
-                                    child: Center(
-                                      child: Text(
-                                        "g",
-                                        style: TextStyle(
-                                          fontSize: 25,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              )
+                            
                             ],
                           ),
                         ),
