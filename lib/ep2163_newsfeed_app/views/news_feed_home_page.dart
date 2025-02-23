@@ -236,6 +236,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Row(
+                                        spacing: 12,
                                         children: [
                                           Container(
                                             height: 42,
