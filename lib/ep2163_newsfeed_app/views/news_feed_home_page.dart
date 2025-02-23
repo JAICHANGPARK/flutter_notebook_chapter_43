@@ -125,7 +125,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                               "NEW'S UPDATES",
                                               style: TextStyle(
                                                 fontSize: 12,
-                                                
+                                                color: Color.fromRGBO(206, 189, 159, 1),
                                               ),
                                             ),
                                             Text(
