@@ -273,7 +273,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                       ),
                                                     )
                                                   ],
-                                                )
+                                                ),
+                                                Text.rich(
+                                                  TextSpan(
+                                                    children: [],
+                                                  ),
+                                                ),
                                               ],
                                             ),
                                           ),
