@@ -335,12 +335,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                               fontWeight: FontWeight.bold,
                                                             ),
                                                           ),
+                                                          Gap(4),
                                                           Text.rich(
                                                             TextSpan(
                                                               children: [
-                                                                TextSpan(text: "by"),
+                                                                TextSpan(text: "by "),
                                                                 TextSpan(
-                                                                  text: "Dreamwalker",
+                                                                  text: " Dreamwalker",
                                                                   style: TextStyle(
                                                                     color: Color.fromRGBO(111, 124, 96, 1),
                                                                     fontWeight: FontWeight.bold,
