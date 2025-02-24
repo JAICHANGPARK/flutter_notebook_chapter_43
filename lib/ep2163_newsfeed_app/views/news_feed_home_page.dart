@@ -276,16 +276,16 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                     )
                                                   ],
                                                 ),
-
                                                 Text.rich(
                                                   TextSpan(
                                                     children: [
                                                       TextSpan(
-                                                          text: "Dream Walker ",
-                                                          style: TextStyle(
-                                                            color: Colors.green,
-                                                            fontWeight: FontWeight.bold,
-                                                          )),
+                                                        text: "Dream Walker ",
+                                                        style: TextStyle(
+                                                          color: Color.fromRGBO(111, 124, 96, 1),
+                                                          fontWeight: FontWeight.bold,
+                                                        ),
+                                                      ),
                                                       TextSpan(text: "made progress on "),
                                                       TextSpan(text: "Flutter Live Coding "),
                                                     ],
