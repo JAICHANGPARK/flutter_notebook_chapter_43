@@ -341,10 +341,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                             ),
                                                           ),
                                                           Row(
+                                                            spacing: 12,
                                                             children: [
                                                               Expanded(
                                                                 child: Container(
-                                                                  height: 32,
+                                                                  height: 24,
                                                                   margin: EdgeInsets.symmetric(vertical: 16),
                                                                   decoration: BoxDecoration(
                                                                     color: Colors.grey,
