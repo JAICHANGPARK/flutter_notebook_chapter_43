@@ -386,7 +386,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                                   decoration: BoxDecoration(
                                                                     color: Colors.yellow,
                                                                   ),
-                                                                ))
+                                                                )),
+                                                                Container(
+                                                                  decoration: BoxDecoration(
+                                                                      border: Border.all(
+                                                                    color: Colors.grey[300]!,
+                                                                  )),
+                                                                )
                                                               ],
                                                             ),
                                                           )
