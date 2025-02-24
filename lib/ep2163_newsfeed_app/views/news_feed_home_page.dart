@@ -354,7 +354,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                                   child: Row(
                                                                     children: [
                                                                       Container(
-                                                                        width: 100,
+                                                                        width: 84,
                                                                         color: Colors.green,
                                                                       ),
                                                                     ],
