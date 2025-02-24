@@ -307,18 +307,16 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ),
                                         ],
                                       ),
-
                                       Expanded(
                                         child: Column(
                                           children: [
                                             Expanded(
                                               child: Padding(
-                                                padding: const EdgeInsets.only(left: 32,top: 16,
-                                                bottom: 16),
+                                                padding: const EdgeInsets.only(left: 38, top: 20, bottom: 20),
                                                 child: Row(
                                                   children: [
                                                     Container(
-                                                      width: 140,
+                                                      width: 120,
                                                       decoration: BoxDecoration(
                                                         color: Colors.blue,
                                                       ),
