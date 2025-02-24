@@ -329,6 +329,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                                                         crossAxisAlignment: CrossAxisAlignment.start,
                                                         children: [
+                                                          Gap(16),
                                                           Text(
                                                             "Flutter Dev",
                                                             style: TextStyle(
