@@ -330,6 +330,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                         children: [
                                                           Text(
                                                             "Flutter Dev",
+                                                            style: TextStyle(
+                                                              fontSize: 32,
+                                                            ),
                                                           ),
                                                           Text.rich(
                                                             TextSpan(
@@ -346,7 +349,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                             children: [
                                                               Expanded(
                                                                 child: Container(
-                                                                  height: 24,
+                                                                  height: 20,
                                                                   margin: EdgeInsets.symmetric(vertical: 16),
                                                                   decoration: BoxDecoration(
                                                                     color: Colors.grey,
