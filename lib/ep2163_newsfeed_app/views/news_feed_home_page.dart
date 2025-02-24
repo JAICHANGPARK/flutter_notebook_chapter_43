@@ -324,6 +324,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                     ),
                                                     Column(
                                                       children: [
+                                                        Text(
+                                                          "Flutter Dev",
+                                                        ),
+                                                        Text.rich(TextSpan(
+                                                          children: [],
+                                                        )),
                                                         Container(
                                                           color: Colors.orange,
                                                         )
