@@ -284,6 +284,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                         style: TextStyle(
                                                           color: Color.fromRGBO(111, 124, 96, 1),
                                                           fontWeight: FontWeight.bold,
+                                                          fontSize: 13,
                                                         ),
                                                       ),
                                                       TextSpan(text: "made progress on "),
