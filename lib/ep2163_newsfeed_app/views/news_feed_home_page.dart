@@ -383,13 +383,22 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                               spacing: 16,
                                                               children: [
                                                                 Expanded(
-                                                                    child: Container(
-                                                                  decoration: BoxDecoration(
-                                                                    color: Colors.yellow,
+                                                                  child: Container(
+                                                                    decoration: BoxDecoration(
+                                                                      color: Colors.yellow,
+                                                                    ),
+                                                                    child: Row(
+                                                                      children: [
+                                                                        Text("Want to Read"),
+                                                                        Icon(Icons.arrow_drop_down_outlined)
+                                                                      ],
+                                                                    ),
                                                                   ),
-                                                                )),
+
+                                                                ),
                                                                 Container(
-                                                                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                                                  padding:
+                                                                      EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                                                   decoration: BoxDecoration(
                                                                       border: Border.all(
                                                                     color: Colors.grey[300]!,
