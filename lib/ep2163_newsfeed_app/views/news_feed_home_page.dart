@@ -313,7 +313,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           children: [
                                             Expanded(
                                               child: Padding(
-                                                padding: const EdgeInsets.only(left: 38, top: 20, bottom: 20, right: 16),
+                                                padding:
+                                                    const EdgeInsets.only(left: 38, top: 20, bottom: 20, right: 16),
                                                 child: Row(
                                                   spacing: 12,
                                                   children: [
@@ -349,6 +350,11 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                                   margin: EdgeInsets.symmetric(vertical: 16),
                                                                   decoration: BoxDecoration(
                                                                     color: Colors.grey,
+                                                                  ),
+                                                                  child: Row(
+                                                                    children: [
+                                                                      Container(),
+                                                                    ],
                                                                   ),
                                                                 ),
                                                               ),
