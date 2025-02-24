@@ -258,6 +258,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ),
                                           Expanded(
                                             child: Column(
+                                              spacing: 4,
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
                                                 Row(
@@ -275,6 +276,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                     )
                                                   ],
                                                 ),
+
                                                 Text.rich(
                                                   TextSpan(
                                                     children: [
