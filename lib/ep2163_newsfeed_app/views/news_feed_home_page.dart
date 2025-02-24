@@ -288,7 +288,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                         ),
                                                       ),
                                                       TextSpan(text: "made progress on "),
-                                                      TextSpan(text: "Flutter Live Coding ",
+                                                      TextSpan(
+                                                        text: "Flutter Live Coding ",
                                                         style: TextStyle(
                                                           color: Color.fromRGBO(111, 124, 96, 1),
                                                           fontWeight: FontWeight.bold,
@@ -314,6 +315,12 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                 padding: const EdgeInsets.only(left: 24),
                                                 child: Row(
                                                   children: [
+                                                    Container(
+                                                      width: 140,
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.blue,
+                                                      ),
+                                                    ),
                                                     Column(
                                                       children: [
                                                         Container(
