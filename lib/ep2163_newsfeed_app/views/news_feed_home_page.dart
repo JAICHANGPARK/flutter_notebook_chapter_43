@@ -216,7 +216,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                           ),
                         ),
                         Container(
-                          height: 300,
+                          height: 280,
                           margin: EdgeInsets.symmetric(horizontal: 16),
                           child: Stack(
                             children: [
@@ -319,7 +319,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                   spacing: 12,
                                                   children: [
                                                     Container(
-                                                      width: 120,
+                                                      width: 100,
                                                       decoration: BoxDecoration(
                                                         color: Colors.blue,
                                                       ),
