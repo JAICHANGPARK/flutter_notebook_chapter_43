@@ -380,6 +380,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                           SizedBox(
                                                             height: 32,
                                                             child: Row(
+                                                              spacing: 16,
                                                               children: [
                                                                 Expanded(
                                                                     child: Container(
