@@ -278,7 +278,9 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                 Text.rich(
                                                   TextSpan(
                                                     children: [
-                                                      TextSpan(text: "Dream Walker "),
+                                                      TextSpan(text: "Dream Walker ",style: TextStyle(
+                                                        
+                                                      )),
                                                       TextSpan(text: "made progress on "),
                                                       TextSpan(text: "Flutter Live Coding "),
                                                     ],
