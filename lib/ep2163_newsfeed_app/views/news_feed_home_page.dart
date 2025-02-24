@@ -389,6 +389,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                                   ),
                                                                 )),
                                                                 Container(
+                                                                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                                                   decoration: BoxDecoration(
                                                                       border: Border.all(
                                                                     color: Colors.grey[300]!,
