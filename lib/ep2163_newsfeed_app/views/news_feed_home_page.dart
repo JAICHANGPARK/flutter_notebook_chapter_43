@@ -314,6 +314,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                               child: Padding(
                                                 padding: const EdgeInsets.only(left: 38, top: 20, bottom: 20),
                                                 child: Row(
+                                                  spacing: 12,
                                                   children: [
                                                     Container(
                                                       width: 120,
