@@ -344,11 +344,15 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                             Expanded(
                                                               child: Container(
                                                                 height: 32,
-                                                                
                                                                 margin: EdgeInsets.symmetric(vertical: 16),
-                                                                color: Colors.orange,
+                                                                decoration: BoxDecoration(
+                                                                  color: Colors.grey,
+                                                                ),
                                                               ),
                                                             ),
+                                                            Text(
+                                                              "54%",
+                                                            )
                                                           ],
                                                         )
                                                       ],
