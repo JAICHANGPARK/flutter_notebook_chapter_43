@@ -357,7 +357,6 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           ],
                                         ),
                                       )
-
                                     ],
                                   ),
                                 ),
