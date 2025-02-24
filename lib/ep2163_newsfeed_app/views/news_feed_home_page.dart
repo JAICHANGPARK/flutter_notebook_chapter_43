@@ -392,6 +392,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                                       border: Border.all(
                                                                     color: Colors.grey[300]!,
                                                                   )),
+                                                                  child: Row(
+                                                                    spacing: 8,
+                                                                    children: [
+                                                                      Icon(Icons.star_border_purple500_outlined),
+                                                                      Text("Rate")
+                                                                    ],
+                                                                  ),
                                                                 )
                                                               ],
                                                             ),
