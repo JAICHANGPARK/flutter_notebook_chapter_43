@@ -326,6 +326,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                     ),
                                                     Expanded(
                                                       child: Column(
+                                                        mainAxisAlignment: MainAxisAlignment.spaceAround,
                                                         crossAxisAlignment: CrossAxisAlignment.start,
                                                         children: [
                                                           Text(
@@ -374,6 +375,19 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                                 "54%",
                                                               )
                                                             ],
+                                                          ),
+                                                          SizedBox(
+                                                            height: 32,
+                                                            child: Row(
+                                                              children: [
+                                                                Expanded(
+                                                                    child: Container(
+                                                                  decoration: BoxDecoration(
+                                                                    color: Colors.yellow,
+                                                                  ),
+                                                                ))
+                                                              ],
+                                                            ),
                                                           )
                                                         ],
                                                       ),
