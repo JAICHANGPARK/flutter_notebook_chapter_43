@@ -288,7 +288,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                         ),
                                                       ),
                                                       TextSpan(text: "made progress on "),
-                                                      TextSpan(text: "Flutter Live Coding "),
+                                                      TextSpan(text: "Flutter Live Coding ",
+                                                        style: TextStyle(
+                                                          color: Color.fromRGBO(111, 124, 96, 1),
+                                                          fontWeight: FontWeight.bold,
+                                                          fontSize: 13,
+                                                        ),
+                                                      ),
                                                     ],
                                                   ),
                                                   style: TextStyle(
