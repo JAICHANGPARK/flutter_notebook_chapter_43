@@ -313,7 +313,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                           children: [
                                             Expanded(
                                               child: Padding(
-                                                padding: const EdgeInsets.only(left: 38, top: 20, bottom: 20),
+                                                padding: const EdgeInsets.only(left: 38, top: 20, bottom: 20, right: 16),
                                                 child: Row(
                                                   spacing: 12,
                                                   children: [
@@ -341,7 +341,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                             ),
                                                           ),
                                                           Row(
-                                                            spacing: 12,
+                                                            spacing: 16,
                                                             children: [
                                                               Expanded(
                                                                 child: Container(
