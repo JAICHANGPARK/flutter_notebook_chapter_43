@@ -331,7 +331,8 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                           Text(
                                                             "Flutter Dev",
                                                             style: TextStyle(
-                                                              fontSize: 32,
+                                                              fontSize: 20,
+                                                              fontWeight: FontWeight.bold,
                                                             ),
                                                           ),
                                                           Text.rich(
@@ -340,6 +341,10 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                                 TextSpan(text: "by"),
                                                                 TextSpan(
                                                                   text: "Dreamwalker",
+                                                                  style: TextStyle(
+                                                                    color: Color.fromRGBO(111, 124, 96, 1),
+                                                                    fontWeight: FontWeight.bold,
+                                                                  ),
                                                                 ),
                                                               ],
                                                             ),
