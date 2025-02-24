@@ -331,7 +331,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                           children: [
                                                             TextSpan(text: "by"),
                                                             TextSpan(
-                                                              text: "DreamWalker",
+                                                              text: "Dreamwalker",
                                                             ),
                                                           ],
                                                         )),
