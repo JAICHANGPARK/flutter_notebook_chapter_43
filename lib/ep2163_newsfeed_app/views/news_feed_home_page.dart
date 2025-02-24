@@ -339,10 +339,17 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                             ],
                                                           ),
                                                         ),
-                                                        Container(
-                                                          height: 32,
-                                                          margin: EdgeInsets.symmetric(vertical: 16),
-                                                          color: Colors.orange,
+                                                        Row(
+                                                          children: [
+                                                            Expanded(
+                                                              child: Container(
+                                                                height: 32,
+                                                                
+                                                                margin: EdgeInsets.symmetric(vertical: 16),
+                                                                color: Colors.orange,
+                                                              ),
+                                                            ),
+                                                          ],
                                                         )
                                                       ],
                                                     ),
