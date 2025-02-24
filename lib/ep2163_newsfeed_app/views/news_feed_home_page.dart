@@ -323,39 +323,41 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                         color: Colors.blue,
                                                       ),
                                                     ),
-                                                    Column(
-                                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                                      children: [
-                                                        Text(
-                                                          "Flutter Dev",
-                                                        ),
-                                                        Text.rich(
-                                                          TextSpan(
-                                                            children: [
-                                                              TextSpan(text: "by"),
-                                                              TextSpan(
-                                                                text: "Dreamwalker",
-                                                              ),
-                                                            ],
+                                                    Expanded(
+                                                      child: Column(
+                                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                                        children: [
+                                                          Text(
+                                                            "Flutter Dev",
                                                           ),
-                                                        ),
-                                                        Row(
-                                                          children: [
-                                                            Expanded(
-                                                              child: Container(
-                                                                height: 32,
-                                                                margin: EdgeInsets.symmetric(vertical: 16),
-                                                                decoration: BoxDecoration(
-                                                                  color: Colors.grey,
+                                                          Text.rich(
+                                                            TextSpan(
+                                                              children: [
+                                                                TextSpan(text: "by"),
+                                                                TextSpan(
+                                                                  text: "Dreamwalker",
+                                                                ),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                          Row(
+                                                            children: [
+                                                              Expanded(
+                                                                child: Container(
+                                                                  height: 32,
+                                                                  margin: EdgeInsets.symmetric(vertical: 16),
+                                                                  decoration: BoxDecoration(
+                                                                    color: Colors.grey,
+                                                                  ),
                                                                 ),
                                                               ),
-                                                            ),
-                                                            Text(
-                                                              "54%",
-                                                            )
-                                                          ],
-                                                        )
-                                                      ],
+                                                              Text(
+                                                                "54%",
+                                                              )
+                                                            ],
+                                                          )
+                                                        ],
+                                                      ),
                                                     ),
                                                   ],
                                                 ),
