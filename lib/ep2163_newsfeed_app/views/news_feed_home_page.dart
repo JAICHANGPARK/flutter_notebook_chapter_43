@@ -309,6 +309,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                       ),
                                       Expanded(
                                         child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Expanded(
                                               child: Padding(
@@ -323,6 +324,7 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                       ),
                                                     ),
                                                     Column(
+                                                      crossAxisAlignment: CrossAxisAlignment.start,
                                                       children: [
                                                         Text(
                                                           "Flutter Dev",
