@@ -383,11 +383,13 @@ class _NewsFeedHomePageState extends State<NewsFeedHomePage> {
                                                               spacing: 16,
                                                               children: [
                                                                 Expanded(
-                                                                  child: Container(
+                                                                  child: Container(padding:
+                                                                  EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                                                                     decoration: BoxDecoration(
                                                                       color: Colors.yellow,
                                                                     ),
                                                                     child: Row(
+                                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                                       children: [
                                                                         Text("Want to Read"),
                                                                         Icon(Icons.arrow_drop_down_outlined)
