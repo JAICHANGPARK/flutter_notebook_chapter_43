@@ -54,8 +54,8 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                       borderRadius: BorderRadius.circular(24),
                     ),
                     padding: EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 8,
+                      horizontal: 10,
+                      vertical: 10,
                     ),
                     child: Row(
                       children: [
