@@ -18,7 +18,14 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
           children: [
             Positioned.fill(
               child: Column(
-                children: [],
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(child: Center(child: Text.rich(TextSpan()),))
+                    ],
+                  )
+                ],
               ),
             ),
             Positioned(
