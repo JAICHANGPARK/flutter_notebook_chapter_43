@@ -47,6 +47,8 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
               left: 0,
               right: 0,
               child: Row(
+                spacing: 12,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
                     decoration: BoxDecoration(
