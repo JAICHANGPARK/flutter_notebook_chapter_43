@@ -86,6 +86,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           backgroundColor: Colors.orangeAccent,
                           child: Icon(
                             Icons.chat_outlined,
+                            size: 14,
                           ),
                         ),
                         Container(
