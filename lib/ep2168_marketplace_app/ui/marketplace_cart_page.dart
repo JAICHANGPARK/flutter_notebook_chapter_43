@@ -40,7 +40,13 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                         radius: 26,
                       ),
                     ],
-                  )
+                  ),
+                  Gap(24),
+                  Container(
+                    height: 52,
+                    child: Placeholder(),
+                  ),
+                  Gap(24),
                 ],
               ),
             ),
