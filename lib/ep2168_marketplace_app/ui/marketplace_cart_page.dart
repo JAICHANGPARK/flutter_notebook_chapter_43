@@ -22,7 +22,16 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Row(
                     children: [
                       CircleAvatar(),
-                      Expanded(child: Center(child: Text.rich(TextSpan()),))
+                      Expanded(
+                        child: Center(
+                          child: Text.rich(
+                            TextSpan(
+                              children: [],
+                            ),
+                          ),
+                        ),
+                      ),
+                      CircleAvatar(),
                     ],
                   )
                 ],
