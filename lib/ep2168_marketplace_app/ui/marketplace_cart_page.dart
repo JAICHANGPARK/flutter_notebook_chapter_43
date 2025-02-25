@@ -15,7 +15,13 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
       body: SafeArea(
         child: Stack(
           children: [
-            Positioned.fill(child: Column()),
+            Positioned.fill(
+              child: Column(
+                children: [
+                  
+                ],
+              ),
+            ),
             Positioned(
               bottom: 0,
               left: 0,
