@@ -90,7 +90,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           ),
                         ),
                         Container(
-                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.red,
