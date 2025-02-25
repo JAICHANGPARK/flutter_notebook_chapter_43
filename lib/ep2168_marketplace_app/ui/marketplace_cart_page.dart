@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MarketplaceCartPage extends StatefulWidget {
   const MarketplaceCartPage({super.key});
 
@@ -13,9 +12,15 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
+        child: Stack(
           children: [
-            
+            Positioned.fill(child: Column()),
+            Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Container(),
+            )
           ],
         ),
       ),
