@@ -17,11 +17,16 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
         child: Stack(
           children: [
             Positioned.fill(
+              left: 16,
+              right: 16,
+              top: 16,
               child: Column(
                 children: [
                   Row(
                     children: [
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 26,
+                      ),
                       Expanded(
                         child: Center(
                           child: Text.rich(
@@ -31,7 +36,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           ),
                         ),
                       ),
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 26,
+                      ),
                     ],
                   )
                 ],
