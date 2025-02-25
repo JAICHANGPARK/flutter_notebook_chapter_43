@@ -78,14 +78,16 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                       horizontal: 4,
                       vertical: 4,
                     ),
-                    child: Row(spacing: 8,
+                    child: Row(
+                      spacing: 8,
                       children: [
                         CircleAvatar(
-                          radius: 12,
+                          radius: 14,
                           backgroundColor: Colors.orangeAccent,
-                          child: Text("1"),
+                          child: Icon(
+                            Icons.chat_outlined,
+                          ),
                         ),
-
                         Container(
                           padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                           decoration: ShapeDecoration(
@@ -96,7 +98,6 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                             spacing: 8,
                             children: [
                               Text("Buy"),
-
                               CircleAvatar(
                                 radius: 15,
                                 backgroundColor: Colors.white,
