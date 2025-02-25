@@ -43,13 +43,16 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
               ),
             ),
             Positioned(
-              bottom: 0,
+              bottom: 24,
               left: 0,
               right: 0,
               child: Row(
                 children: [
                   Container(
-                    decoration: BoxDecoration(),
+                    decoration: BoxDecoration(
+                      color: Colors.orange,
+                      borderRadius: BorderRadius.circular(24),
+                    ),
                     child: Row(
                       children: [
                         CircleAvatar(
