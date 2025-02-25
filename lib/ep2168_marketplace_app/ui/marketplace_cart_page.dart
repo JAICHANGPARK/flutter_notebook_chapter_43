@@ -53,6 +53,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                       color: Colors.orange,
                       borderRadius: BorderRadius.circular(24),
                     ),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 8,
+                    ),
                     child: Row(
                       children: [
                         CircleAvatar(
