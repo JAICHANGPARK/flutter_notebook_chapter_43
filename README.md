@@ -5,7 +5,7 @@ A new Flutter project.
 ## EP2168
 
 - Checkout Flow - Marketplace Mobile App Concept
-- Tony Romain for Heyo
+- Abdus Sattar ✪
 - https://dribbble.com/shots/25673624-Checkout-Flow-Marketplace-Mobile-App-Concept
 
 <img src="https://cdn.dribbble.com/userupload/32146190/file/original-03d7a33fe637b096cd8c226b068ecac2.png?resize=1600x1200&vertical=center"/>
