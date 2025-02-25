@@ -70,13 +70,13 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                     ),
                   ),
                   Container(
-                    decoration: BoxDecoration(
-                      color: Colors.orange,
-                      borderRadius: BorderRadius.circular(24),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.green,
                     ),
                     padding: EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 8,
+                      horizontal: 4,
+                      vertical: 4,
                     ),
                     child: Row(
                       children: [
@@ -87,6 +87,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                         ),
                         Gap(12),
                         Container(
+                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.red,
