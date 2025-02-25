@@ -22,8 +22,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
               child: Container(
                 height: 72,
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  // color: Colors.white,
                   gradient: LinearGradient(
+                    begin: Alignment.bottomCenter,
+                    end: Alignment.topCenter,
                     colors: [
                       Colors.white,
                       Colors.white.withValues(
