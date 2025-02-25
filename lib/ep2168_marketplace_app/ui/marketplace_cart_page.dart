@@ -11,6 +11,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Stack(
           children: [
