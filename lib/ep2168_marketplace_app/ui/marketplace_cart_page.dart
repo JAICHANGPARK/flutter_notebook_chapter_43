@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class MarketplaceCartPage extends StatefulWidget {
   const MarketplaceCartPage({super.key});
@@ -17,9 +18,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
           children: [
             Positioned.fill(
               child: Column(
-                children: [
-                  
-                ],
+                children: [],
               ),
             ),
             Positioned(
@@ -36,13 +35,36 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                     colors: [
                       Colors.white,
                       Colors.white.withValues(
-                        alpha: 0.7,
+                        alpha: 0.4,
                       )
                     ],
                   ),
                 ),
               ),
-            )
+            ),
+            Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 12,
+                          backgroundColor: Colors.green,
+                          child: Text("1"),
+                        ),
+                        Gap(12),
+                        Text("\$75")
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            ),
           ],
         ),
       ),
