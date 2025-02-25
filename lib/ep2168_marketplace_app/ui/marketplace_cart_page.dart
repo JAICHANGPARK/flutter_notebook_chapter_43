@@ -93,9 +93,12 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                             color: Colors.red,
                           ),
                           child: Row(
+                            
                             children: [
                               Text("Buy"),
+
                               CircleAvatar(
+                                radius: 15,
                                 backgroundColor: Colors.white,
                                 child: Icon(Icons.arrow_forward),
                               )
