@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2168
 
-- Goodreads Newsfeed
+- Checkout Flow - Marketplace Mobile App Concept
 - Tony Romain for Heyo
 - https://dribbble.com/shots/25673624-Checkout-Flow-Marketplace-Mobile-App-Concept
 
