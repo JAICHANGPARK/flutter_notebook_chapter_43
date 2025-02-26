@@ -10,7 +10,6 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/36128244/file/original-dfb702d56e38918e0df7a80265d9c806.jpg?resize=1905x1429&vertical=center"/>
 
-
 ## EP2163-2167
 
 - Goodreads Newsfeed
