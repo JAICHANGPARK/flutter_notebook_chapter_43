@@ -147,8 +147,8 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                 spacing: 12,
                                 children: [
                                   Container(
-                                    height: 100,
-                                    width: 100,
+                                    height: 116,
+                                    width: 116,
                                     decoration: BoxDecoration(
                                       color: Colors.black,
                                       borderRadius: BorderRadius.circular(8),
@@ -173,6 +173,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                             Icon(Icons.keyboard_arrow_down),
                                           ],
                                         ),
+                                        Gap(24),
                                         Row(
                                           children: [
                                             Text("\$25"),
