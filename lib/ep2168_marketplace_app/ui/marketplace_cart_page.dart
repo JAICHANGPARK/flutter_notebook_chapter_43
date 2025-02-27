@@ -188,6 +188,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           "\$75",
                           style: TextStyle(
                             fontSize: 16,
+                            fontWeight: FontWeight.bold,
                           ),
                         )
                       ],
@@ -196,7 +197,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.green,
+                      color: Colors.orange[50],
                     ),
                     padding: EdgeInsets.symmetric(
                       horizontal: 4,
@@ -207,7 +208,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                       children: [
                         CircleAvatar(
                           radius: 14,
-                          backgroundColor: Colors.orangeAccent,
+                          backgroundColor: Colors.white,
                           child: Icon(
                             Icons.chat_outlined,
                             size: 14,
