@@ -141,6 +141,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
                               child: Row(
+                                spacing: 12,
                                 children: [
                                   Container(
                                     height: 100,
@@ -152,7 +153,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                   ),
                                   Expanded(
                                     child: Column(
-                                      children: [],
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Face Wash",)
+                                      ],
                                     ),
                                   )
                                 ],
