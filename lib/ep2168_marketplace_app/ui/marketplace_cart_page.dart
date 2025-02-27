@@ -95,7 +95,14 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                     ),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
-                      children: [],
+                      children: [
+                        Container(
+                          width: 100,
+                          decoration: BoxDecoration(
+
+                          ),
+                        )
+                      ],
                     ),
                   ),
                   Gap(24),
