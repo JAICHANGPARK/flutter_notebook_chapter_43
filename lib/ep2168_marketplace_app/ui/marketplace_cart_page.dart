@@ -173,12 +173,28 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                         Row(
                                           children: [
                                             Text("\$25"),
-                                            CircleAvatar(
-                                              child: Icon(Icons.remove),
+                                            Container(
+                                              decoration: BoxDecoration(
+                                                shape: BoxShape.circle,
+                                                border: Border.all(
+                                                  color: Colors.white,
+                                                ),
+                                                boxShadow: [
+                                                  BoxShadow(
+                                                    color: Colors.white,
+                                                  )
+                                                ],
+                                              ),
+                                              child: Text(
+                                                "1",
+                                              ),
                                             ),
                                             Container(
                                               decoration: BoxDecoration(
                                                 shape: BoxShape.circle,
+                                                border: Border.all(
+                                                  color: Colors.deepOrangeAccent,
+                                                ),
                                               ),
                                               child: Text(
                                                 "1",
