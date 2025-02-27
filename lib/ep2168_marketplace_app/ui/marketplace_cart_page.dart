@@ -123,8 +123,8 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                             child: Text(
                               "Store",
                               style: TextStyle(
-                                // color: Colors.white,
-                              ),
+                                  // color: Colors.white,
+                                  ),
                             ),
                           ),
                         ),
@@ -184,7 +184,12 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           child: Text("1"),
                         ),
                         Gap(12),
-                        Text("\$75")
+                        Text(
+                          "\$75",
+                          style: TextStyle(
+                            fontSize: 16,
+                          ),
+                        )
                       ],
                     ),
                   ),
