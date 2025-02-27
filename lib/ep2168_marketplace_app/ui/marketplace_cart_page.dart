@@ -175,23 +175,22 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                             Text("\$25"),
                                             Spacer(),
                                             Container(
-                                              padding: EdgeInsets.all(6),
-                                              decoration: BoxDecoration(
-                                                shape: BoxShape.circle,
-                                                // border: Border.all(
-                                                //   color: Colors.white,
-                                                // ),
-                                                color: Colors.white,
-                                                boxShadow: [
-                                                  BoxShadow(
-                                                    color: Colors.black,
-                                                  )
-                                                ],
-                                              ),
-                                              child: Text(
-                                                "1",
-                                              ),
-                                            ),
+                                                padding: EdgeInsets.all(6),
+                                                decoration: BoxDecoration(
+                                                  shape: BoxShape.circle,
+                                                  // border: Border.all(
+                                                  //   color: Colors.white,
+                                                  // ),
+                                                  color: Colors.white,
+                                                  boxShadow: [
+                                                    BoxShadow(
+                                                      color: Colors.black,
+                                                    )
+                                                  ],
+                                                ),
+                                                child: Icon(
+                                                  Icons.remove,
+                                                )),
                                             Container(
                                               padding: EdgeInsets.all(6),
                                               decoration: BoxDecoration(
@@ -205,18 +204,17 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                               ),
                                             ),
                                             Container(
-                                              padding: EdgeInsets.all(6),
-                                              decoration: BoxDecoration(
-                                                shape: BoxShape.circle,
-                                                border: Border.all(
+                                                padding: EdgeInsets.all(6),
+                                                decoration: BoxDecoration(
+                                                  shape: BoxShape.circle,
+                                                  border: Border.all(
+                                                    color: Colors.deepOrangeAccent,
+                                                  ),
                                                   color: Colors.deepOrangeAccent,
                                                 ),
-                                                color: Colors.deepOrangeAccent,
-                                              ),
-                                              child: Text(
-                                                "1",
-                                              ),
-                                            )
+                                                child: Icon(
+                                                  Icons.add,
+                                                ))
                                           ],
                                         )
                                       ],
