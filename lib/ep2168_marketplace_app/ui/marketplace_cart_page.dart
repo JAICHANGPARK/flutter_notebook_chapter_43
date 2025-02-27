@@ -173,6 +173,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                         Row(
                                           children: [
                                             Text("\$25"),
+                                            Spacer(),
                                             Container(
                                               decoration: BoxDecoration(
                                                 shape: BoxShape.circle,
