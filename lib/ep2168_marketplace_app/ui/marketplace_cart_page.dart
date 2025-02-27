@@ -32,7 +32,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           child: Text.rich(
                             TextSpan(
                               children: [
-                                TextSpan()
+                                TextSpan(text: "Cart"),
+                                TextSpan(text: " (30)"),
+
                               ],
                             ),
                           ),
