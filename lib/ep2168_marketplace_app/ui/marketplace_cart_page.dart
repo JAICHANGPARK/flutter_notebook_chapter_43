@@ -218,7 +218,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
-                            color: Colors.red,
+                            color: Colors.deepOrangeAccent,
                           ),
                           child: Row(
                             spacing: 8,
