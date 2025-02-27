@@ -207,6 +207,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                               ),
                                               child: Text(
                                                 "1",
+                                                style: TextStyle(
+                                                  color: Colors.deepOrangeAccent
+                                                ),
                                               ),
                                             ),
                                             Container(
