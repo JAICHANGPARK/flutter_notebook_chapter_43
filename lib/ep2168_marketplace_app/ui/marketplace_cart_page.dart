@@ -176,12 +176,14 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                             Container(
                                               decoration: BoxDecoration(
                                                 shape: BoxShape.circle,
-                                                border: Border.all(
-                                                  color: Colors.white,
-                                                ),
+                                                // border: Border.all(
+                                                //   color: Colors.white,
+                                                // ),
+                                                color: Colors.white,
                                                 boxShadow: [
                                                   BoxShadow(
-                                                    color: Colors.white,
+                                                    color: Colors.black,
+
                                                   )
                                                 ],
                                               ),
