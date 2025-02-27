@@ -157,6 +157,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                       children: [
                                         Text(
                                           "Face Wash",
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.bold,
+                                          ),
                                         ),
                                         Row(
                                           spacing: 12,
