@@ -169,7 +169,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.orange,
+                      color: Colors.orange[100],
                       borderRadius: BorderRadius.circular(24),
                     ),
                     padding: EdgeInsets.symmetric(
