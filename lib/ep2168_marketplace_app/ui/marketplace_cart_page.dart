@@ -204,7 +204,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                               ),
                                             ),
                                             Container(
-                                                padding: EdgeInsets.all(0),
+                                                padding: EdgeInsets.all(4),
                                                 decoration: BoxDecoration(
                                                   shape: BoxShape.circle,
                                                   border: Border.all(
@@ -214,7 +214,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                                 ),
                                                 child: Icon(
                                                   Icons.add,
-                                                  
+                                                  size: 16,
                                                 ))
                                           ],
                                         )
