@@ -79,6 +79,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           child: TextField(
                             decoration: InputDecoration(
                               hintText: "Search",
+                              border: InputBorder.none,
                             ),
                           ),
                         ),
