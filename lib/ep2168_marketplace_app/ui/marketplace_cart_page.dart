@@ -25,7 +25,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Row(
                     children: [
                       CircleAvatar(
-                        radius: 26,
+                        radius: 24,
                         backgroundColor: Colors.grey[200],
                         foregroundColor: Colors.black,
                         child: Icon(Icons.arrow_back),
@@ -54,7 +54,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                         ),
                       ),
                       CircleAvatar(
-                        radius: 26,
+                        radius: 24,
+                        backgroundColor: Colors.grey[200],
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.arrow_back),
                       ),
                     ],
                   ),
