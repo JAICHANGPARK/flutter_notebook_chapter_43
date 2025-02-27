@@ -97,11 +97,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Container(
-                          width: 100,
-                          decoration: BoxDecoration(
-
-                          ),
-                        )
+                            width: 100,
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                            ))
                       ],
                     ),
                   ),
