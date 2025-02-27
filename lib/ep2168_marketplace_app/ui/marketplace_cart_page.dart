@@ -32,9 +32,18 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           child: Text.rich(
                             TextSpan(
                               children: [
-                                TextSpan(text: "Cart"),
-                                TextSpan(text: " (30)"),
-
+                                TextSpan(
+                                  text: "Cart",
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: " (30)",
+                                  style: TextStyle(
+                                    color: Colors.orangeAccent,
+                                  ),
+                                ),
                               ],
                             ),
                           ),
@@ -54,7 +63,8 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Container(
                     height: 52,
                     child: Placeholder(),
-                  ), Gap(24),
+                  ),
+                  Gap(24),
                   Expanded(
                     child: Placeholder(),
                   ),
