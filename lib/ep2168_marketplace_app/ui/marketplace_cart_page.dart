@@ -31,7 +31,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                         child: Center(
                           child: Text.rich(
                             TextSpan(
-                              children: [],
+                              children: [
+                                TextSpan()
+                              ],
                             ),
                           ),
                         ),
