@@ -175,7 +175,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                             Text("\$25"),
                                             Spacer(),
                                             Container(
-                                                padding: EdgeInsets.all(6),
+                                                padding: EdgeInsets.all(4),
                                                 decoration: BoxDecoration(
                                                   shape: BoxShape.circle,
                                                   // border: Border.all(
@@ -190,6 +190,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                                 ),
                                                 child: Icon(
                                                   Icons.remove,
+                                                  size: 16,
                                                 )),
                                             Container(
                                               padding: EdgeInsets.all(6),
