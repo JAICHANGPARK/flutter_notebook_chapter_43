@@ -232,7 +232,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                               CircleAvatar(
                                 radius: 15,
                                 backgroundColor: Colors.white,
-                                child: Icon(Icons.arrow_forward),
+                                child: Icon(
+                                  Icons.arrow_forward,
+                                  size: 16,
+                                ),
                               )
                             ],
                           ),
