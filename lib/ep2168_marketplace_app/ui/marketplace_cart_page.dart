@@ -104,12 +104,28 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                             shape: StadiumBorder(),
                             color: Colors.deepOrange,
                           ),
+                          child: Center(
+                            child: Text(
+                              "Online",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
                         ),
                         Container(
                           width: 140,
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             // color: Colors.deepOrange,
+                          ),
+                          child: Center(
+                            child: Text(
+                              "Store",
+                              style: TextStyle(
+                                // color: Colors.white,
+                              ),
+                            ),
                           ),
                         ),
                       ],
