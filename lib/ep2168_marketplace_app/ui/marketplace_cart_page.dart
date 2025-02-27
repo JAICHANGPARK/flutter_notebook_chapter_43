@@ -138,6 +138,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                         return Padding(
                           padding: const EdgeInsets.only(bottom: 8),
                           child: Card(
+                            elevation: 4,
+                            color: Colors.white,
+
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
                               child: Row(
@@ -192,7 +195,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                                   Icons.remove,
                                                   size: 16,
                                                 )),
+
                                             Container(
+                                              margin: EdgeInsets.symmetric(horizontal: 4),
                                               padding: EdgeInsets.all(6),
                                               decoration: BoxDecoration(
                                                 shape: BoxShape.circle,
