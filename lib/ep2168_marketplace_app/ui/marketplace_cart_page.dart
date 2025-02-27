@@ -50,7 +50,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Container(
                     height: 52,
                     child: Placeholder(),
-                  ),
+                  ), Gap(24),
                   Expanded(
                     child: Placeholder(),
                   ),
