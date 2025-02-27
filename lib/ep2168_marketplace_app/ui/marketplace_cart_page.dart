@@ -138,7 +138,13 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                         return Card(
                           child: Row(
                             children: [
-                              
+                              Container(
+                                height: 64,
+                                width: 64,
+                                decoration: BoxDecoration(
+                                  color: Colors.black,
+                                ),
+                              )
                             ],
                           ),
                         );
