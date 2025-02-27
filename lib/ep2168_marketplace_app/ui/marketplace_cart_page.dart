@@ -133,7 +133,17 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   ),
                   Gap(24),
                   Expanded(
-                    child: Placeholder(),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Card(
+                          child: Row(
+                            children: [
+                              
+                            ],
+                          ),
+                        );
+                      },
+                    ),
                   ),
                 ],
               ),
