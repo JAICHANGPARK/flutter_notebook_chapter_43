@@ -65,7 +65,10 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Container(
                     height: 52,
                     decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
+                      shape: StadiumBorder(
+                          side: BorderSide(
+                        color: Colors.grey[200]!,
+                      )),
                     ),
                     child: Row(
                       children: [
