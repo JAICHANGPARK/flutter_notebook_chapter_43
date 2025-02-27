@@ -72,6 +72,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 12),
                     child: Row(
+                      spacing: 12,
                       children: [
                         Icon(Icons.search),
                         Expanded(
