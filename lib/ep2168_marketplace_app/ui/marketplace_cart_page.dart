@@ -64,6 +64,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Gap(24),
                   Container(
                     height: 52,
+                    decoration: BoxDecoration(
+
+                    ),
                     child: Row(
                       children: [
                         Icon(Icons.search),
