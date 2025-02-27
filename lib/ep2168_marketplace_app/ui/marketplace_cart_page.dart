@@ -95,18 +95,18 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                       color: Colors.orange[100],
                     ),
                     child: Row(
-                      spacing: 12,
+                      // spacing: 12,
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Container(
-                          width: 120,
+                          width: 140,
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.deepOrange,
                           ),
                         ),
                         Container(
-                          width: 120,
+                          width: 140,
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             // color: Colors.deepOrange,
