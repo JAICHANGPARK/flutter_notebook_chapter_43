@@ -26,6 +26,9 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                     children: [
                       CircleAvatar(
                         radius: 26,
+                        backgroundColor: Colors.grey[200],
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.arrow_back),
                       ),
                       Expanded(
                         child: Center(
@@ -42,6 +45,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                   text: " (30)",
                                   style: TextStyle(
                                     color: Colors.orangeAccent,
+                                    fontSize: 20,
                                   ),
                                 ),
                               ],
