@@ -154,7 +154,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                   Expanded(
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
-                                      spacing: 12,
+                                      spacing: 6,
                                       children: [
                                         Text(
                                           "Face Wash",
@@ -168,6 +168,22 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                           children: [
                                             Text("Skincare"),
                                             Icon(Icons.keyboard_arrow_down),
+                                          ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Text("\$25"),
+                                            CircleAvatar(
+                                              child: Icon(Icons.remove),
+                                            ),
+                                            Container(
+                                              decoration: BoxDecoration(
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: Text(
+                                                "1",
+                                              ),
+                                            )
                                           ],
                                         )
                                       ],
