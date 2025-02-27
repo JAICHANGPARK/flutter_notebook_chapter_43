@@ -90,7 +90,13 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Gap(24),
                   Container(
                     height: 52,
-                    child: Placeholder(),
+                    decoration: BoxDecoration(
+                      color: Colors.orangeAccent[100],
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [],
+                    ),
                   ),
                   Gap(24),
                   Expanded(
