@@ -223,7 +223,12 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                           child: Row(
                             spacing: 8,
                             children: [
-                              Text("Buy"),
+                              Text(
+                                "Buy",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                ),
+                              ),
                               CircleAvatar(
                                 radius: 15,
                                 backgroundColor: Colors.white,
