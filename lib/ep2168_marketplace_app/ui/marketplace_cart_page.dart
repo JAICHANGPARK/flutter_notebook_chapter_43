@@ -187,7 +187,8 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                                   color: Colors.white,
                                                   boxShadow: [
                                                     BoxShadow(
-                                                      color: Colors.black,
+                                                      color: Colors.black.withValues(alpha: .1),
+                                                      blurRadius: 3,
                                                     )
                                                   ],
                                                 ),
@@ -198,7 +199,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
 
                                             Container(
                                               margin: EdgeInsets.symmetric(horizontal: 4),
-                                              padding: EdgeInsets.all(6),
+                                              padding: EdgeInsets.all(8),
                                               decoration: BoxDecoration(
                                                 shape: BoxShape.circle,
                                                 border: Border.all(
