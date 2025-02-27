@@ -70,6 +70,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                         color: Colors.grey[200]!,
                       )),
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     child: Row(
                       children: [
                         Icon(Icons.search),
