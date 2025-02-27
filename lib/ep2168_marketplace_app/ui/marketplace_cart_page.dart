@@ -135,17 +135,23 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
-                        return Card(
-                          child: Row(
-                            children: [
-                              Container(
-                                height: 64,
-                                width: 64,
-                                decoration: BoxDecoration(
-                                  color: Colors.black,
-                                ),
-                              )
-                            ],
+                        return Padding(
+                          padding: const EdgeInsets.only(bottom: 8),
+                          child: Card(
+                            child: Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    height: 90,
+                                    width: 90,
+                                    decoration: BoxDecoration(
+                                      color: Colors.black,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
                           ),
                         );
                       },
