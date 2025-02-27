@@ -143,10 +143,16 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                               child: Row(
                                 children: [
                                   Container(
-                                    height: 90,
-                                    width: 90,
+                                    height: 100,
+                                    width: 100,
                                     decoration: BoxDecoration(
                                       color: Colors.black,
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Column(
+                                      children: [],
                                     ),
                                   )
                                 ],
