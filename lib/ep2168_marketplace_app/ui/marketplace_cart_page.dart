@@ -175,6 +175,7 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                             Text("\$25"),
                                             Spacer(),
                                             Container(
+                                              padding: EdgeInsets.all(6),
                                               decoration: BoxDecoration(
                                                 shape: BoxShape.circle,
                                                 // border: Border.all(
@@ -184,7 +185,6 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                                 boxShadow: [
                                                   BoxShadow(
                                                     color: Colors.black,
-
                                                   )
                                                 ],
                                               ),
@@ -193,11 +193,25 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                                               ),
                                             ),
                                             Container(
+                                              padding: EdgeInsets.all(6),
                                               decoration: BoxDecoration(
                                                 shape: BoxShape.circle,
                                                 border: Border.all(
                                                   color: Colors.deepOrangeAccent,
                                                 ),
+                                              ),
+                                              child: Text(
+                                                "1",
+                                              ),
+                                            ),
+                                            Container(
+                                              padding: EdgeInsets.all(6),
+                                              decoration: BoxDecoration(
+                                                shape: BoxShape.circle,
+                                                border: Border.all(
+                                                  color: Colors.deepOrangeAccent,
+                                                ),
+                                                color: Colors.deepOrangeAccent,
                                               ),
                                               child: Text(
                                                 "1",
