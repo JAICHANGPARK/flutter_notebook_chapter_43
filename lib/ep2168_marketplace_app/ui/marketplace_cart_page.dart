@@ -68,9 +68,13 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                       children: [
                         Icon(Icons.search),
                         Expanded(
-                          child: TextField(),
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Search",
+                            ),
+                          ),
                         ),
-                        Icon(Icons.search),
+                        Icon(Icons.mic_none),
                       ],
                     ),
                   ),
