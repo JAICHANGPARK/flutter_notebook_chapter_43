@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2168_marketplace_app/ui/marketplace_payment_method_page.dart';
 import 'package:gap/gap.dart';
 
 class MarketplaceCartPage extends StatefulWidget {
@@ -135,104 +136,109 @@ class _MarketplaceCartPageState extends State<MarketplaceCartPage> {
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
-                        return Padding(
-                          padding: const EdgeInsets.only(bottom: 8),
-                          child: Card(
-                            elevation: 4,
-                            color: Colors.white,
-
-                            child: Padding(
-                              padding: const EdgeInsets.all(16.0),
-                              child: Row(
-                                spacing: 12,
-                                children: [
-                                  Container(
-                                    height: 116,
-                                    width: 116,
-                                    decoration: BoxDecoration(
-                                      color: Colors.black,
-                                      borderRadius: BorderRadius.circular(8),
+                        return GestureDetector(
+                          onTap: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => MarketplacePaymentMethodPage(),
+                              ),
+                            );
+                          },
+                          child: Padding(
+                            padding: const EdgeInsets.only(bottom: 8),
+                            child: Card(
+                              elevation: 4,
+                              color: Colors.white,
+                              child: Padding(
+                                padding: const EdgeInsets.all(16.0),
+                                child: Row(
+                                  spacing: 12,
+                                  children: [
+                                    Container(
+                                      height: 116,
+                                      width: 116,
+                                      decoration: BoxDecoration(
+                                        color: Colors.black,
+                                        borderRadius: BorderRadius.circular(8),
+                                      ),
                                     ),
-                                  ),
-                                  Expanded(
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      spacing: 6,
-                                      children: [
-                                        Text(
-                                          "Face Wash",
-                                          style: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Row(
-                                          spacing: 12,
-                                          children: [
-                                            Text("Skincare"),
-                                            Icon(Icons.keyboard_arrow_down),
-                                          ],
-                                        ),
-                                        Gap(24),
-                                        Row(
-                                          children: [
-                                            Text("\$25"),
-                                            Spacer(),
-                                            Container(
-                                                padding: EdgeInsets.all(4),
-                                                decoration: BoxDecoration(
-                                                  shape: BoxShape.circle,
-                                                  // border: Border.all(
-                                                  //   color: Colors.white,
-                                                  // ),
-                                                  color: Colors.white,
-                                                  boxShadow: [
-                                                    BoxShadow(
-                                                      color: Colors.black.withValues(alpha: .1),
-                                                      blurRadius: 3,
-                                                    )
-                                                  ],
-                                                ),
-                                                child: Icon(
-                                                  Icons.remove,
-                                                  size: 16,
-                                                )),
-
-                                            Container(
-                                              margin: EdgeInsets.symmetric(horizontal: 4),
-                                              padding: EdgeInsets.all(8),
-                                              decoration: BoxDecoration(
-                                                shape: BoxShape.circle,
-                                                border: Border.all(
-                                                  color: Colors.deepOrangeAccent,
-                                                ),
-                                              ),
-                                              child: Text(
-                                                "1",
-                                                style: TextStyle(
-                                                  color: Colors.deepOrangeAccent
-                                                ),
-                                              ),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        spacing: 6,
+                                        children: [
+                                          Text(
+                                            "Face Wash",
+                                            style: TextStyle(
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.bold,
                                             ),
-                                            Container(
-                                                padding: EdgeInsets.all(4),
+                                          ),
+                                          Row(
+                                            spacing: 12,
+                                            children: [
+                                              Text("Skincare"),
+                                              Icon(Icons.keyboard_arrow_down),
+                                            ],
+                                          ),
+                                          Gap(24),
+                                          Row(
+                                            children: [
+                                              Text("\$25"),
+                                              Spacer(),
+                                              Container(
+                                                  padding: EdgeInsets.all(4),
+                                                  decoration: BoxDecoration(
+                                                    shape: BoxShape.circle,
+                                                    // border: Border.all(
+                                                    //   color: Colors.white,
+                                                    // ),
+                                                    color: Colors.white,
+                                                    boxShadow: [
+                                                      BoxShadow(
+                                                        color: Colors.black.withValues(alpha: .1),
+                                                        blurRadius: 3,
+                                                      )
+                                                    ],
+                                                  ),
+                                                  child: Icon(
+                                                    Icons.remove,
+                                                    size: 16,
+                                                  )),
+                                              Container(
+                                                margin: EdgeInsets.symmetric(horizontal: 4),
+                                                padding: EdgeInsets.all(8),
                                                 decoration: BoxDecoration(
                                                   shape: BoxShape.circle,
                                                   border: Border.all(
                                                     color: Colors.deepOrangeAccent,
                                                   ),
-                                                  color: Colors.deepOrangeAccent,
                                                 ),
-                                                child: Icon(
-                                                  Icons.add,
-                                                  size: 16,
-                                                ))
-                                          ],
-                                        )
-                                      ],
-                                    ),
-                                  )
-                                ],
+                                                child: Text(
+                                                  "1",
+                                                  style: TextStyle(color: Colors.deepOrangeAccent),
+                                                ),
+                                              ),
+                                              Container(
+                                                  padding: EdgeInsets.all(4),
+                                                  decoration: BoxDecoration(
+                                                    shape: BoxShape.circle,
+                                                    border: Border.all(
+                                                      color: Colors.deepOrangeAccent,
+                                                    ),
+                                                    color: Colors.deepOrangeAccent,
+                                                  ),
+                                                  child: Icon(
+                                                    Icons.add,
+                                                    size: 16,
+                                                  ))
+                                            ],
+                                          )
+                                        ],
+                                      ),
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
