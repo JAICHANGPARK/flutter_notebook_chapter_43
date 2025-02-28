@@ -60,8 +60,8 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                           spacing: 12,
                           children: [
                             Container(
-                              height: 116,
-                              width: 116,
+                              height: 100,
+                              width: 100,
                               decoration: BoxDecoration(
                                 color: Colors.black,
                                 borderRadius: BorderRadius.circular(8),
@@ -79,8 +79,13 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                                  Text("Premium Moisturizer for Radiant, Youthful, Hydrated, and Smooth...more"),
-                                  Text("IDR: 15.999")
+                                  Text(
+                                    "Premium Moisturizer for Radiant, Youthful, Hydrated, and Smooth...more",
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                  Text("IDR: 15.999.000")
                                 ],
                               ),
                             )
