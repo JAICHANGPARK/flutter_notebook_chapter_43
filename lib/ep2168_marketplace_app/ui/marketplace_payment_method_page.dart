@@ -52,7 +52,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                   Padding(
                     padding: const EdgeInsets.only(bottom: 8),
                     child: Card(
-                      elevation: 4,
+                      // elevation: 4,
                       color: Colors.white,
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
@@ -75,8 +75,8 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                                   Text(
                                     "Luxury Face Cream",
                                     style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold,
+                                      fontSize: 18,
+                                      // fontWeight: FontWeight.bold,
                                     ),
                                   ),
                                   Text(
