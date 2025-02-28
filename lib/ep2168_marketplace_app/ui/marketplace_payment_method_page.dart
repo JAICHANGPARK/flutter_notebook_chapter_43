@@ -110,7 +110,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                         ),
                         IconButton(
                           onPressed: () {},
-                          icon: Icon(Icons.location_on_outlined),
+                          icon: Icon(Icons.arrow_forward_ios_outlined),
                         ),
                       ],
                     ),
