@@ -16,6 +16,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
       body: Stack(
         children: [
           Positioned.fill(
+            top: 24,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
