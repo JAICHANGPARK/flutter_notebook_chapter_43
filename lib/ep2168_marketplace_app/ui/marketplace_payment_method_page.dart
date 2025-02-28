@@ -79,9 +79,8 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                                  Text("Skincare"),
-                                  Gap(24),
-
+                                  Text("Premium Moisturizer for Radiant, Youthful, Hydrated, and Smooth...more"),
+                                  Text("IDR: 15.999")
                                 ],
                               ),
                             )
