@@ -94,6 +94,12 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       ),
                     ),
                   ),
+                  Text("Deliver to "),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                    ),
+                  )
                 ],
               ),
             ),
