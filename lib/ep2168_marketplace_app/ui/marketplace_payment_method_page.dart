@@ -73,19 +73,13 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                                 spacing: 6,
                                 children: [
                                   Text(
-                                    "Face Wash",
+                                    "Luxury Face Cream",
                                     style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                                  Row(
-                                    spacing: 12,
-                                    children: [
-                                      Text("Skincare"),
-                                      Icon(Icons.keyboard_arrow_down),
-                                    ],
-                                  ),
+                                  Text("Skincare"),
                                   Gap(24),
 
                                 ],
