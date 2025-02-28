@@ -127,7 +127,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       spacing: 8,
                       children: [
                         CircleAvatar(
-                          radius: 14,
+                          radius: 20,
                           backgroundColor: Colors.orange[50],
                           child: Icon(
                             Icons.chat_outlined,
