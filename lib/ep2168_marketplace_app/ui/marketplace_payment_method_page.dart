@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 
 class MarketplacePaymentMethodPage extends StatefulWidget {
@@ -12,8 +13,11 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
+          Positioned(child: Column(children: [
+          ],),),
           Positioned(
             bottom: 0,
             left: 0,
