@@ -33,8 +33,12 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       ),
                       Expanded(
                         child: Center(
-                          child: Text("Payment method")
-                        ),
+                            child: Text(
+                          "Payment method",
+                          style: TextStyle(
+                            fontSize: 18,
+                          ),
+                        )),
                       ),
                       CircleAvatar(
                         radius: 24,
