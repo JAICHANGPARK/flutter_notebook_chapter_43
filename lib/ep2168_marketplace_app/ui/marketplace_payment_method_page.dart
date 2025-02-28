@@ -14,7 +14,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
     return Scaffold(
       body: Column(
         children: [
-          
+
         ],
       ),
     );
