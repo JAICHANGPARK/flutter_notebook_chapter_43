@@ -12,10 +12,8 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-
-        ],
+      body: Stack(
+        
       ),
     );
   }
