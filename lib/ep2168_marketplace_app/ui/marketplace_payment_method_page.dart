@@ -114,6 +114,19 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                         ),
                       ],
                     ),
+                  ),
+                  Text("Payment method "),
+                  Container(
+                    height: 140,
+                    child: Placeholder(),
+                  ),
+                  Text("Debit/Credit Card"),
+                  Expanded(
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Placeholder();
+                      },
+                    ),
                   )
                 ],
               ),
