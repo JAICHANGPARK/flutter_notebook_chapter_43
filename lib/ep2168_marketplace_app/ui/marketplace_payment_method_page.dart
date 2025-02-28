@@ -117,7 +117,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.orange[50],
+                      color: Colors.white,
                     ),
                     padding: EdgeInsets.symmetric(
                       horizontal: 4,
@@ -128,7 +128,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       children: [
                         CircleAvatar(
                           radius: 14,
-                          backgroundColor: Colors.white,
+                          backgroundColor: Colors.orange[50],
                           child: Icon(
                             Icons.chat_outlined,
                             size: 14,
