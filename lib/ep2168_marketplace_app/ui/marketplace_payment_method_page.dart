@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-
 class MarketplacePaymentMethodPage extends StatefulWidget {
   const MarketplacePaymentMethodPage({super.key});
 
@@ -16,8 +15,11 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned(child: Column(children: [
-          ],),),
+          Positioned(
+            child: Column(
+              children: [],
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
@@ -61,7 +63,13 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       CircleAvatar(
                         radius: 12,
                         backgroundColor: Colors.green,
-                        child: Text("1"),
+                        foregroundColor: Colors.white,
+                        child: Text(
+                          "1",
+                          style: TextStyle(
+                            fontSize: 12,
+                          ),
+                        ),
                       ),
                       Gap(12),
                       Text(
