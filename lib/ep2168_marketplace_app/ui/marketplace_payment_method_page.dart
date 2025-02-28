@@ -18,6 +18,8 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
           children: [
             Positioned.fill(
               top: 24,
+              left: 16,
+              right: 16,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -38,7 +40,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                         radius: 24,
                         backgroundColor: Colors.grey[200],
                         foregroundColor: Colors.black,
-                        child: Icon(Icons.menu),
+                        child: Icon(Icons.file_upload_outlined),
                       ),
                     ],
                   ),
