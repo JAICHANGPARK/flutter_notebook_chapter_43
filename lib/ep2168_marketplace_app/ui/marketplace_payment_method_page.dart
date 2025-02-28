@@ -15,9 +15,33 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned(
+          Positioned.fill(
             child: Column(
-              children: [],
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    CircleAvatar(
+                      radius: 24,
+                      backgroundColor: Colors.grey[200],
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.arrow_back),
+                    ),
+                    Expanded(
+                      child: Center(
+                        child: Text("Payment method")
+                      ),
+                    ),
+                    CircleAvatar(
+                      radius: 24,
+                      backgroundColor: Colors.grey[200],
+                      foregroundColor: Colors.black,
+                      child: Icon(Icons.menu),
+                    ),
+                  ],
+                ),
+                Gap(24),
+              ],
             ),
           ),
           Positioned(
