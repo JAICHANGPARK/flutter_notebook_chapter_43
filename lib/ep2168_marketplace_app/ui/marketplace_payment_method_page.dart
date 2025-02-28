@@ -21,6 +21,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
               left: 16,
               right: 16,
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -48,7 +49,6 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       ),
                     ],
                   ),
-                  Gap(24),
                   Padding(
                     padding: const EdgeInsets.only(bottom: 8),
                     child: Card(
