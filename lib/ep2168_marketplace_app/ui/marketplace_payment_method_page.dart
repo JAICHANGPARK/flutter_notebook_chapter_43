@@ -49,6 +49,53 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                     ],
                   ),
                   Gap(24),
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 8),
+                    child: Card(
+                      elevation: 4,
+                      color: Colors.white,
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Row(
+                          spacing: 12,
+                          children: [
+                            Container(
+                              height: 116,
+                              width: 116,
+                              decoration: BoxDecoration(
+                                color: Colors.black,
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                            ),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                spacing: 6,
+                                children: [
+                                  Text(
+                                    "Face Wash",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Row(
+                                    spacing: 12,
+                                    children: [
+                                      Text("Skincare"),
+                                      Icon(Icons.keyboard_arrow_down),
+                                    ],
+                                  ),
+                                  Gap(24),
+
+                                ],
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
