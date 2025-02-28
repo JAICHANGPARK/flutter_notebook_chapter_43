@@ -99,6 +99,21 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                     ),
+                    child: Row(
+                      children: [
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.location_on_outlined),
+                        ),
+                        Expanded(
+                          child: Text("Add shipping address"),
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.location_on_outlined),
+                        ),
+                      ],
+                    ),
                   )
                 ],
               ),
