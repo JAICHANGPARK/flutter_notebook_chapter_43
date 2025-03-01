@@ -134,6 +134,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
+                          width: 180,
                           decoration: BoxDecoration(
                             border: Border.all(
                               color: Color.fromRGBO(230, 190, 145, 1),
