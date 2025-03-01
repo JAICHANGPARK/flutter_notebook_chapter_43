@@ -146,10 +146,14 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-
                               Row(
                                 children: [
-                                  
+                                  Icon(
+                                    Icons.credit_card,
+                                  ),
+                                  Text(
+                                    "Card",
+                                  ),
                                 ],
                               )
                             ],
