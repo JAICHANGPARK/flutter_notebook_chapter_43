@@ -100,6 +100,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(255, 249, 244, 1),
                     ),
+                    padding: EdgeInsets.symmetric(vertical: 6),
                     child: Row(
                       children: [
                         IconButton(
