@@ -192,6 +192,9 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return Container(
+                          margin: EdgeInsets.only(
+                            bottom: 12
+                          ),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
 
