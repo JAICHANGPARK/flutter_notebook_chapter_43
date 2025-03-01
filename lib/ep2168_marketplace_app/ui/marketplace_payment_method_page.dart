@@ -94,13 +94,18 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       ),
                     ),
                   ),
-                  Text("Deliver to "),
+                  Text(
+                    "Deliver to ",
+                    style: TextStyle(
+                      fontSize: 18,
+                    ),
+                  ),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(255, 249, 244, 1),
                     ),
-                    padding: EdgeInsets.symmetric(vertical: 6),
+                    padding: EdgeInsets.symmetric(vertical: 4),
                     child: Row(
                       children: [
                         IconButton(
