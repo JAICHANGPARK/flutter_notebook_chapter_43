@@ -122,12 +122,18 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       ],
                     ),
                   ),
-                  Text("Payment method "),
+                  Text("Payment method ",
+                    style: TextStyle(
+                      fontSize: 18,
+                    ),),
                   Container(
                     height: 140,
                     child: Placeholder(),
                   ),
-                  Text("Debit/Credit Card"),
+                  Text("Debit/Credit Card",
+                    style: TextStyle(
+                      fontSize: 18,
+                    ),),
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
