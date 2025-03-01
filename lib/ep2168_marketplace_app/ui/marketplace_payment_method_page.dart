@@ -146,6 +146,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                           padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 12,
                             children: [
                               Row(
                                 spacing: 12,
