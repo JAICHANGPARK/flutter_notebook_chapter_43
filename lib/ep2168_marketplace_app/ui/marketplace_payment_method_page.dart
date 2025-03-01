@@ -143,7 +143,11 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                             color: index == 0 ? Color.fromRGBO(255, 249, 244, 1) : Colors.white,
                             borderRadius: BorderRadius.circular(12),
                           ),
-                          padding: EdgeInsets.only(),
+                          padding: EdgeInsets.only(
+                            left: 20, right: 20,
+                            bottom: 12,
+                            top: 28,
+                          ),
                           // padding: EdgeInsets.symmetric(horizontal: 24, vertical: 24),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
