@@ -157,6 +157,9 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                                     "Card",
                                   ),
                                 ],
+                              ),
+                              Text(
+                                "Pay securely using your credit or debit card.",
                               )
                             ],
                           ),
