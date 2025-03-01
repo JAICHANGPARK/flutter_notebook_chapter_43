@@ -144,8 +144,14 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              
+
+                              Row(
+                                children: [
+                                  
+                                ],
+                              )
                             ],
                           ),
                         );
