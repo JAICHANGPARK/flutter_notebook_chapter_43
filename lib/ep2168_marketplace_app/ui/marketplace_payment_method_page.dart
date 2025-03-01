@@ -21,7 +21,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
               left: 16,
               right: 16,
               child: Column(
-                spacing: 16,
+                spacing: 20,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -229,7 +229,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.orange[50],
+                      color: Color.fromRGBO(255, 249, 244, 1),
                       borderRadius: BorderRadius.circular(24),
                     ),
                     padding: EdgeInsets.symmetric(
