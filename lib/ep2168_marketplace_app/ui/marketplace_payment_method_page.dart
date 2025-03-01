@@ -195,7 +195,11 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                           ),
-                          child: RadioListTile(value: false, groupValue: "a", onChanged: onChanged),
+                          child: RadioListTile(
+                            value: false,
+                            groupValue: "a",
+                            onChanged: (b) {},
+                          ),
                         );
                       },
                     ),
