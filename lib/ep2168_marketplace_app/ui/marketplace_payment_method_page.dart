@@ -197,7 +197,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                           ),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
-
+                            color: Color.fromRGBO(255, 249, 244, 1),
                           ),
                           child: RadioListTile(
                             value: false,
