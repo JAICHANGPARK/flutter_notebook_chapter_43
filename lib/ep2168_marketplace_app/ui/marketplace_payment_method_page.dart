@@ -129,7 +129,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                     ),
                   ),
                   Container(
-                    height: 120,
+                    height: 130,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
