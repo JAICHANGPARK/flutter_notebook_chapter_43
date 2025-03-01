@@ -141,6 +141,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                               color: index == 0 ? Color.fromRGBO(230, 190, 145, 1) : Colors.grey[100]!,
                             ),
                             color: Color.fromRGBO(255, 249, 244, 1),
+                            borderRadius: BorderRadius.circular(12),
                           ),
                         );
                       },
