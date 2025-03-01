@@ -135,9 +135,11 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: BoxDecoration(
-                              border: Border.all(
-                            color: Color.fromRGBO(230, 190, 145, 1),
-                          )),
+                            border: Border.all(
+                              color: Color.fromRGBO(230, 190, 145, 1),
+                            ),
+                            color: Color.fromRGBO(255, 249, 244, 1),
+                          ),
                         );
                       },
                     ),
