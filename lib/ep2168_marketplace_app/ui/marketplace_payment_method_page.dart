@@ -144,7 +144,8 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                             borderRadius: BorderRadius.circular(12),
                           ),
                           padding: EdgeInsets.only(
-                            left: 20, right: 20,
+                            left: 20,
+                            right: 20,
                             bottom: 12,
                             top: 28,
                           ),
@@ -153,7 +154,6 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             spacing: 12,
-
                             children: [
                               Row(
                                 spacing: 12,
@@ -274,7 +274,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                       children: [
                         CircleAvatar(
                           radius: 20,
-                          backgroundColor: Colors.orange[50],
+                          backgroundColor: Color.fromRGBO(255, 249, 244, 1),
                           child: Icon(
                             Icons.chat_outlined,
                             size: 14,
