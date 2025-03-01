@@ -98,7 +98,7 @@ class _MarketplacePaymentMethodPageState extends State<MarketplacePaymentMethodP
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Color.fromRGBO(r, g, b, opacity)
+                      color: Color.fromRGBO(255, 249, 244, 1),
                     ),
                     child: Row(
                       children: [
