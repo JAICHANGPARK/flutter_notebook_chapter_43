@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2173_habit_journal_app/habit_app_theme.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class HabitJournalMainScreen extends StatefulWidget {
   const HabitJournalMainScreen({super.key});
@@ -77,12 +78,12 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                   child: Column(
                     children: [
                       Icon(
-                        Icons.favorite,
+                        Icons.water_drop,
                         size: 28,
                         color: HabitAppTheme.primary,
                       ),
                       Text(
-                        "Well-being",
+                        "Water",
                         style: TextStyle(
                           // color: HabitAppTheme.primary,
                         ),
@@ -99,12 +100,12 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                   child: Column(
                     children: [
                       Icon(
-                        Icons.favorite,
+                        HugeIcons.strokeRoundedAiMagic,
                         size: 28,
                         color: HabitAppTheme.primary,
                       ),
                       Text(
-                        "Well-being",
+                        "idea",
                         style: TextStyle(
                           // color: HabitAppTheme.primary,
                         ),
