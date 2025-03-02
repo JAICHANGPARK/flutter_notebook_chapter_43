@@ -54,7 +54,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  child: Column(
+                  child: Column(spacing: 2,
                     children: [
                       Icon(
                         Icons.favorite,
@@ -76,7 +76,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  child: Column(
+                  child: Column(spacing: 2,
                     children: [
                       Icon(
                         Icons.water_drop,
@@ -98,7 +98,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  child: Column(
+                  child: Column(spacing: 2,
                     children: [
                       Icon(
                         HugeIcons.strokeRoundedAiMagic,
