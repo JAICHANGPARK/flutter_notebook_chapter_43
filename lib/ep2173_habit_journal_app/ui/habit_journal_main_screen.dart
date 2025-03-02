@@ -30,7 +30,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     color: HabitAppTheme.primary,
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  padding: EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+                  padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                   child: Column(
                     children: [
                       Icon(
