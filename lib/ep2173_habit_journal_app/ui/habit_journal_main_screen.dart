@@ -19,14 +19,14 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
             child: Placeholder(),
           ),
           Container(
-            height: 82,
+            // height: 82,
             padding: EdgeInsets.all(16),
             child: Row(
               children: [
                 Container(
                   decoration: BoxDecoration(
                     color: HabitAppTheme.primary,
-                  ),
+                  ),padding: EdgeInsets.all(12),
                   child: Column(
                     children: [
                       Icon(
