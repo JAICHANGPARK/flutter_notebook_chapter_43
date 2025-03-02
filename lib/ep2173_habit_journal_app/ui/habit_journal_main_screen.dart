@@ -11,6 +11,8 @@ class HabitJournalMainScreen extends StatefulWidget {
 class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
