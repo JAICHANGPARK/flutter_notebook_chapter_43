@@ -75,7 +75,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     // color: HabitAppTheme.primary,
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  padding: EdgeInsets.all(12),
+                  padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                   child: Column(
                     children: [
                       Icon(
@@ -97,7 +97,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     // color: HabitAppTheme.primary,
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  padding: EdgeInsets.all(12),
+                  padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                   child: Column(
                     children: [
                       Icon(
