@@ -12,10 +12,8 @@ class HabitJournalApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light(
-
-      ).copyWith(
-        scaffoldBackgroundColor: HabitAppTheme.b
+      theme: ThemeData.light().copyWith(
+        scaffoldBackgroundColor: HabitAppTheme.background,
       ),
       home: HabitJournalMainScreen(),
     );
