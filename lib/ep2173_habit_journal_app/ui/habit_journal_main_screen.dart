@@ -31,6 +31,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     children: [
                       Icon(
                         Icons.home_filled,
+                        size: 28,
                       ),
                       Text(
                         "Home",
