@@ -12,7 +12,11 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Column(
+        children: [
+          
+        ],
+      ),
     );
   }
 }
