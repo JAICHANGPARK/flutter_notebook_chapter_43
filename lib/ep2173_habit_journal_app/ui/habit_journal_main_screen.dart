@@ -26,7 +26,9 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                 Container(
                   decoration: BoxDecoration(
                     color: HabitAppTheme.primary,
-                  ),padding: EdgeInsets.all(12),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  padding: EdgeInsets.all(12),
                   child: Column(
                     children: [
                       Icon(
