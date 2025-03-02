@@ -22,6 +22,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
             // height: 82,
             padding: EdgeInsets.all(16),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
                   decoration: BoxDecoration(
