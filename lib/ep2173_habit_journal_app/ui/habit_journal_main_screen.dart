@@ -69,21 +69,21 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    color: HabitAppTheme.primary,
+                    // color: HabitAppTheme.primary,
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.all(12),
                   child: Column(
                     children: [
                       Icon(
-                        Icons.home_filled,
+                        Icons.favorite,
                         size: 28,
-                        color: Colors.white,
+                        color: HabitAppTheme.primary,
                       ),
                       Text(
-                        "Home",
+                        "Well-being",
                         style: TextStyle(
-                          color: Colors.white,
+                          // color: HabitAppTheme.primary,
                         ),
                       ),
                     ],
@@ -91,26 +91,26 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    color: HabitAppTheme.primary,
+                    // color: HabitAppTheme.primary,
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.all(12),
                   child: Column(
                     children: [
                       Icon(
-                        Icons.home_filled,
+                        Icons.favorite,
                         size: 28,
-                        color: Colors.white,
+                        color: HabitAppTheme.primary,
                       ),
                       Text(
-                        "Home",
+                        "Well-being",
                         style: TextStyle(
-                          color: Colors.white,
+                          // color: HabitAppTheme.primary,
                         ),
                       ),
                     ],
                   ),
-                )
+                ),
               ],
             ),
           )
