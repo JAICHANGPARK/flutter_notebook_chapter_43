@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  
+  runApp(HabitJournalApp());
 }
 
 class HabitJournalApp extends StatelessWidget {
