@@ -34,9 +34,79 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                       Icon(
                         Icons.home_filled,
                         size: 28,
+                        color: Colors.white,
                       ),
                       Text(
                         "Home",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    // color: HabitAppTheme.primary,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  padding: EdgeInsets.all(12),
+                  child: Column(
+                    children: [
+                      Icon(
+                        Icons.favorite,
+                        size: 28,
+                        color: HabitAppTheme.primary,
+                      ),
+                      Text(
+                        "Well-being",
+                        style: TextStyle(
+                          // color: HabitAppTheme.primary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    color: HabitAppTheme.primary,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  padding: EdgeInsets.all(12),
+                  child: Column(
+                    children: [
+                      Icon(
+                        Icons.home_filled,
+                        size: 28,
+                        color: Colors.white,
+                      ),
+                      Text(
+                        "Home",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    color: HabitAppTheme.primary,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  padding: EdgeInsets.all(12),
+                  child: Column(
+                    children: [
+                      Icon(
+                        Icons.home_filled,
+                        size: 28,
+                        color: Colors.white,
+                      ),
+                      Text(
+                        "Home",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
                       ),
                     ],
                   ),
