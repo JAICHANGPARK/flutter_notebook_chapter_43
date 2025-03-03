@@ -39,7 +39,8 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
                 CircleAvatar(),
               ],
-            )
+            ),
+
           ],
         ),
       ),
