@@ -53,7 +53,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               child: Placeholder(),
             ),  Gap(12),
             Container(
-              height: 140,
+              height: 160,
               child: Row(
                 spacing: 12,
                 children: [
@@ -62,7 +62,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                   Expanded(child: Placeholder(),),
                 ],
               )
-            )
+            ),
+            Container(
+              height: 160,
+              child: Placeholder(),
+            ),
           ],
         ),
       ),
