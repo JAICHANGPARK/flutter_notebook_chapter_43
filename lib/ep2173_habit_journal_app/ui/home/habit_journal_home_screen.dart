@@ -41,6 +41,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               ],
             ),
 
+            Container(
+              height: 100,
+              child: Placeholder(),
+            )
+
           ],
         ),
       ),
