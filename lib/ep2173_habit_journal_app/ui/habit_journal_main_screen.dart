@@ -25,6 +25,9 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
               index: pageNum,
               children: [
                 HabitJournalHomeScreen(),
+                Container(color: Colors.red,),
+                Container(color: Colors.green,),
+
               ],
             ),
           ),
