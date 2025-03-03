@@ -13,7 +13,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.fromLTRB(16.0, 16, 16, 0),
         child: Column(
           children: [
             Gap(16),
@@ -47,22 +47,25 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               height: 100,
               child: Placeholder(),
             ),
-
             Container(
               height: 160,
               child: Placeholder(),
-            ),  Gap(12),
-            Container(
-              height: 160,
-              child: Row(
-                spacing: 12,
-                children: [
-                  Expanded(child: Placeholder(),),
-
-                  Expanded(child: Placeholder(),),
-                ],
-              )
             ),
+            Gap(12),
+            Container(
+                height: 140,
+                child: Row(
+                  spacing: 12,
+                  children: [
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                  ],
+                )),
+            Gap(12),
             Container(
               height: 160,
               child: Placeholder(),
