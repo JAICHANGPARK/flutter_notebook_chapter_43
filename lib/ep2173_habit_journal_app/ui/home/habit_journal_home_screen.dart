@@ -40,17 +40,25 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 CircleAvatar(),
               ],
             ),
-
             Container(
-              margin: EdgeInsets.symmetric(vertical: 24,
+              margin: EdgeInsets.symmetric(
+                vertical: 32,
+              ),
               height: 100,
               child: Placeholder(),
             ),
             Container(
-              height: 140,
+              height: 160,
               child: Placeholder(),
+            ),
+            Container(
+              height: 140,
+              child: Row(
+                children: [
+                  Expanded(child: Placeholder(),),
+                ],
+              )
             )
-
           ],
         ),
       ),
