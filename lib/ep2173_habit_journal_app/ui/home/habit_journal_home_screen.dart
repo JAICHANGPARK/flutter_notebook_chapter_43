@@ -36,7 +36,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ],
                   ),
                 ),
-                IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.settings),
+                  iconSize: 32,
+                ),
                 CircleAvatar(),
               ],
             ),
@@ -45,7 +49,17 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 vertical: 42,
               ),
               height: 100,
-              child: Placeholder(),
+              child: Row(
+                children: [
+                  Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder(),),
+                ],
+              )
             ),
             Container(
               height: 160,
