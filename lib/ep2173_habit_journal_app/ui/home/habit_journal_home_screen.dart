@@ -10,28 +10,33 @@ class HabitJournalHomeScreen extends StatefulWidget {
 class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Row(
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
           children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "MindTrack",
+            Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "MindTrack",
+                      ),
+                      Text(
+                        "Hello, Dreamwalker",
+                      )
+                    ],
                   ),
-                  Text(
-                    "Hello, Dreamwalker",
-                  )
-                ],
-              ),
-            ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
-            CircleAvatar(),
+                ),
+                IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+                CircleAvatar(),
+              ],
+            )
           ],
-        )
-      ],
+        ),
+      ),
     );
   }
 }
