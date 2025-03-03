@@ -23,6 +23,10 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     children: [
                       Text(
                         "MindTrack",
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       Text(
                         "Hello, Dreamwalker",
