@@ -19,7 +19,9 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
         children: [
           Expanded(
             child: IndexedStack(
-              
+              children: [
+
+              ],
             )
           ),
           Container(
