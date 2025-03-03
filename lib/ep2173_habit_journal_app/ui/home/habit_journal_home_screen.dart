@@ -11,6 +11,6 @@ class HabitJournalHomeScreen extends StatefulWidget {
 class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
