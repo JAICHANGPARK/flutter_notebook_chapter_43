@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2173_habit_journal_app/habit_app_theme.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'home/habit_journal_home_screen.dart';
+
 class HabitJournalMainScreen extends StatefulWidget {
   const HabitJournalMainScreen({super.key});
 
@@ -20,7 +22,7 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
           Expanded(
             child: IndexedStack(
               children: [
-
+                HabitJournalHomeScreen(),
               ],
             )
           ),
