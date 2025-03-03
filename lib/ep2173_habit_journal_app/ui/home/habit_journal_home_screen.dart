@@ -46,7 +46,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
             ),
             Container(
               margin: EdgeInsets.symmetric(
-                vertical: 42,
+                vertical: 38,
               ),
               height: 100,
               child: Row(
