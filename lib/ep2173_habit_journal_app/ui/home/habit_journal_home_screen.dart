@@ -17,7 +17,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: [],
+                children: [
+
+                ],
               ),
             ),
             IconButton(onPressed: (){}, icon: Icon(Icons.settings)),
