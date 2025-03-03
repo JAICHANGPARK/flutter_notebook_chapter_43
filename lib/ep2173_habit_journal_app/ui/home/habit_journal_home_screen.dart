@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HabitJournalHomeScreen extends StatefulWidget {
   const HabitJournalHomeScreen({super.key});
 
@@ -11,6 +10,17 @@ class HabitJournalHomeScreen extends StatefulWidget {
 class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Column(
+      children: [
+        Row(
+          children: [
+            Expanded(
+                child: Column(
+              children: [],
+            ))
+          ],
+        )
+      ],
+    );
   }
 }
