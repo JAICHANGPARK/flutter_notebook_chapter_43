@@ -18,11 +18,16 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
+                  Text(
+                    "MindTrack",
+                  ),
+                  Text(
+                    "Hello, Dreamwalker",
+                  )
                 ],
               ),
             ),
-            IconButton(onPressed: (){}, icon: Icon(Icons.settings)),
+            IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
             CircleAvatar(),
           ],
         )
