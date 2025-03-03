@@ -56,6 +56,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               child: Row(
                 children: [
                   Expanded(child: Placeholder(),),
+                  Expanded(child: Placeholder(),),
                 ],
               )
             )
