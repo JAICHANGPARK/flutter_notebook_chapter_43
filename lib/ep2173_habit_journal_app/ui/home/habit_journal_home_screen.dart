@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class HabitJournalHomeScreen extends StatefulWidget {
   const HabitJournalHomeScreen({super.key});
@@ -15,6 +16,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
+            Gap(16),
             Row(
               children: [
                 Expanded(
