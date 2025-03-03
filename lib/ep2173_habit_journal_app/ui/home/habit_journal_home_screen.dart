@@ -42,15 +42,16 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
             ),
             Container(
               margin: EdgeInsets.symmetric(
-                vertical: 32,
+                vertical: 42,
               ),
               height: 100,
               child: Placeholder(),
             ),
+
             Container(
               height: 160,
               child: Placeholder(),
-            ),
+            ),  Gap(12),
             Container(
               height: 140,
               child: Row(
