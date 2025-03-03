@@ -10,6 +10,7 @@ class HabitJournalMainScreen extends StatefulWidget {
 }
 
 class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +18,9 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
-            child: Placeholder(),
+            child: IndexedStack(
+              
+            )
           ),
           Container(
             // height: 82,
