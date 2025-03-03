@@ -13,6 +13,7 @@ class HabitJournalMainScreen extends StatefulWidget {
 
 class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
   int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,10 +22,11 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
         children: [
           Expanded(
             child: IndexedStack(
+              index: pageNum,
               children: [
                 HabitJournalHomeScreen(),
               ],
-            )
+            ),
           ),
           Container(
             // height: 82,
@@ -61,7 +63,8 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  child: Column(spacing: 2,
+                  child: Column(
+                    spacing: 2,
                     children: [
                       Icon(
                         Icons.favorite,
@@ -71,8 +74,8 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                       Text(
                         "Well-being",
                         style: TextStyle(
-                          // color: HabitAppTheme.primary,
-                        ),
+                            // color: HabitAppTheme.primary,
+                            ),
                       ),
                     ],
                   ),
@@ -83,7 +86,8 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  child: Column(spacing: 2,
+                  child: Column(
+                    spacing: 2,
                     children: [
                       Icon(
                         Icons.water_drop,
@@ -93,8 +97,8 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                       Text(
                         "Water",
                         style: TextStyle(
-                          // color: HabitAppTheme.primary,
-                        ),
+                            // color: HabitAppTheme.primary,
+                            ),
                       ),
                     ],
                   ),
@@ -105,7 +109,8 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                  child: Column(spacing: 2,
+                  child: Column(
+                    spacing: 2,
                     children: [
                       Icon(
                         HugeIcons.strokeRoundedAiMagic,
@@ -115,8 +120,8 @@ class _HabitJournalMainScreenState extends State<HabitJournalMainScreen> {
                       Text(
                         "idea",
                         style: TextStyle(
-                          // color: HabitAppTheme.primary,
-                        ),
+                            // color: HabitAppTheme.primary,
+                            ),
                       ),
                     ],
                   ),
