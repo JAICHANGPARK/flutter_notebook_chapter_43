@@ -20,7 +20,8 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 children: [],
               ),
             ),
-            IconButton(onPressed: (){}, icon: Icon(Icons.settings))
+            IconButton(onPressed: (){}, icon: Icon(Icons.settings)),
+            CircleAvatar(),
           ],
         )
       ],
