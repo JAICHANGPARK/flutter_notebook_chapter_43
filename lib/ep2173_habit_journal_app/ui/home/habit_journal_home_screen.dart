@@ -184,19 +184,59 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             // ),
                             Text(
                               "15",
-                              style: TextStyle(fontSize: 20, color: Colors.white),
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.white,
+                              ),
                             ),
-                            Gap(8),
+                            // Gap(8),
                             Text(
                               "Mon",
-                              style: TextStyle(fontSize: 20, color: Colors.white),
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.white,
+                              ),
                             )
                           ],
                         ),
                       ),
                     ),
                     Expanded(
-                      child: Placeholder(),
+                      child: Container(
+                        decoration: ShapeDecoration(
+                          color: HabitAppTheme.primary,
+                          shape: StadiumBorder(),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            // CircularPercentIndicator(
+                            //   radius: 16,
+                            //   lineWidth: 6,
+                            //   percent: .6,
+                            //   circularStrokeCap: CircularStrokeCap.round,
+                            //   backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                            //   startAngle: 180,
+                            //   progressColor: HabitAppTheme.primary,
+                            // ),
+                            Text(
+                              "15",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.white,
+                              ),
+                            ),
+                            // Gap(8),
+                            Text(
+                              "Mon",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.white,
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
                     ),
                   ],
                 )),
