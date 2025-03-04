@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_43/ep2173_habit_journal_app/habit_app_theme.dart';
 import 'package:gap/gap.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
+import 'package:percent_indicator/linear_percent_indicator.dart';
 
 class HabitJournalHomeScreen extends StatefulWidget {
   const HabitJournalHomeScreen({super.key});
@@ -249,6 +250,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                   color: HabitAppTheme.primary,
                   borderRadius: BorderRadius.circular(12),
                 ),
+                padding: EdgeInsets.all(12),
                 child: Column(
                   children: [
                     Row(
@@ -257,7 +259,15 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         Text("7 tasks"),
                         CircleAvatar(),
                       ],
-                    )
+                    ),
+                    Text("Before long: Meet Dream for coffee"),
+                    LinearPercentIndicator(
+                      lineHeight: 32,
+                      barRadius: Radius.circular(24),
+                      percent: .6,
+                      padding: EdgeInsets.all(3),
+                      progressColor: HabitAppTheme.accent,
+                    ),
                   ],
                 )),
             Gap(12),
