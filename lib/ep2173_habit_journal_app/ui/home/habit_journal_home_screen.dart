@@ -273,7 +273,13 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         ),
                       ],
                     ),
-                    Text("Before long: Meet Dream for coffee"),
+                    Text(
+                      "Before long: Meet Dream for coffee",
+                      style: TextStyle(
+                        // fontSize: 12,
+                        color: Colors.white,
+                      ),
+                    ),
                     LinearPercentIndicator(
                       lineHeight: 32,
                       barRadius: Radius.circular(24),
