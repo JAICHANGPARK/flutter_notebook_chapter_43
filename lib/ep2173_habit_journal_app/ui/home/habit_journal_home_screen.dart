@@ -59,7 +59,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           CircularPercentIndicator(
                             radius: 16,
                             lineWidth: 6,
+                            percent: .6,
                           ),
+                          Text(
+                            "Wed",
+                          )
                         ],
                       ),
                     ),
