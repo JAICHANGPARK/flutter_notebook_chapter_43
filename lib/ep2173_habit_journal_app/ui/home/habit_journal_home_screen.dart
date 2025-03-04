@@ -60,6 +60,8 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             radius: 16,
                             lineWidth: 6,
                             percent: .6,
+                            circularStrokeCap: CircularStrokeCap.round,
+
                           ),
                           Text(
                             "Wed",
