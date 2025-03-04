@@ -245,6 +245,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 )),
             Container(
               height: 160,
+              decoration: BoxDecoration(
+                color: HabitAppTheme.primary,
+              ),
               child: Placeholder(),
             ),
             Gap(12),
