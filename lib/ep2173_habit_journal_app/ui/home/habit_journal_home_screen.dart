@@ -265,7 +265,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             color: Colors.white,
                           ),
                         ),
-                        CircleAvatar(),
+                        CircleAvatar(
+                          backgroundColor: HabitAppTheme.accent,
+                          child: Icon(
+                            Icons.add,
+                          ),
+                        ),
                       ],
                     ),
                     Text("Before long: Meet Dream for coffee"),
