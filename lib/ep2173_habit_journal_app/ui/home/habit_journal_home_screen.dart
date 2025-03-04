@@ -54,9 +54,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                   children: [
                     Expanded(
                       child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           CircularPercentIndicator(
-                            radius: 24,
+                            radius: 16,
+                            lineWidth: 6,
                           ),
                         ],
                       ),
