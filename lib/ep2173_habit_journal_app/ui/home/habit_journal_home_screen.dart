@@ -136,7 +136,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           ),
                           Gap(8),
                           Text(
-                            "Thu",
+                            "Sat",
                           )
                         ],
                       ),
@@ -165,7 +165,25 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       ),
                     ),
                     Expanded(
-                      child: Placeholder(),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          // CircularPercentIndicator(
+                          //   radius: 16,
+                          //   lineWidth: 6,
+                          //   percent: .6,
+                          //   circularStrokeCap: CircularStrokeCap.round,
+                          //   backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                          //   startAngle: 180,
+                          //   progressColor: HabitAppTheme.primary,
+                          // ),
+                          Text("15"),
+                          Gap(8),
+                          Text(
+                            "Mon",
+                          )
+                        ],
+                      ),
                     ),
                     Expanded(
                       child: Placeholder(),
