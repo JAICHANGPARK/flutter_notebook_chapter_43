@@ -75,7 +75,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       ),
                     ),
                     Expanded(
-                      child:Column(
+                      child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           // CircularPercentIndicator(
@@ -90,7 +90,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           CircleAvatar(
                             radius: 20,
                           ),
-                          Gap(12),
+                          Gap(8),
                           Text(
                             "Thu",
                           )
@@ -98,7 +98,25 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       ),
                     ),
                     Expanded(
-                      child: Placeholder(),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          CircularPercentIndicator(
+                            radius: 18,
+                            lineWidth: 8,
+                            percent: .6,
+                            circularStrokeCap: CircularStrokeCap.round,
+                            backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                            startAngle: 180,
+                            progressColor: HabitAppTheme.primary,
+                            // arcBackgroundColor: Colors.red,
+                          ),
+                          Gap(12),
+                          Text(
+                            "Fri",
+                          )
+                        ],
+                      ),
                     ),
                     Expanded(
                       child: Placeholder(),
