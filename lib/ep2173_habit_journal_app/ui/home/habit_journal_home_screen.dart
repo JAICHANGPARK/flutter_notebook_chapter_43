@@ -252,11 +252,19 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 ),
                 padding: EdgeInsets.all(12),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("7 tasks"),
+                        Text(
+                          "7 tasks",
+                          style: TextStyle(
+                            fontSize: 42,
+                            color: Colors.white,
+                          ),
+                        ),
                         CircleAvatar(),
                       ],
                     ),
