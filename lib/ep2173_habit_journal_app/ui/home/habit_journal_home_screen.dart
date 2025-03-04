@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class HabitJournalHomeScreen extends StatefulWidget {
   const HabitJournalHomeScreen({super.key});
@@ -45,22 +46,41 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               ],
             ),
             Container(
-              margin: EdgeInsets.symmetric(
-                vertical: 38,
-              ),
-              height: 100,
-              child: Row(
-                children: [
-                  Expanded(child: Placeholder(),),
-                  Expanded(child: Placeholder(),),
-                  Expanded(child: Placeholder(),),
-                  Expanded(child: Placeholder(),),
-                  Expanded(child: Placeholder(),),
-                  Expanded(child: Placeholder(),),
-                  Expanded(child: Placeholder(),),
-                ],
-              )
-            ),
+                margin: EdgeInsets.symmetric(
+                  vertical: 38,
+                ),
+                height: 100,
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Column(
+                        children: [
+                          CircularPercentIndicator(
+                            radius: 24,
+                          ),
+                        ],
+                      ),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                  ],
+                )),
             Container(
               height: 160,
               child: Placeholder(),
