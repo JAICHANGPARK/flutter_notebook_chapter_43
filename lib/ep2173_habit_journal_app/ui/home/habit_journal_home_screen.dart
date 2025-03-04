@@ -203,10 +203,10 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ),
                     Expanded(
                       child: Container(
-                        decoration: ShapeDecoration(
-                          color: HabitAppTheme.primary,
-                          shape: StadiumBorder(),
-                        ),
+                        // decoration: ShapeDecoration(
+                        //   color: HabitAppTheme.primary,
+                        //   shape: StadiumBorder(),
+                        // ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -220,18 +220,18 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             //   progressColor: HabitAppTheme.primary,
                             // ),
                             Text(
-                              "15",
+                              "16",
                               style: TextStyle(
                                 fontSize: 20,
-                                color: Colors.white,
+                                // color: Colors.white,
                               ),
                             ),
                             // Gap(8),
                             Text(
-                              "Mon",
+                              "Tue",
                               style: TextStyle(
                                 fontSize: 20,
-                                color: Colors.white,
+                                // color: Colors.white,
                               ),
                             )
                           ],
