@@ -296,10 +296,20 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                   spacing: 12,
                   children: [
                     Expanded(
-                      child: Placeholder(),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: HabitAppTheme.primary,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      )
                     ),
                     Expanded(
-                      child: Placeholder(),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: HabitAppTheme.primary,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
                     ),
                   ],
                 )),
