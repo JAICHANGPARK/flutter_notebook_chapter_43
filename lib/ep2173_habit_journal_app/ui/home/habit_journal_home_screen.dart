@@ -316,7 +316,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
             Gap(12),
             Container(
               height: 160,
-              child: Placeholder(),
+              decoration: BoxDecoration(
+                color:  Color.fromRGBO(208, 204, 241, 1),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              
             ),
           ],
         ),
