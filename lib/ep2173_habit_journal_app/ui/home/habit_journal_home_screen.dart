@@ -119,10 +119,50 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       ),
                     ),
                     Expanded(
-                      child: Placeholder(),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          // CircularPercentIndicator(
+                          //   radius: 16,
+                          //   lineWidth: 6,
+                          //   percent: .6,
+                          //   circularStrokeCap: CircularStrokeCap.round,
+                          //   backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                          //   startAngle: 180,
+                          //   progressColor: HabitAppTheme.primary,
+                          // ),
+                          CircleAvatar(
+                            radius: 20,
+                          ),
+                          Gap(8),
+                          Text(
+                            "Thu",
+                          )
+                        ],
+                      ),
                     ),
                     Expanded(
-                      child: Placeholder(),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          // CircularPercentIndicator(
+                          //   radius: 16,
+                          //   lineWidth: 6,
+                          //   percent: .6,
+                          //   circularStrokeCap: CircularStrokeCap.round,
+                          //   backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                          //   startAngle: 180,
+                          //   progressColor: HabitAppTheme.primary,
+                          // ),
+                          CircleAvatar(
+                            radius: 20,
+                          ),
+                          Gap(8),
+                          Text(
+                            "Sun",
+                          )
+                        ],
+                      ),
                     ),
                     Expanded(
                       child: Placeholder(),
