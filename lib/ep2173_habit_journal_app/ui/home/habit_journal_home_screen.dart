@@ -50,7 +50,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 margin: EdgeInsets.symmetric(
                   vertical: 38,
                 ),
-                height: 100,
+                height: 82,
                 child: Row(
                   children: [
                     Expanded(
@@ -182,7 +182,13 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             //   startAngle: 180,
                             //   progressColor: HabitAppTheme.primary,
                             // ),
-                            Text("15"),
+                            Text(
+                              "15",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.white
+                              ),
+                            ),
                             Gap(8),
                             Text(
                               "Mon",
