@@ -244,12 +244,22 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                   ],
                 )),
             Container(
-              height: 160,
-              decoration: BoxDecoration(
-                color: HabitAppTheme.primary,
-              ),
-              child: Placeholder(),
-            ),
+                height: 160,
+                decoration: BoxDecoration(
+                  color: HabitAppTheme.primary,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("7 tasks"),
+                        CircleAvatar(),
+                      ],
+                    )
+                  ],
+                )),
             Gap(12),
             Container(
                 height: 140,
