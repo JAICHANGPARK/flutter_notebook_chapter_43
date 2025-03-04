@@ -63,6 +63,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             circularStrokeCap: CircularStrokeCap.round,
                             backgroundColor: Color.fromRGBO(208, 204, 241, 1),
                             startAngle: 180,
+                            progressColor: HabitAppTheme.primary,
                           ),
                           Text(
                             "Wed",
