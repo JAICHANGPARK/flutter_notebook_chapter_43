@@ -61,7 +61,8 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             lineWidth: 6,
                             percent: .6,
                             circularStrokeCap: CircularStrokeCap.round,
-
+                            backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                            startAngle: 180,
                           ),
                           Text(
                             "Wed",
