@@ -88,7 +88,8 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           //   progressColor: HabitAppTheme.primary,
                           // ),
                           CircleAvatar(
-                            radius: 20, backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                            radius: 20,
+                            backgroundColor: Color.fromRGBO(208, 204, 241, 1),
                           ),
                           Gap(8),
                           Text(
@@ -132,7 +133,8 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           //   progressColor: HabitAppTheme.primary,
                           // ),
                           CircleAvatar(
-                            radius: 20, backgroundColor: Color.fromRGBO(208, 204, 241, 1),
+                            radius: 20,
+                            backgroundColor: Color.fromRGBO(208, 204, 241, 1),
                           ),
                           Gap(8),
                           Text(
