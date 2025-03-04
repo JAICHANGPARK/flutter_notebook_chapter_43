@@ -166,8 +166,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ),
                     Expanded(
                       child: Container(
-                        decoration: BoxDecoration(
+                        decoration: ShapeDecoration(
                           color: HabitAppTheme.primary,
+                          shape: StadiumBorder(),
                         ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
