@@ -298,7 +298,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: HabitAppTheme.primary,
+                          color: Color.fromRGBO(208, 204, 241, 1),
                           borderRadius: BorderRadius.circular(12),
                         ),
                       )
@@ -306,7 +306,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: HabitAppTheme.primary,
+                          color:  Color.fromRGBO(208, 204, 241, 1),
                           borderRadius: BorderRadius.circular(12),
                         ),
                       ),
