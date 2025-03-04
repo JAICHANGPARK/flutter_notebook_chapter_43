@@ -184,14 +184,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             // ),
                             Text(
                               "15",
-                              style: TextStyle(
-                                fontSize: 20,
-                                color: Colors.white
-                              ),
+                              style: TextStyle(fontSize: 20, color: Colors.white),
                             ),
                             Gap(8),
                             Text(
                               "Mon",
+                              style: TextStyle(fontSize: 20, color: Colors.white),
                             )
                           ],
                         ),
