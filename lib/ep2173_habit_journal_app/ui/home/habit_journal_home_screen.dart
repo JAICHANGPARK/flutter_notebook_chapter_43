@@ -260,7 +260,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Sport"),
+                                Text("Sport",style: TextStyle(
+                                  fontSize: 24,
+                                ),),
                                 CircleAvatar(
                                   backgroundColor: HabitAppTheme.primary,
                                 ),
