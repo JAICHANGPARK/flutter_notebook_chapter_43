@@ -352,7 +352,21 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
+                  Text(
+                    "Works",
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Review client feedback\nPrepare presentation",
+                      ),
+                      CircleAvatar(
+                        child: Icon(
+                          Icons.arrow_back_ios_new_sharp,
+                        ),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
