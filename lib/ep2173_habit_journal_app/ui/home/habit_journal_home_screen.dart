@@ -325,6 +325,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             progressColor: HabitAppTheme.accent,
                             percent: .7,
                             circularStrokeCap: CircularStrokeCap.round,
+                            center: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text("4,654 \$"),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -338,7 +344,6 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 color: Color.fromRGBO(208, 204, 241, 1),
                 borderRadius: BorderRadius.circular(12),
               ),
-
             ),
           ],
         ),
