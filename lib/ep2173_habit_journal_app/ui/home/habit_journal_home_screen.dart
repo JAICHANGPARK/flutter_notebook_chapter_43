@@ -329,7 +329,10 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text("4,654 \$"),
-                                Divider(),
+                                Divider(
+                                  indent: 24,
+                                  endIndent: 24,
+                                ),
                                 Text("6,000 \$")
                               ],
                             ),
