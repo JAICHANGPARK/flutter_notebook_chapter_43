@@ -278,6 +278,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                 shape: StadiumBorder(),
                                 color: Color.fromRGBO(208, 204, 241, 1),
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 4),
                               child: Row(
                                 children: [
                                   Text(
