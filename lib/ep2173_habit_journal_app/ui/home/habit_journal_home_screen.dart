@@ -364,6 +364,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         child: Icon(
                           Icons.arrow_back_ios_new_sharp,
                         ),
+                      ),
+                      CircleAvatar(
+                        child: Icon(
+                          Icons.arrow_forward_ios_outlined,
+                        ),
                       )
                     ],
                   )
