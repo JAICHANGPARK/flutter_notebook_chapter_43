@@ -116,7 +116,6 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-
                           CircleAvatar(
                             radius: 20,
                             backgroundColor: Color.fromRGBO(208, 204, 241, 1),
@@ -133,7 +132,6 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-
                           CircleAvatar(
                             radius: 20,
                             backgroundColor: Color.fromRGBO(208, 204, 241, 1),
@@ -155,7 +153,6 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-
                             Text(
                               "15",
                               style: TextStyle(
@@ -251,12 +248,24 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                   spacing: 12,
                   children: [
                     Expanded(
-                        child: Container(
-                      decoration: BoxDecoration(
-                        color: Color.fromRGBO(208, 204, 241, 1),
-                        borderRadius: BorderRadius.circular(12),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color.fromRGBO(208, 204, 241, 1),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                Text("Sport"),
+                                CircleAvatar(),
+                              ],
+                            )
+                          ],
+                        ),
                       ),
-                    )),
+                    ),
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
