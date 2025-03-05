@@ -322,6 +322,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           child: CircularPercentIndicator(
                             radius: 64,
                             lineWidth: 24,
+                            progressColor: HabitAppTheme.accent,
                           ),
                         ),
                       ),
