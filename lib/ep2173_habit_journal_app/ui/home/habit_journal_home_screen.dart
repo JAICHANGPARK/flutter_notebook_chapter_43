@@ -253,10 +253,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           color: Color.fromRGBO(208, 204, 241, 1),
                           borderRadius: BorderRadius.circular(12),
                         ),
+                        padding: EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text("Sport"),
                                 CircleAvatar(
