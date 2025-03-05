@@ -243,7 +243,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 )),
             Gap(12),
             Container(
-                height: 140,
+                height: 148,
                 child: Row(
                   spacing: 12,
                   children: [
