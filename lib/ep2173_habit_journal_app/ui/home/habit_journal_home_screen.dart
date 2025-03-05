@@ -349,6 +349,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 color: Color.fromRGBO(208, 204, 241, 1),
                 borderRadius: BorderRadius.circular(12),
               ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+
+                ],
+              ),
             ),
           ],
         ),
