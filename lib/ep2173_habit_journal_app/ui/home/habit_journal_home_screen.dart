@@ -355,6 +355,10 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 children: [
                   Text(
                     "Works",
+                    style: TextStyle(
+                      fontSize: 42,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   Row(
                     children: [
