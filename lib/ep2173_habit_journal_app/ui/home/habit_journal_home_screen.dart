@@ -263,6 +263,19 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                   backgroundColor: HabitAppTheme.primary,
                                 ),
                               ],
+                            ),
+                            Container(
+                              decoration: BoxDecoration(),
+                              child: Row(
+                                children: [
+                                  Text(
+                                    "Push-ups",
+                                  ),
+                                  Text(
+                                    "7d",
+                                  )
+                                ],
+                              ),
                             )
                           ],
                         ),
