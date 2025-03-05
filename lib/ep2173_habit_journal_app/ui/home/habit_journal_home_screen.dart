@@ -176,37 +176,25 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       ),
                     ),
                     Expanded(
-                      child: Container(
-                        
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            // CircularPercentIndicator(
-                            //   radius: 16,
-                            //   lineWidth: 6,
-                            //   percent: .6,
-                            //   circularStrokeCap: CircularStrokeCap.round,
-                            //   backgroundColor: Color.fromRGBO(208, 204, 241, 1),
-                            //   startAngle: 180,
-                            //   progressColor: HabitAppTheme.primary,
-                            // ),
-                            Text(
-                              "16",
-                              style: TextStyle(
-                                fontSize: 20,
-                                // color: Colors.white,
-                              ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "16",
+                            style: TextStyle(
+                              fontSize: 20,
+                              // color: Colors.white,
                             ),
-                            // Gap(8),
-                            Text(
-                              "Tue",
-                              style: TextStyle(
-                                fontSize: 20,
-                                // color: Colors.white,
-                              ),
-                            )
-                          ],
-                        ),
+                          ),
+                          // Gap(8),
+                          Text(
+                            "Tue",
+                            style: TextStyle(
+                              fontSize: 20,
+                              // color: Colors.white,
+                            ),
+                          )
+                        ],
                       ),
                     ),
                   ],
