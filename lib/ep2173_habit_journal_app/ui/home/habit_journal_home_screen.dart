@@ -255,6 +255,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         ),
                         padding: EdgeInsets.all(16),
                         child: Column(
+                          spacing: 8,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Row(
@@ -272,6 +273,23 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                   child: Icon(Icons.add),
                                 ),
                               ],
+                            ),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Color.fromRGBO(208, 204, 241, 1),
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 4),
+                              child: Row(
+                                children: [
+                                  Text(
+                                    "Push-ups",
+                                  ),
+                                  Text(
+                                    "7d",
+                                  )
+                                ],
+                              ),
                             ),
                             Container(
                               decoration: ShapeDecoration(
