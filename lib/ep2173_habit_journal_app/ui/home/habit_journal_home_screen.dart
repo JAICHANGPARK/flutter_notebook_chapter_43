@@ -279,7 +279,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                 shape: StadiumBorder(),
                                 color: Color.fromRGBO(208, 204, 241, 1),
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 4),
+                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                               child: Row(
                                 children: [
                                   Text(
@@ -296,7 +296,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                 shape: StadiumBorder(),
                                 color: Color.fromRGBO(208, 204, 241, 1),
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 4),
+                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                               child: Row(
                                 children: [
                                   Text(
@@ -318,6 +318,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           color: Color.fromRGBO(216, 220, 241, 1),
                           borderRadius: BorderRadius.circular(12),
                         ),
+                        child: Center(
+                          child: CircularPercentIndicator(
+                            radius: 64,
+                            lineWidth: 24,
+                          ),
+                        ),
                       ),
                     ),
                   ],
@@ -329,6 +335,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 color: Color.fromRGBO(208, 204, 241, 1),
                 borderRadius: BorderRadius.circular(12),
               ),
+
             ),
           ],
         ),
