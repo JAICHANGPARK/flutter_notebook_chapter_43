@@ -265,7 +265,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               ],
                             ),
                             Container(
-                              decoration: BoxDecoration(),
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
                               child: Row(
                                 children: [
                                   Text(
