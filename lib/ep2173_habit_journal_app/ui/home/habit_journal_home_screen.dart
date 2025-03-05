@@ -265,7 +265,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                 ),),
                                 CircleAvatar(
                                   backgroundColor: HabitAppTheme.primary,
-                                  
+                                  foregroundColor: Colors.white,
                                   child: Icon(Icons.add),
 
                                 ),
