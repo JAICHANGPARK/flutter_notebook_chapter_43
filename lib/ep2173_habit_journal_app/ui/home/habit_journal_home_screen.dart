@@ -259,7 +259,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             Row(
                               children: [
                                 Text("Sport"),
-                                CircleAvatar(),
+                                CircleAvatar(
+                                  backgroundColor: HabitAppTheme.primary,
+                                ),
                               ],
                             )
                           ],
