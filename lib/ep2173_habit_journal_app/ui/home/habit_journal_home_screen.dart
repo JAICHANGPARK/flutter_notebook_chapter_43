@@ -352,6 +352,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 12,
                 children: [
                   Text(
                     "Works",
@@ -361,10 +362,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ),
                   ),
                   Row(
+                    spacing: 12,
                     children: [
                       Text(
                         "Review client feedback\nPrepare presentation",
                       ),
+                      Spacer(),
                       CircleAvatar(
                         child: Icon(
                           Icons.arrow_back_ios_new_sharp,
