@@ -324,7 +324,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             lineWidth: 24,
                             progressColor: HabitAppTheme.accent,
                             percent: .7,
-                            circularStrokeCap: ,
+                            circularStrokeCap: CircularStrokeCap.round,
                           ),
                         ),
                       ),
