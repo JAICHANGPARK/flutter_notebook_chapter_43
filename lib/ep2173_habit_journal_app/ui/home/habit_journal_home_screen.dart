@@ -368,12 +368,16 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         "Review client feedback\nPrepare presentation",
                       ),
                       Spacer(),
-                      CircleAvatar( backgroundColor: HabitAppTheme.primary,
+                      CircleAvatar(
+                        backgroundColor: HabitAppTheme.primary,
+                        foregroundColor: Colors.white,
                         child: Icon(
                           Icons.arrow_back_ios_new_sharp,
                         ),
                       ),
-                      CircleAvatar( backgroundColor: HabitAppTheme.primary,
+                      CircleAvatar(
+                        backgroundColor: HabitAppTheme.primary,
+                        foregroundColor: Colors.white,
                         child: Icon(
                           Icons.arrow_forward_ios_outlined,
                         ),
