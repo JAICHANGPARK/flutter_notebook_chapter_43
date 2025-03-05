@@ -155,7 +155,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                           
+
                             Text(
                               "15",
                               style: TextStyle(
@@ -177,10 +177,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ),
                     Expanded(
                       child: Container(
-                        // decoration: ShapeDecoration(
-                        //   color: HabitAppTheme.primary,
-                        //   shape: StadiumBorder(),
-                        // ),
+                        
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
