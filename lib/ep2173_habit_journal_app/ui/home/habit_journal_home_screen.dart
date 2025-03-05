@@ -79,15 +79,6 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          // CircularPercentIndicator(
-                          //   radius: 16,
-                          //   lineWidth: 6,
-                          //   percent: .6,
-                          //   circularStrokeCap: CircularStrokeCap.round,
-                          //   backgroundColor: Color.fromRGBO(208, 204, 241, 1),
-                          //   startAngle: 180,
-                          //   progressColor: HabitAppTheme.primary,
-                          // ),
                           CircleAvatar(
                             radius: 20,
                             backgroundColor: Color.fromRGBO(208, 204, 241, 1),
@@ -299,17 +290,16 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                   spacing: 12,
                   children: [
                     Expanded(
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Color.fromRGBO(208, 204, 241, 1),
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                      )
-                    ),
+                        child: Container(
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(208, 204, 241, 1),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    )),
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color:  Color.fromRGBO(208, 204, 241, 1),
+                          color: Color.fromRGBO(208, 204, 241, 1),
                           borderRadius: BorderRadius.circular(12),
                         ),
                       ),
@@ -320,10 +310,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
             Container(
               height: 160,
               decoration: BoxDecoration(
-                color:  Color.fromRGBO(208, 204, 241, 1),
+                color: Color.fromRGBO(208, 204, 241, 1),
                 borderRadius: BorderRadius.circular(12),
               ),
-
             ),
           ],
         ),
