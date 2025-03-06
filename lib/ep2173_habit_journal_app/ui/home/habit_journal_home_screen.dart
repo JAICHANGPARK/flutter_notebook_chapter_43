@@ -197,7 +197,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ),
                   ],
                 )),
-            Expanded(child: Column(children: [
+            Expanded(child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
 
               Container(
                   height: 160,
