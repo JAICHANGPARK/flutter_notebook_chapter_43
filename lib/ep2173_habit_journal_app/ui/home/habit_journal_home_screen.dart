@@ -201,51 +201,57 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
 
-              Container(
-                  height: 160,
-                  decoration: BoxDecoration(
-                    color: HabitAppTheme.primary,
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  padding: EdgeInsets.all(12),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            "7 tasks",
-                            style: TextStyle(
-                              fontSize: 42,
-                              color: Colors.white,
+              GestureDetector(
+                onTap: (){
+                  
+                },
+                child: Container(
+                    height: 160,
+
+                    decoration: BoxDecoration(
+                      color: HabitAppTheme.primary,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    padding: EdgeInsets.all(12),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "7 tasks",
+                              style: TextStyle(
+                                fontSize: 42,
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                          CircleAvatar(
-                            backgroundColor: HabitAppTheme.accent,
-                            child: Icon(
-                              Icons.add,
+                            CircleAvatar(
+                              backgroundColor: HabitAppTheme.accent,
+                              child: Icon(
+                                Icons.add,
+                              ),
                             ),
-                          ),
-                        ],
-                      ),
-                      Text(
-                        "Before long: Meet Dream for coffee",
-                        style: TextStyle(
-                          // fontSize: 12,
-                          color: Colors.white,
+                          ],
                         ),
-                      ),
-                      LinearPercentIndicator(
-                        lineHeight: 32,
-                        barRadius: Radius.circular(24),
-                        percent: .6,
-                        padding: EdgeInsets.all(3),
-                        progressColor: HabitAppTheme.accent,
-                      ),
-                    ],
-                  )),
+                        Text(
+                          "Before long: Meet Dream for coffee",
+                          style: TextStyle(
+                            // fontSize: 12,
+                            color: Colors.white,
+                          ),
+                        ),
+                        LinearPercentIndicator(
+                          lineHeight: 32,
+                          barRadius: Radius.circular(24),
+                          percent: .6,
+                          padding: EdgeInsets.all(3),
+                          progressColor: HabitAppTheme.accent,
+                        ),
+                      ],
+                    )),
+              ),
               Gap(12),
               Container(
                   height: 148,
