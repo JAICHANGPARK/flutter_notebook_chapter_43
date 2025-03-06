@@ -312,6 +312,29 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                 ),
                               ],
                             ),
+                          ),
+                          Container(
+                            padding: EdgeInsets.all(16),
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(231, 231, 245, 1),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            width: double.infinity,
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Schedule doctor's appointment",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.grey,
+                                    fontWeight: FontWeight.w200,
+                                  ),
+                                ),
+                                Icon(Icons.check)
+                              ],
+                            ),
                           )
                         ]
                       : [
