@@ -273,17 +273,19 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                         color: Color.fromRGBO(215, 214, 244, 1),
                         borderRadius: BorderRadius.circular(12),
                       ),
+                      width: double.infinity,
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "Meet Dream for coffee",
+                            "Pick up clothes from the dry..",
                             style: TextStyle(
                               fontSize: 16,
                             ),
                           ),
                           Text(
-                            "17:00",
+                            "123 Street, Downtown",
                             style: TextStyle(
                               color: Colors.grey,
                             ),
