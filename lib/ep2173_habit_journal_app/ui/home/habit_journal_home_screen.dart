@@ -217,7 +217,6 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                 color: HabitAppTheme.primary,
                                 borderRadius: BorderRadius.circular(12),
                               ),
-
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -247,7 +246,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                           Container(
                             padding: EdgeInsets.all(16),
                             decoration: BoxDecoration(
-                              color: HabitAppTheme.primary,
+                              color: Color.fromRGBO(215, 214, 244, 1),
                               borderRadius: BorderRadius.circular(12),
                             ),
                             child: Row(
