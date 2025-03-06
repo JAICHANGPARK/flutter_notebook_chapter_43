@@ -266,7 +266,31 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                 )
                               ],
                             ),
+                          ),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(215, 214, 244, 1),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            "Meet Dream for coffee",
+                            style: TextStyle(
+                              fontSize: 16,
+                            ),
+                          ),
+                          Text(
+                            "17:00",
+                            style: TextStyle(
+                              color: Colors.grey,
+                            ),
                           )
+                        ],
+                      ),
+                    )
                         ]
                       : [
                           GestureDetector(
