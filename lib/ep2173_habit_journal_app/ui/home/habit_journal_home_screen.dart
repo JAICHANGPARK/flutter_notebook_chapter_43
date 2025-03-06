@@ -246,6 +246,17 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
                             ),
+                            child: Row(
+                              children: [
+                                Text("Meet Dream for coffee"),
+                                Text(
+                                  "17:00",
+                                  style: TextStyle(
+                                    color: Colors.grey,
+                                  ),
+                                )
+                              ],
+                            ),
                           )
                         ]
                       : [
