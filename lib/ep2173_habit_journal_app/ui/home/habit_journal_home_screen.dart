@@ -226,7 +226,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                                         Text(
                                           "Tasks",
                                           style: TextStyle(
-                                            fontSize: 42,
+                                            fontSize: 24,
                                             color: Colors.white,
                                           ),
                                         ),
