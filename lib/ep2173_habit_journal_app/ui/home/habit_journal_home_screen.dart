@@ -267,32 +267,52 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               ],
                             ),
                           ),
-                    Container(
-                      padding: EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        color: Color.fromRGBO(215, 214, 244, 1),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      width: double.infinity,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            "Pick up clothes from the dry..",
-                            style: TextStyle(
-                              fontSize: 16,
+                          Container(
+                            padding: EdgeInsets.all(16),
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(215, 214, 244, 1),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            width: double.infinity,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Pick up clothes from the dry..",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                  ),
+                                ),
+                                Text(
+                                  "123 Street, Downtown",
+                                  style: TextStyle(
+                                    color: Colors.grey,
+                                  ),
+                                )
+                              ],
                             ),
                           ),
-                          Text(
-                            "123 Street, Downtown",
-                            style: TextStyle(
-                              color: Colors.grey,
+                          Container(
+                            padding: EdgeInsets.all(16),
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(215, 214, 244, 1),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            width: double.infinity,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Schedule doctor's appointment",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                  ),
+                                ),
+                              ],
                             ),
                           )
-                        ],
-                      ),
-                    )
                         ]
                       : [
                           GestureDetector(
