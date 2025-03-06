@@ -325,17 +325,63 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Schedule doctor's appointment",
+                                  "Clean the car",
                                   style: TextStyle(
                                     fontSize: 16,
                                     color: Colors.grey,
-                                    fontWeight: FontWeight.w200,
+                                    fontWeight: FontWeight.w400,
                                   ),
                                 ),
                                 Icon(Icons.check)
                               ],
                             ),
-                          )
+                          ),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(231, 231, 245, 1),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      width: double.infinity,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            "Clean the car",
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: Colors.grey,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          Icon(Icons.check)
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(231, 231, 245, 1),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      width: double.infinity,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            "Clean the car",
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: Colors.grey,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          Icon(Icons.check)
+                        ],
+                      ),
+                    )
                         ]
                       : [
                           GestureDetector(
