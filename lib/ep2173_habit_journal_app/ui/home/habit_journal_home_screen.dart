@@ -211,35 +211,36 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               });
                             },
                             child: Container(
-                                decoration: BoxDecoration(
-                                  color: HabitAppTheme.primary,
-                                  borderRadius: BorderRadius.circular(12),
-                                ),
-                                padding: EdgeInsets.all(12),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Row(
-                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        Text(
-                                          "Tasks",
-                                          style: TextStyle(
-                                            fontSize: 24,
-                                            color: Colors.white,
-                                          ),
+                              decoration: BoxDecoration(
+                                color: HabitAppTheme.primary,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              padding: EdgeInsets.all(12),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text(
+                                        "Tasks",
+                                        style: TextStyle(
+                                          fontSize: 24,
+                                          color: Colors.white,
                                         ),
-                                        CircleAvatar(
-                                          backgroundColor: HabitAppTheme.accent,
-                                          child: Icon(
-                                            Icons.add,
-                                          ),
+                                      ),
+                                      CircleAvatar(
+                                        backgroundColor: HabitAppTheme.accent,
+                                        child: Icon(
+                                          Icons.add,
                                         ),
-                                      ],
-                                    ),
-                                  ],
-                                )),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
                           ),
                         ]
                       : [
