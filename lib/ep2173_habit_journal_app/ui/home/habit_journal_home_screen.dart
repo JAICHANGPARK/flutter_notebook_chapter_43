@@ -12,6 +12,7 @@ class HabitJournalHomeScreen extends StatefulWidget {
 }
 
 class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
+  bool toggle = false;
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -196,6 +197,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ),
                   ],
                 )),
+            Expanded(child: Column(children: [],),),
             Container(
                 height: 160,
                 decoration: BoxDecoration(
