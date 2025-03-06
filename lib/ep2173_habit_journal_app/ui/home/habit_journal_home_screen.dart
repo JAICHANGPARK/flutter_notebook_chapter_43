@@ -203,7 +203,44 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: toggle
-                      ? []
+                      ? [
+                    GestureDetector(
+                      onTap: (){},
+                      child: Container(
+
+                          decoration: BoxDecoration(
+                            color: HabitAppTheme.primary,
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          padding: EdgeInsets.all(12),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    "7 tasks",
+                                    style: TextStyle(
+                                      fontSize: 42,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  CircleAvatar(
+                                    backgroundColor: HabitAppTheme.accent,
+                                    child: Icon(
+                                      Icons.add,
+                                    ),
+                                  ),
+                                ],
+                              ),
+
+                            ],
+                          )),
+                    ),
+
+                  ]
                       : [
                           GestureDetector(
                             onTap: () {
