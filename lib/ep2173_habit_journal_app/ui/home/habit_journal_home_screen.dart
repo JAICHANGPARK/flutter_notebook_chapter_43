@@ -203,7 +203,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
 
               GestureDetector(
                 onTap: (){
-                  
+                  setState(() {
+                    toggle = !toggle;
+                  });
                 },
                 child: Container(
                     height: 160,
