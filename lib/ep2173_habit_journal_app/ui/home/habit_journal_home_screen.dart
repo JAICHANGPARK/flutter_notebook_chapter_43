@@ -13,6 +13,7 @@ class HabitJournalHomeScreen extends StatefulWidget {
 
 class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
   bool toggle = false;
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -197,216 +198,215 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                     ),
                   ],
                 )),
-            Expanded(child:
-
-            SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-              
-                GestureDetector(
-                  onTap: (){
-                    setState(() {
-                      toggle = !toggle;
-                    });
-                  },
-                  child: Container(
-                      height: 160,
-              
-                      decoration: BoxDecoration(
-                        color: HabitAppTheme.primary,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      padding: EdgeInsets.all(12),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "7 tasks",
-                                style: TextStyle(
-                                  fontSize: 42,
-                                  color: Colors.white,
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: toggle
+                      ? []
+                      : [
+                          GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                toggle = !toggle;
+                              });
+                            },
+                            child: Container(
+                                height: 160,
+                                decoration: BoxDecoration(
+                                  color: HabitAppTheme.primary,
+                                  borderRadius: BorderRadius.circular(12),
                                 ),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: HabitAppTheme.accent,
-                                child: Icon(
-                                  Icons.add,
-                                ),
-                              ),
-                            ],
+                                padding: EdgeInsets.all(12),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          "7 tasks",
+                                          style: TextStyle(
+                                            fontSize: 42,
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                        CircleAvatar(
+                                          backgroundColor: HabitAppTheme.accent,
+                                          child: Icon(
+                                            Icons.add,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Text(
+                                      "Before long: Meet Dream for coffee",
+                                      style: TextStyle(
+                                        // fontSize: 12,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                    LinearPercentIndicator(
+                                      lineHeight: 32,
+                                      barRadius: Radius.circular(24),
+                                      percent: .6,
+                                      padding: EdgeInsets.all(3),
+                                      progressColor: HabitAppTheme.accent,
+                                    ),
+                                  ],
+                                )),
                           ),
-                          Text(
-                            "Before long: Meet Dream for coffee",
-                            style: TextStyle(
-                              // fontSize: 12,
-                              color: Colors.white,
-                            ),
-                          ),
-                          LinearPercentIndicator(
-                            lineHeight: 32,
-                            barRadius: Radius.circular(24),
-                            percent: .6,
-                            padding: EdgeInsets.all(3),
-                            progressColor: HabitAppTheme.accent,
-                          ),
-                        ],
-                      )),
-                ),
-                Gap(12),
-                Container(
-                    height: 148,
-                    child: Row(
-                      spacing: 12,
-                      children: [
-                        Expanded(
-                          child: Container(
+                          Gap(12),
+                          Container(
+                              height: 148,
+                              child: Row(
+                                spacing: 12,
+                                children: [
+                                  Expanded(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Color.fromRGBO(216, 220, 241, 1),
+                                        borderRadius: BorderRadius.circular(12),
+                                      ),
+                                      padding: EdgeInsets.all(16),
+                                      child: Column(
+                                        spacing: 8,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Row(
+                                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                            children: [
+                                              Text(
+                                                "Sport",
+                                                style: TextStyle(
+                                                  fontSize: 24,
+                                                ),
+                                              ),
+                                              CircleAvatar(
+                                                backgroundColor: HabitAppTheme.primary,
+                                                foregroundColor: Colors.white,
+                                                child: Icon(Icons.add),
+                                              ),
+                                            ],
+                                          ),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Color.fromRGBO(208, 204, 241, 1),
+                                            ),
+                                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                                            child: Row(
+                                              children: [
+                                                Text(
+                                                  "Push-ups",
+                                                ),
+                                                Text(
+                                                  "7d",
+                                                )
+                                              ],
+                                            ),
+                                          ),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Color.fromRGBO(208, 204, 241, 1),
+                                            ),
+                                            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                                            child: Row(
+                                              children: [
+                                                Text(
+                                                  "Push-ups",
+                                                ),
+                                                Text(
+                                                  "7d",
+                                                )
+                                              ],
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Color.fromRGBO(216, 220, 241, 1),
+                                        borderRadius: BorderRadius.circular(12),
+                                      ),
+                                      child: Center(
+                                        child: CircularPercentIndicator(
+                                          radius: 64,
+                                          lineWidth: 24,
+                                          progressColor: HabitAppTheme.accent,
+                                          percent: .7,
+                                          circularStrokeCap: CircularStrokeCap.round,
+                                          center: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Text("4,654 \$"),
+                                              Divider(
+                                                indent: 24,
+                                                endIndent: 24,
+                                              ),
+                                              Text("6,000 \$")
+                                            ],
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              )),
+                          Gap(12),
+                          Container(
+                            height: 160,
                             decoration: BoxDecoration(
                               color: Color.fromRGBO(216, 220, 241, 1),
                               borderRadius: BorderRadius.circular(12),
                             ),
                             padding: EdgeInsets.all(16),
                             child: Column(
-                              spacing: 8,
                               crossAxisAlignment: CrossAxisAlignment.start,
+                              spacing: 12,
                               children: [
+                                Text(
+                                  "Works",
+                                  style: TextStyle(
+                                    fontSize: 42,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
                                 Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  spacing: 12,
                                   children: [
                                     Text(
-                                      "Sport",
-                                      style: TextStyle(
-                                        fontSize: 24,
+                                      "Review client feedback\nPrepare presentation",
+                                    ),
+                                    Spacer(),
+                                    CircleAvatar(
+                                      backgroundColor: HabitAppTheme.primary,
+                                      foregroundColor: Colors.white,
+                                      child: Icon(
+                                        Icons.arrow_back_ios_new_sharp,
                                       ),
                                     ),
                                     CircleAvatar(
                                       backgroundColor: HabitAppTheme.primary,
                                       foregroundColor: Colors.white,
-                                      child: Icon(Icons.add),
-                                    ),
+                                      child: Icon(
+                                        Icons.arrow_forward_ios_outlined,
+                                      ),
+                                    )
                                   ],
-                                ),
-                                Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Color.fromRGBO(208, 204, 241, 1),
-                                  ),
-                                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                                  child: Row(
-                                    children: [
-                                      Text(
-                                        "Push-ups",
-                                      ),
-                                      Text(
-                                        "7d",
-                                      )
-                                    ],
-                                  ),
-                                ),
-                                Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Color.fromRGBO(208, 204, 241, 1),
-                                  ),
-                                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                                  child: Row(
-                                    children: [
-                                      Text(
-                                        "Push-ups",
-                                      ),
-                                      Text(
-                                        "7d",
-                                      )
-                                    ],
-                                  ),
                                 )
                               ],
                             ),
                           ),
-                        ),
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Color.fromRGBO(216, 220, 241, 1),
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: Center(
-                              child: CircularPercentIndicator(
-                                radius: 64,
-                                lineWidth: 24,
-                                progressColor: HabitAppTheme.accent,
-                                percent: .7,
-                                circularStrokeCap: CircularStrokeCap.round,
-                                center: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text("4,654 \$"),
-                                    Divider(
-                                      indent: 24,
-                                      endIndent: 24,
-                                    ),
-                                    Text("6,000 \$")
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    )),
-                Gap(12),
-                Container(
-                  height: 160,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(216, 220, 241, 1),
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  padding: EdgeInsets.all(16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    spacing: 12,
-                    children: [
-                      Text(
-                        "Works",
-                        style: TextStyle(
-                          fontSize: 42,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Row(
-                        spacing: 12,
-                        children: [
-                          Text(
-                            "Review client feedback\nPrepare presentation",
-                          ),
-                          Spacer(),
-                          CircleAvatar(
-                            backgroundColor: HabitAppTheme.primary,
-                            foregroundColor: Colors.white,
-                            child: Icon(
-                              Icons.arrow_back_ios_new_sharp,
-                            ),
-                          ),
-                          CircleAvatar(
-                            backgroundColor: HabitAppTheme.primary,
-                            foregroundColor: Colors.white,
-                            child: Icon(
-                              Icons.arrow_forward_ios_outlined,
-                            ),
-                          )
                         ],
-                      )
-                    ],
-                  ),
                 ),
-              
-              ],),
-            ),),
-
+              ),
+            ),
           ],
         ),
       ),
