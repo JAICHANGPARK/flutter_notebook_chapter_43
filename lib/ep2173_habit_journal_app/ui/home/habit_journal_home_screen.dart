@@ -247,6 +247,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               borderRadius: BorderRadius.circular(12),
                             ),
                             child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text("Meet Dream for coffee"),
                                 Text(
