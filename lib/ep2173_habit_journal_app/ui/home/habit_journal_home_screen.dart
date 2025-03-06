@@ -244,7 +244,9 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             ),
                           ),
                           Container(
+                            padding: EdgeInsets.all(12),
                             decoration: BoxDecoration(
+                              color: HabitAppTheme.primary,
                               borderRadius: BorderRadius.circular(12),
                             ),
                             child: Row(
