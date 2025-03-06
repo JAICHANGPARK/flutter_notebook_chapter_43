@@ -242,6 +242,11 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               ),
                             ),
                           ),
+                          Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          )
                         ]
                       : [
                           GestureDetector(
