@@ -252,7 +252,12 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Meet Dream for coffee"),
+                                Text(
+                                  "Meet Dream for coffee",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                  ),
+                                ),
                                 Text(
                                   "17:00",
                                   style: TextStyle(
