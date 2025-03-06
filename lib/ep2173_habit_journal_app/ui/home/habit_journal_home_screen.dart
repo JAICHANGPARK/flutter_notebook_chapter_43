@@ -201,6 +201,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
             Expanded(
               child: SingleChildScrollView(
                 child: Column(
+                  spacing: 12,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: toggle
                       ? [
@@ -211,7 +212,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                               });
                             },
                             child: Container(
-                              padding: EdgeInsets.all(12),
+                              padding: EdgeInsets.all(16),
                               decoration: BoxDecoration(
                                 color: HabitAppTheme.primary,
                                 borderRadius: BorderRadius.circular(12),
@@ -244,7 +245,7 @@ class _HabitJournalHomeScreenState extends State<HabitJournalHomeScreen> {
                             ),
                           ),
                           Container(
-                            padding: EdgeInsets.all(12),
+                            padding: EdgeInsets.all(16),
                             decoration: BoxDecoration(
                               color: HabitAppTheme.primary,
                               borderRadius: BorderRadius.circular(12),
