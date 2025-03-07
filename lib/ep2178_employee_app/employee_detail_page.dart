@@ -25,11 +25,37 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
             child: Container(
               margin: EdgeInsets.only(top: 16),
               decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(12),
-                  topRight: Radius.circular(12),
-                )
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(12),
+                    topRight: Radius.circular(12),
+                  )),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text(
+                              "Dreamwalker",
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.timelapse),
+                                Text("Fulltime"),
+                                Icon(Icons.business_center_outlined),
+                                Text("Onsite"),
+                              ],
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  )
+                ],
               ),
             ),
           ),
