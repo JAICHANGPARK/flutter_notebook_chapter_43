@@ -79,6 +79,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                         children: [
                           TabBar(
                             isScrollable: true,
+                            tabAlignment: TabAlignment.start,
                             tabs: tabs
                                 .map((e) => Tab(
                                       text: e,
