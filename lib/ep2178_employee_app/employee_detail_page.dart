@@ -13,6 +13,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromRGBO(29, 34, 46, 1),
+        foregroundColor: Colors.white,
         centerTitle: true,
         title: Text("Employee details"),
         leading: Icon(Icons.arrow_back),
@@ -20,7 +21,12 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
       backgroundColor: Color.fromRGBO(29, 34, 46, 1),
       body: Column(
         children: [
+          Expanded(
+            child: Container(
 
+              decoration: BoxDecoration(),
+            ),
+          ),
         ],
       ),
     );
