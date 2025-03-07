@@ -23,8 +23,14 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
         children: [
           Expanded(
             child: Container(
-
-              decoration: BoxDecoration(),
+              margin: EdgeInsets.only(top: 16),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(12),
+                  topRight: Radius.circular(12),
+                )
+              ),
             ),
           ),
         ],
