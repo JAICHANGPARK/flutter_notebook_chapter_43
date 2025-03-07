@@ -8,6 +8,8 @@ class EmployeeDetailPage extends StatefulWidget {
 }
 
 class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
+  List<String> tabs = ["Payroll", "Time manageements", "Assets", "Document", "Training", "Finance"];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,7 +65,16 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                       )
                     ],
                   ),
-                  Expanded(child: DefaultTabController(length: length, child: child))
+                  Expanded(
+                    child: DefaultTabController(
+                      length: tabs.length,
+                      child: Column(
+                        children: [
+                          TabBar(tabs: tabs.map((e) => Tab())),
+                        ],
+                      ),
+                    ),
+                  )
                 ],
               ),
             ),
