@@ -5,8 +5,8 @@ A new Flutter project.
 ## EP2178
 
 - Tiimi Mobile - Employee Management: Time, Assets & Documents
-- Purrweb UI/UX Agency
-- https://dribbble.com/shots/25695883-Habit-Journal-Mobile-iOS-App
+- Bagus Fikri for Fikri Studio
+- https://dribbble.com/shots/25729085-Tiimi-Mobile-Employee-Management-Time-Assets-Documents
 
 <img src="https://cdn.dribbble.com/userupload/37279669/file/original-2fe4ff11a0b17e61a9a655478d7dcae7.png?resize=1905x1428&vertical=center"/>
 
