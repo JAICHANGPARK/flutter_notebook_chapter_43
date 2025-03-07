@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class EmployeeDetailPage extends StatefulWidget {
   const EmployeeDetailPage({super.key});
 
@@ -11,6 +10,8 @@ class EmployeeDetailPage extends StatefulWidget {
 class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Color.fromRGBO(29, 34, 46, 1),
+    );
   }
 }
