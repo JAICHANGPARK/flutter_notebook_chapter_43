@@ -55,9 +55,15 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                             Row(
                               spacing: 8,
                               children: [
-                                Icon(Icons.timelapse),
+                                Icon(
+                                  Icons.timelapse,
+                                  size: 16,
+                                ),
                                 Text("Fulltime"),
-                                Icon(Icons.business_center_outlined),
+                                Icon(
+                                  Icons.business_center_outlined,
+                                  size: 16,
+                                ),
                                 Text("Onsite"),
                               ],
                             )
@@ -72,9 +78,11 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                       child: Column(
                         children: [
                           TabBar(
-                            tabs: tabs.map((e) => Tab(
-                              text: e,
-                            )).toList(),
+                            tabs: tabs
+                                .map((e) => Tab(
+                                      text: e,
+                                    ))
+                                .toList(),
                           ),
                           Expanded(
                             child: TabBarView(
