@@ -37,6 +37,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                 spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  Container(),
                   Row(
                     spacing: 16,
                     children: [
@@ -70,7 +71,23 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                       length: tabs.length,
                       child: Column(
                         children: [
-                          TabBar(tabs: tabs.map((e) => Tab())),
+                          TabBar(
+                            tabs: tabs.map((e) => Tab(
+                              text: e,
+                            )).toList(),
+                          ),
+                          Expanded(
+                            child: TabBarView(
+                              children: [
+                                Container(),
+                                Container(),
+                                Container(),
+                                Container(),
+                                Container(),
+                                Container(),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
