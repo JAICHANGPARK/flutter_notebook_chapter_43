@@ -11,7 +11,13 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       backgroundColor: Color.fromRGBO(29, 34, 46, 1),
+      body: Column(
+        children: [
+
+        ],
+      ),
     );
   }
 }
