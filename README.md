@@ -8,7 +8,7 @@ A new Flutter project.
 - Bagus Fikri for Fikri Studio
 - https://dribbble.com/shots/25729085-Tiimi-Mobile-Employee-Management-Time-Assets-Documents
 
-<img src="https://cdn.dribbble.com/userupload/37279669/file/original-2fe4ff11a0b17e61a9a655478d7dcae7.png?resize=1905x1428&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/40122100/file/original-1d841ff6277268f3e0c143c6b83a287e.png?resize=1905x1429&vertical=center"/>
 
 ## EP2173-2177
 
