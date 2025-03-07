@@ -38,7 +38,9 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                   Row(
                     spacing: 16,
                     children: [
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 28,
+                      ),
                       Expanded(
                         child: Column(
                           spacing: 12,
@@ -48,6 +50,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                               "Dreamwalker",
                             ),
                             Row(
+                              spacing: 8,
                               children: [
                                 Icon(Icons.timelapse),
                                 Text("Fulltime"),
@@ -59,7 +62,8 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                         ),
                       )
                     ],
-                  )
+                  ),
+                  Expanded(child: DefaultTabController(length: length, child: child))
                 ],
               ),
             ),
