@@ -30,14 +30,19 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                     topLeft: Radius.circular(12),
                     topRight: Radius.circular(12),
                   )),
+              padding: EdgeInsets.all(16),
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    spacing: 16,
                     children: [
                       CircleAvatar(),
                       Expanded(
                         child: Column(
+                          spacing: 12,
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               "Dreamwalker",
