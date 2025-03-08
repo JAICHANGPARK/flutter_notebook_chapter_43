@@ -68,7 +68,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                               child: Text(
                                 "Laptop",
                                 style: TextStyle(
-                                  fontSize: 12,
+                                  fontSize: 10,
                                 ),
                               ),
                             )
