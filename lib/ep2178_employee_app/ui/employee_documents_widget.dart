@@ -65,6 +65,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
               return Container(
                 margin: EdgeInsets.only(bottom: 16),
                 decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(6),
                   border: Border.all(
                     color: Colors.grey[300]!,
                   ),
