@@ -11,6 +11,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      spacing: 12,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text("List Document"),
