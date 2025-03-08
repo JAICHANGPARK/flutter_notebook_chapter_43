@@ -32,6 +32,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                 ),
                 borderRadius: BorderRadius.circular(8),
               ),
+              padding: EdgeInsets.all(16),
               child: Column(
                 children: [
                   Row(
@@ -52,6 +53,9 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.grey,
+                            ),
+                            child: Text(
+                              "Laptop",
                             ),
                           )
                         ],
