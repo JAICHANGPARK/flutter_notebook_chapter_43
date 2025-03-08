@@ -19,9 +19,15 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
             fontSize: 16,
           ),
         ),
-        Expanded(
-            child: ListView.builder(
-          itemBuilder: (context, index) {},
+        Expanded(child: ListView.builder(
+          itemBuilder: (context, index) {
+            return Container(
+              decoration: BoxDecoration(
+                  border: Border.all(
+                color: Colors.grey[100]!,
+              )),
+            );
+          },
         ))
       ],
     );
