@@ -74,6 +74,9 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                     Container(
                       height: 52,
                       width: 52,
+                      decoration: BoxDecoration(
+                        color: Colors.grey[400]!,
+                      ),
                     ),
                     Expanded(
                       child: Column(
