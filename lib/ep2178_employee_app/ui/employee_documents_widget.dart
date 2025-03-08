@@ -23,6 +23,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
         SizedBox(
           height: 42,
           child: Row(
+            spacing: 16,
             children: [
               Expanded(
                 child: Container(
@@ -41,9 +42,13 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                   ),
                 ),
               ),
+
               Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(4),
+                  border: Border.all(
+                    color: Colors.grey[300]!,
+                  ),
                 ),
                 child: IconButton(
                   onPressed: () {},
