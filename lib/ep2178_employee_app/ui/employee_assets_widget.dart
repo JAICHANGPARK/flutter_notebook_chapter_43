@@ -36,6 +36,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
               child: Column(
                 children: [
                   Row(
+                    spacing: 12,
                     children: [
                       Container(
                         height: 52,
@@ -46,6 +47,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                       ),
                       Expanded(
                           child: Column(
+                            spacing: 12,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("Macbook Pro 14 inch 512GB M1 Pro"),
