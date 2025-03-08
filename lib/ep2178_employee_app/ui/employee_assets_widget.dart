@@ -30,11 +30,21 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                 border: Border.all(
                   color: Colors.grey[300]!,
                 ),
-                borderRadius: BorderRadius.circular(12),
+                borderRadius: BorderRadius.circular(8),
               ),
               child: Column(
                 children: [
-
+                  Row(
+                    children: [
+                      Container(
+                        height: 52,
+                        width: 52,
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                        ),
+                      )
+                    ],
+                  )
                 ],
               ),
             );
