@@ -70,7 +70,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                     color: Colors.grey[300]!,
                   ),
                 ),
-                padding: EdgeInsets.all(12),
+                padding: EdgeInsets.all(8),
                 child: Row(
                   children: [
                     Container(
@@ -85,12 +85,9 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                         children: [],
                       ),
                     ),
-                    IconButton(
-                      onPressed: () {},
-                      icon: Icon(
-                        Icons.more_vert,
-                      ),
-                    )
+                    Icon(
+                      Icons.more_vert,
+                    ),
                   ],
                 ),
               );
