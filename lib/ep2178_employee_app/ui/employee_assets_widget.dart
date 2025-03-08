@@ -26,6 +26,9 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
           itemBuilder: (context, index) {
             return Container(
               // height: 140,
+              margin: EdgeInsets.only(
+                bottom: 16,
+              ),
               decoration: BoxDecoration(
                 border: Border.all(
                   color: Colors.grey[300]!,
@@ -50,7 +53,12 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                           spacing: 8,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Macbook Pro 14 inch 512GB M1 Pro"),
+                            Text(
+                              "Macbook Pro 14 inch 512GB M1 Pro",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
