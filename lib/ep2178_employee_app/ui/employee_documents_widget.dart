@@ -44,6 +44,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
               ),
 
               Container(
+                width: 42,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(4),
                   border: Border.all(
