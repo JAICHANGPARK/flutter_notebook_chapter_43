@@ -14,26 +14,33 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text("List Document"),
-        Row(
-          children: [
-            Expanded(
-              child: TextField(
-                decoration: BoxDecoration(
+        SizedBox(
+          height: 42,
+          child: Row(
+            children: [
+              Expanded(
+                child: Container(
+                  decoration: BoxDecoration(
                     border: Border.all(
-                  color: Colors.grey[300]!,
-                )),
+                      color: Colors.grey[300]!,
+                    ),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration()
+                  ),
+                ),
               ),
-            ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(4),
-              ),
-              child: IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.filter_alt_outlined),
-              ),
-            )
-          ],
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(4),
+                ),
+                child: IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.filter_alt_outlined),
+                ),
+              )
+            ],
+          ),
         )
       ],
     );
