@@ -72,35 +72,39 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                   Divider(
                     height: 24,
                   ),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Text("Serial number"),
-                            Text("A11-114213"),
-                          ],
+                  IntrinsicHeight(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Column(
+                            children: [
+                              Text("Serial number",style: TextStyle(
+                                fontSize: 12,
+                              ),),
+                              Text("A11-114213"),
+                            ],
+                          ),
                         ),
-                      ),
-                      VerticalDivider(),
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Text("Serial number"),
-                            Text("A11-114213"),
-                          ],
+                        VerticalDivider(),
+                        Expanded(
+                          child: Column(
+                            children: [
+                              Text("Serial number"),
+                              Text("A11-114213"),
+                            ],
+                          ),
                         ),
-                      ),
-                      VerticalDivider(),
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Text("Serial number"),
-                            Text("A11-114213"),
-                          ],
-                        ),
-                      )
-                    ],
+                        VerticalDivider(),
+                        Expanded(
+                          child: Column(
+                            children: [
+                              Text("Serial number"),
+                              Text("A11-114213"),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
