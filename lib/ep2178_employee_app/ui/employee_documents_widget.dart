@@ -86,8 +86,18 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         spacing: 6,
                         children: [
-                          Text("Cover Letter"),
-                          Text("PDF 1,232 MB")
+                          Text(
+                            "Cover Letter",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text(
+                            "PDF 1,232 MB",
+                            style: TextStyle(
+                              fontSize: 12,
+                            ),
+                          )
                         ],
                       ),
                     ),
