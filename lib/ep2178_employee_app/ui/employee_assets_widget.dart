@@ -25,7 +25,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
         Expanded(child: ListView.builder(
           itemBuilder: (context, index) {
             return Container(
-              height: 140,
+              // height: 140,
               decoration: BoxDecoration(
                 border: Border.all(
                   color: Colors.grey[300]!,
@@ -69,14 +69,20 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                       ),
                     ],
                   ),
-                  Divider(),
+                  Divider(
+                    height: 24,
+                  ),
                   Row(
                     children: [
                       Expanded(
                         child: Column(
-                          children: [],
+                          children: [
+                            Text("Serial number"),
+                            Text("A11-114213"),
+                          ],
                         ),
-                      )
+                      ),
+                      
                     ],
                   )
                 ],
