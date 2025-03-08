@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class EmployeeAssetsWidget extends StatefulWidget {
   const EmployeeAssetsWidget({super.key});
 
@@ -14,7 +13,16 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-
+        Text(
+          "List Assets",
+          style: TextStyle(
+            fontSize: 16,
+          ),
+        ),
+        Expanded(
+            child: ListView.builder(
+          itemBuilder: (context, index) {},
+        ))
       ],
     );
   }
