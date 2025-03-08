@@ -42,7 +42,11 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                         decoration: BoxDecoration(
                           color: Colors.grey,
                         ),
-                      )
+                      ),
+                      Expanded(
+                          child: Column(
+                        children: [],
+                      ))
                     ],
                   )
                 ],
