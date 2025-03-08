@@ -13,8 +13,9 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
+      spacing: 12,
       children: [
-        Gap(12),
+        Container(),
         Text(
           "List Assets",
           style: TextStyle(
