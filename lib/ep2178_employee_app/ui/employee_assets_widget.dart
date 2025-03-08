@@ -48,7 +48,6 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                       Expanded(
                         child: Column(
                           spacing: 8,
-
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Macbook Pro 14 inch 512GB M1 Pro"),
@@ -57,11 +56,12 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                                 shape: StadiumBorder(),
                                 color: Colors.grey[300],
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 6,vertical: 3),
+                              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 3),
                               child: Text(
-                                "Laptop",style: TextStyle(
-                                fontSize: 12,
-                              ),
+                                "Laptop",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
                               ),
                             )
                           ],
@@ -77,37 +77,73 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                   ),
                   IntrinsicHeight(
                     child: Row(
+                      spacing: 12,
                       children: [
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             spacing: 6,
                             children: [
-                              Text("Serial number",style: TextStyle(
-                                fontSize: 12,
-                              ),),
-                              Text("A11-114213"),
+                              Text(
+                                "Serial number",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
+                              ),
+                              Text(
+                                "A11-114213",
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                             ],
                           ),
                         ),
                         VerticalDivider(),
                         Expanded(
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 6,
                             children: [
-                              Text("Serial number"),
-                              Text("A11-114213"),
+                              Text(
+                                "Serial number",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
+                              ),
+                              Text(
+                                "A11-114213",
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                             ],
                           ),
                         ),
                         VerticalDivider(),
                         Expanded(
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 6,
                             children: [
-                              Text("Serial number"),
-                              Text("A11-114213"),
+                              Text(
+                                "Serial number",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                ),
+                              ),
+                              Text(
+                                "A11-114213",
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                             ],
                           ),
-                        )
+                        ),
                       ],
                     ),
                   )
