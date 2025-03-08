@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 import 'ui/employee_assets_widget.dart';
 
@@ -88,6 +89,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                                     ))
                                 .toList(),
                           ),
+                          Gap(12),
                           Expanded(
                             child: TabBarView(
                               children: [
