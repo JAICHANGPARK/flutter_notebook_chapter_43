@@ -46,22 +46,26 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                         ),
                       ),
                       Expanded(
-                          child: Column(
-                            spacing: 12,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text("Macbook Pro 14 inch 512GB M1 Pro"),
-                          Container(
-                            decoration: ShapeDecoration(
-                              shape: StadiumBorder(),
-                              color: Colors.grey,
-                            ),
-                            child: Text(
-                              "Laptop",
-                            ),
-                          )
-                        ],
-                      ))
+                        child: Column(
+                          spacing: 12,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Macbook Pro 14 inch 512GB M1 Pro"),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Colors.grey,
+                              ),
+                              child: Text(
+                                "Laptop",
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
+                      Icon(
+                        Icons.more_horiz,
+                      ),
                     ],
                   )
                 ],
