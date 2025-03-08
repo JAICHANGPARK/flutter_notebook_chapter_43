@@ -14,7 +14,12 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
       spacing: 12,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text("List Document"),
+        Text(
+          "List Document",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         SizedBox(
           height: 42,
           child: Row(
@@ -27,7 +32,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                     ),
                   ),
                   child: TextField(
-                    decoration: InputDecoration()
+                    decoration: InputDecoration(border: InputBorder.none, prefixIcon: Icon(Icons.search)),
                   ),
                 ),
               ),
