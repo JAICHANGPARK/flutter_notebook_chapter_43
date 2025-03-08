@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2178_employee_app/ui/employee_documents_widget.dart';
 import 'package:gap/gap.dart';
 
 import 'ui/employee_assets_widget.dart';
@@ -96,7 +97,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                                 Container(),
                                 Container(),
                                 EmployeeAssetsWidget(),
-                                Container(),
+                                EmployeeDocumentsWidget(),
                                 Container(),
                                 Container(),
                               ],
