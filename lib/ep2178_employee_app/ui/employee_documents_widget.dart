@@ -28,6 +28,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(4),
                     border: Border.all(
                       color: Colors.grey[300]!,
                     ),
@@ -42,7 +43,6 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                   ),
                 ),
               ),
-
               Container(
                 width: 42,
                 decoration: BoxDecoration(
@@ -58,7 +58,19 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
               ),
             ],
           ),
-        )
+        ),
+        Expanded(
+          child: ListView.builder(
+            itemBuilder: (context, index) {
+              return Container(
+                decoration: BoxDecoration(
+                    border: Border.all(
+                  color: Colors.grey[300]!,
+                )),
+              );
+            },
+          ),
+        ),
       ],
     );
   }
