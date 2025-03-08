@@ -90,7 +90,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                                     ))
                                 .toList(),
                           ),
-                          Gap(12),
+                          Gap(16),
                           Expanded(
                             child: TabBarView(
                               children: [
