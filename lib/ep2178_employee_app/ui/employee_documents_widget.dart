@@ -72,6 +72,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                 ),
                 padding: EdgeInsets.all(12),
                 child: Row(
+                  spacing: 12,
                   children: [
                     Container(
                       height: 52,
