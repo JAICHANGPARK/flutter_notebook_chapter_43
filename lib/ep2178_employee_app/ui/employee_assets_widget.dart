@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class EmployeeAssetsWidget extends StatefulWidget {
   const EmployeeAssetsWidget({super.key});
@@ -13,6 +14,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        Gap(12),
         Text(
           "List Assets",
           style: TextStyle(
