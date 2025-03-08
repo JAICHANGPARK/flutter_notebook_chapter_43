@@ -48,6 +48,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                       Expanded(
                         child: Column(
                           spacing: 8,
+
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Macbook Pro 14 inch 512GB M1 Pro"),
@@ -58,7 +59,9 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                               ),
                               padding: EdgeInsets.symmetric(horizontal: 6,vertical: 3),
                               child: Text(
-                                "Laptop",
+                                "Laptop",style: TextStyle(
+                                fontSize: 12,
+                              ),
                               ),
                             )
                           ],
@@ -77,6 +80,8 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                       children: [
                         Expanded(
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 6,
                             children: [
                               Text("Serial number",style: TextStyle(
                                 fontSize: 12,
