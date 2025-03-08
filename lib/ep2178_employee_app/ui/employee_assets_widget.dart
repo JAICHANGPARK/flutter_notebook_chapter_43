@@ -82,6 +82,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                           ],
                         ),
                       ),
+                      VerticalDivider(),
                       Expanded(
                         child: Column(
                           children: [
@@ -90,6 +91,7 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                           ],
                         ),
                       ),
+                      VerticalDivider(),
                       Expanded(
                         child: Column(
                           children: [
