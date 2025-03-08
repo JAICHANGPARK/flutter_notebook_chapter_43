@@ -45,7 +45,16 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                       ),
                       Expanded(
                           child: Column(
-                        children: [],
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Macbook Pro 14 inch 512GB M1 Pro"),
+                          Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.grey,
+                            ),
+                          )
+                        ],
                       ))
                     ],
                   )
