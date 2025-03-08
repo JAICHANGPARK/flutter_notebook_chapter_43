@@ -10,6 +10,8 @@ class EmployeeDocumentsWidget extends StatefulWidget {
 class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      
+    );
   }
 }
