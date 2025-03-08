@@ -63,7 +63,9 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
           child: ListView.builder(
             itemBuilder: (context, index) {
               return Container(
-                
+                margin: EdgeInsets.only(
+                  bottom: 16
+                ),
                 decoration: BoxDecoration(
                   border: Border.all(
                     color: Colors.grey[300]!,
