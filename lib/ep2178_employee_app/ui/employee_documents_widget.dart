@@ -19,6 +19,15 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
             Expanded(
               child: TextField(),
             ),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(4),
+              ),
+              child: IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.filter_alt_outlined),
+              ),
+            )
           ],
         )
       ],
