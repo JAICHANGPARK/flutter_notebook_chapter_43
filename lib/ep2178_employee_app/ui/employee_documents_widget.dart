@@ -13,7 +13,14 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-
+        Text("List Document"),
+        Row(
+          children: [
+            Expanded(
+              child: TextField(),
+            ),
+          ],
+        )
       ],
     );
   }
