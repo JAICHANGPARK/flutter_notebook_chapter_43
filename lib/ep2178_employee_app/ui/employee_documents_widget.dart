@@ -69,6 +69,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                     color: Colors.grey[300]!,
                   ),
                 ),
+                padding: EdgeInsets.all(12),
                 child: Row(
                   children: [
                     Container(
