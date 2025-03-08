@@ -11,6 +11,11 @@ class EmployeeAssetsWidget extends StatefulWidget {
 class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+
+      ],
+    );
   }
 }
