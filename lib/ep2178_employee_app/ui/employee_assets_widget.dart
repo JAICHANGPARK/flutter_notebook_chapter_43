@@ -82,7 +82,22 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
                           ],
                         ),
                       ),
-                      
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text("Serial number"),
+                            Text("A11-114213"),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text("Serial number"),
+                            Text("A11-114213"),
+                          ],
+                        ),
+                      )
                     ],
                   )
                 ],
