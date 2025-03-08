@@ -80,6 +80,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                         children: [],
                       ),
                     ),
+                    IconButton(onPressed: (){}, icon: Icon(Icons.more_vert,))
                   ],
                 ),
               );
