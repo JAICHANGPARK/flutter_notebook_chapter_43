@@ -32,7 +32,12 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                     ),
                   ),
                   child: TextField(
-                    decoration: InputDecoration(border: InputBorder.none, prefixIcon: Icon(Icons.search)),
+                    decoration: InputDecoration(
+                      border: InputBorder.none,
+                      prefixIcon: Icon(
+                        Icons.search,
+                      ),
+                    ),
                   ),
                 ),
               ),
@@ -44,7 +49,7 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                   onPressed: () {},
                   icon: Icon(Icons.filter_alt_outlined),
                 ),
-              )
+              ),
             ],
           ),
         )
