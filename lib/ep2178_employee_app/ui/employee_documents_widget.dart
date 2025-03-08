@@ -17,7 +17,12 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
         Row(
           children: [
             Expanded(
-              child: TextField(),
+              child: TextField(
+                decoration: BoxDecoration(
+                    border: Border.all(
+                  color: Colors.grey[300]!,
+                )),
+              ),
             ),
             Container(
               decoration: BoxDecoration(
