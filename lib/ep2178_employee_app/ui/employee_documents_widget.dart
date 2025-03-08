@@ -82,7 +82,12 @@ class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
                     ),
                     Expanded(
                       child: Column(
-                        children: [],
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        spacing: 6,
+                        children: [
+                          Text("Cover Letter"),
+                          Text("PDF 1,232 MB")
+                        ],
                       ),
                     ),
                     Icon(
