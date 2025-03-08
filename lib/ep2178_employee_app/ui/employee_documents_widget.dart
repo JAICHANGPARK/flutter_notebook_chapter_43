@@ -10,8 +10,11 @@ class EmployeeDocumentsWidget extends StatefulWidget {
 class _EmployeeDocumentsWidgetState extends State<EmployeeDocumentsWidget> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+
+      ],
     );
   }
 }
