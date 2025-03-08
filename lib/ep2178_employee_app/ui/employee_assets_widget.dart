@@ -25,10 +25,17 @@ class _EmployeeAssetsWidgetState extends State<EmployeeAssetsWidget> {
         Expanded(child: ListView.builder(
           itemBuilder: (context, index) {
             return Container(
+              height: 140,
               decoration: BoxDecoration(
-                  border: Border.all(
-                color: Colors.grey[100]!,
-              )),
+                border: Border.all(
+                  color: Colors.grey[300]!,
+                ),
+              ),
+              child: Column(
+                children: [
+
+                ],
+              ),
             );
           },
         ))
