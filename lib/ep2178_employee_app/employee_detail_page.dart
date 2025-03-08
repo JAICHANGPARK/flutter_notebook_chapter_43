@@ -91,7 +91,7 @@ class _EmployeeDetailPageState extends State<EmployeeDetailPage> {
                               children: [
                                 Container(),
                                 Container(),
-                                Container(),
+                                EmployeeAssetsWidget(),
                                 Container(),
                                 Container(),
                                 Container(),
