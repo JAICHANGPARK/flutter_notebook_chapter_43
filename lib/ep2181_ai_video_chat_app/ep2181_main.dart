@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2181_ai_video_chat_app/ui/ai_video_home_page.dart';
 
 void main() {
   runApp(AIVideoChatApp());
@@ -14,6 +15,7 @@ class AIVideoChatApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
         scaffoldBackgroundColor: Colors.black
       ),
+      home: AiVideoHomePage(),
     );
   }
 }
