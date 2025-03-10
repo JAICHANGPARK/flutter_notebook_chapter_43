@@ -10,6 +10,10 @@ class AIVideoChatApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      theme: ThemeData.light().copyWith(
+        scaffoldBackgroundColor: Colors.black
+      ),
+    );
   }
 }
