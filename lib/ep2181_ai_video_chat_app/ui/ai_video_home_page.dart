@@ -11,6 +11,8 @@ class AiVideoHomePage extends StatefulWidget {
 class _AiVideoHomePageState extends State<AiVideoHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
