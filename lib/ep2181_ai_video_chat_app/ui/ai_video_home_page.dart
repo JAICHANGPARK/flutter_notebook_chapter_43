@@ -74,6 +74,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         ),
                         CircleAvatar(
                           radius: 26,
+                          backgroundColor: Color.fromRGBO(71, 71, 71, 1),
                         ),
                       ],
                     ),
