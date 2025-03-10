@@ -31,7 +31,9 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.pinkAccent,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     child: Row(
+                      spacing: 6,
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Icon(
