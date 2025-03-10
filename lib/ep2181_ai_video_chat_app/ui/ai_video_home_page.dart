@@ -50,9 +50,14 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     ),
                   ),
                   Container(
-                    decoration: Row(
+                    child:  Row(
+                      mainAxisSize: MainAxisSize.min
+                      ,
                       children: [
 
+                        CircleAvatar(),
+                        CircleAvatar(),
+                        CircleAvatar(),
                         CircleAvatar(),
                       ],
                     ),
