@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 
-class  extends StatelessWidget {
-  const ({super.key});
+class AIVideoChatApp extends StatelessWidget {
+  const AIVideoChatApp({super.key});
 
   @override
   Widget build(BuildContext context) {
