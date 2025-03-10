@@ -24,9 +24,21 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
               left: 0,
               right: 0,
               bottom: 12,
-              child: Column(children: [
-
-          ],))
+              child: Column(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.pinkAccent,
+                    ),
+                    child: Row(
+                      children: [
+                        
+                      ],
+                    ),
+                  )
+                ],
+              ))
         ],
       ),
     );
