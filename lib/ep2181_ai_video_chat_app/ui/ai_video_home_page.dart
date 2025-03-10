@@ -32,6 +32,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       color: Colors.pinkAccent,
                     ),
                     child: Row(
+                      mainAxisSize: MainAxisSize.min,
                       children: [
                         Icon(
                           Icons.videocam_outlined,
