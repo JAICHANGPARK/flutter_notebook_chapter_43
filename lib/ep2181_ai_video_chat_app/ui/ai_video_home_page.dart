@@ -53,6 +53,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     child:  Row(
                       mainAxisSize: MainAxisSize.min
                       ,
+                      spacing: 4,
                       children: [
 
                         CircleAvatar(
