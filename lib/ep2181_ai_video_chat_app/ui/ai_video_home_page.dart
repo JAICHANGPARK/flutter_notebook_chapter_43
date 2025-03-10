@@ -33,7 +33,13 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     ),
                     child: Row(
                       children: [
-                        Icon(Icons.videocam_outlined,color: Colors.white,)
+                        Icon(
+                          Icons.videocam_outlined,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          "Start Live",
+                        )
                       ],
                     ),
                   )
