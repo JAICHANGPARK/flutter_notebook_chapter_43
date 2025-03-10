@@ -58,13 +58,15 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     padding: EdgeInsets.all(4),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
-                      spacing: 4,
+                      spacing: 8,
                       children: [
                         CircleAvatar(
                           radius: 26,
+                          backgroundColor: Color.fromRGBO(71, 71, 71, 1),
                         ),
                         CircleAvatar(
                           radius: 26,
+                          backgroundColor: Color.fromRGBO(71, 71, 71, 1),
                         ),
                         CircleAvatar(
                           radius: 26,
