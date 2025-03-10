@@ -42,7 +42,18 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         ),
                         Text(
                           "Start Live",
-                        )
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    decoration: Row(
+                      children: [
+
+                        CircleAvatar(),
                       ],
                     ),
                   )
