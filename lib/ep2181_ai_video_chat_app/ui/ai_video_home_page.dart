@@ -33,7 +33,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     ),
                     child: Row(
                       children: [
-                        
+                        Icon(Icons.videocam_outlined,color: Colors.white,)
                       ],
                     ),
                   )
