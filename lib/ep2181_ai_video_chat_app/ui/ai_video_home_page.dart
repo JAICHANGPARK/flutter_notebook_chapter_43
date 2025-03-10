@@ -53,7 +53,9 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
+                      color: Color.fromRGBO(47, 47, 47, 1),
                     ),
+                    padding: EdgeInsets.all(4),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       spacing: 4,
