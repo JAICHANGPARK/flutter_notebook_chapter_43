@@ -55,10 +55,12 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       ,
                       children: [
 
-                        CircleAvatar(),
-                        CircleAvatar(),
-                        CircleAvatar(),
-                        CircleAvatar(),
+                        CircleAvatar(
+                          radius: 26,
+                        ),
+                        CircleAvatar(radius: 26,),
+                        CircleAvatar(radius: 26,),
+                        CircleAvatar(radius: 26,),
                       ],
                     ),
                   )
