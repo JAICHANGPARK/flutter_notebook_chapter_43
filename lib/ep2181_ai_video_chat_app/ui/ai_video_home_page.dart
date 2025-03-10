@@ -25,6 +25,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
               right: 0,
               bottom: 12,
               child: Column(
+                spacing: 6,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
@@ -50,18 +51,25 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     ),
                   ),
                   Container(
-                    child:  Row(
-                      mainAxisSize: MainAxisSize.min
-                      ,
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
                       spacing: 4,
                       children: [
-
                         CircleAvatar(
                           radius: 26,
                         ),
-                        CircleAvatar(radius: 26,),
-                        CircleAvatar(radius: 26,),
-                        CircleAvatar(radius: 26,),
+                        CircleAvatar(
+                          radius: 26,
+                        ),
+                        CircleAvatar(
+                          radius: 26,
+                        ),
+                        CircleAvatar(
+                          radius: 26,
+                        ),
                       ],
                     ),
                   )
