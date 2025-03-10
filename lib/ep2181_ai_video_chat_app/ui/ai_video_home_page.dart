@@ -20,6 +20,13 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
               ),
             ),
           ),
+          Positioned(
+              left: 0,
+              right: 0,
+              bottom: 12,
+              child: Column(children: [
+
+          ],))
         ],
       ),
     );
