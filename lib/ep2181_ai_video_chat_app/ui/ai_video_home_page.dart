@@ -105,7 +105,22 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       Text("Active"),
                       TextButton(onPressed: (){}, child: Text("See all"))
                     ],
-                  )
+                  ),
+                  Container(
+                    height: 100,
+                    child: Placeholder(),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Active"),
+                      TextButton(onPressed: (){}, child: Text("See all"))
+                    ],
+                  ),
+                  Container(
+                    height: 160,
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             ),
