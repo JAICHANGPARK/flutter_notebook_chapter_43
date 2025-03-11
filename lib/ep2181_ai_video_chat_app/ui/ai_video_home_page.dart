@@ -51,7 +51,11 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         Container(
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.white,
+                              )
+                            ],
                           ),
                         )
                       ],
