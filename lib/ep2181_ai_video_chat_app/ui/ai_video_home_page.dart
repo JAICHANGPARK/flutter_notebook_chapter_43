@@ -52,7 +52,12 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             color: Colors.black,
-                            boxShadow: [BoxShadow(color: Colors.white, offset: Offset(1, 0))],
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.white.withValues(alpha: .8),
+                                offset: Offset(.8, 0),
+                              ),
+                            ],
                           ),
                           child: IconButton(
                             onPressed: () {},
