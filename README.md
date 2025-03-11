@@ -5,7 +5,7 @@ A new Flutter project.
 ## EP2181
 
 - AI Video Chat Mobile App
-- Bagus Fikri for Fikri Studio
+- Abu Hasan Emon
 - https://dribbble.com/shots/25729085-Tiimi-Mobile-Employee-Management-Time-Assets-Documents
 
 <img src="https://cdn.dribbble.com/userupload/40122100/file/original-1d841ff6277268f3e0c143c6b83a287e.png?resize=1905x1429&vertical=center"/>
