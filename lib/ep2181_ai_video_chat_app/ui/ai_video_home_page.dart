@@ -23,12 +23,16 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
-
                         ),
                         child: Row(
+                          spacing: 6,
                           children: [
-                            Icon(Icons.dia)
+                            Icon(
+                              Icons.diamond_outlined,
+                              color: Colors.orange,
+                            ),
 
+                            Text("Shop")
                           ],
                         ),
                       )
