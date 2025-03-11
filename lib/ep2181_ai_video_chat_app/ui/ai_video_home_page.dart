@@ -16,7 +16,25 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
-                children: [],
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+
+                        ),
+                        child: Row(
+                          children: [
+                            Icon(Icons.dia)
+
+                          ],
+                        ),
+                      )
+                    ],
+                  )
+                ],
               ),
             ),
           ),
@@ -66,8 +84,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         ),
                         CircleAvatar(
                           radius: 26,
-                          backgroundColor:  Color.fromRGBO(255, 74, 152, 1),
-
+                          backgroundColor: Color.fromRGBO(255, 74, 152, 1),
                         ),
                         CircleAvatar(
                           radius: 26,
