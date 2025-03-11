@@ -90,6 +90,10 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       ],
                     ),
                   ),
+                  Text("Live"),
+                  Container(
+                    height: 52,
+                  )
                 ],
               ),
             ),
