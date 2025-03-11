@@ -20,6 +20,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   Padding(
                     padding: const EdgeInsets.all(24.0),
                     child: Row(
+                      spacing: 16,
                       children: [
                         CircleAvatar(
                           radius: 24,
