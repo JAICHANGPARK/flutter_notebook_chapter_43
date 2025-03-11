@@ -23,6 +23,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
+                          color: Color.fromRGBO(71, 71, 71, 1),
                         ),
                         child: Row(
                           spacing: 6,
