@@ -8,7 +8,7 @@ A new Flutter project.
 - Abu Hasan Emon
 - https://dribbble.com/shots/25738683-AI-Video-Chat-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/40122100/file/original-1d841ff6277268f3e0c143c6b83a287e.png?resize=1905x1429&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/41493732/file/original-29ff7fbd699d008fbd7c6206bc3d61e1.png?resize=1905x1429&vertical=center"/>
 
 
 
