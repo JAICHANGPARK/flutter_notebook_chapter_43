@@ -6,7 +6,7 @@ A new Flutter project.
 
 - AI Video Chat Mobile App
 - Abu Hasan Emon
-- https://dribbble.com/shots/25729085-Tiimi-Mobile-Employee-Management-Time-Assets-Documents
+- https://dribbble.com/shots/25738683-AI-Video-Chat-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/40122100/file/original-1d841ff6277268f3e0c143c6b83a287e.png?resize=1905x1429&vertical=center"/>
 
