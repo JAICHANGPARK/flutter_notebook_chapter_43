@@ -17,32 +17,38 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(
-                    children: [
-                      CircleAvatar(),
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Color.fromRGBO(71, 71, 71, 1),
+                  Padding(
+                    padding: const EdgeInsets.all(24.0),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 24,
                         ),
-                        child: Row(
-                          spacing: 6,
-                          children: [
-                            Icon(
-                              Icons.diamond_outlined,
-                              color: Colors.orange,
-                            ),
-                            Text(
-                              "Shop",
-                              style: TextStyle(
-                                fontSize: 16,
-                                color: Colors.white,
+                        Spacer(),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(71, 71, 71, 1),
+                          ),
+                          child: Row(
+                            spacing: 6,
+                            children: [
+                              Icon(
+                                Icons.diamond_outlined,
+                                color: Colors.orange,
                               ),
-                            )
-                          ],
-                        ),
-                      )
-                    ],
+                              Text(
+                                "Shop",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                ),
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
