@@ -26,6 +26,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         ),
                         Spacer(),
                         Container(
+                          padding: EdgeInsets.symmetric(horizontal: 6,vertical:4),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(71, 71, 71, 1),
