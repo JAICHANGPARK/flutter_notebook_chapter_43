@@ -31,8 +31,13 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                               Icons.diamond_outlined,
                               color: Colors.orange,
                             ),
-
-                            Text("Shop")
+                            Text(
+                              "Shop",
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                              ),
+                            )
                           ],
                         ),
                       )
