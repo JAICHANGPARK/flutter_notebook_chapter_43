@@ -67,6 +67,25 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                             ),
                             color: Colors.white,
                           ),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.black,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.white.withValues(alpha: .8),
+                                offset: Offset(.8, 0),
+                              ),
+                            ],
+                          ),
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.notifications_active_outlined,
+                            ),
+                            color: Colors.white,
+                          ),
                         )
                       ],
                     ),
