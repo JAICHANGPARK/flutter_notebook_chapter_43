@@ -55,8 +55,8 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                             color: Colors.black,
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.white.withValues(alpha: .8),
-                                offset: Offset(.8, 0),
+                                color: Colors.white.withValues(alpha: .5),
+                                offset: Offset(.6, 0),
                               ),
                             ],
                           ),
@@ -74,8 +74,8 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                             color: Colors.black,
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.white.withValues(alpha: .8),
-                                offset: Offset(.8, 0),
+                                color: Colors.white.withValues(alpha: .6),
+                                offset: Offset(.6, 0),
                               ),
                             ],
                           ),
