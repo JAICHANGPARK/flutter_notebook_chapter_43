@@ -150,6 +150,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                           "Start Live",
                           style: TextStyle(
                             color: Colors.white,
+                            fontSize: 16
                           ),
                         ),
                       ],
