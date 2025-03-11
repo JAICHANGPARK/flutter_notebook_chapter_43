@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2181
 
-- Tiimi Mobile - Employee Management: Time, Assets & Documents
+- AI Video Chat Mobile App
 - Bagus Fikri for Fikri Studio
 - https://dribbble.com/shots/25729085-Tiimi-Mobile-Employee-Management-Time-Assets-Documents
 
