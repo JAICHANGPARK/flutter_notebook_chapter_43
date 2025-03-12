@@ -164,10 +164,10 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         ),
                         TextButton(
                             onPressed: () {},
-                            child: Text("See all"),
                             style: TextButton.styleFrom(
                               foregroundColor: Colors.white,
-                            )),
+                            ),
+                            child: Text("See all")),
                       ],
                     ),
                   ),
