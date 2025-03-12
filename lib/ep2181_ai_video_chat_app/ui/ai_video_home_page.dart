@@ -223,13 +223,18 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       ],
                     ),
                   ),
+                  Gap(12),
                   Container(
                     height: 160,
                     child: GridView.count(
                       crossAxisCount: 2,
                       children: List.generate(
                         10,
-                        (idx) {},
+                        (idx) {
+                          return Container(
+                            child: Placeholder(),
+                          );
+                        },
                       ),
                     ),
                   ),
