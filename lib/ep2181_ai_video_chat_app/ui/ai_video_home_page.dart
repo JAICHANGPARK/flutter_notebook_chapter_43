@@ -149,7 +149,11 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Active"),
+                      Text("Active",
+                        style: TextStyle(
+                          fontSize: 26,
+                          color: Colors.white,
+                        ),),
                       TextButton(
                         onPressed: () {},
                         child: Text("See all"),
@@ -163,7 +167,11 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Active"),
+                      Text("Popular",
+                        style: TextStyle(
+                          fontSize: 26,
+                          color: Colors.white,
+                        ),),
                       TextButton(
                         onPressed: () {},
                         child: Text("See all"),
