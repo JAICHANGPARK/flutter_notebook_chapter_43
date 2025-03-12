@@ -94,7 +94,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   ),
                   Gap(24),
                   Padding(
-                    padding: const EdgeInsets.only(left: 16,  bottom: 16),
+                    padding: const EdgeInsets.only(left: 16, bottom: 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       spacing: 16,
@@ -108,12 +108,13 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         ),
                         Container(
                           height: 52,
-                          child: Placeholder(),
+                          child: ListView.builder(
+                            itemBuilder: (context, index) {},
+                          ),
                         ),
                       ],
                     ),
                   ),
-
                   Container(
                     height: 160,
                     child: Placeholder(),
