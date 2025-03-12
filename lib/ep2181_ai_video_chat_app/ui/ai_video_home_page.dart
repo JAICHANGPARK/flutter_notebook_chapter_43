@@ -91,6 +91,11 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       ],
                     ),
                   ),
+                  Column(
+                    children: [
+
+                    ],
+                  ),
                   Text(
                     "Live",
                     style: TextStyle(
