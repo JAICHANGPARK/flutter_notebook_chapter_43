@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class AiVideoHomePage extends StatefulWidget {
   const AiVideoHomePage({super.key});
@@ -91,22 +92,28 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       ],
                     ),
                   ),
-                  Column(
-                    children: [
-
-                    ],
-                  ),
-                  Text(
-                    "Live",
-                    style: TextStyle(
-                      fontSize: 32,
-                      color: Colors.white,
+                  Gap(12),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 16,
+                      children: [
+                        Text(
+                          "Live",
+                          style: TextStyle(
+                            fontSize: 32,
+                            color: Colors.white,
+                          ),
+                        ),
+                        Container(
+                          height: 52,
+                          child: Placeholder(),
+                        ),
+                      ],
                     ),
                   ),
-                  Container(
-                    height: 52,
-                    child: Placeholder(),
-                  ),
+
                   Container(
                     height: 160,
                     child: Placeholder(),
