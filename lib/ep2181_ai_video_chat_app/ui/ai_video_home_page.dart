@@ -109,7 +109,12 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         Container(
                           height: 52,
                           child: ListView.builder(
-                            itemBuilder: (context, index) {},
+                            scrollDirection: Axis.horizontal,
+                            itemBuilder: (context, index) {
+                              return Container(
+                                decoration: ShapeDecoration(shape: StadiumBorder()),
+                              );
+                            },
                           ),
                         ),
                       ],
