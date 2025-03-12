@@ -107,7 +107,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                           ),
                         ),
                         Container(
-                          height: 52,
+                          height: 48,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemCount: 10,
@@ -125,6 +125,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                                     "Trending",
                                     style: TextStyle(
                                       color: Colors.white,
+                                      fontSize: 16,
                                     ),
                                   ),
                                 ),
