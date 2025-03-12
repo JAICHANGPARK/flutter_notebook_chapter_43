@@ -94,7 +94,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   ),
                   Gap(24),
                   Padding(
-                    padding: const EdgeInsets.only(left: 16, top: 16, bottom: 16),
+                    padding: const EdgeInsets.only(left: 16,  bottom: 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       spacing: 16,
