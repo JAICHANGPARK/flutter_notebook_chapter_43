@@ -146,32 +146,44 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       }),
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Active",
-                        style: TextStyle(
-                          fontSize: 26,
-                          color: Colors.white,
-                        ),),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text("See all"),
-                      ),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      left: 16,
+                      top: 16,
+                      right: 16,
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Active",
+                          style: TextStyle(
+                            fontSize: 26,
+                            color: Colors.white,
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text("See all"),
+                        ),
+                      ],
+                    ),
                   ),
                   Container(
+                    margin: EdgeInsets.symmetric(vertical: 16),
                     height: 100,
                     child: Placeholder(),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Popular",
+                      Text(
+                        "Popular",
                         style: TextStyle(
                           fontSize: 26,
                           color: Colors.white,
-                        ),),
+                        ),
+                      ),
                       TextButton(
                         onPressed: () {},
                         child: Text("See all"),
