@@ -110,11 +110,12 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                           height: 52,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
+                            itemCount: 10,
                             itemBuilder: (context, index) {
                               return Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-                                  color: Colors.black.withValues(alpha: .2),
+                                  color: Colors.white.withValues(alpha: .2),
                                 ),
                                 child: Text(
                                   "Trending",
