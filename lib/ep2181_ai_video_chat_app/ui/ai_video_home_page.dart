@@ -175,7 +175,6 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   Container(
                     margin: EdgeInsets.fromLTRB(16, 16, 0, 16),
                     height: 100,
-                    
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
@@ -186,7 +185,12 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                               CircleAvatar(
                                 radius: 32,
                               ),
-                              Text('Dream'),
+                              Text(
+                                'Dream',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                ),
+                              ),
                             ],
                           ),
                         );
@@ -221,7 +225,13 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   ),
                   Container(
                     height: 160,
-                    child: Placeholder(),
+                    child: GridView.count(
+                      crossAxisCount: 2,
+                      children: List.generate(
+                        10,
+                        (idx) {},
+                      ),
+                    ),
                   ),
                 ],
               ),
