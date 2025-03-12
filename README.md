@@ -10,8 +10,6 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/41493732/file/original-29ff7fbd699d008fbd7c6206bc3d61e1.png?resize=1905x1429&vertical=center"/>
 
-
-
 ## EP2178-2180
 
 - Tiimi Mobile - Employee Management: Time, Assets & Documents
@@ -27,7 +25,6 @@ A new Flutter project.
 - https://dribbble.com/shots/25695883-Habit-Journal-Mobile-iOS-App
 
 <img src="https://cdn.dribbble.com/userupload/37279669/file/original-2fe4ff11a0b17e61a9a655478d7dcae7.png?resize=1905x1428&vertical=center"/>
-
 
 ## EP2168-2172
 
@@ -45,7 +42,6 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/32146190/file/original-03d7a33fe637b096cd8c226b068ecac2.png?resize=1600x1200&vertical=center"/>
 
-
 ## EP2157-2162
 
 - Music Player App
@@ -53,7 +49,6 @@ A new Flutter project.
 - https://dribbble.com/shots/25605732-Music-Player-App
 
 <img src="https://cdn.dribbble.com/userupload/24330976/file/original-5f8ff68a99005f4d997b080c033959b5.png?resize=2400x1800&vertical=center"/>
-
 
 ## EP2154-2156
 
