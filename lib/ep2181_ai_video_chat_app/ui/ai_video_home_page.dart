@@ -90,7 +90,12 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       ],
                     ),
                   ),
-                  Text("Live"),
+                  Text(
+                    "Live",
+                    style: TextStyle(
+                      fontSize: 24,
+                    ),
+                  ),
                   Container(
                     height: 52,
                     child: Placeholder(),
@@ -101,10 +106,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Active"),
-                      TextButton(onPressed: (){}, child: Text("See all"))
-                    ],
+                    children: [Text("Active"), TextButton(onPressed: () {}, child: Text("See all"))],
                   ),
                   Container(
                     height: 100,
@@ -112,10 +114,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Active"),
-                      TextButton(onPressed: (){}, child: Text("See all"))
-                    ],
+                    children: [Text("Active"), TextButton(onPressed: () {}, child: Text("See all"))],
                   ),
                   Container(
                     height: 160,
@@ -148,10 +147,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         ),
                         Text(
                           "Start Live",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16
-                          ),
+                          style: TextStyle(color: Colors.white, fontSize: 16),
                         ),
                       ],
                     ),
