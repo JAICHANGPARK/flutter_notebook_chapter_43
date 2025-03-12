@@ -117,10 +117,12 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                                   shape: StadiumBorder(),
                                   color: Colors.white.withValues(alpha: .2),
                                 ),
-                                child: Text(
-                                  "Trending",
-                                  style: TextStyle(
-                                    color: Colors.white,
+                                child: Center(
+                                  child: Text(
+                                    "Trending",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                    ),
                                   ),
                                 ),
                               );
@@ -132,7 +134,15 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   ),
                   Container(
                     height: 160,
-                    child: Placeholder(),
+                    child: CarouselView.weighted(
+
+                      flexWeights: [
+                        1
+                      ],
+                      children: List.generate(10, (idx) {
+                        return Center(child: Text("123"),);
+                      }),
+                    ),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
