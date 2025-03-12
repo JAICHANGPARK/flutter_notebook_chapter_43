@@ -16,6 +16,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(24.0),
@@ -94,6 +95,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     "Live",
                     style: TextStyle(
                       fontSize: 24,
+                      color: Colors.white,
                     ),
                   ),
                   Container(
