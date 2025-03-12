@@ -165,7 +165,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                         TextButton(
                           onPressed: () {},
                           style: TextButton.styleFrom(
-                            foregroundColor: Colors.white,
+                            foregroundColor: Colors.grey,
                           ),
                           child: Text("See all"),
                         ),
@@ -175,7 +175,19 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 16),
                     height: 100,
-                    child: Placeholder(),
+                    child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (context, index) {
+                        return Column(
+                          children: [
+                            CircleAvatar(
+                              radius: 32,
+                            ),
+                            Text('Dream'),
+                          ],
+                        );
+                      },
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.only(
