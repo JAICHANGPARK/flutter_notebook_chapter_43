@@ -107,7 +107,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                           ),
                         ),
                         Container(
-                          height: 48,
+                          height: 46,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemCount: 10,
@@ -120,6 +120,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                                 padding: EdgeInsets.symmetric(
                                   horizontal: 16,
                                 ),
+                                margin: EdgeInsets.only(right: 12),
                                 child: Center(
                                   child: Text(
                                     "Trending",
