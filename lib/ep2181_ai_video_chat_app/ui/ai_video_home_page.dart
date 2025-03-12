@@ -112,7 +112,14 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Container(
-                                decoration: ShapeDecoration(shape: StadiumBorder()),
+                                decoration:
+                                    ShapeDecoration(shape: StadiumBorder(), color: Colors.black.withValues(alpha: .2)),
+                                child: Text(
+                                  "Trending",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
                               );
                             },
                           ),
