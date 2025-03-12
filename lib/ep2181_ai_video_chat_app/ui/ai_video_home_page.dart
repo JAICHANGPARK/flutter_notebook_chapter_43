@@ -92,152 +92,160 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                       ],
                     ),
                   ),
+
                   Gap(24),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 16, bottom: 16),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      spacing: 16,
-                      children: [
-                        Text(
-                          "Live",
-                          style: TextStyle(
-                            fontSize: 32,
-                            color: Colors.white,
-                          ),
+                  Expanded(child: SingleChildScrollView(child: Column(
+                    
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(left: 16, bottom: 16),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 16,
+                          children: [
+                            Text(
+                              "Live",
+                              style: TextStyle(
+                                fontSize: 32,
+                                color: Colors.white,
+                              ),
+                            ),
+                            Container(
+                              height: 46,
+                              child: ListView.builder(
+                                scrollDirection: Axis.horizontal,
+                                itemCount: 10,
+                                itemBuilder: (context, index) {
+                                  return Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white.withValues(alpha: .2),
+                                    ),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 16,
+                                    ),
+                                    margin: EdgeInsets.only(right: 12),
+                                    child: Center(
+                                      child: Text(
+                                        "Trending",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                    ),
+                                  );
+                                },
+                              ),
+                            ),
+                          ],
                         ),
-                        Container(
-                          height: 46,
-                          child: ListView.builder(
-                            scrollDirection: Axis.horizontal,
-                            itemCount: 10,
-                            itemBuilder: (context, index) {
-                              return Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.white.withValues(alpha: .2),
-                                ),
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 16,
-                                ),
-                                margin: EdgeInsets.only(right: 12),
-                                child: Center(
-                                  child: Text(
-                                    "Trending",
+                      ),
+                      Container(
+                        height: 180,
+                        child: CarouselView.weighted(
+                          flexWeights: [1, 8, 1],
+                          children: List.generate(10, (idx) {
+                            return Container();
+                          }),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          left: 16,
+                          top: 16,
+                          right: 16,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Active",
+                              style: TextStyle(
+                                fontSize: 26,
+                                color: Colors.white,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              style: TextButton.styleFrom(
+                                foregroundColor: Colors.grey,
+                              ),
+                              child: Text("See all"),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.fromLTRB(16, 16, 0, 16),
+                        height: 100,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Padding(
+                              padding: const EdgeInsets.only(right: 14),
+                              child: Column(
+                                children: [
+                                  CircleAvatar(
+                                    radius: 32,
+                                  ),
+                                  Text(
+                                    'Dream',
                                     style: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 16,
                                     ),
                                   ),
-                                ),
+                                ],
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(
+                          left: 16,
+                          top: 16,
+                          right: 16,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Popular",
+                              style: TextStyle(
+                                fontSize: 26,
+                                color: Colors.white,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              style: TextButton.styleFrom(
+                                foregroundColor: Colors.grey,
+                              ),
+                              child: Text("See all"),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Gap(12),
+                      Container(
+                        height: 160,
+                        child: GridView.count(
+                          crossAxisCount: 2,
+                          children: List.generate(
+                            10,
+                                (idx) {
+                              return Container(
+                                child: Placeholder(),
                               );
                             },
                           ),
                         ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    height: 180,
-                    child: CarouselView.weighted(
-                      flexWeights: [1, 8, 1],
-                      children: List.generate(10, (idx) {
-                        return Container();
-                      }),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(
-                      left: 16,
-                      top: 16,
-                      right: 16,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Active",
-                          style: TextStyle(
-                            fontSize: 26,
-                            color: Colors.white,
-                          ),
-                        ),
-                        TextButton(
-                          onPressed: () {},
-                          style: TextButton.styleFrom(
-                            foregroundColor: Colors.grey,
-                          ),
-                          child: Text("See all"),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(16, 16, 0, 16),
-                    height: 100,
-                    child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      itemBuilder: (context, index) {
-                        return Padding(
-                          padding: const EdgeInsets.only(right: 14),
-                          child: Column(
-                            children: [
-                              CircleAvatar(
-                                radius: 32,
-                              ),
-                              Text(
-                                'Dream',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ],
-                          ),
-                        );
-                      },
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(
-                      left: 16,
-                      top: 16,
-                      right: 16,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Popular",
-                          style: TextStyle(
-                            fontSize: 26,
-                            color: Colors.white,
-                          ),
-                        ),
-                        TextButton(
-                          onPressed: () {},
-                          style: TextButton.styleFrom(
-                            foregroundColor: Colors.grey,
-                          ),
-                          child: Text("See all"),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Gap(12),
-                  Container(
-                    height: 160,
-                    child: GridView.count(
-                      crossAxisCount: 2,
-                      children: List.generate(
-                        10,
-                        (idx) {
-                          return Container(
-                            child: Placeholder(),
-                          );
-                        },
                       ),
-                    ),
-                  ),
+                    ],
+                  ),)),
+
+
                 ],
               ),
             ),
