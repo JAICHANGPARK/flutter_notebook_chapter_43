@@ -173,18 +173,22 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.symmetric(vertical: 16),
+                    margin: EdgeInsets.fromLTRB(16, 16, 0, 16),
                     height: 100,
+                    
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
-                        return Column(
-                          children: [
-                            CircleAvatar(
-                              radius: 32,
-                            ),
-                            Text('Dream'),
-                          ],
+                        return Padding(
+                          padding: const EdgeInsets.only(right: 14),
+                          child: Column(
+                            children: [
+                              CircleAvatar(
+                                radius: 32,
+                              ),
+                              Text('Dream'),
+                            ],
+                          ),
                         );
                       },
                     ),
