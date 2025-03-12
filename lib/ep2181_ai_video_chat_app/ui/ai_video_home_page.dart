@@ -140,7 +140,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                   Container(
                     height: 160,
                     child: CarouselView.weighted(
-                      flexWeights: [1],
+                      flexWeights: [1, 8,1],
                       children: List.generate(10, (idx) {
                         return Center(
                           child: Text("123"),
