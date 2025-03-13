@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class AiVideoDetailPage extends StatefulWidget {
   const AiVideoDetailPage({super.key});
 
@@ -14,7 +13,16 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
     return Scaffold(
       body: Column(
         children: [
-
+          Row(
+            children: [
+              CircleAvatar(
+                radius: 32,
+                child: Icon(
+                  Icons.chevron_left,
+                ),
+              )
+            ],
+          )
         ],
       ),
     );
