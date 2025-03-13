@@ -32,9 +32,9 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                       shape: StadiumBorder(),
                       color: Colors.white.withValues(alpha: .3),
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 5, vertical: 2),
+                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                     child: Row(
-                      spacing: 4,
+                      spacing: 8,
                       children: [
                         CircleAvatar(
                           radius: 3,
