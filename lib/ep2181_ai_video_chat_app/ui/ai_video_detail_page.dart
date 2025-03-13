@@ -22,6 +22,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                   CircleAvatar(
                     radius: 26,
                     backgroundColor: Colors.white.withValues(alpha: .3),
+                    foregroundColor: Colors.white,
                     child: Icon(
                       Icons.chevron_left,
                     ),
