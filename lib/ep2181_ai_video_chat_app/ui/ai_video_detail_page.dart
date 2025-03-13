@@ -58,7 +58,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                   shape: StadiumBorder(),
                   color: Color.fromRGBO(47, 47, 47, 1),
                 ),
-                padding: EdgeInsets.all(4),
+                padding: EdgeInsets.all(6),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
                   spacing: 16,
