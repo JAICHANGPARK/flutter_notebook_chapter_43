@@ -155,12 +155,7 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                                 );
                               },
                               children: List.generate(10, (idx) {
-                                return GestureDetector(
-                                  onTap: () {
-
-                                  },
-                                  child: Container(),
-                                );
+                                return Container();
                               }),
                             ),
                           ),
