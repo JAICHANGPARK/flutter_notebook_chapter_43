@@ -17,9 +17,11 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
           child: Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CircleAvatar(
                     radius: 26,
+                    backgroundColor: Colors.white.withValues(alpha: .3),
                     child: Icon(
                       Icons.chevron_left,
                     ),
@@ -27,6 +29,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
+                      color: Colors.white.withValues(alpha: .3)
                     ),
                   )
                 ],
