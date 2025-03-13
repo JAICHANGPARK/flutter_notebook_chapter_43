@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2181_ai_video_chat_app/ui/ai_video_detail_page.dart';
 import 'package:gap/gap.dart';
 
 class AiVideoHomePage extends StatefulWidget {
@@ -148,6 +149,13 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                               flexWeights: [1, 8, 1],
                               children: List.generate(10, (idx) {
                                 return GestureDetector(
+                                  onTap: () {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (context) => AiVideoDetailPage(),
+                                      ),
+                                    );
+                                  },
                                   child: Container(),
                                 );
                               }),
