@@ -68,14 +68,14 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                     ),
                     CircleAvatar(
                       radius: 24,
-                      backgroundColor: Color.fromRGBO(255, 74, 152, 1),
+
                     ),
                     CircleAvatar(
-                      radius: 26,
+                      radius: 24,
                       backgroundColor: Color.fromRGBO(71, 71, 71, 1),
                     ),
                     CircleAvatar(
-                      radius: 26,
+                      radius: 24,
                       backgroundColor: Color.fromRGBO(71, 71, 71, 1),
                     ),
                   ],
