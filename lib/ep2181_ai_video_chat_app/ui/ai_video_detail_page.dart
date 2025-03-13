@@ -37,20 +37,21 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                       spacing: 8,
                       children: [
                         CircleAvatar(
-                          radius: 3,
+                          radius: 4,
                           backgroundColor: Colors.red,
                         ),
                         Text(
                           "00:91:30",
-                          style: TextStyle(
-                            color: Colors.white
-                          ),
+                          style: TextStyle(color: Colors.white),
                         )
                       ],
                     ),
                   )
                 ],
-              )
+              ),
+              Expanded(
+                child: Placeholder(),
+              ),
             ],
           ),
         ),
