@@ -12,7 +12,11 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: Column(
+        children: [
 
+        ],
+      ),
     );
   }
 }
