@@ -52,6 +52,35 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
               Expanded(
                 child: Placeholder(),
               ),
+              Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Color.fromRGBO(47, 47, 47, 1),
+                ),
+                padding: EdgeInsets.all(4),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  spacing: 8,
+                  children: [
+                    CircleAvatar(
+                      radius: 24,
+                      backgroundColor: Color.fromRGBO(71, 71, 71, 1),
+                    ),
+                    CircleAvatar(
+                      radius: 24,
+                      backgroundColor: Color.fromRGBO(255, 74, 152, 1),
+                    ),
+                    CircleAvatar(
+                      radius: 26,
+                      backgroundColor: Color.fromRGBO(71, 71, 71, 1),
+                    ),
+                    CircleAvatar(
+                      radius: 26,
+                      backgroundColor: Color.fromRGBO(71, 71, 71, 1),
+                    ),
+                  ],
+                ),
+              )
             ],
           ),
         ),
