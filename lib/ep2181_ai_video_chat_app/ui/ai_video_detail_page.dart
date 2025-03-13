@@ -32,7 +32,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                       shape: StadiumBorder(),
                       color: Colors.white.withValues(alpha: .3),
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                     child: Row(
                       spacing: 8,
                       children: [
@@ -42,7 +42,9 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                         ),
                         Text(
                           "00:91:30",
-                          style: TextStyle(),
+                          style: TextStyle(
+                            color: Colors.white
+                          ),
                         )
                       ],
                     ),
