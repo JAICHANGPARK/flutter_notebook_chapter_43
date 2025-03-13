@@ -21,7 +21,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CircleAvatar(
-                    radius: 26,
+                    radius: 24,
                     backgroundColor: Colors.white.withValues(alpha: .3),
                     foregroundColor: Colors.white,
                     child: Icon(
