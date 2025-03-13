@@ -11,19 +11,21 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(
-                radius: 32,
-                child: Icon(
-                  Icons.chevron_left,
-                ),
-              )
-            ],
-          )
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 32,
+                  child: Icon(
+                    Icons.chevron_left,
+                  ),
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
