@@ -147,14 +147,17 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                             height: 180,
                             child: CarouselView.weighted(
                               flexWeights: [1, 8, 1],
+                              onTap: (idx){
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) => AiVideoDetailPage(),
+                                  ),
+                                );
+                              },
                               children: List.generate(10, (idx) {
                                 return GestureDetector(
                                   onTap: () {
-                                    Navigator.of(context).push(
-                                      MaterialPageRoute(
-                                        builder: (context) => AiVideoDetailPage(),
-                                      ),
-                                    );
+
                                   },
                                   child: Container(),
                                 );
