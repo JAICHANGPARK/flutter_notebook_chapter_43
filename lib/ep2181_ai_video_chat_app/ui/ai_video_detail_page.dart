@@ -15,6 +15,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
         child: Padding(
           padding: const EdgeInsets.all(24.0),
           child: Column(
+            spacing: 24,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -60,7 +61,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                 padding: EdgeInsets.all(4),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
-                  spacing: 8,
+                  spacing: 16,
                   children: [
                     CircleAvatar(
                       radius: 24,
