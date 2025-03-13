@@ -28,7 +28,22 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                     ),
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder(), color: Colors.white.withValues(alpha: .3)),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white.withValues(alpha: .3),
+                    ),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 3,
+                          backgroundColor: Colors.red,
+                        ),
+                        Text(
+                          "00:91:30",
+                          style: TextStyle(),
+                        )
+                      ],
+                    ),
                   )
                 ],
               )
