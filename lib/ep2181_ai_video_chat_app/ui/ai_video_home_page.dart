@@ -147,7 +147,9 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                             child: CarouselView.weighted(
                               flexWeights: [1, 8, 1],
                               children: List.generate(10, (idx) {
-                                return Container();
+                                return GestureDetector(
+                                  child: Container(),
+                                );
                               }),
                             ),
                           ),
