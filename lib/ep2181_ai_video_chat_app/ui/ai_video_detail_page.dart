@@ -11,6 +11,8 @@ class AiVideoDetailPage extends StatefulWidget {
 class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
