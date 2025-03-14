@@ -139,8 +139,9 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                       ),
                     ),
                     Container(
-                      height: 140,
+                      height: 120,
                       child: Row(
+                        spacing: 8,
                         children: [
                           Expanded(
                             child: Container(
