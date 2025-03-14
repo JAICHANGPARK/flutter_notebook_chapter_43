@@ -52,10 +52,33 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
               ),
               Expanded(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  spacing: 8,
                   children: [
                     Expanded(
                       child: Container(
-                        child: Placeholder(),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(24),
+                        ),
+                        child: Stack(
+                          children: [
+                            Positioned(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                ),
+                              ),
+                            ),
+                            Positioned(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                     Container(
