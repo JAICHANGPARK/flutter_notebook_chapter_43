@@ -20,12 +20,17 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  CircleAvatar(
-                    radius: 24,
-                    backgroundColor: Colors.white.withValues(alpha: .3),
-                    foregroundColor: Colors.white,
-                    child: Icon(
-                      Icons.chevron_left,
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: CircleAvatar(
+                      radius: 24,
+                      backgroundColor: Colors.white.withValues(alpha: .3),
+                      foregroundColor: Colors.white,
+                      child: Icon(
+                        Icons.chevron_left,
+                      ),
                     ),
                   ),
                   Container(
@@ -57,7 +62,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                   children: [
                     Expanded(
                       child: Hero(
-                        tag: "h",
+                        tag: "h0",
                         child: Container(
                           decoration: BoxDecoration(
                             color: Colors.white,
@@ -137,9 +142,15 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                       height: 140,
                       child: Row(
                         children: [
-                          Expanded(child: Placeholder()),
-                          Expanded(child: Placeholder()),
-                          Expanded(child: Placeholder()),
+                          Expanded(
+                            child: Container(),
+                          ),
+                          Expanded(
+                            child: Container(),
+                          ),
+                          Expanded(
+                            child: Container(),
+                          ),
                         ],
                       ),
                     )
