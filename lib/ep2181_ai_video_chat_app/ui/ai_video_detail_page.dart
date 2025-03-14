@@ -64,9 +64,21 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                         child: Stack(
                           children: [
                             Positioned(
+                              right: 16,
+                              top: 16,
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
+                                ),
+                                child: Row(
+                                  spacing: 12,
+                                  children: [
+                                    Icon(Icons.graphic_eq),
+                                    CircleAvatar(),
+                                    Icon(
+                                      Icons.keyboard_arrow_down,
+                                    )
+                                  ],
                                 ),
                               ),
                             ),
