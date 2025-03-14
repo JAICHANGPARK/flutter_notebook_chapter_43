@@ -143,7 +143,11 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                       child: Row(
                         children: [
                           Expanded(
-                            child: Container(),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                              ),
+                            ),
                           ),
                           Expanded(
                             child: Container(),
