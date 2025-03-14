@@ -146,14 +146,25 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
+                                borderRadius: BorderRadius.circular(24),
                               ),
                             ),
                           ),
                           Expanded(
-                            child: Container(),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(24),
+                              ),
+                            ),
                           ),
                           Expanded(
-                            child: Container(),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(24),
+                              ),
+                            ),
                           ),
                         ],
                       ),
