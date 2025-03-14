@@ -84,6 +84,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                                     ),
                                     Icon(
                                       Icons.keyboard_arrow_down,
+                                      color: Colors.white,
                                     )
                                   ],
                                 ),
