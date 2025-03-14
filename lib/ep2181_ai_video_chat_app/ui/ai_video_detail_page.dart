@@ -71,10 +71,12 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                                   shape: StadiumBorder(),
                                 ),
                                 child: Row(
-                                  spacing: 12,
+                                  spacing: 8,
                                   children: [
                                     Icon(Icons.graphic_eq),
-                                    CircleAvatar(),
+                                    CircleAvatar(
+                                      radius: 16,
+                                    ),
                                     Icon(
                                       Icons.keyboard_arrow_down,
                                     )
