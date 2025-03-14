@@ -56,72 +56,80 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                   spacing: 8,
                   children: [
                     Expanded(
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(24),
-                        ),
-                        child: Stack(
-                          children: [
-                            Positioned(
-                              right: 16,
-                              top: 16,
-                              child: Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.grey,
-                                ),
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 8,
-                                  vertical: 5,
-                                ),
-                                child: Row(
-                                  spacing: 8,
-                                  children: [
-                                    Icon(
-                                      Icons.graphic_eq,
-                                      color: Colors.white,
-                                    ),
-                                    CircleAvatar(
-                                      radius: 14,
-                                    ),
-                                    Icon(
-                                      Icons.keyboard_arrow_down,
-                                      color: Colors.white,
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                            Positioned(
-                              bottom: 16,
-                              left: 16,
-                              child: Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.grey,
-                                ),
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 8,
-                                  vertical: 5,
-                                ),
-                                child: Row(
-                                  spacing: 4,
-                                  children: [
-                                    Text(
-                                      "Me",
-                                    ),
-                                    Icon(
-                                      Icons.mic_none,
-                                    ),
-                                    Icon(
-                                      Icons.videocam_outlined,
-                                    ),
-                                  ],
+                      child: Hero(
+                        tag: "h",
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(24),
+                          ),
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                right: 16,
+                                top: 16,
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.grey,
+                                  ),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 8,
+                                    vertical: 5,
+                                  ),
+                                  child: Row(
+                                    spacing: 8,
+                                    children: [
+                                      Icon(
+                                        Icons.graphic_eq,
+                                        color: Colors.white,
+                                      ),
+                                      CircleAvatar(
+                                        radius: 14,
+                                      ),
+                                      Icon(
+                                        Icons.keyboard_arrow_down,
+                                        color: Colors.white,
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
-                            ),
-                          ],
+                              Positioned(
+                                bottom: 16,
+                                left: 16,
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.grey,
+                                  ),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 8,
+                                    vertical: 5,
+                                  ),
+                                  child: Row(
+                                    spacing: 4,
+                                    children: [
+                                      Text(
+                                        "Me",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                        ),
+                                      ),
+                                      Icon(
+                                        Icons.mic_none,
+                                        color: Colors.white,
+                                      ),
+                                      Icon(
+                                        Icons.videocam_outlined,
+                                        color: Colors.white,
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
