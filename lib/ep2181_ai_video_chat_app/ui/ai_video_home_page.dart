@@ -155,7 +155,9 @@ class _AiVideoHomePageState extends State<AiVideoHomePage> {
                                 );
                               },
                               children: List.generate(10, (idx) {
-                                return Container();
+                                return Hero(
+                                    tag: "h${idx}",
+                                    child: Container());
                               }),
                             ),
                           ),
