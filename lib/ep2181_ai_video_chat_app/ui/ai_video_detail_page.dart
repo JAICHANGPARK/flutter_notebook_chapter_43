@@ -69,15 +69,16 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-                                  
+                                  color: Colors.grey,
                                 ),
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 12,
-                                ),
+                                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                                 child: Row(
                                   spacing: 8,
                                   children: [
-                                    Icon(Icons.graphic_eq),
+                                    Icon(
+                                      Icons.graphic_eq,
+                                      color: Colors.white,
+                                    ),
                                     CircleAvatar(
                                       radius: 16,
                                     ),
