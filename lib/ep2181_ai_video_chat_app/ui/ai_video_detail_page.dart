@@ -62,8 +62,9 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                       height: 140,
                       child: Row(
                         children: [
-                          Pl
-                          aceholder()
+                          Expanded(child: Placeholder()),
+                          Expanded(child: Placeholder()),
+                          Expanded(child: Placeholder()),
                         ],
                       ),
                     )
