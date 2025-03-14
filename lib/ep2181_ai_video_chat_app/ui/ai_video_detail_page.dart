@@ -95,12 +95,18 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                             ),
                             Positioned(
                               bottom: 16,
-                              right: 16,
+                              left: 16,
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
+                                  color: Colors.grey,
+                                ),
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 8,
+                                  vertical: 5,
                                 ),
                                 child: Row(
+                                  spacing: 4,
                                   children: [
                                     Text(
                                       "Me",
