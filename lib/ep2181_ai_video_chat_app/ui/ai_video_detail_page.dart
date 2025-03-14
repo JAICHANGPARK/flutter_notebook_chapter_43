@@ -102,7 +102,15 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                                 ),
                                 child: Row(
                                   children: [
-
+                                    Text(
+                                      "Me",
+                                    ),
+                                    Icon(
+                                      Icons.mic_none,
+                                    ),
+                                    Icon(
+                                      Icons.videocam_outlined,
+                                    ),
                                   ],
                                 ),
                               ),
