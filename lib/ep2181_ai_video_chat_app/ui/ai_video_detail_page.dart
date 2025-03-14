@@ -71,7 +71,10 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                                   shape: StadiumBorder(),
                                   color: Colors.grey,
                                 ),
-                                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 5),
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 8,
+                                  vertical: 5,
+                                ),
                                 child: Row(
                                   spacing: 8,
                                   children: [
