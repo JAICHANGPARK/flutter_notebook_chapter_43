@@ -78,12 +78,17 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                     CircleAvatar(
                       radius: 24,
                       backgroundColor: Color.fromRGBO(71, 71, 71, 1),
+                      child: Icon(
+                        Icons.volume_mute_outlined,
+                      ),
                     ),
                     CircleAvatar(
                       radius: 24,
                       backgroundColor: Colors.red,
                       foregroundColor: Colors.white,
-                      child: Icon(Icons.phone,),
+                      child: Icon(
+                        Icons.phone,
+                      ),
                     ),
                   ],
                 ),
