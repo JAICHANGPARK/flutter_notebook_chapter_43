@@ -83,7 +83,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                                       color: Colors.white,
                                     ),
                                     CircleAvatar(
-                                      radius: 16,
+                                      radius: 14,
                                     ),
                                     Icon(
                                       Icons.keyboard_arrow_down,
@@ -102,7 +102,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                                 ),
                                 child: Row(
                                   children: [
-                                    
+
                                   ],
                                 ),
                               ),
