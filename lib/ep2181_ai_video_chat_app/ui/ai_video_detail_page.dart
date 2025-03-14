@@ -88,15 +88,22 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                                     Icon(
                                       Icons.keyboard_arrow_down,
                                       color: Colors.white,
-                                    )
+                                    ),
                                   ],
                                 ),
                               ),
                             ),
                             Positioned(
+                              bottom: 16,
+                              right: 16,
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
+                                ),
+                                child: Row(
+                                  children: [
+                                    
+                                  ],
                                 ),
                               ),
                             ),
