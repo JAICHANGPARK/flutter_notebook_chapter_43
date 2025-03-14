@@ -54,13 +54,16 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                 child: Column(
                   children: [
                     Expanded(
-                      child: Container(),
+                      child: Container(
+                        child: Placeholder(),
+                      ),
                     ),
                     Container(
                       height: 140,
                       child: Row(
                         children: [
-                          Placeholder()
+                          Pl
+                          aceholder()
                         ],
                       ),
                     )
