@@ -141,13 +141,13 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                     Container(
                       height: 120,
                       child: Row(
-                        spacing: 8,
+                        spacing: 6,
                         children: [
                           Expanded(
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
-                                borderRadius: BorderRadius.circular(24),
+                                borderRadius: BorderRadius.circular(16),
                               ),
                             ),
                           ),
@@ -155,7 +155,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
-                                borderRadius: BorderRadius.circular(24),
+                                borderRadius: BorderRadius.circular(16),
                               ),
                             ),
                           ),
@@ -163,7 +163,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
-                                borderRadius: BorderRadius.circular(24),
+                                borderRadius: BorderRadius.circular(16),
                               ),
                             ),
                           ),
