@@ -58,7 +58,7 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  spacing: 8,
+                  spacing: 6,
                   children: [
                     Expanded(
                       child: Hero(
@@ -148,6 +148,30 @@ class _AiVideoDetailPageState extends State<AiVideoDetailPage> {
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(16),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    bottom: 4,
+                                    left: 4,
+                                    right: 4,
+                                    child: Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Colors.grey,
+                                      ),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 8,
+                                        vertical: 5,
+                                      ),
+                                      child: Center(
+                                        child: Text(
+                                          "Dream",
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
