@@ -14,7 +14,15 @@ class _EventHomePageState extends State<EventHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Container(),
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.black,
+                  ],
+                ),
+              ),
+            ),
           )
         ],
       ),
