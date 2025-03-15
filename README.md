@@ -8,7 +8,7 @@ A new Flutter project.
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/25742467-Event-Mobile-UI-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/41493732/file/original-29ff7fbd699d008fbd7c6206bc3d61e1.png?resize=1905x1429&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/41505517/file/original-91718fbe79e3ee4111f510bff3590863.png?resize=1905x1429&vertical=center"/>
 
 
 ## EP2181-2185
