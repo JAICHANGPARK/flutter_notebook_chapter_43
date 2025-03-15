@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  
+}
 
 class EventApp extends StatelessWidget {
   const EventApp({super.key});
