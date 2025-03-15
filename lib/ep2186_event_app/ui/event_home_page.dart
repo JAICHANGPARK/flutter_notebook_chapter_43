@@ -15,7 +15,16 @@ class _EventHomePageState extends State<EventHomePage> {
         children: [],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: [],
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home_filled),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_month),
+            label: "Calendar",
+          )
+        ],
       ),
     );
   }
