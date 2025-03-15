@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2186
 
-- AI Video Chat Mobile App
+- Event Mobile UI App Design
 - Abu Hasan Emon
 - https://dribbble.com/shots/25738683-AI-Video-Chat-Mobile-App
 
