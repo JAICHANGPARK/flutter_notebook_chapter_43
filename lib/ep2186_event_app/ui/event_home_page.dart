@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class EventHomePage extends StatefulWidget {
   const EventHomePage({super.key});
 
@@ -11,6 +10,10 @@ class EventHomePage extends StatefulWidget {
 class _EventHomePageState extends State<EventHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [],
+      ),
+    );
   }
 }
