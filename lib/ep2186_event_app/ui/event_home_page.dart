@@ -25,14 +25,14 @@ class _EventHomePageState extends State<EventHomePage> {
             label: "Calendar",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_month),
-            label: "Calendar",
+            icon: Icon(Icons.confirmation_num_outlined),
+            label: "Tickets",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_month),
-            label: "Calendar",
+            icon: Icon(Icons.person_2_outlined),
+            label: "Profile",
           ),
-         
+
         ],
       ),
     );
