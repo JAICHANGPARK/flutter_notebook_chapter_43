@@ -14,6 +14,9 @@ class _EventHomePageState extends State<EventHomePage> {
       body: Column(
         children: [],
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [],
+      ),
     );
   }
 }
