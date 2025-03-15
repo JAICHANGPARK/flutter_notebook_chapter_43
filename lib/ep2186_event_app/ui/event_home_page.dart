@@ -11,8 +11,12 @@ class _EventHomePageState extends State<EventHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [],
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Container(),
+          )
+        ],
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
