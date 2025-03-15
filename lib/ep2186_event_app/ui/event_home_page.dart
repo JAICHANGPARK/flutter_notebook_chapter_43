@@ -23,7 +23,16 @@ class _EventHomePageState extends State<EventHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.calendar_month),
             label: "Calendar",
-          )
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_month),
+            label: "Calendar",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_month),
+            label: "Calendar",
+          ),
+         
         ],
       ),
     );
