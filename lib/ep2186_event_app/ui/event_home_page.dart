@@ -19,6 +19,7 @@ class _EventHomePageState extends State<EventHomePage> {
                 gradient: LinearGradient(
                   colors: [
                     Colors.black,
+                    Colors.black,
                   ],
                 ),
               ),
