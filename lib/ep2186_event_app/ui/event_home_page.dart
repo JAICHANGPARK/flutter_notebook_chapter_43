@@ -15,6 +15,7 @@ class _EventHomePageState extends State<EventHomePage> {
         children: [],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home_filled),
@@ -32,7 +33,6 @@ class _EventHomePageState extends State<EventHomePage> {
             icon: Icon(Icons.person_2_outlined),
             label: "Profile",
           ),
-
         ],
       ),
     );
