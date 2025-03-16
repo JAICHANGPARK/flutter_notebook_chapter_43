@@ -48,7 +48,7 @@ class _EventHomePageState extends State<EventHomePage> {
                     height: 52,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
-                      
+
                       children: [
                         Container(
                           decoration: ShapeDecoration(
@@ -74,6 +74,36 @@ class _EventHomePageState extends State<EventHomePage> {
                           child: Center(
                             child: Text(
                               "Wishlist",
+                              style: TextStyle(
+                                color: Colors.black,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white.withValues(alpha: .1),
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          child: Center(
+                            child: Text(
+                              "Upcoming",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white.withValues(alpha: 1),
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          child: Center(
+                            child: Text(
+                              "Recently viewed",
                               style: TextStyle(
                                 color: Colors.black,
                               ),
