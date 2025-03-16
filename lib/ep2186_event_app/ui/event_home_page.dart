@@ -35,7 +35,7 @@ class _EventHomePageState extends State<EventHomePage> {
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                spacing: 16,
+                spacing: 20,
                 children: [
                   Text(
                     "Tickets",
