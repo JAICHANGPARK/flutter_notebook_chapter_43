@@ -81,7 +81,23 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                             ),
                           ),
-                        ),Gap(16),
+                        ),Gap(12),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white.withValues(alpha: .1),
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          child: Center(
+                            child: Text(
+                              "Recently viewed",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Gap(12),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
