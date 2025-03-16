@@ -117,8 +117,16 @@ class _EventHomePageState extends State<EventHomePage> {
                     ),
                   ),
                   Expanded(
-                    child: ListView(
-                      children: [],
+                    child: Padding(
+                      padding: const EdgeInsets.only(right: 16),
+                      child: ListView(
+                        children: [
+                          Container(
+                            height: 280,
+                            child: Placeholder(),
+                          )
+                        ],
+                      ),
                     ),
                   )
                 ],
