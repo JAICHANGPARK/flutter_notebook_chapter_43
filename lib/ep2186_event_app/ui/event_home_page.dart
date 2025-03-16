@@ -55,11 +55,7 @@ class _EventHomePageState extends State<EventHomePage> {
                             color: Colors.white.withValues(alpha: .3)
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 16),
-                          child: Column(
-                            children: [
-                              Text("Upcoming"),
-                            ],
-                          ),
+                          child: Center(child: Text("Upcoming")),
                         )
                       ],
                     ),
