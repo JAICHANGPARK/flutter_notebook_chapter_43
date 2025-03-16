@@ -28,9 +28,13 @@ class _EventHomePageState extends State<EventHomePage> {
               ),
             ),
           ),
-          Positioned(
-            child: Column(
-              children: [],
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Text("Tickets"),
+                ],
+              ),
             ),
           )
         ],
