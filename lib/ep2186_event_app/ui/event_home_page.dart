@@ -20,6 +20,7 @@ class _EventHomePageState extends State<EventHomePage> {
                   colors: [
                     Color.fromRGBO(61, 57, 28, 1),
                     Colors.black,
+                    Colors.black,
                   ],
                   begin: Alignment.topLeft,
                 ),
