@@ -27,6 +27,11 @@ class _EventHomePageState extends State<EventHomePage> {
                 ),
               ),
             ),
+          ),
+          Positioned(
+            child: Column(
+              children: [],
+            ),
           )
         ],
       ),
