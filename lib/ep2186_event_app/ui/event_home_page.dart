@@ -30,7 +30,7 @@ class _EventHomePageState extends State<EventHomePage> {
           ),
           Positioned.fill(
             top: 52,
-            left: 8,
+            left: 16,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -41,14 +41,18 @@ class _EventHomePageState extends State<EventHomePage> {
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
+                      color: Colors.white,
                     ),
                   ),
                   SizedBox(
                     height: 62,
                     child: Placeholder(),
                   ),
-                  Expanded(child: Placeholder())
-
+                  Expanded(
+                    child: ListView(
+                      children: [],
+                    ),
+                  )
                 ],
               ),
             ),
