@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class EventHomePage extends StatefulWidget {
   const EventHomePage({super.key});
@@ -65,6 +66,7 @@ class _EventHomePageState extends State<EventHomePage> {
                             ),
                           ),
                         ),
+                        Gap(16),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -79,7 +81,7 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                             ),
                           ),
-                        ),
+                        ),Gap(16),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -88,28 +90,13 @@ class _EventHomePageState extends State<EventHomePage> {
                           padding: EdgeInsets.symmetric(horizontal: 16),
                           child: Center(
                             child: Text(
-                              "Upcoming",
+                              "Recently viewed",
                               style: TextStyle(
                                 color: Colors.white,
                               ),
                             ),
                           ),
                         ),
-                        Container(
-                          decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Colors.white.withValues(alpha: 1),
-                          ),
-                          padding: EdgeInsets.symmetric(horizontal: 16),
-                          child: Center(
-                            child: Text(
-                              "Recently viewed",
-                              style: TextStyle(
-                                color: Colors.black,
-                              ),
-                            ),
-                          ),
-                        )
                       ],
                     ),
                   ),
