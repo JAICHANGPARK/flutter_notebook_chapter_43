@@ -29,8 +29,10 @@ class _EventHomePageState extends State<EventHomePage> {
             ),
           ),
           Positioned.fill(
+            top: 25,
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     "Tickets",
@@ -39,6 +41,12 @@ class _EventHomePageState extends State<EventHomePage> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  SizedBox(
+                    height: 62,
+                    child: Placeholder(),
+                  ),
+                  Expanded(child: Placeholder())
+
                 ],
               ),
             ),
