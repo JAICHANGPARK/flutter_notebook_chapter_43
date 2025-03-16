@@ -29,7 +29,8 @@ class _EventHomePageState extends State<EventHomePage> {
             ),
           ),
           Positioned.fill(
-            top: 25,
+            top: 52,
+            left: 8,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
