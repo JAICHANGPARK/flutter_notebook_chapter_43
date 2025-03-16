@@ -45,17 +45,22 @@ class _EventHomePageState extends State<EventHomePage> {
                     ),
                   ),
                   SizedBox(
-                    height: 62,
+                    height: 52,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
                         Container(
-                          decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Colors.white.withValues(alpha: .3)
-                          ),
+                          decoration:
+                              ShapeDecoration(shape: StadiumBorder(), color: Colors.white.withValues(alpha: .3)),
                           padding: EdgeInsets.symmetric(horizontal: 16),
-                          child: Center(child: Text("Upcoming")),
+                          child: Center(
+                            child: Text(
+                              "Upcoming",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
                         )
                       ],
                     ),
