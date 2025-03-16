@@ -23,6 +23,7 @@ class _EventHomePageState extends State<EventHomePage> {
                     Colors.black,
                   ],
                   begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
                 ),
               ),
             ),
