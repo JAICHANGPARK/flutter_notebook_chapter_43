@@ -18,7 +18,7 @@ class _EventHomePageState extends State<EventHomePage> {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Colors.black,
+                    Color.fromRGBO(61, 57, 28, 1),
                     Colors.black,
                   ],
                 ),
