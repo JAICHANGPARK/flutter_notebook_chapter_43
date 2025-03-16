@@ -46,7 +46,15 @@ class _EventHomePageState extends State<EventHomePage> {
                   ),
                   SizedBox(
                     height: 62,
-                    child: Placeholder(),
+                    child: ListView(
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                   Expanded(
                     child: ListView(
