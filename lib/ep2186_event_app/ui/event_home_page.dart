@@ -121,6 +121,7 @@ class _EventHomePageState extends State<EventHomePage> {
                       padding: const EdgeInsets.only(right: 16),
                       child: SingleChildScrollView(
                         child: Column(
+                          spacing: 12,
                           children: [
                             Container(
                               height: 280,
