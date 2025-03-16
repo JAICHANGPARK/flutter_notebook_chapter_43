@@ -119,21 +119,23 @@ class _EventHomePageState extends State<EventHomePage> {
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.only(right: 16),
-                      child: Column(
-                        children: [
-                          Container(
-                            height: 280,
-                            child: Placeholder(),
-                          ),
-                          Container(
-                            height: 100,
-                            child: Placeholder(),
-                          ),
-                          Container(
-                            height: 280,
-                            child: Placeholder(),
-                          ),
-                        ],
+                      child: SingleChildScrollView(
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 280,
+                              child: Placeholder(),
+                            ),
+                            Container(
+                              height: 100,
+                              child: Placeholder(),
+                            ),
+                            Container(
+                              height: 280,
+                              child: Placeholder(),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   )
