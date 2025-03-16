@@ -47,11 +47,13 @@ class _EventHomePageState extends State<EventHomePage> {
                   SizedBox(
                     height: 62,
                     child: ListView(
+                      scrollDirection: Axis.horizontal,
                       children: [
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                           ),
+                          child: Text("Upcoming"),
                         )
                       ],
                     ),
