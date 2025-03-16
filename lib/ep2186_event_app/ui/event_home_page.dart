@@ -66,7 +66,7 @@ class _EventHomePageState extends State<EventHomePage> {
                             ),
                           ),
                         ),
-                        Gap(16),
+                        Gap(12),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
