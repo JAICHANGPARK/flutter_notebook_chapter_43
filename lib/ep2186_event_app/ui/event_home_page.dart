@@ -52,8 +52,14 @@ class _EventHomePageState extends State<EventHomePage> {
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
+                            color: Colors.white.withValues(alpha: .3)
                           ),
-                          child: Text("Upcoming"),
+                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          child: Column(
+                            children: [
+                              Text("Upcoming"),
+                            ],
+                          ),
                         )
                       ],
                     ),
