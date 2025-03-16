@@ -32,7 +32,13 @@ class _EventHomePageState extends State<EventHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Text("Tickets"),
+                  Text(
+                    "Tickets",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
             ),
