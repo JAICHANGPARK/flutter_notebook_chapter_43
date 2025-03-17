@@ -195,6 +195,23 @@ class _EventHomePageState extends State<EventHomePage> {
                                               ),
                                             ],
                                           ),
+                                          Row(
+                                            spacing: 8,
+                                            children: [
+                                              Icon(
+                                                Icons.calendar_month,
+                                                color: Colors.grey,
+                                                size: 16,
+                                              ),
+                                              Text(
+                                                "Dream Museum",
+                                                style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Colors.grey,
+                                                ),
+                                              ),
+                                            ],
+                                          ),
                                         ],
                                       ),
                                     ),
