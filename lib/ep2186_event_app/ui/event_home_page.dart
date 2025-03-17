@@ -141,9 +141,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                           topLeft: Radius.circular(16),
                                           bottomLeft: Radius.circular(16),
                                         ),
-                                        
                                       ),
-                                
                                     ),
                                     Expanded(
                                       child: Padding(
@@ -220,6 +218,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                               style: TextStyle(
                                                 color: Colors.white,
                                                 fontWeight: FontWeight.bold,
+                                                fontSize: 16,
                                               ),
                                             )
                                           ],
