@@ -171,6 +171,15 @@ class _EventHomePageState extends State<EventHomePage> {
                                               )
                                             ],
                                           ),
+                                          Text(
+                                            "An actor with no lines:",
+                                            style: TextStyle(
+                                              fontSize: 12,
+                                            ),
+                                          ),
+                                          Text(
+                                            "Pierrot, knows as Gilles",
+                                          ),
                                         ],
                                       ),
                                     ),
