@@ -142,6 +142,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                   ),
                                   Expanded(
                                     child: Column(
+                                      spacing: 12,
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Row(
