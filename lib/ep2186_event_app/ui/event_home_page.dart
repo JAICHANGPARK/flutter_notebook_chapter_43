@@ -136,13 +136,21 @@ class _EventHomePageState extends State<EventHomePage> {
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                       borderRadius: BorderRadius.only(
-                                        topRight: Radius.circular(16)
+                                        topLeft: Radius.circular(16),
+                                        bottomLeft: Radius.circular(16),
                                       )
                                     ),
                                   ),
                                   Expanded(
                                     child: Column(
-                                      children: [],
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Row(
+                                          children: [
+                                            
+                                          ],
+                                        )
+                                      ],
                                     ),
                                   )
                                 ],
