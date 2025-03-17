@@ -135,6 +135,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                     width: 120,
                                     decoration: BoxDecoration(
                                       color: Colors.white,
+                                      borderRadius: BorderRadius.only(
+                                        topRight: Radius.circular(16)
+                                      )
                                     ),
                                   ),
                                   Expanded(
