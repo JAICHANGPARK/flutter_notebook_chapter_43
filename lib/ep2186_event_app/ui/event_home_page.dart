@@ -189,7 +189,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                               Text(
                                                 "Dream Museum",
                                                 style: TextStyle(
-                                                  fontSize: 12,
+                                                  // fontSize: 12,
                                                   color: Colors.grey,
                                                 ),
                                               ),
@@ -204,9 +204,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                                 size: 16,
                                               ),
                                               Text(
-                                                "Dream Museum",
+                                                "16 Oct - 3 Feb 2025",
                                                 style: TextStyle(
-                                                  fontSize: 12,
+                                                  // fontSize: 12,
                                                   color: Colors.grey,
                                                 ),
                                               ),
