@@ -126,10 +126,22 @@ class _EventHomePageState extends State<EventHomePage> {
                             Container(
                               height: 280,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(16),
-                                color: Color.fromRGBO(35, 35, 35, 1)
+                                  borderRadius: BorderRadius.circular(16), color: Color.fromRGBO(35, 35, 35, 1)),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    width: 100,
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Column(
+                                      children: [],
+                                    ),
+                                  )
+                                ],
                               ),
-                              child: Placeholder(),
                             ),
                             Container(
                               height: 100,
