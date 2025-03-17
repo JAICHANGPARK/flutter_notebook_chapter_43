@@ -150,6 +150,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Row(
+                                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
                                                 "A New look at Watteau",
@@ -158,9 +159,16 @@ class _EventHomePageState extends State<EventHomePage> {
                                                   color: Colors.white,
                                                   fontWeight: FontWeight.bold,
                                                 ),
+                                              ),
+                                              IconButton(
+                                                onPressed: () {},
+                                                icon: Icon(
+                                                  Icons.favorite,
+                                                ),
+                                                color: Colors.orange,
                                               )
                                             ],
-                                          )
+                                          ),
                                         ],
                                       ),
                                     ),
