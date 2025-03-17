@@ -230,8 +230,80 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                             ),
                             Container(
-                              height: 100,
-                              child: Placeholder(),
+                              // height: 280,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(16),
+                                color: Color.fromRGBO(35, 35, 35, 1),
+                              ),
+                              child: IntrinsicHeight(
+                                child: Row(
+                                  // spacing: 12,
+                                  children: [
+                                    Container(
+                                      width: 120,
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(16),
+                                          bottomLeft: Radius.circular(16),
+                                        ),
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(16.0),
+                                        child: Column(
+                                          spacing: 12,
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          children: [
+                                            Row(
+                                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                              children: [
+                                                Expanded(
+                                                  child: Text(
+                                                    "A New look at Watteau",
+                                                    style: TextStyle(
+                                                      fontSize: 20,
+                                                      color: Colors.white,
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                ),
+                                                IconButton(
+                                                  onPressed: () {},
+                                                  icon: Icon(
+                                                    Icons.favorite,
+                                                  ),
+                                                  color: Colors.orange,
+                                                )
+                                              ],
+                                            ),
+
+                                            Row(
+                                              spacing: 8,
+                                              children: [
+                                                Icon(
+                                                  Icons.location_on_outlined,
+                                                  color: Colors.grey,
+                                                  size: 16,
+                                                ),
+                                                Text(
+                                                  "Dream Museum",
+                                                  style: TextStyle(
+                                                    // fontSize: 12,
+                                                    color: Colors.grey,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                            
+                                          ],
+                                        ),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                              ),
                             ),
                             Container(
                               height: 280,
