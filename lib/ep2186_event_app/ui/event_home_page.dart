@@ -49,7 +49,6 @@ class _EventHomePageState extends State<EventHomePage> {
                     height: 52,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
-
                       children: [
                         Container(
                           decoration: ShapeDecoration(
@@ -81,7 +80,8 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                             ),
                           ),
-                        ),Gap(12),
+                        ),
+                        Gap(12),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -125,6 +125,9 @@ class _EventHomePageState extends State<EventHomePage> {
                           children: [
                             Container(
                               height: 280,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(16),
+                              ),
                               child: Placeholder(),
                             ),
                             Container(
