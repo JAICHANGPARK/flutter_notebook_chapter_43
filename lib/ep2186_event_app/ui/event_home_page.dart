@@ -134,12 +134,11 @@ class _EventHomePageState extends State<EventHomePage> {
                                   Container(
                                     width: 120,
                                     decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.only(
-                                        topLeft: Radius.circular(16),
-                                        bottomLeft: Radius.circular(16),
-                                      )
-                                    ),
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.only(
+                                          topLeft: Radius.circular(16),
+                                          bottomLeft: Radius.circular(16),
+                                        )),
                                   ),
                                   Expanded(
                                     child: Column(
@@ -147,7 +146,14 @@ class _EventHomePageState extends State<EventHomePage> {
                                       children: [
                                         Row(
                                           children: [
-                                            
+                                            Text(
+                                              "A New look at Watteau",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            )
                                           ],
                                         )
                                       ],
