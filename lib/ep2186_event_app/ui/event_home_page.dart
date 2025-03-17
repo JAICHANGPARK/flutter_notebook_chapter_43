@@ -179,15 +179,18 @@ class _EventHomePageState extends State<EventHomePage> {
                                             ),
                                           ),
                                           Row(
+                                            spacing: 8,
                                             children: [
                                               Icon(
                                                 Icons.location_on_outlined,
+                                                color: Colors.grey,
+                                                size: 16,
                                               ),
                                               Text(
-                                                "Pierrot, knows as Gilles",
+                                                "Dream Museum",
                                                 style: TextStyle(
                                                   fontSize: 12,
-                                                  color: Colors.white,
+                                                  color: Colors.grey,
                                                 ),
                                               ),
                                             ],
