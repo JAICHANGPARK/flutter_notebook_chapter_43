@@ -130,7 +130,7 @@ class _EventHomePageState extends State<EventHomePage> {
                               child: Row(
                                 children: [
                                   Container(
-                                    width: 100,
+                                    width: 140,
                                     decoration: BoxDecoration(
                                       color: Colors.white,
                                     ),
