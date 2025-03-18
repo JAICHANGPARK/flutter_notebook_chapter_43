@@ -51,8 +51,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                     child: Placeholder(),
                   ),
                   Row(
+                    spacing: 6,
                     children: [
                       Expanded(
+                        flex: 6,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 6,
@@ -66,6 +68,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                         ),
                       ),
                       Expanded(
+                        flex: 4,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 6,
