@@ -106,6 +106,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           color: Colors.white.withValues(alpha: .2),
                         ),
                         child: Row(
+                          spacing: 12,
                           children: [
                             IconButton(
                               onPressed: () {},
@@ -114,6 +115,12 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               ),
                             ),
                             Text("2"),
+                            IconButton(
+                              onPressed: () {},
+                              icon: Icon(
+                                Icons.add,
+                              ),
+                            ),
                           ],
                         ),
                       ),
