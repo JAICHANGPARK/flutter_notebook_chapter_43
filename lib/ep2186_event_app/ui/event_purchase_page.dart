@@ -40,7 +40,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                   Text(
                     "Ticket purchase",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 24,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
