@@ -60,10 +60,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           spacing: 6,
                           children: [
                             Text('DATE'),
-                            Container(  height: 52,
-                              decoration: BoxDecoration(
-                                  color: Colors.white.withValues(alpha: .2)
-                              ),),
+                            Container(
+                              height: 52,
+                              decoration: BoxDecoration(color: Colors.white.withValues(alpha: .2)),
+                            ),
                           ],
                         ),
                       ),
@@ -76,9 +76,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                             Text('TIME'),
                             Container(
                               height: 52,
-                              decoration: BoxDecoration(
-                                color: Colors.white.withValues(alpha: .2)
-                              ),
+                              decoration: BoxDecoration(color: Colors.white.withValues(alpha: .2)),
                             ),
                           ],
                         ),
@@ -89,18 +87,20 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                   Row(
                     children: [
                       Expanded(
-                          child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "Adult",
-                            style: TextStyle(
-                              color: Colors.white,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Adult",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
                             ),
-                          ),
-                          Text("\$ 12.00"),
-                        ],
-                      ),)
+                            Text("\$ 12.00"),
+                          ],
+                        ),
+                      ),
+                      
                     ],
                   )
                 ],
