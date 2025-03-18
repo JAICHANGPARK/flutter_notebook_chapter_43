@@ -12,7 +12,23 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        children: [],
+        children: [
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Color.fromRGBO(61, 57, 28, 1),
+                    Colors.black,
+                    Colors.black,
+                  ],
+                  begin: Alignment.topLeft,
+                  // end: Alignment.bottomRight,
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
