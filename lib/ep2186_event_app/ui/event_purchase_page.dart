@@ -71,7 +71,14 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
 
                     ],
                   ),
-                  Text("HOW MANY TICKETS")
+                  Text("HOW MANY TICKETS"),
+                  Row(
+                    children: [
+                      Expanded(child: Column(children: [
+                        
+                      ],))
+                    ],
+                  )
                 ],
               ),
             ),
