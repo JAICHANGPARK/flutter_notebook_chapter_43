@@ -47,7 +47,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                     ),
                   ),
                   Container(
-                    height: 320,
+                    height: 400,
                     child: Placeholder(),
                   ),
                   Row(
