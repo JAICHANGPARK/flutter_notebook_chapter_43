@@ -54,6 +54,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                     children: [
                       Expanded(
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text('DATE'),
                             Container(),
@@ -62,8 +63,9 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       ),
                       Expanded(
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('DATE'),
+                            Text('TIME'),
                             Container(
                               height: 52,
                               decoration: BoxDecoration(
