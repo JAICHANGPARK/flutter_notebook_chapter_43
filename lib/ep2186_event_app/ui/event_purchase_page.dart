@@ -70,7 +70,8 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       ),
 
                     ],
-                  )
+                  ),
+                  Text("HOW MANY TICKETS")
                 ],
               ),
             ),
