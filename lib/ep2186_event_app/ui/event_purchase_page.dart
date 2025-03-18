@@ -35,6 +35,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
             top: 32,
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
@@ -44,7 +45,11 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
-                  )
+                  ),
+                  Container(
+                    height: 320,
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             ),
