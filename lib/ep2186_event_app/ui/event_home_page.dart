@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2186_event_app/ui/event_purchase_page.dart';
 import 'package:gap/gap.dart';
 
 class EventHomePage extends StatefulWidget {
@@ -124,6 +125,10 @@ class _EventHomePageState extends State<EventHomePage> {
                           spacing: 12,
                           children: [
                             GestureDetector(
+                              onTap: () {
+                                Navigator.of(context)
+                                    .push(MaterialPageRoute(builder: (context) => EventPurchasePage()));
+                              },
                               child: Container(
                                 // height: 280,
                                 decoration: BoxDecoration(
@@ -280,7 +285,6 @@ class _EventHomePageState extends State<EventHomePage> {
                                                 )
                                               ],
                                             ),
-
                                             Row(
                                               spacing: 8,
                                               children: [
@@ -298,7 +302,6 @@ class _EventHomePageState extends State<EventHomePage> {
                                                 ),
                                               ],
                                             ),
-
                                           ],
                                         ),
                                       ),
@@ -462,7 +465,6 @@ class _EventHomePageState extends State<EventHomePage> {
                                                 )
                                               ],
                                             ),
-
                                             Row(
                                               spacing: 8,
                                               children: [
@@ -480,7 +482,6 @@ class _EventHomePageState extends State<EventHomePage> {
                                                 ),
                                               ],
                                             ),
-
                                           ],
                                         ),
                                       ),
@@ -489,7 +490,6 @@ class _EventHomePageState extends State<EventHomePage> {
                                 ),
                               ),
                             ),
-
                           ],
                         ),
                       ),
