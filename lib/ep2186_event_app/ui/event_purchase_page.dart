@@ -55,15 +55,20 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 6,
                           children: [
                             Text('DATE'),
-                            Container(),
+                            Container(  height: 52,
+                              decoration: BoxDecoration(
+                                  color: Colors.white.withValues(alpha: .2)
+                              ),),
                           ],
                         ),
                       ),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 6,
                           children: [
                             Text('TIME'),
                             Container(
