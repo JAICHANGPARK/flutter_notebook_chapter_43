@@ -121,13 +121,11 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               icon: Icon(
                                 Icons.add,
                               ),
-
                               color: Colors.orange,
                             ),
                           ],
                         ),
                       ),
-
                     ],
                   ),
                   Row(
@@ -167,14 +165,17 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               icon: Icon(
                                 Icons.add,
                               ),
-
                               color: Colors.orange,
                             ),
                           ],
                         ),
                       ),
-
                     ],
+                  ),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                    ),
                   )
                 ],
               ),
