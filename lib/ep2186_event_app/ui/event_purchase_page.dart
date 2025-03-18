@@ -69,9 +69,13 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                     children: [
                       Expanded(
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             "Adult",
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
                           ),
                           Text("\$ 12.00"),
                         ],
