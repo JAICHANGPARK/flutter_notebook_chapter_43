@@ -50,6 +50,27 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                     height: 320,
                     child: Placeholder(),
                   ),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text('DATE'),
+                            Container()
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text('DATE'),
+                            Container()
+                          ],
+                        ),
+                      ),
+
+                    ],
+                  )
                 ],
               ),
             ),
