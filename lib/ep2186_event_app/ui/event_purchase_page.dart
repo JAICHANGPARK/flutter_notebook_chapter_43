@@ -100,7 +100,20 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           ],
                         ),
                       ),
-                      
+                      Container(
+                        height: 52,
+                        decoration: BoxDecoration(color: Colors.white.withValues(alpha: .2)),
+                        child: Row(
+                          children: [
+                            IconButton(
+                              onPressed: () {},
+                              icon: Icon(
+                                Icons.remove,
+                              ),
+                            )
+                          ],
+                        ),
+                      ),
                     ],
                   )
                 ],
