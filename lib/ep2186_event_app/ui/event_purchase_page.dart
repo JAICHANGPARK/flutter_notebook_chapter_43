@@ -100,7 +100,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           ),
                           Text("\$ 12.00"),
                         ],
-                      ))
+                      ),)
                     ],
                   )
                 ],
