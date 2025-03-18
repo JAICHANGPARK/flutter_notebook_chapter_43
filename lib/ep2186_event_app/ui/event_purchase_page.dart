@@ -28,6 +28,12 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
               ),
             ),
           ),
+          Positioned.fill(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [],
+            ),
+          )
         ],
       ),
     );
