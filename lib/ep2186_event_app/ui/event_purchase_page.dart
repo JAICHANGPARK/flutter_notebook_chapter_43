@@ -113,6 +113,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               icon: Icon(
                                 Icons.remove,
                               ),
+                              color: Colors.orange,
                             ),
                             Text("2"),
                             IconButton(
