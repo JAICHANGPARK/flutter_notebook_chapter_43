@@ -32,7 +32,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
             left: 16,
             right: 16,
             bottom: 24,
-            top: 32,
+            top: 42,
             child: SafeArea(
               child: Column(
                 spacing: 16,
@@ -46,9 +46,11 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       color: Colors.white,
                     ),
                   ),
-                  Container(
-                    height: 400,
-                    child: Placeholder(),
+                  Expanded(
+                    child: Container(
+
+                      child: Placeholder(),
+                    ),
                   ),
                   Row(
                     spacing: 6,
