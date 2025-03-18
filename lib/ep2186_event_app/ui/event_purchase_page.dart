@@ -29,6 +29,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
             ),
           ),
           Positioned.fill(
+            left: 16,
+            right: 16,
+            bottom: 24,
+            top: 24,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
