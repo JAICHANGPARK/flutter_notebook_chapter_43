@@ -126,8 +126,11 @@ class _EventHomePageState extends State<EventHomePage> {
                           children: [
                             GestureDetector(
                               onTap: () {
-                                Navigator.of(context)
-                                    .push(MaterialPageRoute(builder: (context) => EventPurchasePage()));
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) => EventPurchasePage(),
+                                  ),
+                                );
                               },
                               child: Container(
                                 // height: 280,
