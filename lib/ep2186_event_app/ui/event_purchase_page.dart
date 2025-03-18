@@ -177,11 +177,13 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
+                    padding: EdgeInsets.symmetric(vertical: 16),
                     child: Center(
                       child: Text(
                         "Buy ticket -> \$27.00",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
+                          fontSize: 16,
                         ),
                       ),
                     ),
