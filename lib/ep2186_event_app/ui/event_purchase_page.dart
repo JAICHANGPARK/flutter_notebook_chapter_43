@@ -54,29 +54,28 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                     children: [
                       Expanded(
                         child: Column(
-                          children: [
-                            Text('DATE'),
-                            Container()
-                          ],
+                          children: [Text('DATE'), Container()],
                         ),
                       ),
                       Expanded(
                         child: Column(
-                          children: [
-                            Text('DATE'),
-                            Container()
-                          ],
+                          children: [Text('DATE'), Container()],
                         ),
                       ),
-
                     ],
                   ),
                   Text("HOW MANY TICKETS"),
                   Row(
                     children: [
-                      Expanded(child: Column(children: [
-                        
-                      ],))
+                      Expanded(
+                          child: Column(
+                        children: [
+                          Text(
+                            "Adult",
+                          ),
+                          Text("\$ 12.00"),
+                        ],
+                      ))
                     ],
                   )
                 ],
