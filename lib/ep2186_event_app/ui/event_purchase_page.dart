@@ -31,7 +31,15 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
           Positioned.fill(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: [],
+              children: [
+                Text(
+                  "Ticket purchase",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                )
+              ],
             ),
           )
         ],
