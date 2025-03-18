@@ -175,6 +175,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                    child: Center(
+                      child: Text("Buy ticket -> \$27.00"),
                     ),
                   )
                 ],
