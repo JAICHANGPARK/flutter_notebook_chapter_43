@@ -10,6 +10,10 @@ class EventPurchasePage extends StatefulWidget {
 class _EventPurchasePageState extends State<EventPurchasePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Stack(
+        children: [],
+      ),
+    );
   }
 }
