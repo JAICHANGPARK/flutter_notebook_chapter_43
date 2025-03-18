@@ -121,12 +121,59 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               icon: Icon(
                                 Icons.add,
                               ),
-                              
+
                               color: Colors.orange,
                             ),
                           ],
                         ),
                       ),
+
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Adult",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
+                            ),
+                            Text("\$ 12.00"),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        height: 52,
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: .2),
+                        ),
+                        child: Row(
+                          spacing: 12,
+                          children: [
+                            IconButton(
+                              onPressed: () {},
+                              icon: Icon(
+                                Icons.remove,
+                              ),
+                              color: Colors.orange,
+                            ),
+                            Text("2"),
+                            IconButton(
+                              onPressed: () {},
+                              icon: Icon(
+                                Icons.add,
+                              ),
+
+                              color: Colors.orange,
+                            ),
+                          ],
+                        ),
+                      ),
+
                     ],
                   )
                 ],
