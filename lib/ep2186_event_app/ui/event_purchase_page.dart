@@ -178,7 +178,12 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       color: Colors.white,
                     ),
                     child: Center(
-                      child: Text("Buy ticket -> \$27.00"),
+                      child: Text(
+                        "Buy ticket -> \$27.00",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
                   )
                 ],
