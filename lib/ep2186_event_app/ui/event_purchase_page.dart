@@ -56,6 +56,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           Expanded(
                             child: Container(
                               decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(16),
+                                  topLeft: Radius.circular(16),
+                                ),
                                 image: DecorationImage(
                                   image: NetworkImage(
                                     "https://cdn.pixabay.com/photo/2024/05/20/09/14/ai-generated-8774377_1280.jpg",
