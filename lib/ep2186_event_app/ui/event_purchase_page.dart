@@ -141,7 +141,8 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                             Container(
                               height: 52,
                               decoration: BoxDecoration(
-                                color: Colors.white.withValues(alpha: .2),
+                                color: Colors.white.withValues(alpha: .12),
+                                borderRadius: BorderRadius.circular(12),
                               ),
                             ),
                           ],
@@ -162,7 +163,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                             Container(
                               height: 52,
                               decoration: BoxDecoration(
-                                color: Colors.white.withValues(alpha: .1),
+                                color: Colors.white.withValues(alpha: .12),
                                 borderRadius: BorderRadius.circular(12),
                               ),
                               padding: EdgeInsets.symmetric(horizontal: 12),
