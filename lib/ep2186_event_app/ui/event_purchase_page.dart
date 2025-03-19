@@ -170,7 +170,12 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                 underline: SizedBox(),
                                 items: [
                                   DropdownMenuItem(
-                                    child: Text("6:00 PM"),
+                                    child: Text(
+                                      "6:00 PM",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                    ),
                                   )
                                 ],
                                 onChanged: (value) {},
