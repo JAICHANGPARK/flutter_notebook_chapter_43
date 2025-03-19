@@ -206,7 +206,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       ),
                     ],
                   ),
-                  Text("HOW MANY TICKETS"),
+                  Text("HOW MANY TICKETS",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),),
                   Row(
                     children: [
                       Expanded(
