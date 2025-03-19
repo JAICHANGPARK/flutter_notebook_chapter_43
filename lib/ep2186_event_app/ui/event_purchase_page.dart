@@ -83,11 +83,16 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
-                                Text("Subtitle Subtitle Subtitle Subtitle, Subtitle, Subtitle")
+                                Text(
+                                  "Subtitle Subtitle Subtitle Subtitle, Subtitle, Subtitle",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    // fontWeight: FontWeight.bold,
+                                  ),
+                                )
                               ],
                             ),
                           )
-
                         ],
                       ),
                     ),
