@@ -164,6 +164,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               decoration: BoxDecoration(
                                 color: Colors.white.withValues(alpha: .1),
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 12),
                               child: DropdownButton(
                                 isExpanded: true,
                                 iconEnabledColor: Colors.white,
