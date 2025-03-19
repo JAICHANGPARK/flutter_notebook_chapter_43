@@ -165,6 +165,9 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                 color: Colors.white.withValues(alpha: .1),
                               ),
                               child: DropdownButton(
+                                isExpanded: true,
+                                iconEnabledColor: Colors.white,
+                                underline: SizedBox(),
                                 items: [
                                   DropdownMenuItem(
                                     child: Text("6:00 PM"),
