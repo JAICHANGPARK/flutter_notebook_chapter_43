@@ -53,6 +53,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                         color: Colors.white.withValues(alpha: .1),
                       ),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Expanded(
                             child: Container(
@@ -71,7 +72,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               spacing: 12,
