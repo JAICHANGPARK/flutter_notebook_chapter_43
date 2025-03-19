@@ -50,6 +50,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
+                        color: Colors.white.withValues(alpha: .7)
                       ),
                       child: Column(
                         children: [
