@@ -70,6 +70,14 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               ),
                             ),
                           ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: [
+
+                              ],
+                            ),
+                          )
                           Text(
                             "AI Generated Art",
                             style: TextStyle(
