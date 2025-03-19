@@ -52,7 +52,11 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Column(
-                        children: [],
+                        children: [
+                          Expanded(child: Container(decoration: BoxDecoration(
+                            image: DecorationImage(image: image)
+                          ),))
+                        ],
                       ),
                     ),
                   ),
