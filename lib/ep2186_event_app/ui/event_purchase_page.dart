@@ -222,7 +222,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                 color: Colors.white,
                               ),
                             ),
-                            Text("\$ 12.00"),
+                            Text("\$ 12.00",
+                              style: TextStyle(
+                                color: Colors.grey,
+                              ),),
                           ],
                         ),
                       ),
@@ -241,7 +244,10 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                               ),
                               color: Colors.orange,
                             ),
-                            Text("2"),
+                            Text("2",
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),),
                             IconButton(
                               onPressed: () {},
                               icon: Icon(
