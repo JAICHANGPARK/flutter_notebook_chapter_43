@@ -48,8 +48,12 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                   ),
                   Expanded(
                     child: Container(
+                      
+                      child: Column(
+                        children: [
 
-                      child: Placeholder(),
+                        ],
+                      )
                     ),
                   ),
                   Row(
