@@ -54,15 +54,17 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                       child: Column(
                         children: [
                           Expanded(
-                              child: Container(
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                image: NetworkImage(
-                                  "https://cdn.pixabay.com/photo/2024/05/20/09/14/ai-generated-8774377_1280.jpg",
+                            child: Container(
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2024/05/20/09/14/ai-generated-8774377_1280.jpg",
+                                  ),
+                                  fit: BoxFit.cover,
                                 ),
                               ),
                             ),
-                          ))
+                          )
                         ],
                       ),
                     ),
