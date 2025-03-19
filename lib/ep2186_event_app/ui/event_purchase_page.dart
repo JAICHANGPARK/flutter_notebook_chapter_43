@@ -96,12 +96,20 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                     Icon(
                                       Icons.location_on_outlined,
                                     ),
-                                    Text("Data Center"),
+                                    Text(
+                                      "Data Center",
+                                      style: TextStyle(
+                                        color: Colors.grey,
+                                      ),
+                                    ),
                                     Icon(
                                       Icons.calendar_month,
                                     ),
                                     Text(
                                       "10 Oct - 3 Feb 2025",
+                                        style: TextStyle(
+                                        color: Colors.grey,
+                                    ),
                                     ),
                                   ],
                                 )
