@@ -153,13 +153,17 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 6,
                           children: [
-                            Text('TIME',
+                            Text(
+                              'TIME',
                               style: TextStyle(
                                 color: Colors.grey,
-                              ),),
+                              ),
+                            ),
                             Container(
                               height: 52,
-                              decoration: BoxDecoration(color: Colors.white.withValues(alpha: .2)),
+                              decoration: BoxDecoration(
+                                color: Colors.white.withValues(alpha: .2),
+                              ),
                             ),
                           ],
                         ),
