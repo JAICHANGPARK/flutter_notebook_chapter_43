@@ -144,6 +144,23 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                 color: Colors.white.withValues(alpha: .12),
                                 borderRadius: BorderRadius.circular(12),
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 12),
+                              child: DropdownButton(
+                                isExpanded: true,
+                                iconEnabledColor: Colors.white,
+                                underline: SizedBox(),
+                                items: [
+                                  DropdownMenuItem(
+                                    child: Text(
+                                      "Tue, 21 Apr 2025",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  )
+                                ],
+                                onChanged: (value) {},
+                              ),
                             ),
                           ],
                         ),
