@@ -73,18 +73,21 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              spacing: 12,
                               children: [
-
+                                Text(
+                                  "AI Generated Art",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                Text("Subtitle Subtitle Subtitle Subtitle, Subtitle, Subtitle")
                               ],
                             ),
                           )
-                          Text(
-                            "AI Generated Art",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          )
+
                         ],
                       ),
                     ),
