@@ -92,6 +92,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                   ),
                                 ),
                                 Row(
+                                  spacing: 16,
                                   children: [
                                     Icon(
                                       Icons.location_on_outlined,
@@ -131,10 +132,17 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 6,
                           children: [
-                            Text('DATE'),
+                            Text(
+                              'DATE',
+                              style: TextStyle(
+                                color: Colors.grey,
+                              ),
+                            ),
                             Container(
                               height: 52,
-                              decoration: BoxDecoration(color: Colors.white.withValues(alpha: .2)),
+                              decoration: BoxDecoration(
+                                color: Colors.white.withValues(alpha: .2),
+                              ),
                             ),
                           ],
                         ),
