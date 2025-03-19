@@ -162,7 +162,15 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                             Container(
                               height: 52,
                               decoration: BoxDecoration(
-                                color: Colors.white.withValues(alpha: .2),
+                                color: Colors.white.withValues(alpha: .1),
+                              ),
+                              child: DropdownButton(
+                                items: [
+                                  DropdownMenuItem(
+                                    child: Text("6:00 PM"),
+                                  )
+                                ],
+                                onChanged: (value) {},
                               ),
                             ),
                           ],
