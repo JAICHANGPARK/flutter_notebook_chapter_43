@@ -49,7 +49,9 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                   Expanded(
                     child: Container(
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(12), color: Colors.white.withValues(alpha: .7)),
+                        borderRadius: BorderRadius.circular(12),
+                        color: Colors.white.withValues(alpha: .1),
+                      ),
                       child: Column(
                         children: [
                           Expanded(
@@ -72,7 +74,7 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                             "AI Generated Art",
                             style: TextStyle(
                               color: Colors.white,
-                              fontWeight: FontWeight.bold
+                              fontWeight: FontWeight.bold,
                             ),
                           )
                         ],
