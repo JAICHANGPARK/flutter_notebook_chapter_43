@@ -90,6 +90,13 @@ class _EventPurchasePageState extends State<EventPurchasePage> {
                                     color: Colors.white,
                                     // fontWeight: FontWeight.bold,
                                   ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.location_on_outlined,
+                                    )
+                                  ],
                                 )
                               ],
                             ),
