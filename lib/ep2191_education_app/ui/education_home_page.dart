@@ -53,6 +53,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                       text: "(7)",
                       style: TextStyle(
                         fontSize: 32,
+                        color: Colors.grey,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
