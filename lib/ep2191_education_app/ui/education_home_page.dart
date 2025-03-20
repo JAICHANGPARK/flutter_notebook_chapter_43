@@ -17,6 +17,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
                 children: [
@@ -45,9 +46,15 @@ class _EducationHomePageState extends State<EducationHomePage> {
                       text: "Your activities today",
                       style: TextStyle(
                         fontSize: 32,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
-                    TextSpan(text: "(7)"),
+                    TextSpan(
+                      text: "(7)",
+                      style: TextStyle(
+                        fontSize: 32,
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -57,7 +64,9 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     decoration: BoxDecoration(
                       color: Colors.grey[200]!,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 2, vertical: 2),
                     child: Row(
+                      spacing: 12,
                       children: [
                         CircleAvatar(
                           radius: 24,
