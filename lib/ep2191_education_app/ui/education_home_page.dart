@@ -77,7 +77,11 @@ class _EducationHomePageState extends State<EducationHomePage> {
                         Icon(Icons.keyboard_arrow_down),
                       ],
                     ),
-                  )
+                  ),
+                  Spacer(),
+                  CircleAvatar(
+                    radius: 24,
+                  ),
                 ],
               )
             ],
