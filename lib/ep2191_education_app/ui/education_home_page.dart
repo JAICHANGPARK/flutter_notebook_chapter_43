@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:gap/gap.dart';
 
 class EducationHomePage extends StatefulWidget {
   const EducationHomePage({super.key});
@@ -13,20 +13,28 @@ class _EducationHomePageState extends State<EducationHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          children: [
-            Row(
-              children: [
-                CircleAvatar(
-                  radius: 24,
-                ),
-                Expanded(child: Text("Dreamwalker")),
-                CircleAvatar(
-                  radius: 24,
-                )
-              ],
-            )
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  CircleAvatar(
+                    radius: 24,
+                  ),
+                  Gap(12),
+                  Expanded(
+                    child: Text(
+                      "Dreamwalker",
+                    ),
+                  ),
+                  CircleAvatar(
+                    radius: 24,
+                  )
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
