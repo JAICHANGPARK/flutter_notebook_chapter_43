@@ -85,7 +85,13 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     radius: 26,
                   ),
                 ],
-              )
+              ),
+              Expanded(child: ListView(
+                children: [
+                  Placeholder(),
+                  Placeholder(),
+                ],
+              ))
             ],
           ),
         ),
