@@ -18,10 +18,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
             Row(
               children: [
                 CircleAvatar(
-                  radius: 32,
+                  radius: 24,
                 ),
-                Text("Dreamwalker"),
-                CircleAvatar()
+                Expanded(child: Text("Dreamwalker")),
+                CircleAvatar(
+                  radius: 24,
+                )
               ],
             )
           ],
