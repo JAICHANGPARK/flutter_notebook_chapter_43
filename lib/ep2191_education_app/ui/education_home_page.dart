@@ -38,9 +38,16 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   )
                 ],
               ),
-              
-              Text("Your activities today")
-
+              Text.rich(
+                TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "Your activities today"
+                    )
+                  ],
+                ),
+              ),
+              Text()
             ],
           ),
         ),
