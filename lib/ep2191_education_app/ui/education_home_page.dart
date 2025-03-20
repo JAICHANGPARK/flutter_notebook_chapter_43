@@ -41,17 +41,25 @@ class _EducationHomePageState extends State<EducationHomePage> {
               Text.rich(
                 TextSpan(
                   children: [
-                    TextSpan(
-                      text: "Your activities today"
-                    ),
-                    TextSpan(
-                        text: "(7)"
-                    ),
+                    TextSpan(text: "Your activities today"),
+                    TextSpan(text: "(7)"),
                   ],
                 ),
               ),
-              
-
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200]!,
+                    ),
+                    child: Row(
+                      children: [
+                        CircleAvatar(radius: 24, ,)
+                      ],
+                    ),
+                  )
+                ],
+              )
             ],
           ),
         ),
