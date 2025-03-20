@@ -38,6 +38,8 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   )
                 ],
               ),
+              
+              Text("Your activities today")
 
             ],
           ),
