@@ -26,6 +26,10 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   Expanded(
                     child: Text(
                       "Dreamwalker",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
                     ),
                   ),
                   CircleAvatar(
