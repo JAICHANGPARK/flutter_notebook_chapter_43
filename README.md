@@ -10,8 +10,6 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/42575600/file/original-3d31471f56e2a3483c1f1622bd56d921.png?resize=1600x1200&vertical=center"/>
 
-
-
 ## EP2186-2190
 
 - Event Mobile UI App Design
@@ -19,7 +17,6 @@ A new Flutter project.
 - https://dribbble.com/shots/25742467-Event-Mobile-UI-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/41505517/file/original-91718fbe79e3ee4111f510bff3590863.png?resize=1905x1429&vertical=center"/>
-
 
 ## EP2181-2185
 
