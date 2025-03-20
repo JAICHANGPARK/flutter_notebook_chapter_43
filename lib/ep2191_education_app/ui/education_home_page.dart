@@ -15,7 +15,15 @@ class _EducationHomePageState extends State<EducationHomePage> {
       body: SafeArea(
         child: Column(
           children: [
-            
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 32,
+                ),
+                Text("Dreamwalker"),
+                CircleAvatar()
+              ],
+            )
           ],
         ),
       ),
