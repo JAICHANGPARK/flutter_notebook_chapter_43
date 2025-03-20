@@ -69,7 +69,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                       spacing: 12,
                       children: [
                         CircleAvatar(
-                          radius: 24,
+                          radius: 26,
                         ),
                         Text(
                           "Lessons",
@@ -80,7 +80,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   ),
                   Spacer(),
                   CircleAvatar(
-                    radius: 24,
+                    radius: 26,
                   ),
                 ],
               )
