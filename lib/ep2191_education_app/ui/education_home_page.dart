@@ -12,6 +12,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -36,7 +37,8 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     radius: 24,
                   )
                 ],
-              )
+              ),
+
             ],
           ),
         ),
