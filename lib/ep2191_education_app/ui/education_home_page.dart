@@ -43,11 +43,15 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   children: [
                     TextSpan(
                       text: "Your activities today"
-                    )
+                    ),
+                    TextSpan(
+                        text: "(7)"
+                    ),
                   ],
                 ),
               ),
-              Text()
+              
+
             ],
           ),
         ),
