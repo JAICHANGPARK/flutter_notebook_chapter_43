@@ -41,7 +41,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
               Text.rich(
                 TextSpan(
                   children: [
-                    TextSpan(text: "Your activities today"),
+                    TextSpan(
+                      text: "Your activities today",
+                      style: TextStyle(
+                        fontSize: 32,
+                      ),
+                    ),
                     TextSpan(text: "(7)"),
                   ],
                 ),
@@ -57,7 +62,9 @@ class _EducationHomePageState extends State<EducationHomePage> {
                         CircleAvatar(
                           radius: 24,
                         ),
-                        Text("Lessons"),
+                        Text(
+                          "Lessons",
+                        ),
                         Icon(Icons.keyboard_arrow_down),
                       ],
                     ),
