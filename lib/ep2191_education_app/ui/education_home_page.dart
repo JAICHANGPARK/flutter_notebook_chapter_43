@@ -54,7 +54,11 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     ),
                     child: Row(
                       children: [
-                        CircleAvatar(radius: 24, ,)
+                        CircleAvatar(
+                          radius: 24,
+                        ),
+                        Text("Lessons"),
+                        Icon(Icons.keyboard_arrow_down),
                       ],
                     ),
                   )
