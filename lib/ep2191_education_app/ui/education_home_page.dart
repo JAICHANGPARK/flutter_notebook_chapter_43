@@ -22,7 +22,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
               Row(
                 children: [
                   CircleAvatar(
-                    radius: 24,
+                    radius: 26,
                   ),
                   Gap(12),
                   Expanded(
@@ -35,7 +35,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     ),
                   ),
                   CircleAvatar(
-                    radius: 24,
+                    radius: 26,
                   )
                 ],
               ),
@@ -53,6 +53,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                       text: "(7)",
                       style: TextStyle(
                         fontSize: 32,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ],
