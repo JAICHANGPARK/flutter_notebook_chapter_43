@@ -128,13 +128,15 @@ class _EducationHomePageState extends State<EducationHomePage> {
                             Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
-                                color: Colors.white
+                                color: Colors.white,
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 4),
                               child: Row(
                                 children: [
                                   Icon(
                                     Icons.star,
                                     color: Colors.yellow,
+                                    size: 16
                                   ),
                                   Text(
                                     "4.9",
