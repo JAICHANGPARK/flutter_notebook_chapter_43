@@ -93,15 +93,16 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   ),
                   Spacer(),
                   CircleAvatar(
-                    radius: 26,
+                    radius: 30,
                     backgroundColor: Color.fromRGBO(240, 245, 245, 1),
+                    child: Icon(Icons.search),
                   ),
                 ],
               ),
               Expanded(
                   child: ListView(
                 children: [
-                  Placeholder(),
+                  Container(),
                   Placeholder(),
                 ],
               ))
