@@ -112,12 +112,23 @@ class _EducationHomePageState extends State<EducationHomePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
+                          spacing: 12,
                           children: [
                             CircleAvatar(),
                             Text("IT & Software"),
+                            Spacer(),
                             Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
+                              ),
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.yellow,
+                                  ),
+                                  Text("4.9")
+                                ],
                               ),
                             )
                           ],
