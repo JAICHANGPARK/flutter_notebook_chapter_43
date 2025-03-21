@@ -106,9 +106,16 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(210, 228, 226, 1),
                     ),
+                    padding: EdgeInsets.all(20),
                     child: Column(
+                      
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        
+                        Row(
+                          children: [
+                            
+                          ],
+                        )
                       ],
                     ),
                   ),
