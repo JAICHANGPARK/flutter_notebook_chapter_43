@@ -73,8 +73,14 @@ class _EducationHomePageState extends State<EducationHomePage> {
               Row(
                 children: [
                   Container(
-                    decoration: BoxDecoration(
-                      color: Colors.grey[200]!,
+                    decoration: ShapeDecoration(
+                      color: Color.fromRGBO(
+                        245,
+                        247,
+                        251,
+                        1,
+                      ),
+
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 2, vertical: 2),
                     child: Row(
