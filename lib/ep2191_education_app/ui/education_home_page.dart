@@ -88,6 +88,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                           "Lessons",
                         ),
                         Icon(Icons.keyboard_arrow_down),
+                        Gap(4),
                       ],
                     ),
                   ),
@@ -97,6 +98,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     backgroundColor: Color.fromRGBO(240, 245, 245, 1),
                     child: Icon(Icons.search),
                   ),
+
                 ],
               ),
               Expanded(
