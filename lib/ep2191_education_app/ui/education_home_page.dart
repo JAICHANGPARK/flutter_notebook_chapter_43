@@ -98,7 +98,6 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     backgroundColor: Color.fromRGBO(240, 245, 245, 1),
                     child: Icon(Icons.search),
                   ),
-
                 ],
               ),
               Expanded(
@@ -117,7 +116,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
                           spacing: 12,
                           children: [
                             CircleAvatar(),
-                            Text("IT & Software"),
+                            Text(
+                              "IT & Software",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Spacer(),
                             Container(
                               decoration: ShapeDecoration(
