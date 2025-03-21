@@ -105,6 +105,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   Container(
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(210, 228, 226, 1),
+                      borderRadius: BorderRadius.circular(20),
                     ),
                     padding: EdgeInsets.all(20),
                     child: Column(
