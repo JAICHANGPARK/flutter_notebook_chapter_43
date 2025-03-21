@@ -151,6 +151,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                           children: [
                             Expanded(
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   SizedBox(
                                     height: 40,
