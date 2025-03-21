@@ -74,11 +74,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
                 children: [
                   Container(
                     decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
                       color: Color.fromRGBO(
+                        240,
                         245,
-                        247,
-                        251,
-                        1,
+                        245,
+                        1
                       ),
 
                     ),
