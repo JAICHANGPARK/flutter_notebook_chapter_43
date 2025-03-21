@@ -115,7 +115,9 @@ class _EducationHomePageState extends State<EducationHomePage> {
                         Row(
                           spacing: 12,
                           children: [
-                            CircleAvatar(),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                            ),
                             Text(
                               "IT & Software",
                               style: TextStyle(
@@ -126,6 +128,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                             Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
+                                color: Colors.white
                               ),
                               child: Row(
                                 children: [
