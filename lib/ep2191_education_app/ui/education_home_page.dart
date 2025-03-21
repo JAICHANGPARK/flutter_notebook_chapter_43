@@ -36,6 +36,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   ),
                   CircleAvatar(
                     radius: 26,
+                    backgroundColor: Color.fromRGBO(245, 247, 251, 1),
                   )
                 ],
               ),
@@ -86,7 +87,8 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   ),
                 ],
               ),
-              Expanded(child: ListView(
+              Expanded(
+                  child: ListView(
                 children: [
                   Placeholder(),
                   Placeholder(),
