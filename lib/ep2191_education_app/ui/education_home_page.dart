@@ -127,11 +127,28 @@ class _EducationHomePageState extends State<EducationHomePage> {
                                     Icons.star,
                                     color: Colors.yellow,
                                   ),
-                                  Text("4.9")
+                                  Text(
+                                    "4.9",
+                                  ),
                                 ],
                               ),
                             )
                           ],
+                        ),
+                        Gap(72),
+                        SizedBox(
+                          height: 32,
+                          width: double.infinity,
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                top: 0,
+                                left: 0,
+                                bottom: 0,
+                                child: CircleAvatar(),
+                              )
+                            ],
+                          ),
                         )
                       ],
                     ),
