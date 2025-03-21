@@ -108,6 +108,9 @@ class _EducationHomePageState extends State<EducationHomePage> {
                       color: Color.fromRGBO(210, 228, 226, 1),
                       borderRadius: BorderRadius.circular(20),
                     ),
+                    margin: EdgeInsets.only(
+                      bottom: 12,
+                    ),
                     padding: EdgeInsets.all(20),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -133,7 +136,11 @@ class _EducationHomePageState extends State<EducationHomePage> {
                               padding: EdgeInsets.symmetric(horizontal: 4),
                               child: Row(
                                 children: [
-                                  Icon(Icons.star, color: Colors.yellow, size: 16),
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.yellow,
+                                    size: 16,
+                                  ),
                                   Text(
                                     "4.9",
                                   ),
@@ -200,7 +207,110 @@ class _EducationHomePageState extends State<EducationHomePage> {
                       ],
                     ),
                   ),
-                  Placeholder(),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(255, 213, 234, 1),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    margin: EdgeInsets.only(
+                      bottom: 12,
+                    ),
+                    padding: EdgeInsets.all(20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          spacing: 12,
+                          children: [
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                            ),
+                            Text(
+                              "IT & Software",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Spacer(),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Colors.white,
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 4),
+                              child: Row(
+                                children: [
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.yellow,
+                                    size: 16,
+                                  ),
+                                  Text(
+                                    "4.9",
+                                  ),
+                                ],
+                              ),
+                            )
+                          ],
+                        ),
+                        Gap(72),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  SizedBox(
+                                    height: 40,
+                                    width: double.infinity,
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          top: 0,
+                                          left: 0,
+                                          bottom: 0,
+                                          child: CircleAvatar(),
+                                        ),
+                                        Positioned(
+                                          top: 0,
+                                          left: 30,
+                                          bottom: 0,
+                                          child: CircleAvatar(),
+                                        ),
+                                        Positioned(
+                                          top: 0,
+                                          left: 60,
+                                          bottom: 0,
+                                          child: CircleAvatar(),
+                                        ),
+                                        Positioned(
+                                          top: 0,
+                                          left: 90,
+                                          bottom: 0,
+                                          child: CircleAvatar(),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Gap(8),
+                                  Text(
+                                    "Web Development",
+                                    style: TextStyle(
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                            CircleAvatar(
+                              radius: 28,
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ))
             ],
