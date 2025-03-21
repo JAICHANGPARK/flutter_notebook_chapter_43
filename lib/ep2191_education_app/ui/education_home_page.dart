@@ -37,6 +37,9 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   CircleAvatar(
                     radius: 26,
                     backgroundColor: Color.fromRGBO(245, 247, 251, 1),
+                    child: Icon(
+                      Icons.notifications_active_outlined,
+                    ),
                   )
                 ],
               ),
