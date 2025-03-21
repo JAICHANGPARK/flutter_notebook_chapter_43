@@ -102,7 +102,16 @@ class _EducationHomePageState extends State<EducationHomePage> {
               Expanded(
                   child: ListView(
                 children: [
-                  Container(),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(210, 228, 226, 1),
+                    ),
+                    child: Column(
+                      children: [
+                        
+                      ],
+                    ),
+                  ),
                   Placeholder(),
                 ],
               ))
