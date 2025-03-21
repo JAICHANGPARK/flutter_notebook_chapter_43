@@ -133,11 +133,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                               padding: EdgeInsets.symmetric(horizontal: 4),
                               child: Row(
                                 children: [
-                                  Icon(
-                                    Icons.star,
-                                    color: Colors.yellow,
-                                    size: 16
-                                  ),
+                                  Icon(Icons.star, color: Colors.yellow, size: 16),
                                   Text(
                                     "4.9",
                                   ),
@@ -185,7 +181,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
                                       ],
                                     ),
                                   ),
-                                  Text("Web Development")
+                                  Text(
+                                    "Web Development",
+                                    style: TextStyle(
+                                      fontSize: 28,
+                                    ),
+                                  )
                                 ],
                               ),
                             ),
@@ -194,7 +195,6 @@ class _EducationHomePageState extends State<EducationHomePage> {
                             ),
                           ],
                         ),
-
                       ],
                     ),
                   ),
