@@ -147,6 +147,15 @@ class _EducationHomePageState extends State<EducationHomePage> {
                           ],
                         ),
                         Gap(72),
+                        Row(
+                          children: [
+                            Column(
+                              children: [
+                                
+                              ],
+                            )
+                          ],
+                        )
                         SizedBox(
                           height: 40,
                           width: double.infinity,
@@ -155,6 +164,24 @@ class _EducationHomePageState extends State<EducationHomePage> {
                               Positioned(
                                 top: 0,
                                 left: 0,
+                                bottom: 0,
+                                child: CircleAvatar(),
+                              ),
+                              Positioned(
+                                top: 0,
+                                left: 30,
+                                bottom: 0,
+                                child: CircleAvatar(),
+                              ),
+                              Positioned(
+                                top: 0,
+                                left: 60,
+                                bottom: 0,
+                                child: CircleAvatar(),
+                              ),
+                              Positioned(
+                                top: 0,
+                                left: 90,
                                 bottom: 0,
                                 child: CircleAvatar(),
                               )
