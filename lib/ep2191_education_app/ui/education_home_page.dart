@@ -75,13 +75,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Color.fromRGBO(
-                        240,
-                        245,
-                        245,
-                        1
-                      ),
-
+                      color: Color.fromRGBO(240, 245, 245, 1),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 2, vertical: 2),
                     child: Row(
@@ -100,6 +94,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   Spacer(),
                   CircleAvatar(
                     radius: 26,
+                    backgroundColor: Color.fromRGBO(240, 245, 245, 1),
                   ),
                 ],
               ),
