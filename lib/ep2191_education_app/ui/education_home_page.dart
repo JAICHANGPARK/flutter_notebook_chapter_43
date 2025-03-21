@@ -137,7 +137,7 @@ class _EducationHomePageState extends State<EducationHomePage> {
                         ),
                         Gap(72),
                         SizedBox(
-                          height: 32,
+                          height: 40,
                           width: double.infinity,
                           child: Stack(
                             children: [
