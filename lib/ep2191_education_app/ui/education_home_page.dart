@@ -37,7 +37,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
                   ),
                   CircleAvatar(
                     radius: 26,
-                    backgroundColor: Color.fromRGBO(245, 247, 251, 1),
+                    backgroundColor: Color.fromRGBO(
+                      245,
+                      247,
+                      251,
+                      1,
+                    ),
                     child: Icon(
                       Icons.notifications_active_outlined,
                     ),
@@ -50,12 +55,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     TextSpan(
                       text: "Your activities today",
                       style: TextStyle(
-                        fontSize: 32,
+                        fontSize: 42,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     TextSpan(
-                      text: "(7)",
+                      text: " (7)",
                       style: TextStyle(
                         fontSize: 32,
                         color: Colors.grey,
