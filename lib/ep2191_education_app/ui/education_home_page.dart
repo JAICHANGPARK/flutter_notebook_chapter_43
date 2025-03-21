@@ -108,12 +108,17 @@ class _EducationHomePageState extends State<EducationHomePage> {
                     ),
                     padding: EdgeInsets.all(20),
                     child: Column(
-                      
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
                           children: [
-                            
+                            CircleAvatar(),
+                            Text("IT & Software"),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                            )
                           ],
                         )
                       ],
