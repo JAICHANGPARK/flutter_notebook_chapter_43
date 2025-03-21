@@ -181,10 +181,12 @@ class _EducationHomePageState extends State<EducationHomePage> {
                                       ],
                                     ),
                                   ),
+                                  Gap(8),
                                   Text(
                                     "Web Development",
                                     style: TextStyle(
-                                      fontSize: 28,
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold,
                                     ),
                                   )
                                 ],
