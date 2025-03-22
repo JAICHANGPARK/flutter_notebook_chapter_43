@@ -68,13 +68,16 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                   children: [
                     Expanded(
                       child: Container(
-                        decoration: BoxDecoration(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
                           color: Color.fromRGBO(28, 33, 11, 1),
                         ),
                         child: Row(
                           children: [
                             Expanded(
-                              child: TextField(),
+                              child: TextField(decoration: InputDecoration(
+                                
+                              ),),
                             ),
                             CircleAvatar(
                               radius: 52 / 2,
