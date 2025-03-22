@@ -86,7 +86,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                   right: 0,
                   child: Center(
                     child: Container(
-                      color: Colors.red,
+                      
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         mainAxisAlignment: MainAxisAlignment.center,
