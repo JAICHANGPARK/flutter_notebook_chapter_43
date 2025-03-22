@@ -113,20 +113,23 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                             radius: 24,
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
-                            child: Icon(Icons.local_pizza_outlined,
+                            child: Icon(
+                              Icons.local_pizza_outlined,
                             ),
                           ),
                           CircleAvatar(
                             radius: 24,
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
-                            child: Icon(Icons.local_pizza_outlined),
+                            child: Icon(
+                              Icons.library_add_outlined,
+                            ),
                           ),
                           CircleAvatar(
                             radius: 24,
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
-                            child: Icon(Icons.local_pizza_outlined),
+                            child: Icon(Icons.person_2_rounded),
                           )
                         ],
                       ),
