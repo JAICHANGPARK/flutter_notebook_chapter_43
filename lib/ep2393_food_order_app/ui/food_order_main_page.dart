@@ -39,6 +39,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                     ),
                     Expanded(
                         child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
                           Icons.location_on_outlined,
