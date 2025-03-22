@@ -26,10 +26,13 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
               children: [
                 Row(
                   children: [
-                    
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                      ),
+                    )
                   ],
                 )
-
               ],
             ),
           ),
