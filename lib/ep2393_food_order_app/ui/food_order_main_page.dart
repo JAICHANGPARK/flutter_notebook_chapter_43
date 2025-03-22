@@ -131,7 +131,22 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                 pageNum = 1;
                               });
                             },
-                            child: CircleAvatar(
+                            child:  pageNum == 1
+                                ? Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Color(0xffb3d667),
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                              child: Row(
+                                spacing: 8,
+                                children: [
+                                  Icon(Icons.local_pizza_outlined,),
+                                  Text("Favorite"),
+                                ],
+                              ),
+                            )
+                                : CircleAvatar(
                               radius: 24,
                               backgroundColor: Colors.black,
                               foregroundColor: Colors.white,
