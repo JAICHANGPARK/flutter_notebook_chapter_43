@@ -8,7 +8,7 @@ A new Flutter project.
 - Farhan ahmed Jibon
 - https://dribbble.com/shots/25802693-Cookpad-Food-Order-Recipes-Share-App
 
-<img src="https://cdn.dribbble.com/userupload/42575600/file/original-3d31471f56e2a3483c1f1622bd56d921.png?resize=1600x1200&vertical=center"/>
+<img src="https://cdn.dribbble.com/userupload/42603373/file/original-90404e5dc502f8c388ff46dd005649db.png?resize=1905x1429&vertical=center"/>
 
 
 
