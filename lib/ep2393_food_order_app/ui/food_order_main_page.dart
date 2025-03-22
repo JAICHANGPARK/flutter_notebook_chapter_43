@@ -15,7 +15,9 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
       backgroundColor: Colors.black,
       body: Column(
         children: [
-          
+          Container(
+            height: 160,
+          )
         ],
       ),
     );
