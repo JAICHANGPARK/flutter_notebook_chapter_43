@@ -22,14 +22,22 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
             ),
           ),
           Expanded(
-              child: Stack(
-            children: [
-              Positioned.fill(
+            child: Stack(
+              children: [
+                Positioned.fill(
                   child: Container(
-                color: Colors.blue,
-              ))
-            ],
-          ))
+                    color: Colors.blue,
+                  ),
+                ),
+                Positioned(
+                  bottom: 24,
+                  child: Container(
+                    color: Colors.red,
+                  ),
+                )
+              ],
+            ),
+          )
         ],
       ),
     );
