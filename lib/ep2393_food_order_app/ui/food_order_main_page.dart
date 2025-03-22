@@ -39,7 +39,12 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                     ),
                     Expanded(
                         child: Row(
-                      children: [],
+                      children: [
+                        Icon(Icons.location_on_outlined,),
+                        Text(
+                          "California, usa",
+                        )
+                      ],
                     )),
                     CircleAvatar(
                       radius: 52 / 2,
