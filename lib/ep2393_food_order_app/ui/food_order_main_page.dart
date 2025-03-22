@@ -54,7 +54,10 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                           children: [
                             Expanded(
                               child: TextField(),
-                            )
+                            ),
+                            CircleAvatar(
+                              radius: 24,
+                            ),
                           ],
                         ),
                       ),
