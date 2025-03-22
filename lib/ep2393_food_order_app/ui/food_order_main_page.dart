@@ -17,7 +17,6 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
         spacing: 16,
         children: [
           Container(
-
             decoration: BoxDecoration(
               color: Color.fromRGBO(15, 17, 5, 1),
             ),
@@ -86,7 +85,10 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                   right: 0,
                   child: Center(
                     child: Container(
-                      
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(50, 50, 48, 1),
+                      ),
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         mainAxisAlignment: MainAxisAlignment.center,
