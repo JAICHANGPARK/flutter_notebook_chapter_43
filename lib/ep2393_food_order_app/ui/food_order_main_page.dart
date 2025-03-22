@@ -34,6 +34,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                       width: 52,
                       decoration: BoxDecoration(
                         color: Colors.green,
+                        borderRadius: BorderRadius.circular(4),
                       ),
                     ),
                     Expanded(
@@ -182,29 +183,29 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                             },
                             child: pageNum == 2
                                 ? Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Color(0xffb3d667),
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                              child: Row(
-                                spacing: 8,
-                                children: [
-                                  Icon(
-                                    Icons.library_add_outlined,
-                                  ),
-                                  Text("Activity"),
-                                ],
-                              ),
-                            )
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Color(0xffb3d667),
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                    child: Row(
+                                      spacing: 8,
+                                      children: [
+                                        Icon(
+                                          Icons.library_add_outlined,
+                                        ),
+                                        Text("Activity"),
+                                      ],
+                                    ),
+                                  )
                                 : CircleAvatar(
-                              radius: 24,
-                              backgroundColor: Colors.black,
-                              foregroundColor: Colors.white,
-                              child: Icon(
-                                Icons.library_add_outlined,
-                              ),
-                            ),
+                                    radius: 24,
+                                    backgroundColor: Colors.black,
+                                    foregroundColor: Colors.white,
+                                    child: Icon(
+                                      Icons.library_add_outlined,
+                                    ),
+                                  ),
                           ),
                           GestureDetector(
                             onTap: () {
@@ -214,27 +215,25 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                             },
                             child: pageNum == 3
                                 ? Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Color(0xffb3d667),
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                              child: Row(
-                                spacing: 8,
-                                children: [
-                                  Icon(
-                                      Icons.person_2_rounded
-                                  ),
-                                  Text("Profile"),
-                                ],
-                              ),
-                            )
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Color(0xffb3d667),
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                    child: Row(
+                                      spacing: 8,
+                                      children: [
+                                        Icon(Icons.person_2_rounded),
+                                        Text("Profile"),
+                                      ],
+                                    ),
+                                  )
                                 : CircleAvatar(
-                              radius: 24,
-                              backgroundColor: Colors.black,
-                              foregroundColor: Colors.white,
-                              child: Icon(Icons.person_2_rounded),
-                            ),
+                                    radius: 24,
+                                    backgroundColor: Colors.black,
+                                    foregroundColor: Colors.white,
+                                    child: Icon(Icons.person_2_rounded),
+                                  ),
                           )
                         ],
                       ),
