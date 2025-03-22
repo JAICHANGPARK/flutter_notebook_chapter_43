@@ -15,11 +15,14 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
       body: Column(
         children: [
           Container(
-            height: 160,
+            height: 200,
             decoration: BoxDecoration(
               color: Color.fromRGBO(15, 17, 5, 1),
             ),
-          )
+          ),
+          Expanded(child: Stack(children: [
+            Positioned(child: child)
+          ],))
         ],
       ),
     );
