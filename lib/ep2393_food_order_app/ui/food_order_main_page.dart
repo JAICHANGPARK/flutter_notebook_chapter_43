@@ -32,6 +32,8 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                 ),
                 Positioned(
                   bottom: 24,
+                  left: 0,
+                  right: 0,
                   child: Center(
                     child: Container(
                       color: Colors.red,
