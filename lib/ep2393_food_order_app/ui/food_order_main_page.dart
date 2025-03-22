@@ -79,6 +79,23 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                 Positioned.fill(
                   child: Container(
                     color: Colors.blue,
+                    child: IndexedStack(
+                      index: pageNum,
+                      children: [
+                        Container(
+                          color: Colors.grey,
+                        ),
+                        Container(
+                          color: Colors.red,
+                        ),
+                        Container(
+                          color: Colors.blue,
+                        ),
+                        Container(
+                          color: Colors.orange,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 Positioned(
