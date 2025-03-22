@@ -17,7 +17,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
         spacing: 16,
         children: [
           Container(
-            
+
             decoration: BoxDecoration(
               color: Color.fromRGBO(15, 17, 5, 1),
             ),
@@ -40,7 +40,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                       children: [],
                     )),
                     CircleAvatar(
-                      radius: 24,
+                      radius: 52 / 2,
                     )
                   ],
                 ),
@@ -58,14 +58,14 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                               child: TextField(),
                             ),
                             CircleAvatar(
-                              radius: 24,
+                              radius: 52 / 2,
                             ),
                           ],
                         ),
                       ),
                     ),
                     CircleAvatar(
-                      radius: 24,
+                      radius: 52 / 2,
                     ),
                   ],
                 )
