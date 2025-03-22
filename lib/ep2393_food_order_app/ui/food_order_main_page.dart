@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class FoodOrderMainPage extends StatefulWidget {
   const FoodOrderMainPage({super.key});
@@ -33,9 +34,23 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                   bottom: 24,
                   child: Container(
                     color: Colors.red,
+
                     child: Row(
                       children: [
-
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color(0xffb3d667),
+                          ),
+                          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                          child: Row(
+                            
+                            children: [
+                              Icon(HugeIcons.strokeRoundedHome01),
+                              Text("Home"),
+                            ],
+                          ),
+                        )
                       ],
                     ),
                   ),
