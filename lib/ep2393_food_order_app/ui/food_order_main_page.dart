@@ -69,7 +69,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                     Expanded(
                       child: Container(
                         decoration: BoxDecoration(
-                          color: Colors.grey,
+                          color: Color.fromRGBO(28, 33, 11, 1),
                         ),
                         child: Row(
                           children: [
