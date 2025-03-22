@@ -158,7 +158,24 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                   ),
                           ),
                           GestureDetector(
-                            child: CircleAvatar(
+                            child: pageNum == 2
+                                ? Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Color(0xffb3d667),
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                              child: Row(
+                                spacing: 8,
+                                children: [
+                                  Icon(
+                                    Icons.library_add_outlined,
+                                  ),
+                                  Text("Favorite"),
+                                ],
+                              ),
+                            )
+                                : CircleAvatar(
                               radius: 24,
                               backgroundColor: Colors.black,
                               foregroundColor: Colors.white,
@@ -168,7 +185,24 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                             ),
                           ),
                           GestureDetector(
-                            child: CircleAvatar(
+                            child: pageNum == 3
+                                ? Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Color(0xffb3d667),
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                              child: Row(
+                                spacing: 8,
+                                children: [
+                                  Icon(
+                                    Icons.local_pizza_outlined,
+                                  ),
+                                  Text("Favorite"),
+                                ],
+                              ),
+                            )
+                                : CircleAvatar(
                               radius: 24,
                               backgroundColor: Colors.black,
                               foregroundColor: Colors.white,
