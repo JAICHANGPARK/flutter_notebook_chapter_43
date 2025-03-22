@@ -40,7 +40,9 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                     Expanded(
                         child: Row(
                       children: [
-                        Icon(Icons.location_on_outlined,),
+                        Icon(
+                          Icons.location_on_outlined,
+                        ),
                         Text(
                           "California, usa",
                         )
