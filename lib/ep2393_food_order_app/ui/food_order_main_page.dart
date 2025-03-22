@@ -80,9 +80,13 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                 decoration: InputDecoration(
                                   border: InputBorder.none,
                                   hintText: "Type ingredients...",
+                                  hintStyle: TextStyle(
+                                    color: Colors.white,
+                                  ),
                                   prefixIcon: Icon(
                                     Icons.search,
                                   ),
+                                  prefixIconColor: Colors.white,
                                 ),
                               ),
                             ),
