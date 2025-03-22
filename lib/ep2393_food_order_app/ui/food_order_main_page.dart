@@ -17,19 +17,20 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
         spacing: 16,
         children: [
           Container(
-            height: 200,
+            
             decoration: BoxDecoration(
               color: Color.fromRGBO(15, 17, 5, 1),
             ),
             padding: EdgeInsets.fromLTRB(24, 62, 24, 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 24,
               children: [
                 Row(
                   children: [
                     Container(
-                      height: 42,
-                      width: 42,
+                      height: 52,
+                      width: 52,
                       decoration: BoxDecoration(
                         color: Colors.green,
                       ),
@@ -44,6 +45,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                   ],
                 ),
                 Row(
+                  spacing: 16,
                   children: [
                     Expanded(
                       child: Container(
@@ -61,7 +63,10 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                           ],
                         ),
                       ),
-                    )
+                    ),
+                    CircleAvatar(
+                      radius: 24,
+                    ),
                   ],
                 )
               ],
