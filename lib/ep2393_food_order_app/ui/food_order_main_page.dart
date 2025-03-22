@@ -87,6 +87,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                     Icons.search,
                                   ),
                                   prefixIconColor: Colors.white,
+                                  contentPadding: EdgeInsets.symmetric(vertical: 16)
                                 ),
                               ),
                             ),
