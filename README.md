@@ -10,8 +10,6 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/42603373/file/original-90404e5dc502f8c388ff46dd005649db.png?resize=1905x1429&vertical=center"/>
 
-
-
 ## EP2191-2192
 
 - Online Education Mobile App
