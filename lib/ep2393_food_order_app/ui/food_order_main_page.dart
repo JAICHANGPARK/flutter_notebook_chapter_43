@@ -42,9 +42,13 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                       children: [
                         Icon(
                           Icons.location_on_outlined,
+                          color: Colors.grey,
                         ),
                         Text(
                           "California, usa",
+                          style: TextStyle(
+                            color: Colors.grey,
+                          ),
                         )
                       ],
                     )),
