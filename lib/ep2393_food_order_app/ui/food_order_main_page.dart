@@ -9,6 +9,9 @@ class FoodOrderMainPage extends StatefulWidget {
 }
 
 class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
+
+  int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -95,18 +98,32 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         spacing: 4,
                         children: [
-                          Container(
-                            decoration: ShapeDecoration(
-                              shape: StadiumBorder(),
-                              color: Color(0xffb3d667),
-                            ),
-                            padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                            child: Row(
-                              spacing: 8,
-                              children: [
-                                Icon(HugeIcons.strokeRoundedHome01),
-                                Text("Home"),
-                              ],
+                          GestureDetector(
+                            onTap: (){
+                              setState(() {
+                                pageNum = 0;
+                              });
+                            },
+                            child: pageNum == 0 ? Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Color(0xffb3d667),
+                              ),
+                              padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                              child: Row(
+                                spacing: 8,
+                                children: [
+                                  Icon(HugeIcons.strokeRoundedHome01),
+                                  Text("Home"),
+                                ],
+                              ),
+                            ) :   CircleAvatar(
+                              radius: 24,
+                              backgroundColor: Colors.black,
+                              foregroundColor: Colors.white,
+                              child: Icon(
+                                  HugeIcons.strokeRoundedHome01
+                              ),
                             ),
                           ),
                           CircleAvatar(
