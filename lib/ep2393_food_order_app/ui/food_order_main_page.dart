@@ -21,6 +21,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
             decoration: BoxDecoration(
               color: Color.fromRGBO(15, 17, 5, 1),
             ),
+            padding: EdgeInsets.fromLTRB(16, 32, 16, 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -32,6 +33,12 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                       decoration: BoxDecoration(
                         color: Colors.green,
                       ),
+                    ),
+                    Expanded(child: Row(children: [
+
+                    ],)),
+                    CircleAvatar(
+                      radius: 24,
                     )
                   ],
                 )
