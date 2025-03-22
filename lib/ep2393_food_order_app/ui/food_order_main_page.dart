@@ -89,6 +89,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                         shape: StadiumBorder(),
                         color: Color.fromRGBO(50, 50, 48, 1),
                       ),
+                      padding: EdgeInsets.all(2),
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         mainAxisAlignment: MainAxisAlignment.center,
