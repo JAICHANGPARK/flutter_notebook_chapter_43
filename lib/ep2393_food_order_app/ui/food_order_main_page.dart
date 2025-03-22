@@ -13,6 +13,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Column(
+        spacing: 16,
         children: [
           Container(
             height: 200,
