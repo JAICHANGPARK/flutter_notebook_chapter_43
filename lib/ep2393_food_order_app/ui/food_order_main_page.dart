@@ -109,7 +109,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                       shape: StadiumBorder(),
                                       color: Color(0xffb3d667),
                                     ),
-                                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                                     child: Row(
                                       spacing: 8,
                                       children: [
@@ -137,7 +137,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                 shape: StadiumBorder(),
                                 color: Color(0xffb3d667),
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                               child: Row(
                                 spacing: 8,
                                 children: [
