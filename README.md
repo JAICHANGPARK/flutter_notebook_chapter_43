@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2193
 
-- Online Education Mobile App
+- Cookpad | Food Order & Recipes Share App
 - Harunur Rashid
 - https://dribbble.com/shots/25793094-Online-Education-Mobile-App
 
