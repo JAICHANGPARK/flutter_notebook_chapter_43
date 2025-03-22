@@ -34,11 +34,30 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                         color: Colors.green,
                       ),
                     ),
-                    Expanded(child: Row(children: [
-
-                    ],)),
+                    Expanded(
+                        child: Row(
+                      children: [],
+                    )),
                     CircleAvatar(
                       radius: 24,
+                    )
+                  ],
+                ),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                        ),
+                        child: Row(
+                          children: [
+                            Expanded(
+                              child: TextField(),
+                            )
+                          ],
+                        ),
+                      ),
                     )
                   ],
                 )
