@@ -171,7 +171,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                   Icon(
                                     Icons.library_add_outlined,
                                   ),
-                                  Text("Favorite"),
+                                  Text("Activity"),
                                 ],
                               ),
                             )
