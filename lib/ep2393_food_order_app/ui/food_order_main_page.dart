@@ -27,6 +27,8 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                 Row(
                   children: [
                     Container(
+                      height: 42,
+                      width: 42,
                       decoration: BoxDecoration(
                         color: Colors.green,
                       ),
