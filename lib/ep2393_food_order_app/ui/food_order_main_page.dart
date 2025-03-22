@@ -39,6 +39,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                     ),
                     Expanded(
                         child: Row(
+                      spacing: 4,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
@@ -49,6 +50,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                           "California, usa",
                           style: TextStyle(
                             color: Colors.grey,
+                            fontSize: 16,
                           ),
                         )
                       ],
