@@ -44,7 +44,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                           child: Row(
-                            
+                            spacing: 8,
                             children: [
                               Icon(HugeIcons.strokeRoundedHome01),
                               Text("Home"),
