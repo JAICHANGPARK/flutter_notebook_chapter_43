@@ -73,13 +73,14 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                           color: Color.fromRGBO(28, 33, 11, 1),
                         ),
                         child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Expanded(
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: InputBorder.none,
                                   hintText: "Type ingredients...",
-                                  suffixIcon: Icon(
+                                  prefixIcon: Icon(
                                     Icons.search,
                                   ),
                                 ),
