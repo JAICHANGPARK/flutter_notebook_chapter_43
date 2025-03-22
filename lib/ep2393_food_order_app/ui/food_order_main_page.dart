@@ -32,40 +32,45 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                 ),
                 Positioned(
                   bottom: 24,
-                  child: Container(
-                    color: Colors.red,
-                    child: Row(
-                      children: [
-                        Container(
-                          decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Color(0xffb3d667),
+                  child: Center(
+                    child: Container(
+                      color: Colors.red,
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        spacing: 4,
+                        children: [
+                          Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Color(0xffb3d667),
+                            ),
+                            padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                            child: Row(
+                              spacing: 8,
+                              children: [
+                                Icon(HugeIcons.strokeRoundedHome01),
+                                Text("Home"),
+                              ],
+                            ),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                          child: Row(
-                            spacing: 8,
-                            children: [
-                              Icon(HugeIcons.strokeRoundedHome01),
-                              Text("Home"),
-                            ],
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: Colors.black,
+                            child: Icon(Icons.local_pizza_outlined),
                           ),
-                        ),
-                        CircleAvatar(
-                          radius: 24,
-                          backgroundColor: Colors.black,
-                          child: Icon(Icons.local_pizza_outlined),
-                        ),
-                        CircleAvatar(
-                          radius: 24,
-                          backgroundColor: Colors.black,
-                          child: Icon(Icons.local_pizza_outlined),
-                        ),
-                        CircleAvatar(
-                          radius: 24,
-                          backgroundColor: Colors.black,
-                          child: Icon(Icons.local_pizza_outlined),
-                        )
-                      ],
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: Colors.black,
+                            child: Icon(Icons.local_pizza_outlined),
+                          ),
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: Colors.black,
+                            child: Icon(Icons.local_pizza_outlined),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 )
