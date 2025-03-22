@@ -126,48 +126,54 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                   ),
                           ),
                           GestureDetector(
-                            onTap: (){
+                            onTap: () {
                               setState(() {
                                 pageNum = 1;
                               });
                             },
-                            child:  pageNum == 1
+                            child: pageNum == 1
                                 ? Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Color(0xffb3d667),
-                              ),
-                              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                              child: Row(
-                                spacing: 8,
-                                children: [
-                                  Icon(Icons.local_pizza_outlined,),
-                                  Text("Favorite"),
-                                ],
-                              ),
-                            )
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Color(0xffb3d667),
+                                    ),
+                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                    child: Row(
+                                      spacing: 8,
+                                      children: [
+                                        Icon(
+                                          Icons.local_pizza_outlined,
+                                        ),
+                                        Text("Favorite"),
+                                      ],
+                                    ),
+                                  )
                                 : CircleAvatar(
+                                    radius: 24,
+                                    backgroundColor: Colors.black,
+                                    foregroundColor: Colors.white,
+                                    child: Icon(
+                                      Icons.local_pizza_outlined,
+                                    ),
+                                  ),
+                          ),
+                          GestureDetector(
+                            child: CircleAvatar(
                               radius: 24,
                               backgroundColor: Colors.black,
                               foregroundColor: Colors.white,
                               child: Icon(
-                                Icons.local_pizza_outlined,
+                                Icons.library_add_outlined,
                               ),
                             ),
                           ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: Colors.black,
-                            foregroundColor: Colors.white,
-                            child: Icon(
-                              Icons.library_add_outlined,
+                          GestureDetector(
+                            child: CircleAvatar(
+                              radius: 24,
+                              backgroundColor: Colors.black,
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.person_2_rounded),
                             ),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: Colors.black,
-                            foregroundColor: Colors.white,
-                            child: Icon(Icons.person_2_rounded),
                           )
                         ],
                       ),
