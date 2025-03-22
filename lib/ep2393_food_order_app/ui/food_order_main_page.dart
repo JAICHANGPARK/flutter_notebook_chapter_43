@@ -78,6 +78,10 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: InputBorder.none,
+                                  hintText: "Type ingredients...",
+                                  suffixIcon: Icon(
+                                    Icons.search,
+                                  ),
                                 ),
                               ),
                             ),
