@@ -34,7 +34,6 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                   bottom: 24,
                   child: Container(
                     color: Colors.red,
-
                     child: Row(
                       children: [
                         Container(
@@ -50,6 +49,21 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                               Text("Home"),
                             ],
                           ),
+                        ),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.black,
+                          child: Icon(Icons.local_pizza_outlined),
+                        ),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.black,
+                          child: Icon(Icons.local_pizza_outlined),
+                        ),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.black,
+                          child: Icon(Icons.local_pizza_outlined),
                         )
                       ],
                     ),
