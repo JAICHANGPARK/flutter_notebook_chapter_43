@@ -20,9 +20,15 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
               color: Color.fromRGBO(15, 17, 5, 1),
             ),
           ),
-          Expanded(child: Stack(children: [
-            Positioned(child: child)
-          ],))
+          Expanded(
+              child: Stack(
+            children: [
+              Positioned.fill(
+                  child: Container(
+                color: Colors.blue,
+              ))
+            ],
+          ))
         ],
       ),
     );
