@@ -21,6 +21,17 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
             decoration: BoxDecoration(
               color: Color.fromRGBO(15, 17, 5, 1),
             ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    
+                  ],
+                )
+
+              ],
+            ),
           ),
           Expanded(
             child: Stack(
