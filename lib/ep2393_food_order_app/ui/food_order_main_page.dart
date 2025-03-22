@@ -89,6 +89,8 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                             CircleAvatar(
                               radius: 52 / 2,
                               backgroundColor: Color.fromRGBO(34, 42, 11, 1),
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.tune),
                             ),
                           ],
                         ),
