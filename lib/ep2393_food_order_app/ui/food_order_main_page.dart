@@ -158,6 +158,11 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                   ),
                           ),
                           GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                pageNum = 2;
+                              });
+                            },
                             child: pageNum == 2
                                 ? Container(
                               decoration: ShapeDecoration(
@@ -185,6 +190,11 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                             ),
                           ),
                           GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                pageNum = 3;
+                              });
+                            },
                             child: pageNum == 3
                                 ? Container(
                               decoration: ShapeDecoration(
@@ -196,9 +206,9 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                                 spacing: 8,
                                 children: [
                                   Icon(
-                                    Icons.local_pizza_outlined,
+                                      Icons.person_2_rounded
                                   ),
-                                  Text("Favorite"),
+                                  Text("Profile"),
                                 ],
                               ),
                             )
