@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'home/food_order_home_page.dart';
+
 class FoodOrderMainPage extends StatefulWidget {
   const FoodOrderMainPage({super.key});
 
@@ -121,9 +123,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                     child: IndexedStack(
                       index: pageNum,
                       children: [
-                        Container(
-                          color: Colors.grey,
-                        ),
+                        FoodOrderHomePage(),
                         Container(
                           color: Colors.red,
                         ),
