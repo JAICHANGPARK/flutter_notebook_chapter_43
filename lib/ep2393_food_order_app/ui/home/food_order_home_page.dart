@@ -151,6 +151,16 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         child: Placeholder(),
                       ),
                     ),
+                    Row(
+                      children: [
+                        CircleAvatar(),
+                        Expanded(
+                          child: Column(
+                            children: [],
+                          ),
+                        ),
+                      ],
+                    )
                   ],
                 );
               }),
