@@ -10,6 +10,13 @@ class FoodOrderHomePage extends StatefulWidget {
 class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView();
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+
+        ],
+      ),
+    );
   }
 }
