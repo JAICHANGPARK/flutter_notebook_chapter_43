@@ -40,7 +40,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               ],
             ),
             Container(
-              height: 120,
+              height: 100,
               width: double.infinity,
               child: ListView.builder(
                 shrinkWrap: true,
@@ -55,8 +55,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       spacing: 12,
                       children: [
                         Container(
-                          height: 52,
-                          width: 52,
+                          height: 60,
+                          width: 60,
                           child: Placeholder(),
                         ),
                         Text(
