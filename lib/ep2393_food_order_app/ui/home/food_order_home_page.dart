@@ -17,10 +17,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
         children: [
           Row(
             children: [
-              Text("Popular Searches")
+              Text("Popular Searches"),
+              TextButton(
+                onPressed: () {},
+                child: Text(
+                  "See All",
+                ),
+              ),
             ],
           )
-
         ],
       ),
     );
