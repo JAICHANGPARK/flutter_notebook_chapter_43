@@ -56,14 +56,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   ),
                 ),
                 TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    "See All",
-                  ),
-                ),
+                    onPressed: () {},
+                    child: Text(
+                      "See All",
+                    ),
+                    style: TextButton.styleFrom(
+                      foregroundColor: Colors.grey,
+                    )),
               ],
             ),
-
           ],
         ),
       ),
