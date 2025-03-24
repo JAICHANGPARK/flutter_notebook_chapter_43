@@ -144,7 +144,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               padding: EdgeInsets.zero,
               physics: NeverScrollableScrollPhysics(),
               children: List.generate(10, (idx) {
-                return Placeholder();
+                return Column(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        child: Placeholder(),
+                      ),
+                    ),
+                  ],
+                );
               }),
             ),
           ],
