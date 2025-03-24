@@ -156,7 +156,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         CircleAvatar(),
                         Expanded(
                           child: Column(
-                            children: [],
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("OperaHouse Pizza"),
+                              Text(
+                                "Unknown Places",
+                              )
+                            ],
                           ),
                         ),
                       ],
