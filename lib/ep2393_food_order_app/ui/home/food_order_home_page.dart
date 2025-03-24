@@ -108,7 +108,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
             ),
             Container(
               height: 160,
-              child: Placeholder(),
+              decoration: BoxDecoration(
+                color: Color(0xffb3d667),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              // child: Placeholder(),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
