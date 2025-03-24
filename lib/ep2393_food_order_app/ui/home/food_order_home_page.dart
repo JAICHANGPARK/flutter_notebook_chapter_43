@@ -41,7 +41,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
             ),
             Container(
               height: 120,
-              child: Placeholder(),
+              child: ListView.builder(
+                itemBuilder: (context, index) {
+                  return Column(
+                    children: [
+                      
+                    ],
+                  );
+                },
+              ),
             ),
             Container(
               height: 160,
