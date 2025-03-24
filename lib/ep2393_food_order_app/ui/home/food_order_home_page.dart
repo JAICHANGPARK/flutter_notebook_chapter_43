@@ -55,10 +55,22 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       spacing: 12,
                       children: [
                         Container(
-                          height: 60,
-                          width: 60,
-                          child: Placeholder(),
-                        ),
+                            height: 60,
+                            width: 60,
+                            child: Stack(
+                              children: [
+                                Positioned.fill(
+                                  child: CircleAvatar(),
+                                ),
+                                Positioned(
+                                  right: 0,
+                                  top: 0,
+                                  child: CircleAvatar(
+                                    radius: 8,
+                                  ),
+                                ),
+                              ],
+                            )),
                         Text(
                           "Potato",
                           style: TextStyle(
