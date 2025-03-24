@@ -37,9 +37,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               ],
             ),
             Container(
-              height: 100,
+              height: 120,
               child: Placeholder(),
-            )
+            ),
+            Container(
+              height: 160,
+              child: Placeholder(),
+            ),
+
           ],
         ),
       ),
