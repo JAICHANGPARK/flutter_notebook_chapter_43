@@ -34,6 +34,9 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     "See All",
 
                   ),
+                  style: TextButton.styleFrom(
+                    foregroundColor: Colors.grey,
+                  ),
                 ),
               ],
             ),
