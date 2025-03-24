@@ -24,7 +24,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   "Popular Searches",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.white
+                    color: Colors.white,
+                    fontSize: 18,
                   ),
                 ),
                 TextButton(
