@@ -18,7 +18,12 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("Popular Searches"),
+              Text(
+                "Popular Searches",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextButton(
                 onPressed: () {},
                 child: Text(
