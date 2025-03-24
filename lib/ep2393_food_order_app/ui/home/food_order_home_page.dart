@@ -46,37 +46,46 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
-                  return Column(
-                    mainAxisSize: MainAxisSize.min,
-                    spacing: 12,
-                    children: [
-                      Container(
-                        height: 52,
-                        width: 52,
-                      ),
-                      Text(
-                        "Potato",
-                      )
-                      // Expanded(
-                      //   child: Stack(
-                      //     children: [
-                      //       Positioned.fill(
-                      //         child: CircleAvatar(),
-                      //       ),
-                      //       Positioned(
-                      //         right: 0,
-                      //         top: 0,
-                      //         child: CircleAvatar(
-                      //           radius: 4,
-                      //         ),
-                      //       ),
-                      //     ],
-                      //   ),
-                      // ),
-                      // Text(
-                      //   "Potato",
-                      // )
-                    ],
+                  return Padding(
+                    padding: EdgeInsets.only(
+                      right: 16,
+                    ),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      spacing: 12,
+                      children: [
+                        Container(
+                          height: 52,
+                          width: 52,
+                          child: Placeholder(),
+                        ),
+                        Text(
+                          "Potato",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        )
+                        // Expanded(
+                        //   child: Stack(
+                        //     children: [
+                        //       Positioned.fill(
+                        //         child: CircleAvatar(),
+                        //       ),
+                        //       Positioned(
+                        //         right: 0,
+                        //         top: 0,
+                        //         child: CircleAvatar(
+                        //           radius: 4,
+                        //         ),
+                        //       ),
+                        //     ],
+                        //   ),
+                        // ),
+                        // Text(
+                        //   "Potato",
+                        // )
+                      ],
+                    ),
                   );
                 },
               ),
