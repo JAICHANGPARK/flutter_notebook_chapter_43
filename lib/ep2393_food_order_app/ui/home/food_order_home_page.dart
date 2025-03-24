@@ -67,6 +67,10 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                   top: 0,
                                   child: CircleAvatar(
                                     radius: 8,
+                                    child: Icon(
+                                      Icons.check,
+                                      size: 12,
+                                    ),
                                   ),
                                 ),
                               ],
