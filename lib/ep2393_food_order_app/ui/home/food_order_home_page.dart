@@ -72,6 +72,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
             GridView.count(
               shrinkWrap: true,
               crossAxisCount: 2,
+              padding: EdgeInsets.zero,
               physics: NeverScrollableScrollPhysics(),
               children: List.generate(10, (idx) {
                 return Placeholder();
