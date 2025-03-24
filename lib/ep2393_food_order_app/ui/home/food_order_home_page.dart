@@ -16,6 +16,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
         spacing: 16,
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text("Popular Searches"),
               TextButton(
