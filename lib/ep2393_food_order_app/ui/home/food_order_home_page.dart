@@ -44,6 +44,25 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               height: 160,
               child: Placeholder(),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Recent Searches",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    fontSize: 18,
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "See All",
+                  ),
+                ),
+              ],
+            ),
 
           ],
         ),
