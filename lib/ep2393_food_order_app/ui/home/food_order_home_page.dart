@@ -32,7 +32,6 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   onPressed: () {},
                   child: Text(
                     "See All",
-
                   ),
                   style: TextButton.styleFrom(
                     foregroundColor: Colors.grey,
@@ -69,6 +68,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   ),
                 ),
               ],
+            ),
+            GridView.count(
+              shrinkWrap: true,
+              crossAxisCount: 2,
+              physics: NeverScrollableScrollPhysics(),
+              children: List.generate(10, (idx) {
+                return Placeholder();
+              }),
             ),
           ],
         ),
