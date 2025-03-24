@@ -45,7 +45,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                 itemBuilder: (context, index) {
                   return Column(
                     children: [
-                      
+                      Expanded(
+                        child: Stack(
+                          children: [],
+                        ),
+                      ),
+                      Text(
+                        "Potato",
+                      )
                     ],
                   );
                 },
