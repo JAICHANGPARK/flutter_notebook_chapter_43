@@ -41,18 +41,41 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
             ),
             Container(
               height: 120,
+              width: double.infinity,
               child: ListView.builder(
+                shrinkWrap: true,
+                scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Column(
+                    mainAxisSize: MainAxisSize.min,
+                    spacing: 12,
                     children: [
-                      Expanded(
-                        child: Stack(
-                          children: [],
-                        ),
+                      Container(
+                        height: 52,
+                        width: 52,
                       ),
                       Text(
                         "Potato",
                       )
+                      // Expanded(
+                      //   child: Stack(
+                      //     children: [
+                      //       Positioned.fill(
+                      //         child: CircleAvatar(),
+                      //       ),
+                      //       Positioned(
+                      //         right: 0,
+                      //         top: 0,
+                      //         child: CircleAvatar(
+                      //           radius: 4,
+                      //         ),
+                      //       ),
+                      //     ],
+                      //   ),
+                      // ),
+                      // Text(
+                      //   "Potato",
+                      // )
                     ],
                   );
                 },
