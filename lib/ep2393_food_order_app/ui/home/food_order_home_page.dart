@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class FoodOrderHomePage extends StatefulWidget {
@@ -165,16 +167,24 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                child: Container(
-                                  padding: EdgeInsets.all(12),
-                              child: Text.rich(TextSpan(
-                                children: [
-                                  TextSpan(
-                                    text: "\$75.00/"
+                                child: ClipRect(
+                                  child: BackdropFilter(
+                                    filter: ImageFilter.blur(
+                                      sigmaX: 9,
+                                      sigmaY: 7
+                                    ),
+                                    child: Container(
+                                      padding: EdgeInsets.all(12),
+                                                                  child: Text.rich(TextSpan(
+                                    children: [
+                                      TextSpan(
+                                        text: "\$75.00/"
+                                      ),
+                                    ],
+                                                                  )),
+                                                                ),
                                   ),
-                                ],
-                              )),
-                            ))
+                                ))
                           ],
                         ),
                       ),
