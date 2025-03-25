@@ -174,7 +174,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                       padding: EdgeInsets.all(12),
                                       child: Text.rich(TextSpan(
                                         children: [
-                                          TextSpan(text: "\$75.00/"),
+                                          TextSpan(
+                                              text: "\$75.00/",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              )),
                                         ],
                                       )),
                                     ),
