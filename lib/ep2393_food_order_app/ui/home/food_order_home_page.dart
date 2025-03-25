@@ -158,7 +158,12 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text("OperaHouse Pizza"),
+                              Text(
+                                "OperaHouse Pizza",
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                ),
+                              ),
                               Text(
                                 "Unknown Places",
                               )
