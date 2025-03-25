@@ -152,8 +152,11 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       ),
                     ),
                     Row(
+                      
                       children: [
-                        CircleAvatar(),
+                        CircleAvatar(
+                          radius: 16,
+                        ),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
