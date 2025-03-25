@@ -169,20 +169,15 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 bottom: 0,
                                 child: ClipRect(
                                   child: BackdropFilter(
-                                    filter: ImageFilter.blur(
-                                      sigmaX: 9,
-                                      sigmaY: 7
-                                    ),
+                                    filter: ImageFilter.blur(sigmaX: 9, sigmaY: 7),
                                     child: Container(
                                       padding: EdgeInsets.all(12),
-                                                                  child: Text.rich(TextSpan(
-                                    children: [
-                                      TextSpan(
-                                        text: "\$75.00/"
-                                      ),
-                                    ],
-                                                                  )),
-                                                                ),
+                                      child: Text.rich(TextSpan(
+                                        children: [
+                                          TextSpan(text: "\$75.00/"),
+                                        ],
+                                      )),
+                                    ),
                                   ),
                                 ))
                           ],
