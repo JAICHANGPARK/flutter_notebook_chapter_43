@@ -150,7 +150,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                   children: [
                     Expanded(
                       child: Container(
-                        child: Placeholder(),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                        child: Stack(
+                          children: [
+
+                          ],
+                        )
                       ),
                     ),
                     Row(
