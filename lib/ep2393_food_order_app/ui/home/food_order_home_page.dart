@@ -162,7 +162,13 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                         child: Stack(
                           children: [
                             Positioned(child: Container(
-                              child: Text.rich(TextSpan()),
+                              child: Text.rich(TextSpan(
+                                children: [
+                                  TextSpan(
+                                    text: "\$75.00"
+                                  ),
+                                ],
+                              )),
                             ))
                           ],
                         ),
