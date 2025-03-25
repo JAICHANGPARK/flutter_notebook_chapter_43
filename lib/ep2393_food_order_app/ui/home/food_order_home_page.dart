@@ -212,14 +212,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 "OperaHouse Pizza",
                                 style: TextStyle(
                                   color: Colors.grey,
-                                  
+                                  fontSize: 12,
                                 ),
                               ),
                               Text(
                                 "Unknown Places",
                                 style: TextStyle(
                                   color: Colors.grey,
-                                  fontSize: 12,
+                                  fontSize: 10,
                                 ),
                               )
                             ],
