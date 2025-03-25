@@ -141,6 +141,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               crossAxisCount: 2,
               crossAxisSpacing: 16,
               mainAxisSpacing: 16,
+              childAspectRatio: .9,
               padding: EdgeInsets.zero,
               physics: NeverScrollableScrollPhysics(),
               children: List.generate(10, (idx) {
