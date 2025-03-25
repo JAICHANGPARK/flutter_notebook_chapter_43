@@ -172,6 +172,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 "Unknown Places",
                                 style: TextStyle(
                                   color: Colors.grey,
+                                  fontSize: 12,
                                 ),
                               )
                             ],
