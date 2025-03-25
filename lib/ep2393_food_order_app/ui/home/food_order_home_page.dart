@@ -166,6 +166,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                 right: 0,
                                 bottom: 0,
                                 child: Container(
+                                  padding: EdgeInsets.all(12),
                               child: Text.rich(TextSpan(
                                 children: [
                                   TextSpan(
