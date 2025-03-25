@@ -152,7 +152,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                       ),
                     ),
                     Row(
-                      
+                      spacing: 6,
                       children: [
                         CircleAvatar(
                           radius: 16,
