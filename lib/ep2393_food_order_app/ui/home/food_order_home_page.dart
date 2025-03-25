@@ -145,6 +145,7 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
               physics: NeverScrollableScrollPhysics(),
               children: List.generate(10, (idx) {
                 return Column(
+                  spacing: 6,
                   children: [
                     Expanded(
                       child: Container(
