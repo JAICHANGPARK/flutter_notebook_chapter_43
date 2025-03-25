@@ -185,8 +185,8 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                             text: "\$90.00",
                                             style: TextStyle(
                                               color: Colors.white,
-                                              fontSize: 12
-                                              ,
+                                              fontSize: 12,
+                                              decoration: TextDecoration.lineThrough,
                                             ),
                                           ),
                                         ],
