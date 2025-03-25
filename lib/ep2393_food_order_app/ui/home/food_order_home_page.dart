@@ -151,12 +151,14 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                     Expanded(
                       child: Container(
                           decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(6),
-                              image: DecorationImage(
-                                image: NetworkImage(
-                                  "https://cdn.pixabay.com/photo/2017/06/17/15/06/pan-pizza-2412474_1280.jpg",
-                                ),
-                              )),
+                            borderRadius: BorderRadius.circular(12),
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                "https://cdn.pixabay.com/photo/2017/06/17/15/06/pan-pizza-2412474_1280.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
                           child: Stack(
                             children: [],
                           )),
