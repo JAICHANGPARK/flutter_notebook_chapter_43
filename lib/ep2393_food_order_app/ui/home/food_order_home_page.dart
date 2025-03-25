@@ -175,11 +175,20 @@ class _FoodOrderHomePageState extends State<FoodOrderHomePage> {
                                       child: Text.rich(TextSpan(
                                         children: [
                                           TextSpan(
-                                              text: "\$75.00/",
-                                              style: TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 16,
-                                              ),),
+                                            text: "\$75.00/",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                              fontSize: 16,
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: "\$90.00",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                              fontSize: 12
+                                              ,
+                                            ),
+                                          ),
                                         ],
                                       )),
                                     ),
