@@ -21,9 +21,14 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
               CircleAvatar(),
               Container(
                 decoration: BoxDecoration(
-                    border: Border.all(
-                  color: Colors.grey[100]!,
-                )),
+                  border: Border.all(
+                    color: Colors.grey[100]!,
+                  ),
+
+                ),
+                child: Row(
+                  children: [],
+                ),
               )
             ],
           ),
