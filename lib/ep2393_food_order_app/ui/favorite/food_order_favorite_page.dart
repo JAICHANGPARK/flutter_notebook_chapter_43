@@ -26,7 +26,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                 crossAxisCount: 2,
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
-                childAspectRatio: .8,
+                childAspectRatio: .75,
               ),
               itemBuilder: (context, index) {
                 return Column(
