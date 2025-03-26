@@ -108,13 +108,20 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                           ),
                         ),
                       ],
+                    ),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                      ),
+                      child: Row(
+                        children: [],
+                      ),
                     )
                   ],
                 );
               },
             ),
           ),
-
         )
       ],
     );
