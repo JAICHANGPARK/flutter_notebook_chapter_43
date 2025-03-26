@@ -15,7 +15,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
     return Column(
       children: [
         Container(
-          height: 52,
+          height: 48,
           padding: EdgeInsets.only(left: 16),
           child: ListView(
             scrollDirection: Axis.horizontal,
@@ -26,7 +26,9 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                   border: Border.all(
                     color: Colors.grey[100]!,
                   ),
+                  borderRadius: BorderRadius.circular(24),
                 ),
+                padding: EdgeInsets.symmetric(horizontal: 16),
                 child: Row(
                   children: [
                     Icon(
