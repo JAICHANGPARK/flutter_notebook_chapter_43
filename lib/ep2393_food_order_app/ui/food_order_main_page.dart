@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'favorite/food_order_favorite_page.dart';
 import 'home/food_order_home_page.dart';
 
 class FoodOrderMainPage extends StatefulWidget {
