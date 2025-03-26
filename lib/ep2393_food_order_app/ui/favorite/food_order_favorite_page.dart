@@ -19,15 +19,15 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
           child: Placeholder(),
         ),
         Expanded(
-          child:GridView.count(
-            shrinkWrap: true,
-            crossAxisCount: 2,
-            crossAxisSpacing: 16,
-            mainAxisSpacing: 16,
-            childAspectRatio: .9,
-            padding: EdgeInsets.zero,
-            physics: NeverScrollableScrollPhysics(),
-            children: List.generate(10, (idx) {
+          child: GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              crossAxisCount: 2,
+              crossAxisSpacing: 16,
+              mainAxisSpacing: 16,
+              childAspectRatio: .9,
+            ),
+            itemBuilder: (context, index) {
               return Column(
                 spacing: 6,
                 children: [
@@ -110,8 +110,9 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                   )
                 ],
               );
-            }),
+            },
           ),
+         
         )
       ],
     );
