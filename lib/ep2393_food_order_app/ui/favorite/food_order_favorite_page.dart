@@ -112,6 +112,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
+                        color: Colors.white.withValues(alpha: .2)
                       ),
                       child: Row(
                         children: [
@@ -128,7 +129,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                           ),
                         ],
                       ),
-                      padding: EdgeInsets.symmetric(horizontal: 4),
+                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                     )
                   ],
                 );
