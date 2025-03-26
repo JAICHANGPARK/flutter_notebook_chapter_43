@@ -22,6 +22,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
             children: [
               CircleAvatar(),
               Container(
+                margin: EdgeInsets.symmetric(horizontal: 4),
                 decoration: BoxDecoration(
                   border: Border.all(
                     color: Colors.white.withValues(alpha: .2),
