@@ -24,7 +24,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
               Container(
                 decoration: BoxDecoration(
                   border: Border.all(
-                    color: Colors.white.withValues(alpha: .1),
+                    color: Colors.white.withValues(alpha: .2),
                   ),
                   borderRadius: BorderRadius.circular(24),
                 ),
