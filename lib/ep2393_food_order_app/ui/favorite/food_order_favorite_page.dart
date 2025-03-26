@@ -15,7 +15,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
     return Column(
       children: [
         Container(
-          height: 62,
+          height: 52,
           padding: EdgeInsets.only(left: 16),
           child: ListView(
             scrollDirection: Axis.horizontal,
@@ -26,10 +26,20 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                   border: Border.all(
                     color: Colors.grey[100]!,
                   ),
-
                 ),
                 child: Row(
-                  children: [],
+                  children: [
+                    Icon(
+                      Icons.inventory_2_outlined,
+                      color: Colors.white,
+                    ),
+                    Text(
+                      "Saved",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    )
+                  ],
                 ),
               )
             ],
