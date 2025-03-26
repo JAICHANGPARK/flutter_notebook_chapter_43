@@ -46,36 +46,37 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                         child: Stack(
                           children: [
                             Positioned(
-                                left: 0,
-                                right: 0,
-                                bottom: 0,
-                                child: ClipRect(
-                                  child: BackdropFilter(
-                                    filter: ImageFilter.blur(sigmaX: 4, sigmaY: 6),
-                                    child: Container(
-                                      padding: EdgeInsets.all(12),
-                                      child: Text.rich(TextSpan(
-                                        children: [
-                                          TextSpan(
-                                            text: "\$75.00/",
-                                            style: TextStyle(
-                                              color: Colors.white,
-                                              fontSize: 16,
-                                            ),
+                              left: 0,
+                              right: 0,
+                              bottom: 0,
+                              child: ClipRect(
+                                child: BackdropFilter(
+                                  filter: ImageFilter.blur(sigmaX: 4, sigmaY: 6),
+                                  child: Container(
+                                    padding: EdgeInsets.all(12),
+                                    child: Text.rich(TextSpan(
+                                      children: [
+                                        TextSpan(
+                                          text: "\$75.00/",
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 16,
                                           ),
-                                          TextSpan(
-                                            text: "\$90.00",
-                                            style: TextStyle(
-                                              color: Colors.white,
-                                              fontSize: 10,
-                                              decoration: TextDecoration.lineThrough,
-                                            ),
+                                        ),
+                                        TextSpan(
+                                          text: "\$90.00",
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 10,
+                                            decoration: TextDecoration.lineThrough,
                                           ),
-                                        ],
-                                      )),
-                                    ),
+                                        ),
+                                      ],
+                                    )),
                                   ),
-                                ))
+                                ),
+                              ),
+                            )
                           ],
                         ),
                       ),
@@ -114,29 +115,30 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                       children: [
                         Container(
                           decoration: ShapeDecoration(
-                              shape: StadiumBorder(),
-                              color: Colors.white.withValues(alpha: .2)
+                            shape: StadiumBorder(),
+                            color: Colors.white.withValues(alpha: .2),
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                           child: Row(
+                            spacing: 3,
                             children: [
                               Icon(
                                 Icons.star,
                                 color: Colors.yellow,
-                                size: 16,
+                                size: 14,
                               ),
                               Text(
                                 "4.6",
                                 style: TextStyle(
                                   color: Colors.yellow,
+                                  fontSize: 12,
                                 ),
                               ),
                             ],
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                         )
                       ],
                     )
-
                   ],
                 );
               },
