@@ -115,10 +115,20 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                       ),
                       child: Row(
                         children: [
-                          Icon(Icons.star, color: Colors.yellow,
-                          size: 16,)
+                          Icon(
+                            Icons.star,
+                            color: Colors.yellow,
+                            size: 16,
+                          ),
+                          Text(
+                            "4.6",
+                            style: TextStyle(
+                              color: Colors.yellow,
+                            ),
+                          ),
                         ],
                       ),
+                      padding: EdgeInsets.symmetric(horizontal: 4),
                     )
                   ],
                 );
