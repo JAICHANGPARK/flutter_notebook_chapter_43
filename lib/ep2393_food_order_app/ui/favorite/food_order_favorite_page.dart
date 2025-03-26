@@ -30,7 +30,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
               ),
               itemBuilder: (context, index) {
                 return Column(
-                  spacing: 6,
+                  spacing: 12,
                   children: [
                     Expanded(
                       child: Container(
@@ -110,6 +110,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                       ],
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
                           decoration: ShapeDecoration(
