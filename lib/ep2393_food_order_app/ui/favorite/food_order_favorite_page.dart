@@ -114,7 +114,10 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                         shape: StadiumBorder(),
                       ),
                       child: Row(
-                        children: [],
+                        children: [
+                          Icon(Icons.star, color: Colors.yellow,
+                          size: 16,)
+                        ],
                       ),
                     )
                   ],
