@@ -45,7 +45,83 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                     )
                   ],
                 ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 4),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.white.withValues(alpha: .2),
+                  ),
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  spacing: 12,
+                  children: [
+                    Icon(
+                      Icons.inventory_2_outlined,
+                      color: Colors.white,
+                    ),
+                    Text(
+                      "Saved",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 4),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.white.withValues(alpha: .2),
+                  ),
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  spacing: 12,
+                  children: [
+                    Icon(
+                      Icons.inventory_2_outlined,
+                      color: Colors.white,
+                    ),
+                    Text(
+                      "Saved",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 4),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.white.withValues(alpha: .2),
+                  ),
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: Row(
+                  spacing: 12,
+                  children: [
+                    Icon(
+                      Icons.inventory_2_outlined,
+                      color: Colors.white,
+                    ),
+                    Text(
+                      "Saved",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    )
+                  ],
+                ),
               )
+
             ],
           ),
         ),
