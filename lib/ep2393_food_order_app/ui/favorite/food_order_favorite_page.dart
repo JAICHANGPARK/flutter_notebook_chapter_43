@@ -138,6 +138,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                           ),
                         ),
                         CircleAvatar(
+                          radius: 16,
                           child: Icon(
                             Icons.add,
                           ),
