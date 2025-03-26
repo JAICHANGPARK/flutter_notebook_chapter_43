@@ -140,8 +140,9 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                         CircleAvatar(
                           radius: 16,
                           backgroundColor: Colors.white.withValues(alpha: .2),
-                          
+                          foregroundColor: Colors.yellow,
                           child: Icon(
+                            size: 12,
                             Icons.add,
                           ),
                         )
