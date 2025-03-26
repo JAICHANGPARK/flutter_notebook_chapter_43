@@ -18,6 +18,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
           height: 62,
           padding: EdgeInsets.only(left: 16),
           child: ListView(
+            scrollDirection: Axis.horizontal,
             children: [
               CircleAvatar(),
               Container(
