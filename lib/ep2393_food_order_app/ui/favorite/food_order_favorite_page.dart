@@ -24,12 +24,13 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
               Container(
                 decoration: BoxDecoration(
                   border: Border.all(
-                    color: Colors.grey[100]!,
+                    color: Colors.white.withValues(alpha: .1),
                   ),
                   borderRadius: BorderRadius.circular(24),
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 16),
                 child: Row(
+                  spacing: 12,
                   children: [
                     Icon(
                       Icons.inventory_2_outlined,
