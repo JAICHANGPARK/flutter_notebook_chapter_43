@@ -16,7 +16,17 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
       children: [
         SizedBox(
           height: 62,
-          child: Placeholder(),
+          child: ListView(
+            children: [
+              CircleAvatar(),
+              Container(
+                decoration: BoxDecoration(
+                    border: Border.all(
+                  color: Colors.grey[100]!,
+                )),
+              )
+            ],
+          ),
         ),
         Expanded(
           child: Padding(
