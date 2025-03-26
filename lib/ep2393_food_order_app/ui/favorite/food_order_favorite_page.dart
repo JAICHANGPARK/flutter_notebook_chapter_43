@@ -14,8 +14,9 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
+        Container(
           height: 62,
+          padding: EdgeInsets.only(left: 16),
           child: ListView(
             children: [
               CircleAvatar(),
