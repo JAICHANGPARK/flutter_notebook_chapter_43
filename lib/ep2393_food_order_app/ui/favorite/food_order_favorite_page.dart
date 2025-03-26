@@ -120,8 +120,7 @@ class _FoodOrderFavoritePageState extends State<FoodOrderFavoritePage> {
                     )
                   ],
                 ),
-              )
-
+              ),
             ],
           ),
         ),
