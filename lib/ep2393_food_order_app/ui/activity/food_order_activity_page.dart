@@ -37,6 +37,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
           Expanded(child: SingleChildScrollView(child:
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 12,
               children: [
                 Container(
                   height: 440,
