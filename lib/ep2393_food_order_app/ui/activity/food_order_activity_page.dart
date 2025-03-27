@@ -20,6 +20,13 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
               style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
+                fontSize: 16,
+              ),
+            ),
+            TextButton(
+              onPressed: () {},
+              child: Text(
+                "See All",
               ),
             )
           ],
