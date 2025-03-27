@@ -64,9 +64,11 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                     decoration: BoxDecoration(
                       color: Colors.white.withValues(alpha: .2),
                     ),
-                    child: Column(children: [
+                    child: Column(
+                        spacing: 12,
+                        children: [
                       Container(
-                        height: 160,
+                        height: 180,
                         child: Placeholder(),
                       ),
                       Text("Preparing pasta in pan"),
