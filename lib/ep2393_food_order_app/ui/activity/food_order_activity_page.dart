@@ -65,17 +65,32 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                       color: Colors.white.withValues(alpha: .2),
                     ),
                     child: Column(
-                        spacing: 12,
-                        children: [
-                      Container(
-                        height: 180,
-                        child: Placeholder(),
-                      ),
-                      Text("Preparing pasta in pan"),
-                      Text(
-                        "This baked salmon with a crunchy topping takes just 20 minutes",
-                      ),
-                    ]),
+                      spacing: 12,
+                      children: [
+                        Container(
+                          height: 180,
+                          child: Placeholder(),
+                        ),
+                        Text("Preparing pasta in pan"),
+                        Text(
+                          "This baked salmon with a crunchy topping takes just 20 minutes",
+                        ),
+                        Row(
+                          children: [
+
+                          ],
+                        ),
+                        Divider(),
+                        Row(
+                          children: [
+                            Text("Add Comment",style: ,)
+
+                          ],
+
+                        )
+                      ],
+
+                    ),
                   ),
                 )
               ],
