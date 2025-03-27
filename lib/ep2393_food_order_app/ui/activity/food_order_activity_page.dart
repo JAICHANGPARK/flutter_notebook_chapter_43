@@ -35,27 +35,31 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
             ],
           ),
           Container(
-            height: 400,
-            decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: .1)
-            ),
-            padding: EdgeInsets.all(12),
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    CircleAvatar(),
-                    Text("Dreamwalker"),
-                    Spacer(),
-                    CircleAvatar(
-                      radius: 16,
-                      child: Icon(Icons.more_horiz),
-                    )
-                  ],
-                )
-              ],
-            )
-          )
+              height: 400,
+              decoration: BoxDecoration(color: Colors.white.withValues(alpha: .1)),
+              padding: EdgeInsets.all(12),
+              child: Column(
+                children: [
+                  Row(
+                    spacing: 12,
+                    children: [
+                      CircleAvatar(),
+                      Text(
+                        "Dreamwalker",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Spacer(),
+                      CircleAvatar(
+                        radius: 16,
+                        child: Icon(Icons.more_horiz),
+                      )
+                    ],
+                  )
+                ],
+              ))
         ],
       ),
     );
