@@ -34,6 +34,13 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
               )
             ],
           ),
+          Expanded(child: SingleChildScrollView(child:
+            Column(
+              children: [
+
+
+              ],
+            ),))
           Container(
             height: 440,
             decoration: BoxDecoration(color: Colors.white.withValues(alpha: .1)),
