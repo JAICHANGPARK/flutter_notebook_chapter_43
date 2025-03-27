@@ -35,10 +35,11 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
             ],
           ),
           Container(
-            height: 400,
+            height: 440,
             decoration: BoxDecoration(color: Colors.white.withValues(alpha: .1)),
             padding: EdgeInsets.all(12),
             child: Column(
+              spacing:12,
               children: [
                 Row(
                   spacing: 12,
