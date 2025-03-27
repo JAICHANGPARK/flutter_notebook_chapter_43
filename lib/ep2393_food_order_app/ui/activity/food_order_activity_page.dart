@@ -10,6 +10,10 @@ class FoodOrderActivityPage extends StatefulWidget {
 class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        
+      ],
+    )
   }
 }
