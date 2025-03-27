@@ -123,7 +123,94 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                       )
                     ],
                   ),
+                ),
+                Container(
+                  height: 440,
+                  decoration: BoxDecoration(color: Colors.white.withValues(alpha: .1)),
+                  padding: EdgeInsets.all(12),
+                  child: Column(
+                    spacing: 12,
+                    children: [
+                      Row(
+                        spacing: 12,
+                        children: [
+                          CircleAvatar(),
+                          Text(
+                            "Dreamwalker",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Spacer(),
+                          CircleAvatar(
+                            radius: 16,
+                            child: Icon(Icons.more_horiz),
+                          )
+                        ],
+                      ),
+                      Expanded(
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: .2),
+                          ),
+                          child: Column(
+                            spacing: 12,
+                            children: [
+                              Container(
+                                height: 180,
+                                child: Placeholder(),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.all(12.0),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text("Preparing pasta in pan"),
+                                    Text(
+                                      "This baked salmon with a crunchy topping takes just 20 minutes",
+                                    ),
+                                    Row(
+                                      children: [],
+                                    ),
+                                    Divider(
+                                      color: Colors.white.withValues(alpha: .2),
+                                      height: 32,
+                                      // indent: 12,
+                                      // endIndent: 12,
+                                    ),
+                                    Row(
+                                      children: [
+                                        Text(
+                                          "Add Comment",
+                                          style: TextStyle(
+                                            color: Colors.grey,
+                                          ),
+                                        ),
+                                        Spacer(),
+                                        CircleAvatar(
+                                          radius: 16,
+                                        ),
+                                        CircleAvatar(
+                                          radius: 16,
+                                        ),
+                                        CircleAvatar(
+                                          radius: 16,
+                                        ),
+                                      ],
+                                    )
+                                  ],
+                                ),
+                              )
+
+                            ],
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
                 )
+
 
               ],
             ),))
