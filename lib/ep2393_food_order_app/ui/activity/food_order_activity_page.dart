@@ -36,6 +36,9 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
           ),
           Container(
             height: 400,
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: .1)
+            ),
             child: Column(
               children: [
                 Row(
@@ -44,7 +47,8 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                     Text("Dreamwalker"),
                     Spacer(),
                     CircleAvatar(
-
+                      radius: 16,
+                      child: Icon(Icons.more_horiz),
                     )
                   ],
                 )
