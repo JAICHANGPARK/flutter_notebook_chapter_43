@@ -76,20 +76,22 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                           "This baked salmon with a crunchy topping takes just 20 minutes",
                         ),
                         Row(
-                          children: [
-
-                          ],
+                          children: [],
                         ),
-                        Divider(),
+                        Divider(
+                          color: Colors.white.withValues(alpha: .2),
+                        ),
                         Row(
                           children: [
-                            Text("Add Comment",style: ,)
-
+                            Text(
+                              "Add Comment",
+                              style: TextStyle(
+                                color: Colors.grey,
+                              ),
+                            )
                           ],
-
                         )
                       ],
-
                     ),
                   ),
                 )
