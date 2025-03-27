@@ -39,7 +39,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
             decoration: BoxDecoration(color: Colors.white.withValues(alpha: .1)),
             padding: EdgeInsets.all(12),
             child: Column(
-              spacing:12,
+              spacing: 12,
               children: [
                 Row(
                   spacing: 12,
@@ -60,11 +60,22 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                   ],
                 ),
                 Expanded(
-                    child: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: .2),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: .2),
+                    ),
+                    child: Column(children: [
+                      Container(
+                        height: 160,
+                        child: Placeholder(),
+                      ),
+                      Text("Preparing pasta in pan"),
+                      Text(
+                        "This baked salmon with a crunchy topping takes just 20 minutes",
+                      ),
+                    ]),
                   ),
-                ))
+                )
               ],
             ),
           )
