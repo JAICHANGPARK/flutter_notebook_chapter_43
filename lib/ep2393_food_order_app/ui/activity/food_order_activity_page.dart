@@ -12,7 +12,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        
+
       ],
     )
   }
