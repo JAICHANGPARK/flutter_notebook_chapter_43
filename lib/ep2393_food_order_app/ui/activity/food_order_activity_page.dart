@@ -33,6 +33,10 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                 ),
               )
             ],
+          ),
+          Container(
+            height: 400,
+            child: Placeholder(),
           )
         ],
       ),
