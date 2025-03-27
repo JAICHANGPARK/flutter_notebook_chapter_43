@@ -11,8 +11,19 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-
+        Row(
+          children: [
+            Text(
+              "My Network",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            )
+          ],
+        )
       ],
     );
   }
