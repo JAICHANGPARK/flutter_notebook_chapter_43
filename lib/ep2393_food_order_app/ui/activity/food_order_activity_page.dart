@@ -85,8 +85,8 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                               ),
                               Divider(
                                 color: Colors.white.withValues(alpha: .2),
-                                indent: 12,
-                                endIndent: 12,
+                                // indent: 12,
+                                // endIndent: 12,
                               ),
                               Row(
                                 children: [
