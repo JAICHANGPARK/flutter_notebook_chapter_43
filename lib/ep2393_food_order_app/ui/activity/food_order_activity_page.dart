@@ -71,26 +71,37 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                           height: 180,
                           child: Placeholder(),
                         ),
-                        Text("Preparing pasta in pan"),
-                        Text(
-                          "This baked salmon with a crunchy topping takes just 20 minutes",
-                        ),
-                        Row(
-                          children: [],
-                        ),
-                        Divider(
-                          color: Colors.white.withValues(alpha: .2),
-                        ),
-                        Row(
-                          children: [
-                            Text(
-                              "Add Comment",
-                              style: TextStyle(
-                                color: Colors.grey,
+                        Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("Preparing pasta in pan"),
+                              Text(
+                                "This baked salmon with a crunchy topping takes just 20 minutes",
                               ),
-                            )
-                          ],
+                              Row(
+                                children: [],
+                              ),
+                              Divider(
+                                color: Colors.white.withValues(alpha: .2),
+                                indent: 12,
+                                endIndent: 12,
+                              ),
+                              Row(
+                                children: [
+                                  Text(
+                                    "Add Comment",
+                                    style: TextStyle(
+                                      color: Colors.grey,
+                                    ),
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
                         )
+
                       ],
                     ),
                   ),
