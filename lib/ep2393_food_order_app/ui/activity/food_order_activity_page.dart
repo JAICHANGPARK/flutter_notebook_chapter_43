@@ -14,6 +14,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
               "My Network",
