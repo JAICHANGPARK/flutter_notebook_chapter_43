@@ -125,9 +125,7 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                       children: [
                         FoodOrderHomePage(),
                         FoodOrderFavoritePage(),
-                        Container(
-                          color: Colors.blue,
-                        ),
+                        FoodOrderActivityPage(),
                         Container(
                           color: Colors.orange,
                         ),
