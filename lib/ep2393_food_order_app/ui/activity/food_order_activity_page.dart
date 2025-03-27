@@ -85,6 +85,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                               ),
                               Divider(
                                 color: Colors.white.withValues(alpha: .2),
+                                height: 32,
                                 // indent: 12,
                                 // endIndent: 12,
                               ),
@@ -95,7 +96,17 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                     style: TextStyle(
                                       color: Colors.grey,
                                     ),
-                                  )
+                                  ),
+                                  Spacer(),
+                                  CircleAvatar(
+                                    radius: 16,
+                                  ),
+                                  CircleAvatar(
+                                    radius: 16,
+                                  ),
+                                  CircleAvatar(
+                                    radius: 16,
+                                  ),
                                 ],
                               )
                             ],
