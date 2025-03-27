@@ -36,7 +36,20 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
           ),
           Container(
             height: 400,
-            child: Placeholder(),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    CircleAvatar(),
+                    Text("Dreamwalker"),
+                    Spacer(),
+                    CircleAvatar(
+
+                    )
+                  ],
+                )
+              ],
+            )
           )
         ],
       ),
