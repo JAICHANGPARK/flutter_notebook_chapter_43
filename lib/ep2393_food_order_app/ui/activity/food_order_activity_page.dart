@@ -49,27 +49,30 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                     ),
                     // padding: EdgeInsets.all(12),
                     child: Column(
-                      spacing: 12,
+                      // spacing: 12,
                       children: [
-                        Row(
-                          spacing: 12,
-                          children: [
-                            CircleAvatar(),
-                            Text(
-                              "Dreamwalker",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
+                        Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Row(
+                            spacing: 12,
+                            children: [
+                              CircleAvatar(),
+                              Text(
+                                "Dreamwalker",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                            Spacer(),
-                            CircleAvatar(
-                              radius: 16,
-                              backgroundColor: Colors.white.withValues(alpha: .2),
-                              foregroundColor: Colors.grey,
-                              child: Icon(Icons.more_horiz),
-                            )
-                          ],
+                              Spacer(),
+                              CircleAvatar(
+                                radius: 16,
+                                backgroundColor: Colors.white.withValues(alpha: .2),
+                                foregroundColor: Colors.grey,
+                                child: Icon(Icons.more_horiz),
+                              )
+                            ],
+                          ),
                         ),
                         Expanded(
                           child: Container(
