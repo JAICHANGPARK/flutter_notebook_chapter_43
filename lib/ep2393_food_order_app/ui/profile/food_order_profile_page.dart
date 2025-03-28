@@ -17,7 +17,9 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
               child: Container(
             decoration: BoxDecoration(
                 gradient: LinearGradient(
-              colors: [],
+              colors: [
+                Color.fromRGBO(62, 76, 30, 1),
+              ],
             )),
           )),
         ],
