@@ -111,7 +111,34 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                       ),
                                     ),
                                     Row(
+                                      spacing: 12,
                                       children: [
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.black,
+                                            borderRadius: BorderRadius.circular(24),
+                                          ),
+                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                          child: Text(
+                                            "🤤 66",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.black,
+                                            borderRadius: BorderRadius.circular(24),
+                                          ),
+                                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                          child: Text(
+                                            "❤ 66",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Colors.black,
@@ -129,7 +156,6 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                     ),
                                     Divider(
                                       color: Colors.white.withValues(alpha: .2),
-                                      height: 32,
                                       // indent: 12,
                                       // endIndent: 12,
                                     ),
