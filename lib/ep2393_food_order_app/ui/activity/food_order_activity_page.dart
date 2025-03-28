@@ -47,7 +47,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                     decoration: BoxDecoration(
                       color: Colors.white.withValues(alpha: .1),
                     ),
-                    padding: EdgeInsets.all(12),
+                    // padding: EdgeInsets.all(12),
                     child: Column(
                       spacing: 12,
                       children: [
