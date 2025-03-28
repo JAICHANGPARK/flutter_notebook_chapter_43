@@ -34,8 +34,9 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
               )
             ],
           ),
-          Expanded(child: SingleChildScrollView(child:
-            Column(
+          Expanded(
+              child: SingleChildScrollView(
+            child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               spacing: 12,
               children: [
@@ -117,7 +118,6 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                   ],
                                 ),
                               )
-
                             ],
                           ),
                         ),
@@ -203,7 +203,6 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                   ],
                                 ),
                               )
-
                             ],
                           ),
                         ),
@@ -211,11 +210,9 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                     ],
                   ),
                 )
-
-
               ],
-            ),))
-
+            ),
+          ))
         ],
       ),
     );
