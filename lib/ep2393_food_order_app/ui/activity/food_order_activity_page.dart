@@ -115,6 +115,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                         Container(
                                           decoration: BoxDecoration(
                                             color: Colors.black,
+                                            borderRadius: BorderRadius.circular(24),
                                           ),
                                           child: Text(
                                             "🤤 66",
