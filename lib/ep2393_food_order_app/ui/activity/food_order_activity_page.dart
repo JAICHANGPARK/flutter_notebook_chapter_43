@@ -62,6 +62,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                           CircleAvatar(
                             radius: 16,
                             backgroundColor: Colors.white.withValues(alpha: .2),
+                            foregroundColor: Colors.white,
                             child: Icon(Icons.more_horiz),
                           )
                         ],
