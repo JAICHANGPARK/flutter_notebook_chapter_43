@@ -100,7 +100,6 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                         fontWeight: FontWeight.bold,
                                         color: Colors.white,
                                         fontSize: 15,
-
                                       ),
                                     ),
                                     Text(
@@ -109,11 +108,22 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                         // fontWeight: FontWeight.bold,
                                         color: Colors.grey,
                                         fontSize: 15,
-
                                       ),
                                     ),
                                     Row(
-                                      children: [],
+                                      children: [
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.black,
+                                          ),
+                                          child: Text(
+                                            "🤤 66",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        )
+                                      ],
                                     ),
                                     Divider(
                                       color: Colors.white.withValues(alpha: .2),
