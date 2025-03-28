@@ -105,6 +105,12 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                     ),
                                     Text(
                                       "This baked salmon with a crunchy topping takes just 20 minutes",
+                                      style: TextStyle(
+                                        // fontWeight: FontWeight.bold,
+                                        color: Colors.grey,
+                                        fontSize: 15,
+
+                                      ),
                                     ),
                                     Row(
                                       children: [],
