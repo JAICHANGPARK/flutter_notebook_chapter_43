@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FoodOrderProfilePage extends StatefulWidget {
   const FoodOrderProfilePage({super.key});
 
@@ -13,11 +12,8 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        children: [
-          
-        ],
+        children: [],
       ),
-    )
-    ;
+    );
   }
 }
