@@ -12,7 +12,15 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        children: [],
+        children: [
+          Positioned.fill(
+              child: Container(
+            decoration: BoxDecoration(
+                gradient: LinearGradient(
+              colors: [],
+            )),
+          )),
+        ],
       ),
     );
   }
