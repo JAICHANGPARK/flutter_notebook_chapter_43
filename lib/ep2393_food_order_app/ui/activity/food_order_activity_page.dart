@@ -151,6 +151,13 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                               color: Colors.white,
                                             ),
                                           ),
+                                        ),
+                                        Spacer(),
+                                        CircleAvatar(
+                                          radius: 15,
+                                          backgroundColor: Colors.black,
+                                          foregroundColor: Colors.lightGreenAccent,
+                                          child: Icon(Icons.card_giftcard, size: 14,),
                                         )
                                       ],
                                     ),
