@@ -43,36 +43,33 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                 children: List.generate(
                   10,
                   (index) => Container(
-                    
+
                     decoration: BoxDecoration(
                       color: Colors.white.withValues(alpha: .1),
                     ),
-                    // padding: EdgeInsets.all(12),
+                    padding: EdgeInsets.all(12),
                     child: Column(
                       // spacing: 12,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.all(12.0),
-                          child: Row(
-                            spacing: 12,
-                            children: [
-                              CircleAvatar(),
-                              Text(
-                                "Dreamwalker",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                        Row(
+                          spacing: 12,
+                          children: [
+                            CircleAvatar(),
+                            Text(
+                              "Dreamwalker",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
                               ),
-                              Spacer(),
-                              CircleAvatar(
-                                radius: 16,
-                                backgroundColor: Colors.white.withValues(alpha: .2),
-                                foregroundColor: Colors.grey,
-                                child: Icon(Icons.more_horiz),
-                              )
-                            ],
-                          ),
+                            ),
+                            Spacer(),
+                            CircleAvatar(
+                              radius: 16,
+                              backgroundColor: Colors.white.withValues(alpha: .2),
+                              foregroundColor: Colors.grey,
+                              child: Icon(Icons.more_horiz),
+                            )
+                          ],
                         ),
                         Container(
                           decoration: BoxDecoration(
