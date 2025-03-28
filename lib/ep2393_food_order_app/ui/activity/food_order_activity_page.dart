@@ -72,7 +72,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                         ),
                         Container(
                           decoration: BoxDecoration(
-                            color: Colors.white.withValues(alpha: .11),
+                            color: Colors.white.withValues(alpha: .08),
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Column(
