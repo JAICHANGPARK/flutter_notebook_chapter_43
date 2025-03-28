@@ -81,7 +81,12 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                               children: [
                                 Container(
                                   height: 180,
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                    image: NetworkImage(
+                                      "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+                                    ),
+                                  )),
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(12.0),
