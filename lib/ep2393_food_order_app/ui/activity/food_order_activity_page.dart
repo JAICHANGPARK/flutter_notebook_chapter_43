@@ -81,7 +81,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                               children: [
                                 Container(
                                   height: 180,
-                                  child: Placeholder(),
+                                  decoration: BoxDecoration(),
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(12.0),
