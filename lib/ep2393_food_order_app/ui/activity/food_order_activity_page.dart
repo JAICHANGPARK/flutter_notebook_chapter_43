@@ -49,7 +49,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                     ),
                     padding: EdgeInsets.all(12),
                     child: Column(
-                      // spacing: 12,
+                      spacing: 12,
                       children: [
                         Row(
                           spacing: 12,
@@ -73,7 +73,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                         ),
                         Container(
                           decoration: BoxDecoration(
-                            color: Colors.white.withValues(alpha: .2),
+                            color: Colors.white.withValues(alpha: .11),
                           ),
                           child: Column(
                             spacing: 12,
