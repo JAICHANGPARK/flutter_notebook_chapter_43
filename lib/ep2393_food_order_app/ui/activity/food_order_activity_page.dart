@@ -43,7 +43,6 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                 children: List.generate(
                   10,
                   (index) => Container(
-
                     decoration: BoxDecoration(
                       color: Colors.white.withValues(alpha: .1),
                     ),
@@ -97,11 +96,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                   children: [
                                     Text(
                                       "Preparing pasta in pan",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.white,
-                                        fontSize: 12
-                                      ),
+                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 12),
                                     ),
                                     Text(
                                       "This baked salmon with a crunchy topping takes just 20 minutes",
