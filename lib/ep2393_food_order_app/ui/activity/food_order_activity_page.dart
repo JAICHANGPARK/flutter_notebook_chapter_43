@@ -86,6 +86,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                     image: NetworkImage(
                                       "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
                                     ),
+                                    fit: BoxFit.cover,
                                   )),
                                 ),
                                 Padding(
