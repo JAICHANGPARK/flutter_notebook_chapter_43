@@ -102,6 +102,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                       ),
                                       Row(
                                         children: [
+                                          Icon(Icons.comment_outlined,),
                                           Text(
                                             "Add Comment",
                                             style: TextStyle(
