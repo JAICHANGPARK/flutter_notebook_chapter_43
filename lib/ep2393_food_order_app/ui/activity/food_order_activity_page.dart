@@ -96,7 +96,12 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                   children: [
                                     Text(
                                       "Preparing pasta in pan",
-                                      style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 12),
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white,
+                                        fontSize: 15,
+
+                                      ),
                                     ),
                                     Text(
                                       "This baked salmon with a crunchy topping takes just 20 minutes",
