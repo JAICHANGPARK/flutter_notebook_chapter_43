@@ -97,7 +97,12 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
-                                      Text("Preparing pasta in pan"),
+                                      Text(
+                                        "Preparing pasta in pan",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       Text(
                                         "This baked salmon with a crunchy topping takes just 20 minutes",
                                       ),
