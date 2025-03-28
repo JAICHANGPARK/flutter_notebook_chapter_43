@@ -101,6 +101,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                         "Preparing pasta in pan",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
+                                          color: Colors.white,
                                         ),
                                       ),
                                       Text(
