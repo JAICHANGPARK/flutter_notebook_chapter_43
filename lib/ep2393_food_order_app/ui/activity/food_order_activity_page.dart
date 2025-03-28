@@ -146,7 +146,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                           ),
                                           padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                           child: Text(
-                                            "🤤 66",
+                                            "🖐 66",
                                             style: TextStyle(
                                               color: Colors.white,
                                             ),
