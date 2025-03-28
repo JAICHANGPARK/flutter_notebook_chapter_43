@@ -244,9 +244,10 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                           ),
                           GestureDetector(
                             onTap: () {
-                              setState(() {
-                                pageNum = 3;
-                              });
+
+                              // setState(() {
+                              //   pageNum = 3;
+                              // });
                             },
                             child: pageNum == 3
                                 ? Container(
