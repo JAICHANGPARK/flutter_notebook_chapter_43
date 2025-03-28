@@ -111,7 +111,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                       ),
                                     ),
                                     Row(
-                                      spacing: 12,
+                                      spacing: 8,
                                       children: [
                                         Container(
                                           decoration: BoxDecoration(
@@ -133,7 +133,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                           ),
                                           padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                                           child: Text(
-                                            "❤ 66",
+                                            "❤ 47",
                                             style: TextStyle(
                                               color: Colors.white,
                                             ),
