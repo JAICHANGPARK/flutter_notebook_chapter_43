@@ -43,7 +43,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                 children: List.generate(
                   10,
                   (index) => Container(
-                    height: 440,
+                    
                     decoration: BoxDecoration(
                       color: Colors.white.withValues(alpha: .1),
                     ),
@@ -74,78 +74,78 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                             ],
                           ),
                         ),
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              color: Colors.white.withValues(alpha: .2),
-                            ),
-                            child: Column(
-                              spacing: 12,
-                              children: [
-                                Container(
-                                  height: 180,
-                                  decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                    image: NetworkImage(
-                                      "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: .2),
+                          ),
+                          child: Column(
+                            spacing: 12,
+                            children: [
+                              Container(
+                                height: 180,
+                                decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+                                  ),
+                                  fit: BoxFit.cover,
+                                )),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.all(12.0),
+                                child: Column(
+                                  spacing: 12,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      "Preparing pasta in pan",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white,
+                                        fontSize: 12
+                                      ),
                                     ),
-                                    fit: BoxFit.cover,
-                                  )),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        "Preparing pasta in pan",
-                                        style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          color: Colors.white,
+                                    Text(
+                                      "This baked salmon with a crunchy topping takes just 20 minutes",
+                                    ),
+                                    Row(
+                                      children: [],
+                                    ),
+                                    Divider(
+                                      color: Colors.white.withValues(alpha: .2),
+                                      height: 32,
+                                      // indent: 12,
+                                      // endIndent: 12,
+                                    ),
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.comment_outlined,
+                                          color: Colors.grey,
                                         ),
-                                      ),
-                                      Text(
-                                        "This baked salmon with a crunchy topping takes just 20 minutes",
-                                      ),
-                                      Row(
-                                        children: [],
-                                      ),
-                                      Divider(
-                                        color: Colors.white.withValues(alpha: .2),
-                                        height: 32,
-                                        // indent: 12,
-                                        // endIndent: 12,
-                                      ),
-                                      Row(
-                                        children: [
-                                          Icon(
-                                            Icons.comment_outlined,
+                                        Gap(8),
+                                        Text(
+                                          "Add Comment",
+                                          style: TextStyle(
                                             color: Colors.grey,
                                           ),
-                                          Gap(8),
-                                          Text(
-                                            "Add Comment",
-                                            style: TextStyle(
-                                              color: Colors.grey,
-                                            ),
-                                          ),
-                                          Spacer(),
-                                          CircleAvatar(
-                                            radius: 16,
-                                          ),
-                                          CircleAvatar(
-                                            radius: 16,
-                                          ),
-                                          CircleAvatar(
-                                            radius: 16,
-                                          ),
-                                        ],
-                                      )
-                                    ],
-                                  ),
-                                )
-                              ],
-                            ),
+                                        ),
+                                        Spacer(),
+                                        CircleAvatar(
+                                          radius: 16,
+                                        ),
+                                        CircleAvatar(
+                                          radius: 16,
+                                        ),
+                                        CircleAvatar(
+                                          radius: 16,
+                                        ),
+                                      ],
+                                    )
+                                  ],
+                                ),
+                              )
+                            ],
                           ),
                         )
                       ],
