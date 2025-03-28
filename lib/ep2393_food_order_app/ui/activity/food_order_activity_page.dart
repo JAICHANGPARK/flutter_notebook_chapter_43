@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodOrderActivityPage extends StatefulWidget {
   const FoodOrderActivityPage({super.key});
@@ -101,11 +102,12 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                                         // endIndent: 12,
                                       ),
                                       Row(
+
                                         children: [
                                           Icon(
                                             Icons.comment_outlined,
                                             color: Colors.grey,
-                                          ),
+                                          ), Gap(8),
                                           Text(
                                             "Add Comment",
                                             style: TextStyle(
