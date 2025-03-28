@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_43/ep2393_food_order_app/ui/profile/food_order_profile_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 import 'activity/food_order_activity_page.dart';
@@ -82,17 +83,16 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                             Expanded(
                               child: TextField(
                                 decoration: InputDecoration(
-                                  border: InputBorder.none,
-                                  hintText: "Type ingredients...",
-                                  hintStyle: TextStyle(
-                                    color: Colors.white,
-                                  ),
-                                  prefixIcon: Icon(
-                                    Icons.search,
-                                  ),
-                                  prefixIconColor: Colors.white,
-                                  contentPadding: EdgeInsets.symmetric(vertical: 16)
-                                ),
+                                    border: InputBorder.none,
+                                    hintText: "Type ingredients...",
+                                    hintStyle: TextStyle(
+                                      color: Colors.white,
+                                    ),
+                                    prefixIcon: Icon(
+                                      Icons.search,
+                                    ),
+                                    prefixIconColor: Colors.white,
+                                    contentPadding: EdgeInsets.symmetric(vertical: 16)),
                               ),
                             ),
                             CircleAvatar(
@@ -244,7 +244,11 @@ class _FoodOrderMainPageState extends State<FoodOrderMainPage> {
                           ),
                           GestureDetector(
                             onTap: () {
-
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => FoodOrderProfilePage(),
+                                ),
+                              );
                               // setState(() {
                               //   pageNum = 3;
                               // });
