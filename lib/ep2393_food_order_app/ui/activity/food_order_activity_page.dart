@@ -131,7 +131,7 @@ class _FoodOrderActivityPageState extends State<FoodOrderActivityPage> {
                         ),
                       )),
             ),
-          ))
+          ),)
         ],
       ),
     );
