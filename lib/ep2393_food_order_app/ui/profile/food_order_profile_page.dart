@@ -99,6 +99,7 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                               ),
                               padding: EdgeInsets.symmetric(horizontal: 12),
                               child: Row(
+                                spacing: 12,
                                 children: [
                                   CircleAvatar(
                                     radius: 24,
