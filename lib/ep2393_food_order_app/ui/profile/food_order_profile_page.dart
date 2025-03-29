@@ -16,7 +16,9 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
           Positioned.fill(
               child: Container(
             decoration: BoxDecoration(
+
                 gradient: LinearGradient(
+                  begin: Alignment.topCenter,
               colors: [
                 Color.fromRGBO(62, 76, 30, 1),
                 Color.fromRGBO(22, 24, 10, 1),
