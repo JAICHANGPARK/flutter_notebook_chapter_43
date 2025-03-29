@@ -54,6 +54,7 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
+                              fontSize: 20,
                             ),
                           ),
                         ),
@@ -66,6 +67,19 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                           Icons.settings_outlined,
                         ),
                       ),
+                    ],
+                  ),
+                  Container(
+                    height: 160,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16),
+                      color: Colors.white.withValues(alpha: .2),
+                    ),
+                  ),
+                  Text("About"),
+                  Column(
+                    children: [
+                      
                     ],
                   )
                 ],
