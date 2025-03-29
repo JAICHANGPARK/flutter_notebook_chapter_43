@@ -109,7 +109,13 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                                       Icons.settings_outlined,
                                     ),
                                   ),
-                                  Expanded(child: Text("Profile")),
+                                  Expanded(
+                                      child: Text(
+                                    "Profile",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                    ),
+                                  )),
                                   IconButton(
                                     onPressed: () {},
                                     icon: Icon(
