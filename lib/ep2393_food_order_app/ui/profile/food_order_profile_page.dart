@@ -88,8 +88,10 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: List.generate(10, (idx) {
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: List.generate(
+                          10,
+                          (idx) {
                             return Container(
                               height: 100,
                               margin: EdgeInsets.only(bottom: 12),
@@ -126,7 +128,9 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                                 ],
                               ),
                             );
-                          })),
+                          },
+                        ),
+                      ),
                     ),
                   )
                 ],
