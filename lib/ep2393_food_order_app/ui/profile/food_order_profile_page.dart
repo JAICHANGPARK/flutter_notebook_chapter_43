@@ -86,8 +86,12 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
-                      children: [],
+                    child: SingleChildScrollView(
+
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [],
+                      ),
                     ),
                   )
                 ],
