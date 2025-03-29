@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodOrderProfilePage extends StatefulWidget {
   const FoodOrderProfilePage({super.key});
@@ -35,6 +36,7 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
             left: 16,
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
@@ -69,6 +71,7 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                       ),
                     ],
                   ),
+                  Gap(4),
                   Container(
                     height: 160,
                     decoration: BoxDecoration(
@@ -76,11 +79,14 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                       color: Colors.white.withValues(alpha: .2),
                     ),
                   ),
-                  Text("About"),
+                  Text(
+                    "About",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                   Column(
-                    children: [
-                      
-                    ],
+                    children: [],
                   )
                 ],
               ),
