@@ -44,6 +44,13 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                         child: Icon(
                           Icons.chevron_left,
                         ),
+                      ),
+                      Expanded(
+                        child: Center(
+                          child: Text(
+                            "Profile",
+                          ),
+                        ),
                       )
                     ],
                   )
