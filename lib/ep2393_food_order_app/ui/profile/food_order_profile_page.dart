@@ -49,9 +49,19 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                         child: Center(
                           child: Text(
                             "Profile",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
-                      )
+                      ),
+                      CircleAvatar(
+                        radius: 24,
+                        child: Icon(
+                          Icons.chevron_left,
+                        ),
+                      ),
                     ],
                   )
                 ],
