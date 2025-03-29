@@ -92,6 +92,7 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                         children: List.generate(10, (idx){
                           return  Container(
                             height: 100,
+                            margin: EdgeInsets.only(bottom: 12),
                             decoration: BoxDecoration(
                               color: Colors.white.withValues(alpha: .2),
                             ),
