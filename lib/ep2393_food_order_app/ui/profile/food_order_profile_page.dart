@@ -97,6 +97,7 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                                 borderRadius: BorderRadius.circular(8),
                                 color: Colors.white.withValues(alpha: .2),
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 12),
                               child: Row(
                                 children: [
                                   CircleAvatar(
