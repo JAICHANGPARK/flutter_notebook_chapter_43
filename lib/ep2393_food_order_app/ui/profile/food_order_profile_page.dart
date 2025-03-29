@@ -89,13 +89,14 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                     child: SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Container(
+                        children: List.generate(10, (idx){
+                          return  Container(
+                            height: 100,
                             decoration: BoxDecoration(
                               color: Colors.white.withValues(alpha: .2),
                             ),
-                          )
-                        ],
+                          );
+                        })
                       ),
                     ),
                   )
