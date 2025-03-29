@@ -88,17 +88,31 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: List.generate(10, (idx){
-                          return  Container(
-                            height: 100,
-                            margin: EdgeInsets.only(bottom: 12),
-                            decoration: BoxDecoration(
-                              color: Colors.white.withValues(alpha: .2),
-                            ),
-                          );
-                        })
-                      ),
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: List.generate(10, (idx) {
+                            return Container(
+                              height: 100,
+                              margin: EdgeInsets.only(bottom: 12),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8),
+                                color: Colors.white.withValues(alpha: .2),
+                              ),
+                              child: Row(
+                                children: [
+                                  CircleAvatar(
+                                    radius: 24,
+                                    backgroundColor: Colors.white.withValues(alpha: .1),
+                                    foregroundColor: Colors.white,
+                                    child: Icon(
+                                      Icons.settings_outlined,
+                                    ),
+                                  ),
+                                  Expanded(child: Text("Profile")),
+                                  IconButton(onPressed: () {}, icon: Icon(Icons.keyboard_arrow_right,),)
+                                ],
+                              ),
+                            );
+                          })),
                     ),
                   )
                 ],
