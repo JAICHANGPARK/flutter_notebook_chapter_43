@@ -29,7 +29,7 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
             ),
           ),
           Positioned(
-            top: 0,
+            top: 32,
             bottom: 0,
             right: 16,
             left: 16,
