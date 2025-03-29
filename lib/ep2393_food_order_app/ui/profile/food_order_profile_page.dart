@@ -19,6 +19,8 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                 gradient: LinearGradient(
               colors: [
                 Color.fromRGBO(62, 76, 30, 1),
+                Color.fromRGBO(22, 24, 10, 1),
+                Colors.black,
               ],
             )),
           )),
