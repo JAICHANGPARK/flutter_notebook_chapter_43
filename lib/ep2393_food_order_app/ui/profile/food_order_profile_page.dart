@@ -110,7 +110,13 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                                     ),
                                   ),
                                   Expanded(child: Text("Profile")),
-                                  IconButton(onPressed: () {}, icon: Icon(Icons.keyboard_arrow_right,),)
+                                  IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(
+                                      Icons.keyboard_arrow_right,
+                                    ),
+                                    color: Colors.white,
+                                  )
                                 ],
                               ),
                             );
