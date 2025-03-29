@@ -28,11 +28,16 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
               ),
             ),
           ),
-          Positioned(child: SafeArea(
-            child: Column(children: [
-              
-            ],),
-          ))
+          Positioned(
+              top: 0,
+              bottom: 0,
+              right: 16,
+              left: 16,
+              child: SafeArea(
+                child: Column(
+                  children: [],
+                ),
+              ))
         ],
       ),
     );
