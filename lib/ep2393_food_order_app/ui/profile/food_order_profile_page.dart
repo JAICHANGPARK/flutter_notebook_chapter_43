@@ -85,8 +85,10 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
                       color: Colors.white,
                     ),
                   ),
-                  Column(
-                    children: [],
+                  Expanded(
+                    child: Column(
+                      children: [],
+                    ),
                   )
                 ],
               ),
