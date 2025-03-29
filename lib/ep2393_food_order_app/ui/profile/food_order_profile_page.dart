@@ -16,17 +16,23 @@ class _FoodOrderProfilePageState extends State<FoodOrderProfilePage> {
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  Color.fromRGBO(62, 76, 30, 1),
-                  Color.fromRGBO(22, 24, 10, 1),
-                  Colors.black,
-                ],
-              )),
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color.fromRGBO(62, 76, 30, 1),
+                    Color.fromRGBO(22, 24, 10, 1),
+                    Colors.black,
+                  ],
+                ),
+              ),
             ),
           ),
+          Positioned(child: SafeArea(
+            child: Column(children: [
+              
+            ],),
+          ))
         ],
       ),
     );
