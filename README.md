@@ -1,7 +1,5 @@
 # flutter_notebook_chapter_43
 
-
-
 ## EP2193-2200
 
 - Cookpad | Food Order & Recipes Share App
